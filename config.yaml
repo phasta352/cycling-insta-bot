@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------
+# Cycling News Bot - settings
+# Edit this file on GitHub to change how the bot behaves.
+# No code changes needed.
+# ---------------------------------------------------------------
+
+page:
+  name: "Cycling News Today"     # shown on every graphic
+  handle: ""                     # e.g. "@cyclingnewstoday". Leave empty to read it from Instagram automatically
+  language: "English"
+  tone: >
+    Straight, factual sports-news voice, like a professional cycling outlet.
+    Clear and confident. No hype, no clickbait, at most one emoji per caption.
+  focus: >
+    Professional road racing (WorldTour and ProTeam racing, results, transfers,
+    team news, rider news, race announcements, UCI decisions) and road bike
+    gear & tech (new bikes, groupsets, wheels, major product launches).
+  avoid: >
+    Unconfirmed rumours presented as fact, crash/injury photos, gossip about
+    riders' private lives, local club news, sponsored "deals" articles,
+    buyer's guides and listicles, opinion pieces with no news in them.
+
+schedule:
+  timezone: "Europe/Luxembourg"
+  posting_hours: [8, 21]          # only publish between 08:00 and 21:59 local time
+  scout_every_hours: 2            # how often to look for new stories
+  drafts_per_scout: 2             # max drafts sent to you per scout
+  max_drafts_per_day: 8
+  max_posts_per_day: 5
+  min_hours_between_posts: 2      # spacing between approved posts (unless you tap "Post now")
+  draft_expiry_hours: 24          # unanswered drafts are dropped after this
+
+approval:
+  required: true                  # true = you approve every post in Telegram. false = fully automatic
+
+ai:
+  model: "claude-sonnet-5-5"      # cheaper option: "claude-haiku-5-5"
+  min_score: 6                    # 1-10. Stories the AI scores below this are ignored
+
+design:
+  background: "#0B1F33"           # dark navy
+  accent: "#F5C400"               # yellow-jersey yellow
+  text: "#FFFFFF"
+  muted: "#9FB3C8"
+  logo: "assets/logo.png"         # optional square PNG; skipped if the file doesn't exist
+
+instagram:
+  api_version: "v25.0"
+
+# News sources. Feeds that fail are skipped and reported by /status.
+sources:
+  rss:
+    - name: "Cyclingnews"
+      url: "https://www.cyclingnews.com/feeds.xml"
+    - name: "Cycling Weekly"
+      url: "https://www.cyclingweekly.com/feeds.xml"
+    - name: "Escape Collective"
+      url: "https://escapecollective.com/feed/"
+    - name: "The Inner Ring"
+      url: "https://inrng.com/feed/"
+  google_news:                    # Google News searches (last 24h are kept)
+    - "UCI WorldTour"
+    - "cycling transfer team signs"
+    - "Tour de France OR Giro d'Italia OR Vuelta a Espana"
+    - "pro cycling team news"
+    - "new road bike launch"
+    - "Shimano OR SRAM OR Campagnolo groupset"
+  max_age_hours: 24

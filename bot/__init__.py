@@ -1,0 +1,1 @@
+"""Cycling News Instagram bot."""
