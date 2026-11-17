@@ -67,7 +67,7 @@ def _fit_headline(draw, text, max_width, max_height):
     return font, lines, 60
 
 
-def _base(settings: dict, deco_wheel: bool = True):
+def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
     """Background, gradient, optional decoration, top bar and logo. Returns (img, draw, colors, logo)."""
     d = settings["design"]
     colors = {k: _hex(d[k]) for k in ("background", "accent", "text", "muted")}
@@ -80,7 +80,7 @@ def _base(settings: dict, deco_wheel: bool = True):
     if d.get("logo") and logo_path.is_file():
         try:
             logo = Image.open(logo_path).convert("RGBA")
-            logo.thumbnail((230, 140))
+            logo.thumbnail((300, 150))
         except Exception:
             logo = None
 
@@ -91,27 +91,61 @@ def _base(settings: dict, deco_wheel: bool = True):
         gd.line([(0, y), (W, y)], fill=(0, 0, 0, int(70 * (y / H))))
     img = Image.alpha_composite(img, grad)
 
-    # Decorative "wheel": faint rings with spokes (only when there's no logo).
-    if logo is None and deco_wheel:
-        import math
-        deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        dd = ImageDraw.Draw(deco)
-        cx, cy = W - 120, 250
-        for r, width, alpha in ((330, 10, 40), (300, 3, 28), (95, 6, 36)):
-            dd.ellipse([cx - r, cy - r, cx + r, cy + r], outline=accent[:3] + (alpha,), width=width)
-        for k in range(16):
-            ang = 2 * math.pi * k / 16
-            dd.line([(cx + 95 * math.cos(ang), cy + 95 * math.sin(ang)),
-                     (cx + 300 * math.cos(ang + 0.35), cy + 300 * math.sin(ang + 0.35))],
-                    fill=accent[:3] + (18,), width=2)
-        img = Image.alpha_composite(img, deco)
+    # Decorative "wheel": a faint road wheel (tyre, deep aero rim, bladed spokes, hub, disc rotor) top-right.
+    if deco_wheel:
+        img = Image.alpha_composite(img, _wheel(accent))
 
     draw = ImageDraw.Draw(img)
-    draw.rectangle([MARGIN, MARGIN, MARGIN + 64, MARGIN + 10], fill=accent)
-    draw.text((MARGIN, MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
+    # Top left: the logo, or the page name if there's no logo file.
     if logo is not None:
-        img.alpha_composite(logo, (W - MARGIN - logo.width, MARGIN))
+        img.alpha_composite(logo, (MARGIN, MARGIN - 10))
+    else:
+        draw.rectangle([MARGIN, MARGIN, MARGIN + 64, MARGIN + 10], fill=accent)
+        draw.text((MARGIN, MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
+    # Top right: the @handle.
+    if handle:
+        hf = regular_font(30)
+        draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 6), handle, font=hf, fill=colors["muted"])
     return img, draw, colors, logo
+
+
+def _wheel(accent):
+    import math
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    cx, cy = W - 120, 250
+    a = lambda alpha: accent[:3] + (alpha,)
+
+    def ring(r, width, alpha):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=a(alpha), width=width)
+
+    ring(332, 18, 42)          # tyre
+    ring(308, 72, 26)          # deep-section aero rim (about 70 px deep)
+    ring(308, 3, 40)           # rim outer edge (brake track)
+    ring(296, 2, 30)
+    ring(237, 3, 40)           # rim inner edge
+    # 24 bladed spokes in a crossed pattern, from the hub flange to the deep rim
+    for k in range(24):
+        ang = 2 * math.pi * k / 24
+        lean = 0.2 if k % 2 else -0.2
+        x1, y1 = cx + 30 * math.cos(ang + lean * 4), cy + 30 * math.sin(ang + lean * 4)
+        x2, y2 = cx + 236 * math.cos(ang), cy + 236 * math.sin(ang)
+        d.line([(x1, y1), (x2, y2)], fill=a(24), width=3)
+    # disc brake rotor: braking band with cut-outs, inner carrier and spider arms
+    ring(86, 18, 34)
+    for k in range(18):
+        ang = 2 * math.pi * k / 18
+        px, py = cx + 86 * math.cos(ang), cy + 86 * math.sin(ang)
+        d.ellipse([px - 3.5, py - 3.5, px + 3.5, py + 3.5], fill=(0, 0, 0, 0))   # drilled holes
+    ring(64, 3, 30)
+    for k in range(6):
+        ang = 2 * math.pi * k / 6 + 0.26
+        d.line([(cx + 30 * math.cos(ang), cy + 30 * math.sin(ang)),
+                (cx + 64 * math.cos(ang + 0.18), cy + 64 * math.sin(ang + 0.18))], fill=a(34), width=8)
+    # hub body + axle
+    d.ellipse([cx - 30, cy - 30, cx + 30, cy + 30], fill=a(30), outline=a(44), width=4)
+    d.ellipse([cx - 11, cy - 11, cx + 11, cy + 11], fill=a(50))
+    return layer
 
 
 def _footer(draw, colors, source, handle, logo, right_text=None):
@@ -121,8 +155,6 @@ def _footer(draw, colors, source, handle, logo, right_text=None):
     small = regular_font(30)
     if right_text is None:
         right_text = dt.date.today().strftime("%d %b %Y")
-        if handle and logo is not None:
-            right_text = f"{handle}  ·  {right_text}"
     right_font = bold_font(30) if right_text.startswith("Swipe") else small
     right_color = colors["accent"] if right_text.startswith("Swipe") else colors["muted"]
     rw = draw.textlength(right_text, font=right_font)
@@ -143,12 +175,9 @@ def _save(img, out_path: Path) -> Path:
 def render(headline: str, category: str, source: str, settings: dict, handle: str, out_path: Path,
            swipe: bool = False) -> Path:
     """The cover / single-image post: category tag + big headline."""
-    img, draw, colors, logo = _base(settings)
+    img, draw, colors, logo = _base(settings, handle=handle)
     bg, accent, fg = colors["background"], colors["accent"], colors["text"]
     footer_top = _footer(draw, colors, source, handle, logo, right_text="Swipe for the story  →" if swipe else None)
-    if handle and logo is None:
-        hf = regular_font(30)
-        draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 34), handle, font=hf, fill=colors["muted"])
 
     max_w = W - 2 * MARGIN
     font, lines, line_h = _fit_headline(draw, headline, max_w, 620)
@@ -170,7 +199,7 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
 def render_slide(number: int, total: int, title: str, text: str, source: str, settings: dict,
                  handle: str, out_path: Path) -> Path:
     """A story slide in a carousel: slide counter, short title and body text."""
-    img, draw, colors, logo = _base(settings, deco_wheel=False)
+    img, draw, colors, logo = _base(settings, deco_wheel=False, handle=handle)
     accent, fg = colors["accent"], colors["text"]
     last = number == total
     footer_top = _footer(draw, colors, source, handle, logo,
