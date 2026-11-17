@@ -30,6 +30,10 @@ HELP = (
 )
 
 
+def log(msg: str) -> None:
+    print(f"[bot] {msg}", flush=True)
+
+
 class Bot:
     def __init__(self):
         self.settings = load_settings()
@@ -67,6 +71,7 @@ class Bot:
     # ---------- 1. Telegram ----------
     def process_telegram(self):
         updates = self.tg.updates(self.state["telegram_offset"])
+        log(f"Telegram: {len(updates)} new update(s) since offset {self.state['telegram_offset']}")
         for u in updates:
             self.state["telegram_offset"] = u["update_id"] + 1
             if "callback_query" in u:
@@ -82,6 +87,8 @@ class Bot:
             return
         action, _, draft_id = (cb.get("data") or "").partition(":")
         draft = self.state["drafts"].pop(draft_id, None)
+        log(f"Button '{action}' for draft {draft_id}: {'found' if draft else 'NOT FOUND in memory'}"
+            f" (drafts in memory: {list(self.state['drafts'])})")
         if not draft:
             self.tg.answer_callback(cb["id"], "This draft is no longer available.")
             return
@@ -104,6 +111,7 @@ class Bot:
 
     def on_command(self, parts):
         cmd = parts[0].lower().split("@")[0] if parts else ""
+        log(f"Command: {cmd or '(plain message)'}")
         if cmd == "/pause":
             self.state["paused"] = True
             self.tg.send("⏸ Paused. Send /resume to start again.")
@@ -145,19 +153,25 @@ class Bot:
 
     def publish_next(self):
         q = self.state["queue"]
+        log(f"Queue: {len(q)} approved, paused={self.state['paused']}, "
+            f"posts today={self.posts_today()}, posting hours={self.in_posting_hours()}")
         if not q or self.state["paused"]:
             return
         sch = self.settings["schedule"]
         draft = q[0]
         if not draft.get("post_now"):
             if not self.in_posting_hours() or self.posts_today() >= sch["max_posts_per_day"]:
+                log("Not posting: outside posting hours or daily limit reached")
                 return
             last = max((p["at"] for p in self.state["published"]), default=0)
             if time.time() - last < sch["min_hours_between_posts"] * 3600:
+                log("Not posting: too soon after the last post")
                 return
+        log(f"Publishing: {draft['headline']}")
         try:
             media_id = self.ig.publish_image(draft["image_url"], draft["full_caption"], draft.get("alt_text", ""))
         except Exception as ex:
+            log(f"Publishing failed: {ex}")
             draft["attempts"] = draft.get("attempts", 0) + 1
             if draft["attempts"] >= 3:
                 q.pop(0)
@@ -165,6 +179,7 @@ class Bot:
             else:
                 self.tg.send(f"⚠️ Posting failed (try {draft['attempts']}/3), will retry next run:\n<code>{esc(str(ex))}</code>")
             return
+        log(f"Published, media id {media_id}")
         q.pop(0)
         self.state["published"].append({"id": draft["id"], "headline": draft["headline"],
                                         "url": draft["url"], "at": time.time(), "media_id": media_id})
@@ -282,7 +297,10 @@ class Bot:
             self.expire_drafts()
             self.publish_next()
             if self.should_scout():
+                log("Scouting for news")
                 self.scout()
+            else:
+                log("No scout this run")
                 self.publish_next()   # a "post now" approval might be waiting
         except Exception as ex:
             traceback.print_exc()
