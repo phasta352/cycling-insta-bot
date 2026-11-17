@@ -35,7 +35,11 @@ approval:
 
 ai:
   model: "claude-sonnet-5-5"      # cheaper option: "claude-haiku-5-5"
-  min_score: 6                    # 1-10. Stories the AI scores below this are ignored
+  min_score: 5                    # 1-10. Stories the AI scores below this are ignored
+
+carousel:
+  enabled: true                   # multi-image posts: a cover + story slides
+  max_slides: 4                   # story slides after the cover (2-9). Thin stories stay single images
 
 design:
   background: "#0B1F33"           # dark navy
