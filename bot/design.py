@@ -73,6 +73,15 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
 
     img = Image.new("RGBA", (W, H), bg)
 
+    logo = None
+    logo_path = ROOT / d.get("logo", "")
+    if d.get("logo") and logo_path.is_file():
+        try:
+            logo = Image.open(logo_path).convert("RGBA")
+            logo.thumbnail((230, 140))
+        except Exception:
+            logo = None
+
     # Soft vertical gradient for depth.
     grad = Image.new("RGBA", (W, H))
     gd = ImageDraw.Draw(grad)
@@ -81,7 +90,7 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
         gd.line([(0, y), (W, y)], fill=(0, 0, 0, a))
     img = Image.alpha_composite(img, grad)
 
-    # Decorative "wheels": faint concentric rings with spokes in the top-right corner.
+    # Decorative "wheels": faint concentric rings with spokes (only when there's no logo).
     deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     dd = ImageDraw.Draw(deco)
     cx, cy = W - 120, 250
@@ -93,23 +102,16 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
         dd.line([(cx + 95 * math.cos(ang), cy + 95 * math.sin(ang)),
                  (cx + 300 * math.cos(ang + 0.35), cy + 300 * math.sin(ang + 0.35))],
                 fill=accent[:3] + (18,), width=2)
-    img = Image.alpha_composite(img, deco)
+    if logo is None:
+        img = Image.alpha_composite(img, deco)
 
     draw = ImageDraw.Draw(img)
 
     # Top bar: page name + optional logo.
     draw.rectangle([MARGIN, MARGIN, MARGIN + 64, MARGIN + 10], fill=accent)
     draw.text((MARGIN, MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
-    logo_path = ROOT / d.get("logo", "")
-    has_logo = False
-    if d.get("logo") and logo_path.is_file():
-        try:
-            logo = Image.open(logo_path).convert("RGBA")
-            logo.thumbnail((120, 120))
-            img.alpha_composite(logo, (W - MARGIN - logo.width, MARGIN))
-            has_logo = True
-        except Exception:
-            pass
+    if logo is not None:
+        img.alpha_composite(logo, (W - MARGIN - logo.width, MARGIN))
 
     # Headline block, anchored above the footer.
     footer_top = H - MARGIN - 90
@@ -134,13 +136,15 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
     draw.rectangle([MARGIN, footer_top, W - MARGIN, footer_top + 4], fill=accent[:3] + (200,))
     small = regular_font(30)
     date_txt = dt.date.today().strftime("%d %b %Y")
+    if handle and logo is not None:
+        date_txt = f"{handle}  ·  {date_txt}"
     date_w = draw.textlength(date_txt, font=small)
     src_txt = f"Source: {source}"
     while draw.textlength(src_txt, font=small) > max_w - date_w - 40 and len(src_txt) > 12:
         src_txt = src_txt[:-2].rstrip() + "…" if not src_txt.endswith("…") else src_txt[:-2] + "…"
     draw.text((MARGIN, footer_top + 30), src_txt, font=small, fill=muted)
     draw.text((W - MARGIN - date_w, footer_top + 30), date_txt, font=small, fill=muted)
-    if handle and not has_logo:
+    if handle and logo is None:
         hf = regular_font(30)
         draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 34), handle, font=hf, fill=muted)
 
