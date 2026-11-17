@@ -12,6 +12,7 @@ class Editor:
         self.client = anthropic.Anthropic(api_key=api_key)
         self.settings = settings
         self.model = settings["ai"]["model"]
+        self.last_scores = []
 
     def _ask(self, system: str, prompt: str, max_tokens: int = 1500) -> dict | list:
         msg = self.client.messages.create(
@@ -52,8 +53,14 @@ class Editor:
             "Return [] if nothing is worth posting."
         )
         result = self._ask(system, prompt, max_tokens=1200)
+        self.last_scores = []   # (score, headline) for every story the AI rated, for reports
         if not isinstance(result, list):
             return []
+        for item in result:
+            try:
+                self.last_scores.append((int(item.get("score", 0)), stories[int(item["i"])].title))
+            except (KeyError, ValueError, TypeError, IndexError):
+                pass
         min_score = self.settings["ai"].get("min_score", 6)
         picks = []
         for item in result:

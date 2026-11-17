@@ -189,11 +189,18 @@ class Bot:
     def scout(self):
         from .editor import Editor  # imported here so status-only runs stay fast
 
+        forced = bool(self.state.get("force_scout"))   # manual scout: always report back
         self.state["force_scout"] = False
         self.state["last_scout"] = time.time()
         sch = self.settings["schedule"]
         candidates = sources.collect(self.settings, self.state)
+        n_errors = len(self.state["feed_errors"])
         if not candidates:
+            if forced:
+                self.tg.send(f"🔎 Scout finished: no new stories found in the last "
+                             f"{self.settings['sources'].get('max_age_hours', 24)} h"
+                             + (f" ({n_errors} sources failed, send /status)" if n_errors else "")
+                             + ". Stories already checked earlier are skipped.")
             return
         editor = Editor(self.secrets.anthropic_key, self.settings)
         recent = [p["headline"] for p in self.state["published"]]
@@ -220,6 +227,21 @@ class Bot:
                 continue
             self.make_draft(story, post, pick["score"])
             made += 1
+
+        if forced and made == 0:
+            min_score = self.settings["ai"].get("min_score", 6)
+            top = sorted(editor.last_scores, reverse=True)[:5]
+            lines = [f"🔎 Scout finished: checked {len(candidates)} new stories, "
+                     f"but none was strong enough to draft (minimum score {min_score}/10)."]
+            if room <= 0:
+                lines = [f"🔎 Daily draft limit reached ({sch['max_drafts_per_day']}). Try again later."]
+            elif top:
+                lines.append("\nTop scores:")
+                lines += [f"• {sc}/10: {esc(t[:90])}" for sc, t in top]
+                lines.append("\nTo get more drafts, lower <code>min_score</code> in config.yaml.")
+            if n_errors:
+                lines.append(f"⚠️ {n_errors} sources failed: send /status for details.")
+            self.tg.send("\n".join(lines))
 
     def make_draft(self, story, post, score):
         did = uuid.uuid4().hex[:10]
