@@ -225,11 +225,14 @@ class Bot:
         sent_24h = sum(1 for t in self.state["drafts_sent"] if time.time() - t < 86400)
         room = min(sch["drafts_per_scout"], sch["max_drafts_per_day"] - sent_24h)
         picks = editor.select(candidates, recent, room)
+        log(f"Found {len(candidates)} new stories; {len(picks)} passed the score bar")
 
         # Everything that was evaluated counts as seen, so it isn't scored again.
         now = time.time()
-        for c in candidates:
-            self.state["seen"][c.key] = now
+        scoring_failed = not editor.last_scores and bool(editor.last_error)
+        if not scoring_failed:   # if the AI's reply couldn't be read, try these stories again next time
+            for c in candidates:
+                self.state["seen"][c.key] = now
 
         made = 0
         failures = []
@@ -258,6 +261,9 @@ class Bot:
                      f"but none was strong enough to draft (minimum score {min_score}/10)."]
             if room <= 0:
                 lines = [f"🔎 Daily draft limit reached ({sch['max_drafts_per_day']}). Try again later."]
+            elif not editor.last_scores and editor.last_error:
+                lines = [f"🔎 Scout checked {len(candidates)} new stories, but {esc(editor.last_error[:250])}",
+                         "\nThe stories weren't marked as seen, so the next scout will try them again."]
             elif failures:
                 lines = [f"🔎 Scout finished: {len(picks)} stories passed the {min_score}/10 bar, "
                          "but none could be turned into a draft:"]

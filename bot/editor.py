@@ -54,13 +54,21 @@ class Editor:
             f"Candidate headlines:\n" + "\n".join(lines) + "\n\n"
             "Return a JSON list of the stories worth posting, best first, at most "
             f"{limit + 3} items. Each item: {{\"i\": <index>, \"score\": <1-10 engagement score>, "
-            f"\"category\": one of {CATEGORIES}, \"duplicates\": [<indexes of other headlines about the same event>]}}. "
+            f"\"category\": one of {CATEGORIES}, \"duplicates\": [<up to 5 indexes of other headlines about the same event>]}}. "
+            "Keep it compact: no explanations, no text outside the JSON. "
             "Return [] if nothing is worth posting."
         )
-        result = self._ask(system, prompt, max_tokens=1200)
+        self.last_error = ""
+        result = self._ask(system, prompt, max_tokens=3000)
         self.last_scores = []   # (score, headline) for every story the AI rated, for reports
+        if isinstance(result, dict):   # e.g. {"stories": [...]}: use the first list inside
+            result = next((v for v in result.values() if isinstance(v, list)), None)
         if not isinstance(result, list):
+            self.last_error = ("the AI's scoring reply was cut off" if self.last_stop == "max_tokens"
+                               else "couldn't read the AI's scoring reply") + f": {self.last_raw[:200]!r}"
+            print(f"[bot] Scoring failed. stop_reason={self.last_stop}. Reply starts: {self.last_raw[:500]!r}", flush=True)
             return []
+        print(f"[bot] AI scored {len(result)} stories (stop_reason={self.last_stop})", flush=True)
         for item in result:
             try:
                 self.last_scores.append((int(item.get("score", 0)), stories[int(item["i"])].title))
