@@ -13,6 +13,9 @@ class Editor:
         self.settings = settings
         self.model = settings["ai"]["model"]
         self.last_scores = []
+        self.last_error = ""
+        self.last_stop = ""
+        self.last_raw = ""
 
     def _ask(self, system: str, prompt: str, max_tokens: int = 1500) -> dict | list:
         msg = self.client.messages.create(
@@ -22,6 +25,8 @@ class Editor:
             messages=[{"role": "user", "content": prompt}],
         )
         text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+        self.last_stop = getattr(msg, "stop_reason", "")
+        self.last_raw = text
         return parse_json(text)
 
     def _brief(self) -> str:
@@ -96,7 +101,8 @@ class Editor:
             "times, quotes, prices or dates. Write everything in your own words (no copied "
             "sentences, no quotes longer than a few words). If the material is clearly a rumour, "
             "say so or set \"confirmed\" to false. If there isn't enough information for a "
-            "useful post, set \"skip\" to true. Reply with JSON only."
+            "useful post, set \"skip\" to true. Never skip just because there isn't enough for "
+            "carousel slides: return \"slides\": [] and it becomes a single-image post. Reply with JSON only."
         )
         prompt = (
             f"Source: {story.source}\nHeadline: {story.title}\nURL: {story.url}\n"
@@ -114,10 +120,17 @@ class Editor:
             "- \"note\": one short line for the page owner about anything to double-check (or \"\")\n"
             f"- \"slides\": {slides_rule}"
         )
-        result = self._ask(system, prompt, max_tokens=1500)
-        if not isinstance(result, dict) or result.get("skip"):
+        self.last_error = ""
+        result = self._ask(system, prompt, max_tokens=4000)
+        if not isinstance(result, dict):
+            self.last_error = ("the AI's reply was cut off" if self.last_stop == "max_tokens"
+                               else "couldn't read the AI's reply") + f": {self.last_raw[:120]!r}"
+            return None
+        if result.get("skip"):
+            self.last_error = "the AI chose to skip it" + (f" ({result.get('note')})" if result.get("note") else "")
             return None
         if not result.get("headline") or not result.get("caption"):
+            self.last_error = "the AI's reply had no headline or caption"
             return None
         result["headline"] = result["headline"].strip()[:90]
         result["category"] = str(result.get("category") or category).upper()[:20]

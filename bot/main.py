@@ -232,15 +232,22 @@ class Bot:
             self.state["seen"][c.key] = now
 
         made = 0
+        failures = []
         for pick in picks:
             if made >= room:
                 break
             story = candidates[pick["i"]]
             if not story.via_google:
                 story.text = sources.fetch_article_text(story)
+            log(f"Writing ({pick['score']}/10): {story.title} | article text: {len(story.text)} chars")
             post = editor.write(story, pick["category"])
             if not post:
+                log(f"  -> not drafted: {editor.last_error}")
+                failures.append((story.title, editor.last_error))
+                if "skip" not in editor.last_error:
+                    self.state["seen"].pop(story.key, None)   # technical failure: try again next scout
                 continue
+            log(f"  -> drafted with {len(post.get('slides') or [])} story slides")
             self.make_draft(story, post, pick["score"])
             made += 1
 
@@ -251,6 +258,10 @@ class Bot:
                      f"but none was strong enough to draft (minimum score {min_score}/10)."]
             if room <= 0:
                 lines = [f"🔎 Daily draft limit reached ({sch['max_drafts_per_day']}). Try again later."]
+            elif failures:
+                lines = [f"🔎 Scout finished: {len(picks)} stories passed the {min_score}/10 bar, "
+                         "but none could be turned into a draft:"]
+                lines += [f"• {esc(t[:80])}: {esc(r[:160])}" for t, r in failures]
             elif top:
                 lines.append("\nTop scores:")
                 lines += [f"• {sc}/10: {esc(t[:90])}" for sc, t in top]
