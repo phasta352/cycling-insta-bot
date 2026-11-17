@@ -67,9 +67,11 @@ def _fit_headline(draw, text, max_width, max_height):
     return font, lines, 60
 
 
-def render(headline: str, category: str, source: str, settings: dict, handle: str, out_path: Path) -> Path:
+def _base(settings: dict, deco_wheel: bool = True):
+    """Background, gradient, optional decoration, top bar and logo. Returns (img, draw, colors, logo)."""
     d = settings["design"]
-    bg, accent, fg, muted = _hex(d["background"]), _hex(d["accent"]), _hex(d["text"]), _hex(d["muted"])
+    colors = {k: _hex(d[k]) for k in ("background", "accent", "text", "muted")}
+    bg, accent, fg = colors["background"], colors["accent"], colors["text"]
 
     img = Image.new("RGBA", (W, H), bg)
 
@@ -86,41 +88,72 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
     grad = Image.new("RGBA", (W, H))
     gd = ImageDraw.Draw(grad)
     for y in range(H):
-        a = int(70 * (y / H))
-        gd.line([(0, y), (W, y)], fill=(0, 0, 0, a))
+        gd.line([(0, y), (W, y)], fill=(0, 0, 0, int(70 * (y / H))))
     img = Image.alpha_composite(img, grad)
 
-    # Decorative "wheels": faint concentric rings with spokes (only when there's no logo).
-    deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    dd = ImageDraw.Draw(deco)
-    cx, cy = W - 120, 250
-    for r, width, alpha in ((330, 10, 40), (300, 3, 28), (95, 6, 36)):
-        dd.ellipse([cx - r, cy - r, cx + r, cy + r], outline=accent[:3] + (alpha,), width=width)
-    import math
-    for k in range(16):
-        ang = 2 * math.pi * k / 16
-        dd.line([(cx + 95 * math.cos(ang), cy + 95 * math.sin(ang)),
-                 (cx + 300 * math.cos(ang + 0.35), cy + 300 * math.sin(ang + 0.35))],
-                fill=accent[:3] + (18,), width=2)
-    if logo is None:
+    # Decorative "wheel": faint rings with spokes (only when there's no logo).
+    if logo is None and deco_wheel:
+        import math
+        deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        dd = ImageDraw.Draw(deco)
+        cx, cy = W - 120, 250
+        for r, width, alpha in ((330, 10, 40), (300, 3, 28), (95, 6, 36)):
+            dd.ellipse([cx - r, cy - r, cx + r, cy + r], outline=accent[:3] + (alpha,), width=width)
+        for k in range(16):
+            ang = 2 * math.pi * k / 16
+            dd.line([(cx + 95 * math.cos(ang), cy + 95 * math.sin(ang)),
+                     (cx + 300 * math.cos(ang + 0.35), cy + 300 * math.sin(ang + 0.35))],
+                    fill=accent[:3] + (18,), width=2)
         img = Image.alpha_composite(img, deco)
 
     draw = ImageDraw.Draw(img)
-
-    # Top bar: page name + optional logo.
     draw.rectangle([MARGIN, MARGIN, MARGIN + 64, MARGIN + 10], fill=accent)
     draw.text((MARGIN, MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
     if logo is not None:
         img.alpha_composite(logo, (W - MARGIN - logo.width, MARGIN))
+    return img, draw, colors, logo
 
-    # Headline block, anchored above the footer.
+
+def _footer(draw, colors, source, handle, logo, right_text=None):
     footer_top = H - MARGIN - 90
     max_w = W - 2 * MARGIN
-    font, lines, line_h = _fit_headline(draw, headline, max_w, 620)
-    block_h = len(lines) * line_h
-    y = footer_top - 70 - block_h
+    draw.rectangle([MARGIN, footer_top, W - MARGIN, footer_top + 4], fill=colors["accent"][:3] + (200,))
+    small = regular_font(30)
+    if right_text is None:
+        right_text = dt.date.today().strftime("%d %b %Y")
+        if handle and logo is not None:
+            right_text = f"{handle}  ·  {right_text}"
+    right_font = bold_font(30) if right_text.startswith("Swipe") else small
+    right_color = colors["accent"] if right_text.startswith("Swipe") else colors["muted"]
+    rw = draw.textlength(right_text, font=right_font)
+    src_txt = f"Source: {source}"
+    while draw.textlength(src_txt, font=small) > max_w - rw - 40 and len(src_txt) > 12:
+        src_txt = src_txt[:-2].rstrip() + "…" if not src_txt.endswith("…") else src_txt[:-2] + "…"
+    draw.text((MARGIN, footer_top + 30), src_txt, font=small, fill=colors["muted"])
+    draw.text((W - MARGIN - rw, footer_top + 30), right_text, font=right_font, fill=right_color)
+    return footer_top
 
-    # Category tag.
+
+def _save(img, out_path: Path) -> Path:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.convert("RGB").save(out_path, "JPEG", quality=92)
+    return out_path
+
+
+def render(headline: str, category: str, source: str, settings: dict, handle: str, out_path: Path,
+           swipe: bool = False) -> Path:
+    """The cover / single-image post: category tag + big headline."""
+    img, draw, colors, logo = _base(settings)
+    bg, accent, fg = colors["background"], colors["accent"], colors["text"]
+    footer_top = _footer(draw, colors, source, handle, logo, right_text="Swipe for the story  →" if swipe else None)
+    if handle and logo is None:
+        hf = regular_font(30)
+        draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 34), handle, font=hf, fill=colors["muted"])
+
+    max_w = W - 2 * MARGIN
+    font, lines, line_h = _fit_headline(draw, headline, max_w, 620)
+    y = footer_top - 70 - len(lines) * line_h
+
     tag_font = bold_font(32)
     tag = category.upper()
     tw = draw.textlength(tag, font=tag_font)
@@ -131,23 +164,57 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
     for line in lines:
         draw.text((MARGIN, y), line, font=font, fill=fg)
         y += line_h
+    return _save(img, out_path)
 
-    # Footer: accent rule, source (left) and date (right). Handle sits top-right.
-    draw.rectangle([MARGIN, footer_top, W - MARGIN, footer_top + 4], fill=accent[:3] + (200,))
-    small = regular_font(30)
-    date_txt = dt.date.today().strftime("%d %b %Y")
-    if handle and logo is not None:
-        date_txt = f"{handle}  ·  {date_txt}"
-    date_w = draw.textlength(date_txt, font=small)
-    src_txt = f"Source: {source}"
-    while draw.textlength(src_txt, font=small) > max_w - date_w - 40 and len(src_txt) > 12:
-        src_txt = src_txt[:-2].rstrip() + "…" if not src_txt.endswith("…") else src_txt[:-2] + "…"
-    draw.text((MARGIN, footer_top + 30), src_txt, font=small, fill=muted)
-    draw.text((W - MARGIN - date_w, footer_top + 30), date_txt, font=small, fill=muted)
-    if handle and logo is None:
-        hf = regular_font(30)
-        draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 34), handle, font=hf, fill=muted)
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    img.convert("RGB").save(out_path, "JPEG", quality=92)
-    return out_path
+def render_slide(number: int, total: int, title: str, text: str, source: str, settings: dict,
+                 handle: str, out_path: Path) -> Path:
+    """A story slide in a carousel: slide counter, short title and body text."""
+    img, draw, colors, logo = _base(settings, deco_wheel=False)
+    accent, fg = colors["accent"], colors["text"]
+    last = number == total
+    footer_top = _footer(draw, colors, source, handle, logo,
+                         right_text=None if last else "Swipe  →")
+
+    max_w = W - 2 * MARGIN
+    top = MARGIN + 200
+
+    # Title.
+    y = top + 40
+    tf_size = 72
+    while tf_size > 40:
+        tf = bold_font(tf_size)
+        t_lines = _wrap(draw, title, tf, max_w)
+        if len(t_lines) <= 3:
+            break
+        tf_size -= 4
+    for line in t_lines:
+        draw.text((MARGIN, y), line, font=tf, fill=fg)
+        y += int(tf_size * 1.18)
+    y += 36
+    draw.rectangle([MARGIN, y, MARGIN + 90, y + 8], fill=accent)
+    y += 56
+
+    # Body text, shrunk until it fits above the footer.
+    room = footer_top - (130 if last else 50) - y
+    for size in range(48, 28, -2):
+        bf = regular_font(size)
+        b_lines = []
+        for para in text.split("\n"):
+            b_lines += _wrap(draw, para, bf, max_w) or [""]
+        lh = int(size * 1.42)
+        if len(b_lines) * lh <= room:
+            break
+    for line in b_lines:
+        draw.text((MARGIN, y), line, font=bf, fill=colors["text"][:3] + (235,))
+        y += lh
+
+    # Last slide: a follow prompt just above the footer, if there's room.
+    if last and handle:
+        cta = f"Follow {handle} for daily cycling news"
+        cf2 = bold_font(36)
+        if draw.textlength(cta, font=cf2) > max_w:
+            cta = f"Follow {handle}"
+        if y < footer_top - 110:
+            draw.text((MARGIN, footer_top - 80), cta, font=cf2, fill=accent)
+    return _save(img, out_path)
