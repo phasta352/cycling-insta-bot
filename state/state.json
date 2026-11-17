@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 0,
+  "telegram_offset": 989436740,
   "paused": false,
   "force_scout": false,
   "last_scout": 1794951693.5535269,
@@ -66,25 +66,6 @@
     "967cc175c82f961a": 1794951700.04349
   },
   "drafts": {
-    "12a6753502": {
-      "id": "12a6753502",
-      "created": 1794951715.0856876,
-      "headline": "Rapha returns to the WorldTour with Red Bull-Bora-Hansgrohe",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/our-ambition-is-to-build-the-fastest-kit-in-the-world-rapha-returns-to-the-worldtour-as-racing-kit-supplier-to-red-bull-bora-hansgrohe/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951712/cycling-bot/12a6753502-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951712/cycling-bot/12a6753502-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951712/cycling-bot/12a6753502-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951713/cycling-bot/12a6753502-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951714/cycling-bot/12a6753502-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794951714/cycling-bot/12a6753502-4.jpg"
-      ],
-      "full_caption": "Rapha is back in the WorldTour peloton.\n\nThe British brand is now Red Bull-Bora-Hansgrohe's official performance partner on a multi-year deal, replacing Specialized as kit supplier. The two sides say they will develop new products together, with the aim of building the fastest race kit in the world.\n\nWhich team's kit do you think Rapha will suit best? 👀\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #Rapha #RedBullBoraHansgrohe #cyclingnews #cyclingkit #RemcoEvenepoel #FlorianLipowitz",
-      "alt_text": "Graphic announcing that Rapha returns to the WorldTour as kit partner of the Red Bull-Bora-Hansgrohe team.",
-      "score": 9,
-      "text_message_id": 28
-    },
     "ae53692dcd": {
       "id": "ae53692dcd",
       "created": 1794951725.934299,
@@ -102,7 +83,15 @@
     }
   },
   "queue": [],
-  "published": [],
+  "published": [
+    {
+      "id": "12a6753502",
+      "headline": "Rapha returns to the WorldTour with Red Bull-Bora-Hansgrohe",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/our-ambition-is-to-build-the-fastest-kit-in-the-world-rapha-returns-to-the-worldtour-as-racing-kit-supplier-to-red-bull-bora-hansgrohe/",
+      "at": 1794951880.4314983,
+      "media_id": "18183196579433334"
+    }
+  ],
   "drafts_sent": [
     1794951715.0856936,
     1794951725.9343038
