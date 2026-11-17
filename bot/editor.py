@@ -78,6 +78,18 @@ class Editor:
         """Write the graphic headline, caption, hashtags and alt text for one story."""
         p = self.settings["page"]
         facts = story.text or story.summary or "(only the headline is available)"
+        car = self.settings.get("carousel", {})
+        max_slides = max(0, min(int(car.get("max_slides", 4)), 9)) if car.get("enabled", True) else 0
+        if max_slides >= 2:
+            slides_rule = (
+                f"list of 2-{max_slides} story slides for an Instagram carousel that follows the cover, "
+                "telling the story step by step (e.g. what happened, key details, background, why it matters). "
+                "Each slide: {\"title\": max 40 characters, \"text\": 1-3 sentences, max 230 characters}. "
+                "Only facts from the material. If the material is too thin for at least 2 useful slides, return []. "
+                "When there are slides, keep the caption shorter (max 500 characters) since the slides carry the story."
+            )
+        else:
+            slides_rule = "always return []"
         system = self._brief() + (
             f"\nTone: {p['tone'].strip()}\n"
             "Rules: use ONLY facts stated in the source material below; never invent results, "
@@ -99,7 +111,8 @@ class Editor:
             "- \"alt_text\": one-sentence description of the graphic for visually impaired users\n"
             "- \"confirmed\": true if the news is officially confirmed, false if rumour/report\n"
             "- \"skip\": true if this should not be posted\n"
-            "- \"note\": one short line for the page owner about anything to double-check (or \"\")"
+            "- \"note\": one short line for the page owner about anything to double-check (or \"\")\n"
+            f"- \"slides\": {slides_rule}"
         )
         result = self._ask(system, prompt, max_tokens=1500)
         if not isinstance(result, dict) or result.get("skip"):
@@ -110,6 +123,11 @@ class Editor:
         result["category"] = str(result.get("category") or category).upper()[:20]
         tags = [re.sub(r"[^\w]", "", t.lstrip("#")) for t in result.get("hashtags", [])]
         result["hashtags"] = [t for t in tags if t][:12]
+        slides = []
+        for sl in result.get("slides") or []:
+            if isinstance(sl, dict) and sl.get("title") and sl.get("text"):
+                slides.append({"title": str(sl["title"]).strip()[:60], "text": str(sl["text"]).strip()[:320]})
+        result["slides"] = slides[:max_slides] if len(slides) >= 2 else []
         return result
 
 

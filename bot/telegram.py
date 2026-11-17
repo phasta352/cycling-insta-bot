@@ -31,6 +31,13 @@ class Telegram:
         return self._call("sendPhoto", chat_id=self.chat_id, photo=photo_url,
                           caption=caption[:1024], parse_mode="HTML")
 
+    def send_album(self, photo_urls: list[str], caption: str = ""):
+        media = [{"type": "photo", "media": u} for u in photo_urls[:10]]
+        if media:
+            media[0]["caption"] = caption[:1024]
+            media[0]["parse_mode"] = "HTML"
+        return self._call("sendMediaGroup", chat_id=self.chat_id, media=media)
+
     def edit_text(self, message_id: int, text: str):
         try:
             self._call("editMessageText", chat_id=self.chat_id, message_id=message_id,

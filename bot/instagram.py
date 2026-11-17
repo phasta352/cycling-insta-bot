@@ -60,6 +60,43 @@ class Instagram:
         result = self._req("POST", f"{self.ig}/media_publish", creation_id=cid)
         return result["id"]
 
+    def _wait(self, container_id: str):
+        for _ in range(30):
+            status = self._req("GET", container_id, fields="status_code").get("status_code")
+            if status == "FINISHED":
+                return
+            if status in ("ERROR", "EXPIRED"):
+                raise InstagramError(f"Media container {status}")
+            time.sleep(3)
+
+    def publish_carousel(self, image_urls: list[str], caption: str, alt_text: str = "") -> str:
+        """2-10 images in one post. Each image becomes a carousel item, then one parent post."""
+        children = []
+        for i, url in enumerate(image_urls[:10]):
+            params = {"image_url": url, "is_carousel_item": "true"}
+            if i == 0 and alt_text:
+                params["alt_text"] = alt_text[:1000]
+            try:
+                item = self._req("POST", f"{self.ig}/media", **params)
+            except InstagramError as ex:
+                if "alt_text" in params and "alt_text" in str(ex):
+                    params.pop("alt_text")
+                    item = self._req("POST", f"{self.ig}/media", **params)
+                else:
+                    raise
+            children.append(item["id"])
+        for cid in children:
+            self._wait(cid)
+        parent = self._req("POST", f"{self.ig}/media", media_type="CAROUSEL",
+                           children=",".join(children), caption=caption[:2200])
+        self._wait(parent["id"])
+        return self._req("POST", f"{self.ig}/media_publish", creation_id=parent["id"])["id"]
+
+    def publish(self, image_urls: list[str], caption: str, alt_text: str = "") -> str:
+        if len(image_urls) >= 2:
+            return self.publish_carousel(image_urls, caption, alt_text)
+        return self.publish_image(image_urls[0], caption, alt_text)
+
     def permalink(self, media_id: str) -> str:
         try:
             return self._req("GET", media_id, fields="permalink").get("permalink", "")

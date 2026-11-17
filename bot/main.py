@@ -169,7 +169,8 @@ class Bot:
                 return
         log(f"Publishing: {draft['headline']}")
         try:
-            media_id = self.ig.publish_image(draft["image_url"], draft["full_caption"], draft.get("alt_text", ""))
+            urls = draft.get("image_urls") or [draft["image_url"]]
+            media_id = self.ig.publish(urls, draft["full_caption"], draft.get("alt_text", ""))
         except Exception as ex:
             log(f"Publishing failed: {ex}")
             draft["attempts"] = draft.get("attempts", 0) + 1
@@ -260,22 +261,34 @@ class Bot:
 
     def make_draft(self, story, post, score):
         did = uuid.uuid4().hex[:10]
-        img = design.render(post["headline"], post["category"], story.source, self.settings,
-                            self.handle(), OUT / f"{did}.jpg")
-        image_url = storage.upload(img, did)
+        handle = self.handle()
+        slides = post.get("slides") or []
+        cover = design.render(post["headline"], post["category"], story.source, self.settings,
+                              handle, OUT / f"{did}-0.jpg", swipe=bool(slides))
+        image_urls = [storage.upload(cover, f"{did}-0")]
+        for n, sl in enumerate(slides, start=2):
+            path = design.render_slide(n, len(slides) + 1, sl["title"], sl["text"], story.source,
+                                       self.settings, handle, OUT / f"{did}-{n - 1}.jpg")
+            image_urls.append(storage.upload(path, f"{did}-{n - 1}"))
+        image_url = image_urls[0]
         tags = " ".join("#" + t for t in post["hashtags"])
         full_caption = f"{post['caption'].strip()}\n\n{tags}".strip()
         draft = {
             "id": did, "created": time.time(), "headline": post["headline"], "url": story.url,
-            "source": story.source, "image_url": image_url, "full_caption": full_caption,
+            "source": story.source, "image_url": image_url, "image_urls": image_urls, "full_caption": full_caption,
             "alt_text": post.get("alt_text", ""), "score": score,
         }
         self.state["drafts_sent"].append(time.time())
 
         rumour = "" if post.get("confirmed", True) else "\n⚠️ <b>Not officially confirmed</b>"
         note = f"\n📝 {esc(post['note'])}" if post.get("note") else ""
-        self.tg.send_photo(image_url, f"<b>{esc(post['category'])}</b> · score {score}/10\n"
-                                      f"<a href=\"{esc(story.url)}\">{esc(story.source)}: read the source</a>")
+        kind = f"carousel, {len(image_urls)} slides" if len(image_urls) > 1 else "single image"
+        info = (f"<b>{esc(post['category'])}</b> · score {score}/10 · {kind}\n"
+                f"<a href=\"{esc(story.url)}\">{esc(story.source)}: read the source</a>")
+        if len(image_urls) > 1:
+            self.tg.send_album(image_urls, info)
+        else:
+            self.tg.send_photo(image_url, info)
 
         if not self.settings["approval"]["required"]:
             draft["post_now"] = False
