@@ -1,0 +1,62 @@
+name: Cycling news bot
+
+on:
+  schedule:
+    - cron: "*/30 6-21 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        type: choice
+        options: [run, check, scout]
+        default: run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cycling-bot
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -q -r requirements.txt
+
+      - name: Headline font (optional)
+        run: |
+          [ -f assets/fonts/Anton-Regular.ttf ] || \
+          curl -sfL -o assets/fonts/Anton-Regular.ttf \
+            https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf || true
+
+      - name: Run bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLOUDINARY_NAME: ${{ secrets.CLOUDINARY_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          INSTAGRAM_APP_ID: ${{ secrets.INSTAGRAM_APP_ID }}
+          INSTAGRAM_APP_TOKEN: ${{ secrets.INSTAGRAM_APP_TOKEN }}
+          TELEGRAM_BOT_ID: ${{ secrets.TELEGRAM_BOT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python -m bot.main ${{ github.event.inputs.mode || 'run' }}
+
+      - name: Save memory
+        if: always()
+        run: |
+          git config user.name "cycling-bot"
+          git config user.email "cycling-bot@users.noreply.github.com"
+          git add state/state.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -q -m "bot: update state [skip ci]"
+          git pull -q --rebase && git push -q
