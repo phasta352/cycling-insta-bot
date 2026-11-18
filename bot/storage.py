@@ -22,6 +22,13 @@ def upload(path: Path, public_id: str) -> str:
     return res["secure_url"]
 
 
+def upload_video(path: Path, public_id: str) -> str:
+    res = cloudinary.uploader.upload(
+        str(path), folder="cycling-bot", public_id=public_id, overwrite=True, resource_type="video"
+    )
+    return res["secure_url"]
+
+
 def ping() -> str:
     cloudinary.api.ping()
     return "ok"

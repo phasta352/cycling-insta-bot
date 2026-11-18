@@ -13,7 +13,7 @@ import uuid
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from . import design, sources, state as state_mod, storage
+from . import design, reel, sources, state as state_mod, storage
 from .config import ROOT, load_secrets, load_settings
 from .instagram import Instagram
 from .telegram import Telegram, esc
@@ -103,17 +103,25 @@ class Bot:
             self.tg.answer_callback(cb["id"], "Skipped")
             if mid:
                 self.tg.edit_text(mid, f"❌ <b>Skipped</b>: {esc(draft['headline'])}")
-        elif action in ("a", "n"):
-            draft["post_now"] = action == "n"
-            draft["approved_at"] = time.time()
-            if draft["post_now"]:
-                self.state["queue"].insert(0, draft)
-            else:
-                self.state["queue"].append(draft)
-            label = "Posting now" if draft["post_now"] else "Approved, queued for the next slot"
+        elif action in ("a", "n", "c"):
+            with_reel = action != "c" and bool(draft.get("reel_url"))
+            self.queue_post(draft, post_now=action == "n", with_reel=with_reel)
+            label = "Posting now" if action == "n" else "Approved, queued for the next slot"
+            if with_reel:
+                label += " (Reel follows at the next free slot)"
             self.tg.answer_callback(cb["id"], label)
             if mid:
                 self.tg.edit_text(mid, f"✅ <b>{label}</b>: {esc(draft['headline'])}")
+
+    def queue_post(self, draft, post_now: bool, with_reel: bool):
+        """Queue the carousel, and optionally the Reel as a separate post at a later slot."""
+        carousel = {**draft, "kind": "carousel", "post_now": post_now, "approved_at": time.time()}
+        if post_now:
+            self.state["queue"].insert(0, carousel)
+        else:
+            self.state["queue"].append(carousel)
+        if with_reel and draft.get("reel_url"):
+            self.state["queue"].append({**draft, "kind": "reel", "post_now": False, "approved_at": time.time()})
 
     def on_command(self, parts):
         cmd = parts[0].lower().split("@")[0] if parts else ""
@@ -173,25 +181,30 @@ class Bot:
             if time.time() - last < sch["min_hours_between_posts"] * 3600:
                 log("Not posting: too soon after the last post")
                 return
-        log(f"Publishing: {draft['headline']}")
+        kind = draft.get("kind", "carousel")
+        log(f"Publishing {kind}: {draft['headline']}")
         try:
-            urls = draft.get("image_urls") or [draft["image_url"]]
-            media_id = self.ig.publish(urls, draft["full_caption"], draft.get("alt_text", ""))
+            if kind == "reel":
+                media_id = self.ig.publish_reel(draft["reel_url"], draft["full_caption"])
+            else:
+                urls = draft.get("image_urls") or [draft["image_url"]]
+                media_id = self.ig.publish(urls, draft["full_caption"], draft.get("alt_text", ""))
         except Exception as ex:
             log(f"Publishing failed: {ex}")
             draft["attempts"] = draft.get("attempts", 0) + 1
             if draft["attempts"] >= 3:
                 q.pop(0)
-                self.tg.send(f"🚫 Gave up posting after 3 tries: {esc(draft['headline'])}\n<code>{esc(str(ex))}</code>")
+                self.tg.send(f"🚫 Gave up posting the {kind} after 3 tries: {esc(draft['headline'])}\n<code>{esc(str(ex))}</code>")
             else:
                 self.tg.send(f"⚠️ Posting failed (try {draft['attempts']}/3), will retry next run:\n<code>{esc(str(ex))}</code>")
             return
         log(f"Published, media id {media_id}")
         q.pop(0)
-        self.state["published"].append({"id": draft["id"], "headline": draft["headline"],
+        self.state["published"].append({"id": draft["id"], "headline": draft["headline"], "kind": kind,
                                         "url": draft["url"], "at": time.time(), "media_id": media_id})
         link = self.ig.permalink(media_id)
-        self.tg.send(f"📣 <b>Posted</b>: {esc(draft['headline'])}" + (f"\n{link}" if link else ""))
+        what = "Reel" if kind == "reel" else "Posted"
+        self.tg.send(f"📣 <b>{what}</b>: {esc(draft['headline'])}" + (f"\n{link}" if link else ""))
 
     # ---------- 3. Scouting ----------
     def should_scout(self) -> bool:
@@ -305,12 +318,31 @@ class Bot:
             paths.append(path)
             image_urls.append(storage.upload(path, f"{did}-{n - 1}"))
         image_url = image_urls[0]
+
+        # The strongest stories also get a vertical Reel (best format for reaching new people).
+        reel_path = reel_url = None
+        reel_problem = ""
+        rcfg = self.settings.get("reels", {})
+        if rcfg.get("enabled") and score >= rcfg.get("min_score", 8):
+            if len(slides) >= 2:
+                try:
+                    log("  -> making a Reel")
+                    reel_path = reel.make_reel(post["headline"], post["category"], story.source, slides,
+                                               self.settings, handle, OUT / f"{did}-reel.mp4",
+                                               seed=int(did[:6], 16))
+                    reel_url = storage.upload_video(reel_path, f"{did}-reel")
+                except Exception as ex:
+                    log(f"  -> Reel failed: {ex}")
+                    reel_problem = f"\n🎬 Couldn't make the Reel: <code>{esc(str(ex)[:200])}</code>"
+                    reel_path = reel_url = None
+            else:
+                log("  -> no Reel: not enough story slides")
         tags = " ".join("#" + t for t in post["hashtags"])
         full_caption = f"{post['caption'].strip()}\n\n{tags}".strip()
         draft = {
             "id": did, "created": time.time(), "headline": post["headline"], "url": story.url,
             "source": story.source, "image_url": image_url, "image_urls": image_urls, "full_caption": full_caption,
-            "alt_text": post.get("alt_text", ""), "score": score,
+            "alt_text": post.get("alt_text", ""), "score": score, "reel_url": reel_url,
         }
 
         rumour = "" if post.get("confirmed", True) else "\n⚠️ <b>Not officially confirmed</b>"
@@ -322,18 +354,26 @@ class Bot:
             self.tg.send_album_files(paths, info)
         else:
             self.tg.send_photo_file(paths[0], info)
+        if reel_path:
+            self.tg.send_video_file(reel_path, "🎬 <b>Reel version</b>: posted at the next free slot after the carousel")
+        extra = reel_problem
 
         if not self.settings["approval"]["required"]:
-            draft["post_now"] = False
-            self.state["queue"].append(draft)
+            self.queue_post(draft, post_now=False, with_reel=True)
             self.state["drafts_sent"].append(time.time())
-            self.tg.send(f"🤖 Queued automatically:\n\n{esc(full_caption)}{rumour}{note}")
+            self.tg.send(f"🤖 Queued automatically:\n\n{esc(full_caption)}{rumour}{note}{extra}")
             return
 
-        buttons = [[{"text": "✅ Approve", "callback_data": f"a:{did}"},
-                    {"text": "⚡ Post now", "callback_data": f"n:{did}"}],
-                   [{"text": "❌ Skip", "callback_data": f"s:{did}"}]]
-        msg = self.tg.send(f"{esc(full_caption)}{rumour}{note}", buttons=buttons)
+        if reel_url:
+            buttons = [[{"text": "✅ Approve both", "callback_data": f"a:{did}"},
+                        {"text": "⚡ Post now", "callback_data": f"n:{did}"}],
+                       [{"text": "🖼 Carousel only", "callback_data": f"c:{did}"},
+                        {"text": "❌ Skip", "callback_data": f"s:{did}"}]]
+        else:
+            buttons = [[{"text": "✅ Approve", "callback_data": f"a:{did}"},
+                        {"text": "⚡ Post now", "callback_data": f"n:{did}"}],
+                       [{"text": "❌ Skip", "callback_data": f"s:{did}"}]]
+        msg = self.tg.send(f"{esc(full_caption)}{rumour}{note}{extra}", buttons=buttons)
         draft["text_message_id"] = msg["message_id"]
         self.state["drafts"][did] = draft
         self.state["drafts_sent"].append(time.time())
@@ -347,9 +387,9 @@ class Bot:
             if self.should_scout():
                 log("Scouting for news")
                 self.scout()
+                self.publish_next()   # a "post now" approval might be waiting
             else:
                 log("No scout this run")
-                self.publish_next()   # a "post now" approval might be waiting
         except Exception as ex:
             traceback.print_exc()
             try:

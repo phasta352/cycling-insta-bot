@@ -46,6 +46,14 @@ class Telegram:
                               files={"photo": f})
         return self._check("sendPhoto", r)
 
+    def send_video_file(self, path, caption: str = ""):
+        with open(path, "rb") as f:
+            r = requests.post(f"{self.base}/sendVideo", timeout=120,
+                              data={"chat_id": self.chat_id, "caption": caption[:1024], "parse_mode": "HTML",
+                                    "supports_streaming": "true", "width": "1080", "height": "1920"},
+                              files={"video": f})
+        return self._check("sendVideo", r)
+
     def send_album_files(self, paths, caption: str = ""):
         import json
         files, media = {}, []

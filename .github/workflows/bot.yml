@@ -37,6 +37,9 @@ jobs:
           pip install -q -r requirements.txt
           pip install -q googlenewsdecoder || echo "optional Google News link decoder not installed"
 
+      - name: ffmpeg (for Reels)
+        run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
       - name: Headline font (optional)
         run: |
           [ -f assets/fonts/Anton-Regular.ttf ] || \
