@@ -2,7 +2,7 @@
   "telegram_offset": 989436748,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795012759.4148028,
+  "last_scout": 1795016326.570212,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -121,7 +121,11 @@
     "e641c3eac4dd2cb2": 1795012767.5767663,
     "6876bf70c8acae45": 1795012767.5767663,
     "f3ff980b15101fdd": 1795012767.5767663,
-    "1409b046d191a5d1": 1795012767.5767663
+    "1409b046d191a5d1": 1795012767.5767663,
+    "fbe7c2f6d465998d": 1795016331.9127004,
+    "b64341e4ab09bafe": 1795016331.9127004,
+    "54bac2b4674f124a": 1795016331.9127004,
+    "db8671df97fff78b": 1795016331.9127004
   },
   "drafts": {
     "959aa59949": {
@@ -139,6 +143,25 @@
       "score": 8,
       "reel_url": null,
       "text_message_id": 55
+    },
+    "a7f9a81749": {
+      "id": "a7f9a81749",
+      "created": 1795016339.7272851,
+      "headline": "Eekhoff signs with Decathlon CMA CGM through 2028",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JWHEtek96b3VqejM3N0s3Sk9IR2QtY21yNDZpcVI0c1hRckFrQmo5emlpWEExZGVNNUxVZ19qdGZnUFRMVGNVNHcxU3htalJRRlVCNElRQ1NCM05KR3RJYmpJNjl6WFRuZ0hJOXp6TWtKbmprTldyeWJsbnk?oc=5",
+      "source": "ProCyclingUK",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795016338/cycling-bot/a7f9a81749-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795016338/cycling-bot/a7f9a81749-0.jpg"
+      ],
+      "full_caption": "Nils Eekhoff has a new team for the next few seasons.\n\nThe rider is joining Decathlon CMA CGM on a contract running through 2028, following his exit from Picnic PostNL. The move was reported by ProCyclingUK.\n\nHow will Eekhoff fit into his new team's plans for 2026 and beyond?\n\nSource: ProCyclingUK\n\n#cycling #procycling #roadcycling #WorldTour #cyclingtransfers #NilsEekhoff #DecathlonCMACGM #PicnicPostNL #cyclingnews #peloton",
+      "alt_text": "News graphic announcing that Nils Eekhoff has joined Decathlon CMA CGM on a contract through 2028 after leaving Picnic PostNL.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TRANSFER",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 76
     }
   },
   "queue": [],
@@ -172,7 +195,8 @@
     1794994792.9928002,
     1794994838.599219,
     1794998353.735689,
-    1794998370.181038
+    1794998370.181038,
+    1795016341.8358703
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
