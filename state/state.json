@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 0,
+  "telegram_offset": 989436745,
   "paused": false,
   "force_scout": false,
   "last_scout": 1794994774.3358653,
@@ -81,8 +81,10 @@
       "score": 8,
       "reel_url": null,
       "text_message_id": 55
-    },
-    "db1ea2c097": {
+    }
+  },
+  "queue": [
+    {
       "id": "db1ea2c097",
       "created": 1794994835.486639,
       "headline": "Pogačar ends off-season: 'Now time to get serious'",
@@ -99,11 +101,22 @@
       "alt_text": "Graphic with the headline 'Pogačar ends off-season: Now time to get serious' for a cycling news post about Tadej Pogačar's 2027 preparations.",
       "score": 8,
       "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1794994834/cycling-bot/db1ea2c097-reel.mp4",
-      "text_message_id": 61
+      "text_message_id": 61,
+      "kind": "reel",
+      "post_now": false,
+      "approved_at": 1794994987.084755
     }
-  },
-  "queue": [],
-  "published": [],
+  ],
+  "published": [
+    {
+      "id": "db1ea2c097",
+      "headline": "Pogačar ends off-season: 'Now time to get serious'",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/now-time-to-get-serious-tadej-pogacar-wraps-up-off-season-of-travelling-running-and-fellow-pros-wedding-as-2027-preparations-set-to-begin/",
+      "at": 1794995015.6495593,
+      "media_id": "18122144506978130"
+    }
+  ],
   "drafts_sent": [
     1794994792.9928002,
     1794994838.599219
