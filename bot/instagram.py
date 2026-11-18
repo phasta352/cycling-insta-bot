@@ -92,6 +92,24 @@ class Instagram:
         self._wait(parent["id"])
         return self._req("POST", f"{self.ig}/media_publish", creation_id=parent["id"])["id"]
 
+    def publish_reel(self, video_url: str, caption: str) -> str:
+        """Publish a vertical video as a Reel (also shown in the main feed)."""
+        container = self._req("POST", f"{self.ig}/media", media_type="REELS", video_url=video_url,
+                              caption=caption[:2200], share_to_feed="true", thumb_offset="1000")
+        cid = container["id"]
+        # Videos take longer to process than images: wait up to ~5 minutes.
+        for _ in range(60):
+            status = self._req("GET", cid, fields="status_code,status").get("status_code")
+            if status == "FINISHED":
+                break
+            if status in ("ERROR", "EXPIRED"):
+                detail = self._req("GET", cid, fields="status").get("status", "")
+                raise InstagramError(f"Reel processing {status}: {detail}")
+            time.sleep(5)
+        else:
+            raise InstagramError("Reel still processing after 5 minutes")
+        return self._req("POST", f"{self.ig}/media_publish", creation_id=cid)["id"]
+
     def publish(self, image_urls: list[str], caption: str, alt_text: str = "") -> str:
         if len(image_urls) >= 2:
             return self.publish_carousel(image_urls, caption, alt_text)

@@ -41,6 +41,12 @@ carousel:
   enabled: true                   # multi-image posts: a cover + story slides
   max_slides: 4                   # story slides after the cover (2-9). Thin stories stay single images
 
+reels:
+  enabled: true                   # also make a vertical Reel for the strongest stories
+  min_score: 8                    # stories scoring at least this (1-10) get a Reel as well as the carousel
+  # Music: put your own licensed MP3s in assets/music/ and the bot picks one per Reel.
+  # With no files there, it generates an original royalty-free track for each Reel.
+
 design:
   background: "#0B1F33"           # dark navy
   accent: "#F5C400"               # yellow-jersey yellow

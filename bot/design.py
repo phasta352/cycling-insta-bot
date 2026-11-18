@@ -8,7 +8,25 @@ from .config import ROOT
 
 W, H = 1080, 1350
 MARGIN = 84
+TOP_PAD = 0       # extra space at the top/bottom, used for the vertical Reel format
+BOTTOM_PAD = 0
+REEL = False      # True while drawing Reel frames (no "Swipe" hints in a video)
 FONTS = ROOT / "assets" / "fonts"
+
+
+from contextlib import contextmanager
+
+
+@contextmanager
+def reel_format():
+    """Temporarily switch the layout to 1080x1920, keeping text inside Instagram's Reels safe zone."""
+    global W, H, TOP_PAD, BOTTOM_PAD, REEL
+    old = (W, H, TOP_PAD, BOTTOM_PAD, REEL)
+    W, H, TOP_PAD, BOTTOM_PAD, REEL = 1080, 1920, 190, 330, True
+    try:
+        yield
+    finally:
+        W, H, TOP_PAD, BOTTOM_PAD, REEL = old
 
 
 def _font(names: list[str], size: int) -> ImageFont.FreeTypeFont:
@@ -98,14 +116,14 @@ def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
     draw = ImageDraw.Draw(img)
     # Top left: the logo, or the page name if there's no logo file.
     if logo is not None:
-        img.alpha_composite(logo, (MARGIN, MARGIN - 10))
+        img.alpha_composite(logo, (MARGIN, TOP_PAD + MARGIN - 10))
     else:
-        draw.rectangle([MARGIN, MARGIN, MARGIN + 64, MARGIN + 10], fill=accent)
-        draw.text((MARGIN, MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
+        draw.rectangle([MARGIN, TOP_PAD + MARGIN, MARGIN + 64, TOP_PAD + MARGIN + 10], fill=accent)
+        draw.text((MARGIN, TOP_PAD + MARGIN + 30), settings["page"]["name"].upper(), font=bold_font(34), fill=fg)
     # Top right: the @handle.
     if handle:
         hf = regular_font(30)
-        draw.text((W - MARGIN - draw.textlength(handle, font=hf), MARGIN + 6), handle, font=hf, fill=colors["muted"])
+        draw.text((W - MARGIN - draw.textlength(handle, font=hf), TOP_PAD + MARGIN + 6), handle, font=hf, fill=colors["muted"])
     return img, draw, colors, logo
 
 
@@ -113,7 +131,7 @@ def _wheel(accent):
     import math
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
-    cx, cy = W - 120, 250
+    cx, cy = W - 120, TOP_PAD + 250
     a = lambda alpha: accent[:3] + (alpha,)
 
     def ring(r, width, alpha):
@@ -149,7 +167,7 @@ def _wheel(accent):
 
 
 def _footer(draw, colors, source, handle, logo, right_text=None):
-    footer_top = H - MARGIN - 90
+    footer_top = H - MARGIN - 90 - BOTTOM_PAD
     max_w = W - 2 * MARGIN
     draw.rectangle([MARGIN, footer_top, W - MARGIN, footer_top + 4], fill=colors["accent"][:3] + (200,))
     small = regular_font(30)
@@ -203,10 +221,10 @@ def render_slide(number: int, total: int, title: str, text: str, source: str, se
     accent, fg = colors["accent"], colors["text"]
     last = number == total
     footer_top = _footer(draw, colors, source, handle, logo,
-                         right_text=None if last else "Swipe  →")
+                         right_text=None if (last or REEL) else "Swipe  →")
 
     max_w = W - 2 * MARGIN
-    top = MARGIN + 200
+    top = TOP_PAD + MARGIN + 200
 
     # Title.
     y = top + 40
