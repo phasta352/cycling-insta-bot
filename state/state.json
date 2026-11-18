@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436745,
+  "telegram_offset": 989436746,
   "paused": false,
   "force_scout": false,
   "last_scout": 1794998331.8379045,
@@ -125,26 +125,6 @@
       "score": 8,
       "reel_url": null,
       "text_message_id": 64
-    },
-    "563d55310a": {
-      "id": "563d55310a",
-      "created": 1794998368.1755207,
-      "headline": "Van Aert seeks €400 in Belgian data privacy case",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-seeking-damages-in-bizarre-case-of-belgian-municipal-employee-who-illegally-accessed-personal-information-of-30-pro-cyclists/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998365/cycling-bot/563d55310a-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998366/cycling-bot/563d55310a-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998367/cycling-bot/563d55310a-4.jpg"
-      ],
-      "full_caption": "Wout van Aert is a civil party in a Belgian data protection case.\n\nA municipal employee accessed personal data of about 30 cyclists, including Van Aert, Evenepoel and Van der Poel. Prosecutors in Mons have asked for 120 hours of community service. Van Aert and his wife are seeking a symbolic €400, which would go to charity.\n\nShould riders' personal data get stronger protection? 👇\n\nSource: Cyclingnews\n\n#WoutvanAert #RemcoEvenepoel #MathieuvanderPoel #GregVanAvermaet #ProCycling #WorldTour #CyclingNews #RoadCycling #Belgium #CyclingNewsToday",
-      "alt_text": "News graphic with the headline that Wout van Aert is seeking €400 in damages in a Belgian data privacy court case.",
-      "score": 7,
-      "reel_url": null,
-      "text_message_id": 70
     }
   },
   "queue": [
@@ -169,6 +149,29 @@
       "kind": "reel",
       "post_now": false,
       "approved_at": 1794994987.084755
+    },
+    {
+      "id": "563d55310a",
+      "created": 1794998368.1755207,
+      "headline": "Van Aert seeks €400 in Belgian data privacy case",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-seeking-damages-in-bizarre-case-of-belgian-municipal-employee-who-illegally-accessed-personal-information-of-30-pro-cyclists/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998365/cycling-bot/563d55310a-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998366/cycling-bot/563d55310a-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998367/cycling-bot/563d55310a-4.jpg"
+      ],
+      "full_caption": "Wout van Aert is a civil party in a Belgian data protection case.\n\nA municipal employee accessed personal data of about 30 cyclists, including Van Aert, Evenepoel and Van der Poel. Prosecutors in Mons have asked for 120 hours of community service. Van Aert and his wife are seeking a symbolic €400, which would go to charity.\n\nShould riders' personal data get stronger protection? 👇\n\nSource: Cyclingnews\n\n#WoutvanAert #RemcoEvenepoel #MathieuvanderPoel #GregVanAvermaet #ProCycling #WorldTour #CyclingNews #RoadCycling #Belgium #CyclingNewsToday",
+      "alt_text": "News graphic with the headline that Wout van Aert is seeking €400 in damages in a Belgian data privacy court case.",
+      "score": 7,
+      "reel_url": null,
+      "text_message_id": 70,
+      "kind": "carousel",
+      "post_now": false,
+      "approved_at": 1794998794.4351523
     }
   ],
   "published": [
