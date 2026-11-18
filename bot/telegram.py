@@ -38,6 +38,38 @@ class Telegram:
             media[0]["parse_mode"] = "HTML"
         return self._call("sendMediaGroup", chat_id=self.chat_id, media=media)
 
+    def send_photo_file(self, path, caption: str = ""):
+        """Upload the image itself (more reliable than asking Telegram to fetch a link)."""
+        with open(path, "rb") as f:
+            r = requests.post(f"{self.base}/sendPhoto", timeout=60,
+                              data={"chat_id": self.chat_id, "caption": caption[:1024], "parse_mode": "HTML"},
+                              files={"photo": f})
+        return self._check("sendPhoto", r)
+
+    def send_album_files(self, paths, caption: str = ""):
+        import json
+        files, media = {}, []
+        for i, path in enumerate(list(paths)[:10]):
+            files[f"p{i}"] = open(path, "rb")
+            item = {"type": "photo", "media": f"attach://p{i}"}
+            if i == 0:
+                item.update(caption=caption[:1024], parse_mode="HTML")
+            media.append(item)
+        try:
+            r = requests.post(f"{self.base}/sendMediaGroup", timeout=90,
+                              data={"chat_id": self.chat_id, "media": json.dumps(media)}, files=files)
+        finally:
+            for f in files.values():
+                f.close()
+        return self._check("sendMediaGroup", r)
+
+    @staticmethod
+    def _check(method, r):
+        data = r.json()
+        if not data.get("ok"):
+            raise RuntimeError(f"Telegram {method} failed: {data.get('description')}")
+        return data["result"]
+
     def edit_text(self, message_id: int, text: str):
         try:
             self._call("editMessageText", chat_id=self.chat_id, message_id=message_id,

@@ -120,9 +120,27 @@ def collect(settings: dict, state: dict) -> list[Story]:
     return fresh[:60]
 
 
+def resolve_google_link(url: str) -> str:
+    """Google News links are redirects; turn them into the publisher's real article URL (best effort)."""
+    if "news.google.com" not in url:
+        return url
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        res = gnewsdecoder(url, interval=1)
+        if res.get("status") and res.get("decoded_url"):
+            return res["decoded_url"]
+    except Exception as ex:
+        print(f"[bot] Couldn't resolve Google News link: {ex}", flush=True)
+    return url
+
+
 def fetch_article_text(story: Story, limit: int = 6000) -> str:
     """Best-effort download of the article text so the AI has real facts to work from."""
     try:
+        if story.via_google:
+            real = resolve_google_link(story.url)
+            if real != story.url:
+                story.url = real          # also gives the draft a direct source link
         r = requests.get(story.url, headers={"User-Agent": UA}, timeout=TIMEOUT, allow_redirects=True)
         if r.status_code != 200 or "news.google.com" in r.url:
             return ""

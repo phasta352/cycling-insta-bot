@@ -250,8 +250,7 @@ class Bot:
             if made >= room:
                 break
             story = candidates[pick["i"]]
-            if not story.via_google:
-                story.text = sources.fetch_article_text(story)
+            story.text = sources.fetch_article_text(story)
             log(f"Writing ({pick['score']}/10): {story.title} | article text: {len(story.text)} chars")
             post = editor.write(story, pick["category"])
             if not post:
@@ -260,8 +259,14 @@ class Bot:
                 if "skip" not in editor.last_error:
                     self.state["seen"].pop(story.key, None)   # technical failure: try again next scout
                 continue
+            try:
+                self.make_draft(story, post, pick["score"])
+            except Exception as ex:
+                log(f"  -> draft failed: {ex}")
+                failures.append((story.title, f"error while making the draft: {ex}"))
+                self.state["seen"].pop(story.key, None)   # try again next scout
+                continue
             log(f"  -> drafted with {len(post.get('slides') or [])} story slides")
-            self.make_draft(story, post, pick["score"])
             made += 1
 
         if forced and made == 0:
@@ -292,10 +297,12 @@ class Bot:
         slides = post.get("slides") or []
         cover = design.render(post["headline"], post["category"], story.source, self.settings,
                               handle, OUT / f"{did}-0.jpg", swipe=bool(slides))
+        paths = [cover]
         image_urls = [storage.upload(cover, f"{did}-0")]
         for n, sl in enumerate(slides, start=2):
             path = design.render_slide(n, len(slides) + 1, sl["title"], sl["text"], story.source,
                                        self.settings, handle, OUT / f"{did}-{n - 1}.jpg")
+            paths.append(path)
             image_urls.append(storage.upload(path, f"{did}-{n - 1}"))
         image_url = image_urls[0]
         tags = " ".join("#" + t for t in post["hashtags"])
@@ -305,7 +312,6 @@ class Bot:
             "source": story.source, "image_url": image_url, "image_urls": image_urls, "full_caption": full_caption,
             "alt_text": post.get("alt_text", ""), "score": score,
         }
-        self.state["drafts_sent"].append(time.time())
 
         rumour = "" if post.get("confirmed", True) else "\n⚠️ <b>Not officially confirmed</b>"
         note = f"\n📝 {esc(post['note'])}" if post.get("note") else ""
@@ -313,13 +319,14 @@ class Bot:
         info = (f"<b>{esc(post['category'])}</b> · score {score}/10 · {kind}\n"
                 f"<a href=\"{esc(story.url)}\">{esc(story.source)}: read the source</a>")
         if len(image_urls) > 1:
-            self.tg.send_album(image_urls, info)
+            self.tg.send_album_files(paths, info)
         else:
-            self.tg.send_photo(image_url, info)
+            self.tg.send_photo_file(paths[0], info)
 
         if not self.settings["approval"]["required"]:
             draft["post_now"] = False
             self.state["queue"].append(draft)
+            self.state["drafts_sent"].append(time.time())
             self.tg.send(f"🤖 Queued automatically:\n\n{esc(full_caption)}{rumour}{note}")
             return
 
@@ -329,6 +336,7 @@ class Bot:
         msg = self.tg.send(f"{esc(full_caption)}{rumour}{note}", buttons=buttons)
         draft["text_message_id"] = msg["message_id"]
         self.state["drafts"][did] = draft
+        self.state["drafts_sent"].append(time.time())
 
     # ---------- main ----------
     def run(self):
