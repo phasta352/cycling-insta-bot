@@ -55,7 +55,7 @@ def _outro(settings, handle):
     line1 = f"Follow {handle}" if handle else "Follow for more"
     d.text(((RW - d.textlength(line1, font=f1)) // 2, y), line1, font=f1, fill=colors["accent"])
     f2 = design.regular_font(40)
-    line2 = "for daily cycling news"
+    line2 = settings["page"].get("tagline", "for daily news")
     d.text(((RW - d.textlength(line2, font=f2)) // 2, y + 90), line2, font=f2, fill=colors["muted"])
     return img.convert("RGB")
 
@@ -77,17 +77,18 @@ def pick_music(duration, seed, out_dir: Path) -> str:
     return music.make_track(duration + 0.5, out_dir / f"music-{seed}.wav", seed=seed)
 
 
-def make_reel(headline, category, source, slides, settings, handle, out_path: Path, seed: int = 0) -> Path:
+def make_reel(headline, category, source, slides, settings, handle, out_path: Path, seed: int = 0,
+              background=None) -> Path:
     """Build a vertical Reel: cover, story slides ([{title, text}]) and an outro card, with music."""
     work = out_path.parent
     work.mkdir(parents=True, exist_ok=True)
     stem = out_path.stem
     with design.reel_format():
         frames = [design.render(headline, category, source, settings, handle, work / f"{stem}-r0.jpg",
-                                swipe=False)]
+                                swipe=False, background=background)]
         for n, sl in enumerate(slides, start=2):
             frames.append(design.render_slide(n, len(slides) + 1, sl["title"], sl["text"], source, settings,
-                                              handle, work / f"{stem}-r{n - 1}.jpg"))
+                                              handle, work / f"{stem}-r{n - 1}.jpg", background=background))
     images = [Image.open(p).convert("RGB") for p in frames]
     durations = _durations(len(images), [sl["text"] for sl in slides])
     total_s = sum(durations)

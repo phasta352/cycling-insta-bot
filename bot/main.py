@@ -6,12 +6,16 @@ Each run:
   3. every few hours, looks for new stories and sends you drafts.
 """
 import datetime as dt
+import hashlib
+import random
 import sys
 import time
 import traceback
 import uuid
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+import requests
 
 from . import design, reel, sources, state as state_mod, storage
 from .config import ROOT, load_secrets, load_settings
@@ -43,7 +47,8 @@ class Bot:
         self.tg = Telegram(self.secrets.telegram_token, self.secrets.telegram_chat_id)
         self.ig = Instagram(self.secrets.ig_user_id, self.secrets.ig_token,
                             self.settings["instagram"].get("api_version", "v25.0"))
-        storage.configure(self.secrets)
+        storage.configure(self.secrets, self.settings)
+        self._bg_urls = None
 
     # ---------- helpers ----------
     def now_local(self):
@@ -304,17 +309,49 @@ class Bot:
                 lines.append(f"⚠️ {n_errors} sources failed: send /status for details.")
             self.tg.send("\n".join(lines))
 
+    def pick_background(self):
+        """A random screenshot from the Cloudinary folder set in config.yaml (not one used recently)."""
+        cfg = self.settings["design"].get("background_images") or {}
+        folder = cfg.get("cloudinary_folder")
+        if not folder:
+            return None
+        if self._bg_urls is None:
+            try:
+                self._bg_urls = storage.list_images(folder)
+                log(f"Background images in '{folder}': {len(self._bg_urls)}")
+            except Exception as ex:
+                log(f"Couldn't list background images: {ex}")
+                self._bg_urls = []
+        if not self._bg_urls:
+            return None
+        recent = self.state.setdefault("recent_backgrounds", [])
+        url = random.choice([u for u in self._bg_urls if u not in recent] or self._bg_urls)
+        recent.append(url)
+        del recent[:-max(1, min(30, len(self._bg_urls) // 2))]
+        path = OUT / f"bg-{hashlib.sha1(url.encode()).hexdigest()[:10]}.jpg"
+        if not path.exists():
+            OUT.mkdir(parents=True, exist_ok=True)
+            r = requests.get(url, timeout=60)
+            r.raise_for_status()
+            path.write_bytes(r.content)
+        return path
+
     def make_draft(self, story, post, score):
         did = uuid.uuid4().hex[:10]
         handle = self.handle()
         slides = post.get("slides") or []
+        try:
+            background = self.pick_background()
+        except Exception as ex:
+            log(f"  -> no background image: {ex}")
+            background = None
         cover = design.render(post["headline"], post["category"], story.source, self.settings,
-                              handle, OUT / f"{did}-0.jpg", swipe=bool(slides))
+                              handle, OUT / f"{did}-0.jpg", swipe=bool(slides), background=background)
         paths = [cover]
         image_urls = [storage.upload(cover, f"{did}-0")]
         for n, sl in enumerate(slides, start=2):
             path = design.render_slide(n, len(slides) + 1, sl["title"], sl["text"], story.source,
-                                       self.settings, handle, OUT / f"{did}-{n - 1}.jpg")
+                                       self.settings, handle, OUT / f"{did}-{n - 1}.jpg", background=background)
             paths.append(path)
             image_urls.append(storage.upload(path, f"{did}-{n - 1}"))
         image_url = image_urls[0]
@@ -329,7 +366,7 @@ class Bot:
                     log("  -> making a Reel")
                     reel_path = reel.make_reel(post["headline"], post["category"], story.source, slides,
                                                self.settings, handle, OUT / f"{did}-reel.mp4",
-                                               seed=int(did[:6], 16))
+                                               seed=int(did[:6], 16), background=background)
                     reel_url = storage.upload_video(reel_path, f"{did}-reel")
                 except Exception as ex:
                     log(f"  -> Reel failed: {ex}")

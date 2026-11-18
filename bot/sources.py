@@ -1,4 +1,4 @@
-"""Collects fresh cycling stories from RSS feeds and Google News."""
+"""Collects fresh stories from RSS feeds and Google News."""
 import calendar
 import hashlib
 import html
@@ -115,6 +115,11 @@ def collect(settings: dict, state: dict) -> list[Story]:
             errors[f"Google News: {q}"] = str(ex)[:200]
 
     state["feed_errors"] = errors
+    # Optional keyword filter, for general feeds that cover more than this page's topic.
+    keywords = [k.lower() for k in cfg.get("keywords", [])]
+    if keywords:
+        stories = {k: s for k, s in stories.items()
+                   if any(w in f"{s.title} {s.summary}".lower() for w in keywords)}
     fresh = [s for s in stories.values() if s.key not in state["seen"]]
     fresh.sort(key=lambda s: s.published, reverse=True)
     return fresh[:60]

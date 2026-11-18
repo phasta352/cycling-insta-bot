@@ -85,7 +85,7 @@ def _fit_headline(draw, text, max_width, max_height):
     return font, lines, 60
 
 
-def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
+def _base(settings: dict, deco_wheel: bool = True, handle: str = "", background=None, bg_style: str = "cover"):
     """Background, gradient, optional decoration, top bar and logo. Returns (img, draw, colors, logo)."""
     d = settings["design"]
     colors = {k: _hex(d[k]) for k in ("background", "accent", "text", "muted")}
@@ -102,6 +102,14 @@ def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
         except Exception:
             logo = None
 
+    # Optional photo background (e.g. your own game screenshots), darkened so text stays readable.
+    if background:
+        try:
+            img = _photo_background(background, colors["background"], bg_style)
+        except Exception as ex:
+            print(f"[bot] Couldn't use background image {background}: {ex}", flush=True)
+            background = None
+
     # Soft vertical gradient for depth.
     grad = Image.new("RGBA", (W, H))
     gd = ImageDraw.Draw(grad)
@@ -110,7 +118,7 @@ def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
     img = Image.alpha_composite(img, grad)
 
     # Decorative "wheel": a faint road wheel (tyre, deep aero rim, bladed spokes, hub, disc rotor) top-right.
-    if deco_wheel:
+    if deco_wheel and not background and d.get("decoration", "wheel") == "wheel":
         img = Image.alpha_composite(img, _wheel(accent))
 
     draw = ImageDraw.Draw(img)
@@ -123,8 +131,30 @@ def _base(settings: dict, deco_wheel: bool = True, handle: str = ""):
     # Top right: the @handle.
     if handle:
         hf = regular_font(30)
-        draw.text((W - MARGIN - draw.textlength(handle, font=hf), TOP_PAD + MARGIN + 6), handle, font=hf, fill=colors["muted"])
+        draw.text((W - MARGIN - draw.textlength(handle, font=hf), TOP_PAD + MARGIN + 6), handle, font=hf,
+                  fill=fg if background else colors["muted"])   # white over photos for contrast
     return img, draw, colors, logo
+
+
+def _photo_background(path, bg_color, style):
+    from PIL import ImageFilter
+    photo = Image.open(path).convert("RGB")
+    # scale to cover the whole canvas, then crop the middle
+    scale = max(W / photo.width, H / photo.height)
+    photo = photo.resize((int(photo.width * scale) + 1, int(photo.height * scale) + 1), Image.LANCZOS)
+    left, top = (photo.width - W) // 2, (photo.height - H) // 2
+    photo = photo.crop((left, top, left + W, top + H)).convert("RGBA")
+    if style == "slide":
+        photo = photo.filter(ImageFilter.GaussianBlur(14))
+    overlay = Image.new("RGBA", (W, H))
+    od = ImageDraw.Draw(overlay)
+    for y in range(H):
+        if style == "slide":
+            a = 0.84
+        else:   # cover: lighter at the top, darker where the headline sits
+            a = 0.25 + 0.70 * (y / H) ** 0.8
+        od.line([(0, y), (W, y)], fill=bg_color[:3] + (int(255 * a),))
+    return Image.alpha_composite(photo, overlay)
 
 
 def _wheel(accent):
@@ -191,9 +221,9 @@ def _save(img, out_path: Path) -> Path:
 
 
 def render(headline: str, category: str, source: str, settings: dict, handle: str, out_path: Path,
-           swipe: bool = False) -> Path:
+           swipe: bool = False, background=None) -> Path:
     """The cover / single-image post: category tag + big headline."""
-    img, draw, colors, logo = _base(settings, handle=handle)
+    img, draw, colors, logo = _base(settings, handle=handle, background=background, bg_style="cover")
     bg, accent, fg = colors["background"], colors["accent"], colors["text"]
     footer_top = _footer(draw, colors, source, handle, logo, right_text="Swipe for the story  →" if swipe else None)
 
@@ -215,9 +245,9 @@ def render(headline: str, category: str, source: str, settings: dict, handle: st
 
 
 def render_slide(number: int, total: int, title: str, text: str, source: str, settings: dict,
-                 handle: str, out_path: Path) -> Path:
+                 handle: str, out_path: Path, background=None) -> Path:
     """A story slide in a carousel: slide counter, short title and body text."""
-    img, draw, colors, logo = _base(settings, deco_wheel=False, handle=handle)
+    img, draw, colors, logo = _base(settings, deco_wheel=False, handle=handle, background=background, bg_style="slide")
     accent, fg = colors["accent"], colors["text"]
     last = number == total
     footer_top = _footer(draw, colors, source, handle, logo,
@@ -258,7 +288,7 @@ def render_slide(number: int, total: int, title: str, text: str, source: str, se
 
     # Last slide: a follow prompt just above the footer, if there's room.
     if last and handle:
-        cta = f"Follow {handle} for daily cycling news"
+        cta = f"Follow {handle} {settings['page'].get('tagline', 'for daily news')}"
         cf2 = bold_font(36)
         if draw.textlength(cta, font=cf2) > max_w:
             cta = f"Follow {handle}"
