@@ -58,6 +58,12 @@ class Bot:
         return sum(1 for p in self.state["published"]
                    if dt.datetime.fromtimestamp(p["at"], self.tz).date() == today)
 
+    def drafts_today(self) -> int:
+        """Drafts sent since midnight local time (the daily cap resets at midnight)."""
+        today = self.now_local().date()
+        return sum(1 for t in self.state["drafts_sent"]
+                   if dt.datetime.fromtimestamp(t, self.tz).date() == today)
+
     def handle(self) -> str:
         h = self.settings["page"].get("handle") or self.state.get("ig_handle")
         if not h:
@@ -196,11 +202,16 @@ class Bot:
         sch = self.settings["schedule"]
         start, end = sch["posting_hours"]
         if not (start - 1 <= self.now_local().hour <= end - 1):
+            log(f"Not scouting: outside scouting hours ({start - 1}:00-{end - 1}:59 local)")
             return False
         if time.time() - self.state["last_scout"] < sch["scout_every_hours"] * 3600 - 300:
+            log("Not scouting: last news check was less than "
+                f"{sch['scout_every_hours']} h ago")
             return False
-        sent_24h = sum(1 for t in self.state["drafts_sent"] if time.time() - t < 86400)
-        return sent_24h < sch["max_drafts_per_day"]
+        if self.drafts_today() >= sch["max_drafts_per_day"]:
+            log(f"Not scouting: daily draft limit reached ({sch['max_drafts_per_day']})")
+            return False
+        return True
 
     def scout(self):
         from .editor import Editor  # imported here so status-only runs stay fast
@@ -222,8 +233,7 @@ class Bot:
         recent = [p["headline"] for p in self.state["published"]]
         recent += [d["headline"] for d in self.state["drafts"].values()]
         recent += [d["headline"] for d in self.state["queue"]]
-        sent_24h = sum(1 for t in self.state["drafts_sent"] if time.time() - t < 86400)
-        room = min(sch["drafts_per_scout"], sch["max_drafts_per_day"] - sent_24h)
+        room = min(sch["drafts_per_scout"], sch["max_drafts_per_day"] - self.drafts_today())
         picks = editor.select(candidates, recent, room)
         log(f"Found {len(candidates)} new stories; {len(picks)} passed the score bar")
 
