@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 0,
+  "telegram_offset": 989436742,
   "paused": false,
   "force_scout": false,
   "last_scout": 1794987033.3186965,
@@ -125,25 +125,18 @@
       "alt_text": "News graphic with the headline 'Lutsenko returns to XDS Astana as head coach' under a Team News label.",
       "score": 8,
       "text_message_id": 45
-    },
-    "342d370ae9": {
-      "id": "342d370ae9",
-      "created": 1794987058.057815,
-      "headline": "New Canary Islands season opener called off after seven weeks",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/just-seven-weeks-after-launching-the-new-season-opening-canary-islands-race-has-been-called-off/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794987057/cycling-bot/342d370ae9-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794987057/cycling-bot/342d370ae9-0.jpg"
-      ],
-      "full_caption": "The new season-opening race in the Canary Islands has been called off, just seven weeks after it was launched.\n\nOrganisers say they will use next year to put the required organisational, logistical and safety conditions in place. The aim is now to debut the event in 2028.\n\nThe delay is a setback for a race that was meant to give the calendar a fresh start-of-season option in the Canary Islands.\n\nShould a new race wait until everything is ready, or was this announced too early?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #cyclingnews #CanaryIslands #seasonopener #racecalendar #ProTeam #peloton",
-      "alt_text": "News graphic with the headline that the new Canary Islands season-opening cycling race has been called off and will aim to debut in 2028.",
-      "score": 7,
-      "text_message_id": 47
     }
   },
   "queue": [],
-  "published": [],
+  "published": [
+    {
+      "id": "342d370ae9",
+      "headline": "New Canary Islands season opener called off after seven weeks",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/just-seven-weeks-after-launching-the-new-season-opening-canary-islands-race-has-been-called-off/",
+      "at": 1794987183.0109816,
+      "media_id": "18652817581044483"
+    }
+  ],
   "drafts_sent": [
     1794985353.7576106,
     1794985367.198063,
