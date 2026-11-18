@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436746,
+  "telegram_offset": 989436747,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795001915.480715,
@@ -139,28 +139,6 @@
   },
   "queue": [
     {
-      "id": "db1ea2c097",
-      "created": 1794994835.486639,
-      "headline": "Pogačar ends off-season: 'Now time to get serious'",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/now-time-to-get-serious-tadej-pogacar-wraps-up-off-season-of-travelling-running-and-fellow-pros-wedding-as-2027-preparations-set-to-begin/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794994802/cycling-bot/db1ea2c097-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794994802/cycling-bot/db1ea2c097-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794994802/cycling-bot/db1ea2c097-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794994803/cycling-bot/db1ea2c097-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794994803/cycling-bot/db1ea2c097-3.jpg"
-      ],
-      "full_caption": "Tadej Pogačar has called time on his off-season and is turning his attention to 2027.\n\nThe Slovenian ended his 2026 campaign early after crashing out of the Vuelta. He now heads to a UAE Team Emirates-XRG training camp in south-east Spain next month, and his full 2027 plan is due to be confirmed there in mid-December. The UAE Tour in February is expected to be his return to racing.\n\nWhich race will matter most to him in 2027?\n\nSource: Cyclingnews\n\n#Pogacar #TadejPogacar #UAETeamEmiratesXRG #UAETour #TourdeFrance #Vuelta #WorldChampionships #ProCycling #Cycling #WorldTour",
-      "alt_text": "Graphic with the headline 'Pogačar ends off-season: Now time to get serious' for a cycling news post about Tadej Pogačar's 2027 preparations.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1794994834/cycling-bot/db1ea2c097-reel.mp4",
-      "text_message_id": 61,
-      "kind": "reel",
-      "post_now": false,
-      "approved_at": 1794994987.084755
-    },
-    {
       "id": "563d55310a",
       "created": 1794998368.1755207,
       "headline": "Van Aert seeks €400 in Belgian data privacy case",
@@ -192,6 +170,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/now-time-to-get-serious-tadej-pogacar-wraps-up-off-season-of-travelling-running-and-fellow-pros-wedding-as-2027-preparations-set-to-begin/",
       "at": 1794995015.6495593,
       "media_id": "18122144506978130"
+    },
+    {
+      "id": "db1ea2c097",
+      "headline": "Pogačar ends off-season: 'Now time to get serious'",
+      "kind": "reel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/now-time-to-get-serious-tadej-pogacar-wraps-up-off-season-of-travelling-running-and-fellow-pros-wedding-as-2027-preparations-set-to-begin/",
+      "at": 1795003954.3912725,
+      "media_id": "18111539969228666"
     }
   ],
   "drafts_sent": [
