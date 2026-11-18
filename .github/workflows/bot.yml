@@ -2,7 +2,7 @@ name: Cycling news bot
 
 on:
   schedule:
-    - cron: "*/30 6-21 * * *"
+    - cron: "7,37 6-21 * * *"
   workflow_dispatch:
     inputs:
       mode:
