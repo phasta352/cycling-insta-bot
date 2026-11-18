@@ -2,6 +2,9 @@ name: Cycling news bot
 
 on:
   schedule:
+    # Twice an hour (at :07 and :37) from 06:07 to 21:37 UTC (07:07-22:37 in Luxembourg in winter).
+    # Off the hour on purpose: GitHub delays or drops scheduled runs set for :00 and :30.
+    # Times are UTC. About 32 runs a day, roughly 1,000-1,400 of your 2,000 free minutes a month.
     - cron: "7,37 6-21 * * *"
   workflow_dispatch:
     inputs:
@@ -12,7 +15,7 @@ on:
         default: run
 
 permissions:
-  contents: write
+  contents: write    # needed to save the bot's memory (state/state.json)
 
 concurrency:
   group: cycling-bot
@@ -31,7 +34,9 @@ jobs:
           cache: pip
 
       - name: Install
-        run: pip install -q -r requirements.txt
+        run: |
+          pip install -q -r requirements.txt
+          pip install -q googlenewsdecoder || echo "optional Google News link decoder not installed"
 
       - name: Headline font (optional)
         run: |
