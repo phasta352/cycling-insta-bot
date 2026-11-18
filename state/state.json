@@ -2,7 +2,7 @@
   "telegram_offset": 989436748,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795009131.8208258,
+  "last_scout": 1795012759.4148028,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -112,7 +112,16 @@
     "fd1e1fc50024b5bb": 1795009138.7366364,
     "b53e2fff67db128f": 1795009138.7366364,
     "750a218c55abe1b7": 1795009138.7366364,
-    "07184e1e0c8e3fa3": 1795009138.7366364
+    "07184e1e0c8e3fa3": 1795009138.7366364,
+    "cfd5f606504f49d0": 1795012767.5767663,
+    "2d98febf3da194eb": 1795012767.5767663,
+    "3aec1d52d80765d9": 1795012767.5767663,
+    "39c37bd34c349ba6": 1795012767.5767663,
+    "992076a3dba1723a": 1795012767.5767663,
+    "e641c3eac4dd2cb2": 1795012767.5767663,
+    "6876bf70c8acae45": 1795012767.5767663,
+    "f3ff980b15101fdd": 1795012767.5767663,
+    "1409b046d191a5d1": 1795012767.5767663
   },
   "drafts": {
     "959aa59949": {
@@ -132,31 +141,7 @@
       "text_message_id": 55
     }
   },
-  "queue": [
-    {
-      "id": "563d55310a",
-      "created": 1794998368.1755207,
-      "headline": "Van Aert seeks €400 in Belgian data privacy case",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-seeking-damages-in-bizarre-case-of-belgian-municipal-employee-who-illegally-accessed-personal-information-of-30-pro-cyclists/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998364/cycling-bot/563d55310a-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998365/cycling-bot/563d55310a-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998366/cycling-bot/563d55310a-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998367/cycling-bot/563d55310a-4.jpg"
-      ],
-      "full_caption": "Wout van Aert is a civil party in a Belgian data protection case.\n\nA municipal employee accessed personal data of about 30 cyclists, including Van Aert, Evenepoel and Van der Poel. Prosecutors in Mons have asked for 120 hours of community service. Van Aert and his wife are seeking a symbolic €400, which would go to charity.\n\nShould riders' personal data get stronger protection? 👇\n\nSource: Cyclingnews\n\n#WoutvanAert #RemcoEvenepoel #MathieuvanderPoel #GregVanAvermaet #ProCycling #WorldTour #CyclingNews #RoadCycling #Belgium #CyclingNewsToday",
-      "alt_text": "News graphic with the headline that Wout van Aert is seeking €400 in damages in a Belgian data privacy court case.",
-      "score": 7,
-      "reel_url": null,
-      "text_message_id": 70,
-      "kind": "carousel",
-      "post_now": false,
-      "approved_at": 1794998794.4351523
-    }
-  ],
+  "queue": [],
   "published": [
     {
       "id": "db1ea2c097",
@@ -173,6 +158,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/now-time-to-get-serious-tadej-pogacar-wraps-up-off-season-of-travelling-running-and-fellow-pros-wedding-as-2027-preparations-set-to-begin/",
       "at": 1795003954.3912725,
       "media_id": "18111539969228666"
+    },
+    {
+      "id": "563d55310a",
+      "headline": "Van Aert seeks €400 in Belgian data privacy case",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-seeking-damages-in-bizarre-case-of-belgian-municipal-employee-who-illegally-accessed-personal-information-of-30-pro-cyclists/",
+      "at": 1795012757.0360246,
+      "media_id": "18003295437010154"
     }
   ],
   "drafts_sent": [
