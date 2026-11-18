@@ -7,6 +7,7 @@
 page:
   name: "Cycling News Today"     # shown on every graphic
   handle: ""                     # e.g. "@cyclingnewstoday". Leave empty to read it from Instagram automatically
+  tagline: "for daily cycling news"   # used in "Follow @handle ..." on the last slide and Reel outro
   language: "English"
   tone: >
     Straight, factual sports-news voice, like a professional cycling outlet.
@@ -47,12 +48,18 @@ reels:
   # Music: put your own licensed MP3s in assets/music/ and the bot picks one per Reel.
   # With no files there, it generates an original royalty-free track for each Reel.
 
+cloudinary:
+  upload_folder: "cycling-bot"    # where the bot saves the graphics and Reels it makes
+
 design:
   background: "#0B1F33"           # dark navy
   accent: "#F5C400"               # yellow-jersey yellow
   text: "#FFFFFF"
   muted: "#9FB3C8"
   logo: "assets/logo.png"         # optional square PNG; skipped if the file doesn't exist
+  decoration: "wheel"             # the faint aero wheel on covers ("none" to remove it)
+  # background_images:            # optional: your own photos as backgrounds
+  #   cloudinary_folder: "cycling-photos"
 
 instagram:
   api_version: "v25.0"

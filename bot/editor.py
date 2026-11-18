@@ -4,7 +4,10 @@ import re
 
 import anthropic
 
-CATEGORIES = ["RACE NEWS", "RESULT", "TRANSFER", "TEAM NEWS", "RIDER NEWS", "GEAR & TECH", "UCI", "BREAKING"]
+# Default categories (cycling). A page can set its own list under ai.categories in config.yaml.
+DEFAULT_CATEGORIES = ["RACE NEWS", "RESULT", "TRANSFER", "TEAM NEWS", "RIDER NEWS", "GEAR & TECH", "UCI", "BREAKING"]
+DEFAULT_PRIORITIES = ("Prefer big names, big races, official announcements, results, transfers and "
+                      "notable product launches.")
 
 
 class Editor:
@@ -12,6 +15,7 @@ class Editor:
         self.client = anthropic.Anthropic(api_key=api_key)
         self.settings = settings
         self.model = settings["ai"]["model"]
+        self.categories = settings["ai"].get("categories") or DEFAULT_CATEGORIES
         self.last_scores = []
         self.last_error = ""
         self.last_stop = ""
@@ -44,8 +48,8 @@ class Editor:
         recent = "\n".join(f"- {h}" for h in recent_headlines[-30:]) or "(none yet)"
         system = self._brief() + (
             "\nYour job: choose which news stories would make the most engaging, shareable "
-            "Instagram posts for cycling fans today. Prefer big names, big races, official "
-            "announcements, results, transfers and notable product launches. Several headlines "
+            f"Instagram posts for {self.settings['page'].get('audience', 'cycling fans')} today. "
+            f"{self.settings['page'].get('priorities', DEFAULT_PRIORITIES).strip()} Several headlines "
             "may describe the same event: treat them as one and pick the most informative. "
             "Never pick a story the page has already covered. Reply with JSON only."
         )
@@ -54,7 +58,7 @@ class Editor:
             f"Candidate headlines:\n" + "\n".join(lines) + "\n\n"
             "Return a JSON list of the stories worth posting, best first, at most "
             f"{limit + 3} items. Each item: {{\"i\": <index>, \"score\": <1-10 engagement score>, "
-            f"\"category\": one of {CATEGORIES}, \"duplicates\": [<up to 5 indexes of other headlines about the same event>]}}. "
+            f"\"category\": one of {self.categories}, \"duplicates\": [<up to 5 indexes of other headlines about the same event>]}}. "
             "Keep it compact: no explanations, no text outside the JSON. "
             "Return [] if nothing is worth posting."
         )
@@ -81,7 +85,7 @@ class Editor:
                 i = int(item["i"])
                 if 0 <= i < len(stories) and int(item.get("score", 0)) >= min_score:
                     picks.append({"i": i, "score": int(item["score"]),
-                                  "category": str(item.get("category", "RACE NEWS")).upper(),
+                                  "category": str(item.get("category", self.categories[0])).upper(),
                                   "duplicates": [int(d) for d in item.get("duplicates", []) if str(d).isdigit()]})
             except (KeyError, ValueError, TypeError):
                 continue
@@ -117,7 +121,7 @@ class Editor:
             f"Material:\n{facts}\n\n"
             "Return a JSON object with:\n"
             "- \"headline\": punchy headline for the graphic, max 70 characters, no emoji, no hashtags\n"
-            f"- \"category\": short label, one of {CATEGORIES} (suggested: {category})\n"
+            f"- \"category\": short label, one of {self.categories} (suggested: {category})\n"
             "- \"caption\": Instagram caption: a strong first line, then 2-4 short sentences explaining "
             "the news and why it matters, then a question to invite comments. Max 900 characters. "
             "End with a line \"Source: <publication name>\". No hashtags in the caption\n"
