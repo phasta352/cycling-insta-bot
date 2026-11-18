@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436747,
+  "telegram_offset": 989436748,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795001915.480715,
@@ -119,22 +119,6 @@
       "score": 8,
       "reel_url": null,
       "text_message_id": 55
-    },
-    "bf476d4dfd": {
-      "id": "bf476d4dfd",
-      "created": 1794998352.1788208,
-      "headline": "TotalEnergies Backs Vollering's Team in Women's WorldTour",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDY0Qnh3ZWZEa1lJUzNQMndVOWFoX2JzaFJaZlk5aGc4UE93TVNCVklHd0JuYXZJakJxaE9rR0dOZ21SUUN2Q2J0Yjc3OUVsVGlHNjBaUzNtbHRTVkF4WWlpNG9WelVjNkZyb25jNFF3X001TFMwd0M0NmZCa1Utd3NPQWZpVVQ5bTh6bzk1VFozMF80czNn?oc=5",
-      "source": "TodoMountainBike",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998351/cycling-bot/bf476d4dfd-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794998351/cycling-bot/bf476d4dfd-0.jpg"
-      ],
-      "full_caption": "TotalEnergies is entering the Women's WorldTour.\n\nThe company has signed a five-year sponsorship of the team of Demi Vollering, according to TodoMountainBike. A commitment of that length gives the team long-term backing in the top tier of women's road racing.\n\nFurther details of the deal were not available at the time of posting.\n\nWhat would a five-year backer mean for the team's ambitions?\n\nSource: TodoMountainBike\n\n#WomensWorldTour #DemiVollering #TotalEnergies #WomensCycling #ProCycling #RoadCycling #CyclingNews #WorldTour #WomensPeloton",
-      "alt_text": "News graphic announcing TotalEnergies' five-year sponsorship of Demi Vollering's team in the Women's WorldTour.",
-      "score": 8,
-      "reel_url": null,
-      "text_message_id": 64
     }
   },
   "queue": [
