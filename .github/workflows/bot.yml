@@ -1,11 +1,10 @@
 name: Cycling news bot
 
 on:
-  schedule:
-    # Twice an hour (at :07 and :37) from 06:07 to 21:37 UTC (07:07-22:37 in Luxembourg in winter).
-    # Off the hour on purpose: GitHub delays or drops scheduled runs set for :00 and :30.
-    # Times are UTC. About 32 runs a day, roughly 1,000-1,400 of your 2,000 free minutes a month.
-    - cron: "7,37 6-21 * * *"
+  # Runs are started by the Cloudflare Worker (every :07 and :37, and right after you
+  # press a Telegram button). To go back to GitHub's own timer, put these lines back:
+  # schedule:
+  #   - cron: "7,37 6-21 * * *"
   workflow_dispatch:
     inputs:
       mode:
