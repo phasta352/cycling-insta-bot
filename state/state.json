@@ -2,7 +2,7 @@
   "telegram_offset": 0,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1794985336.6328712,
+  "last_scout": 1794987033.3186965,
   "seen": {
     "49a9d6bed95edc00": 1794985342.8121426,
     "cd351b3ea91b7237": 1794985342.8121426,
@@ -63,7 +63,37 @@
     "b7b73439920ddfaa": 1794985342.8121426,
     "fbf9fbc89755f4b5": 1794985342.8121426,
     "25f9d8d75916e8ff": 1794985342.8121426,
-    "57d68ff462c9b56b": 1794985342.8121426
+    "57d68ff462c9b56b": 1794985342.8121426,
+    "1409b046d191a5d1": 1794987042.3348298,
+    "636c38fbfb2c03ac": 1794987042.3348298,
+    "07184e1e0c8e3fa3": 1794987042.3348298,
+    "f929d677a37db43f": 1794987042.3348298,
+    "9d065d8b389666e6": 1794987042.3348298,
+    "10f1a2f4dac5448e": 1794987042.3348298,
+    "805afdab1b441729": 1794987042.3348298,
+    "0e4f0ddb0249fbc3": 1794987042.3348298,
+    "908eab2c4f8c47d8": 1794987042.3348298,
+    "911784a3d25ba770": 1794987042.3348298,
+    "f87470a66c13f70b": 1794987042.3348298,
+    "1bdae1127848b594": 1794987042.3348298,
+    "9bb3321453fdaba4": 1794987042.3348298,
+    "f1623e9a46f5e937": 1794987042.3348298,
+    "7408fe266d078fb2": 1794987042.3348298,
+    "df72303a85a266aa": 1794987042.3348298,
+    "e38331ad98381b67": 1794987042.3348298,
+    "967cc175c82f961a": 1794987042.3348298,
+    "4900da4f73024aa7": 1794987042.3348298,
+    "62e5577c20089e45": 1794987042.3348298,
+    "1149ad38ed94a81f": 1794987042.3348298,
+    "adb064cd08a25e7d": 1794987042.3348298,
+    "821d2289ca07a55e": 1794987042.3348298,
+    "14e2253281b5027c": 1794987042.3348298,
+    "96b4c5b4bf386ba2": 1794987042.3348298,
+    "dcb6e4129d0855af": 1794987042.3348298,
+    "d4e2e1b5cd5599b0": 1794987042.3348298,
+    "d86f8b2959e824a1": 1794987042.3348298,
+    "22963975cea2b3e2": 1794987042.3348298,
+    "0cec99ce40fbe8f3": 1794987042.3348298
   },
   "drafts": {
     "8e3f5a725b": {
@@ -95,13 +125,29 @@
       "alt_text": "News graphic with the headline 'Lutsenko returns to XDS Astana as head coach' under a Team News label.",
       "score": 8,
       "text_message_id": 45
+    },
+    "342d370ae9": {
+      "id": "342d370ae9",
+      "created": 1794987058.057815,
+      "headline": "New Canary Islands season opener called off after seven weeks",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/just-seven-weeks-after-launching-the-new-season-opening-canary-islands-race-has-been-called-off/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794987057/cycling-bot/342d370ae9-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1794987057/cycling-bot/342d370ae9-0.jpg"
+      ],
+      "full_caption": "The new season-opening race in the Canary Islands has been called off, just seven weeks after it was launched.\n\nOrganisers say they will use next year to put the required organisational, logistical and safety conditions in place. The aim is now to debut the event in 2028.\n\nThe delay is a setback for a race that was meant to give the calendar a fresh start-of-season option in the Canary Islands.\n\nShould a new race wait until everything is ready, or was this announced too early?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #cyclingnews #CanaryIslands #seasonopener #racecalendar #ProTeam #peloton",
+      "alt_text": "News graphic with the headline that the new Canary Islands season-opening cycling race has been called off and will aim to debut in 2028.",
+      "score": 7,
+      "text_message_id": 47
     }
   },
   "queue": [],
   "published": [],
   "drafts_sent": [
     1794985353.7576106,
-    1794985367.198063
+    1794985367.198063,
+    1794987059.0969243
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
