@@ -195,49 +195,6 @@
   },
   "queue": [
     {
-      "id": "2373f409b2",
-      "created": 1795023569.2032955,
-      "headline": "TotalEnergies to end Netcompany Ineos sponsorship after 2026",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/netcompany-ineos-lose-significant-sponsor-as-totalenergies-confirm-they-will-not-continue-in-2027/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023539/cycling-bot/2373f409b2-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023539/cycling-bot/2373f409b2-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023540/cycling-bot/2373f409b2-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023540/cycling-bot/2373f409b2-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023541/cycling-bot/2373f409b2-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023542/cycling-bot/2373f409b2-4.jpg"
-      ],
-      "full_caption": "TotalEnergies has confirmed it will not continue as a Netcompany Ineos sponsor in 2027.\n\nThe energy company joined the British team mid-2025 and has been prominent on its jersey, though it was not a title sponsor. It is now putting its backing into the FDJ United-Suez women's team on a five-year deal. Netcompany Ineos had said it was looking for a second co-title partner.\n\nHow should the team fill the gap?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #NetcompanIneos #TotalEnergies #FDJUnited #WomensCycling #cyclingnews #cyclingteam",
-      "alt_text": "News graphic reading that TotalEnergies will end its sponsorship of Netcompany Ineos after the 2026 season.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795023567/cycling-bot/2373f409b2-reel.mp4",
-      "category": "TEAM NEWS",
-      "slides": [
-        {
-          "title": "TotalEnergies confirms exit",
-          "text": "A TotalEnergies spokesperson told Cyclingnews the sponsorship of Netcompany Ineos will not continue beyond this season. The company thanked the team and its riders for their professionalism."
-        },
-        {
-          "title": "Two seasons on the jersey",
-          "text": "TotalEnergies joined the Ineos team half-way through 2025 and has had a prominent jersey position for around 18 months. It was not a title sponsor."
-        },
-        {
-          "title": "Backing moves to women's racing",
-          "text": "TotalEnergies is now backing the FDJ United-Suez women's team on a five-year deal. Team manager Stephen Delcourt said the agreement came together very fast, starting around the Tour de France Femmes."
-        },
-        {
-          "title": "What it means for the team",
-          "text": "Netcompany arrived this year as a major backer on a five-year deal, and Ineos gave up its sole title slot. The team had said it was seeking a second co-title partner."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 83,
-      "kind": "reel",
-      "post_now": false,
-      "approved_at": 1795024229.8127983
-    },
-    {
       "id": "a0bbb4c987",
       "created": 1795027160.1426105,
       "headline": "Roglič signs with NSN Cycling for 2027",
@@ -356,6 +313,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/netcompany-ineos-lose-significant-sponsor-as-totalenergies-confirm-they-will-not-continue-in-2027/",
       "at": 1795024266.9369352,
       "media_id": "18115463876162467"
+    },
+    {
+      "id": "2373f409b2",
+      "headline": "TotalEnergies to end Netcompany Ineos sponsorship after 2026",
+      "kind": "reel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/netcompany-ineos-lose-significant-sponsor-as-totalenergies-confirm-they-will-not-continue-in-2027/",
+      "at": 1795032559.9807117,
+      "media_id": "18136017550739538"
     }
   ],
   "drafts_sent": [
