@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436748,
+  "telegram_offset": 989436750,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795023523.4064078,
@@ -180,8 +180,10 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 76
-    },
-    "2373f409b2": {
+    }
+  },
+  "queue": [
+    {
       "id": "2373f409b2",
       "created": 1795023569.2032955,
       "headline": "TotalEnergies to end Netcompany Ineos sponsorship after 2026",
@@ -219,50 +221,12 @@
         }
       ],
       "background_url": null,
-      "text_message_id": 83
-    },
-    "71f1752e8f": {
-      "id": "71f1752e8f",
-      "created": 1795023587.5059714,
-      "headline": "Veistroffer swaps Spain for a 2,500km charity ride in Asia",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/tour-de-france-breakaway-star-heads-to-southeast-asia-for-2-500km-charity-solo-bike-trip-video/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023584/cycling-bot/71f1752e8f-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023584/cycling-bot/71f1752e8f-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023585/cycling-bot/71f1752e8f-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023585/cycling-bot/71f1752e8f-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023586/cycling-bot/71f1752e8f-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795023587/cycling-bot/71f1752e8f-4.jpg"
-      ],
-      "full_caption": "Baptiste Veistroffer is ending his offseason with a 2,500km solo ride through Vietnam and Cambodia 🚴\n\nThe Lotto-Intermarché rider, who made his Tour de France debut this year, is raising money for Molembike, a Brussels charity that uses cycling to promote social cohesion. He is donating €5,000, and Ekoï and Lotto will each add €1 per kilometre ridden.\n\nHe is documenting the trip on YouTube.\n\nWould you take on a trip like this instead of a winter training camp?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #TourdeFrance #Veistroffer #LottoIntermarche #cyclingnews #bikepacking #charityride #WorldTour",
-      "alt_text": "Graphic with the headline about Baptiste Veistroffer's 2,500km charity bike ride through Vietnam and Cambodia.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "The ride",
-          "text": "Veistroffer is riding 2,500km over 19 days through Vietnam and Cambodia on an Orbea Terra gravel bike with three panniers. Days will be 140-180km, and he must be back for a flight to Europe on December 2."
-        },
-        {
-          "title": "The charity",
-          "text": "The money goes to Molembike in Molenbeek, Brussels, which promotes social cohesion through cycling. Veistroffer donates €5,000, and Ekoï and Lotto each add €1 for every kilometre he rides."
-        },
-        {
-          "title": "Why it stands out",
-          "text": "The 26-year-old was a regular in the breakaway at his Tour de France debut. He raced 94 days and 14,248km this season, the most in the peloton, and now trades his usual Spanish winter camps for Southeast Asia."
-        },
-        {
-          "title": "Follow the trip",
-          "text": "Veistroffer is posting episodes on his YouTube channel. He has already shared one on route planning and gear, and the first episode from Vietnam. His team Lotto fully backs the project."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 89
+      "text_message_id": 83,
+      "kind": "reel",
+      "post_now": false,
+      "approved_at": 1795024229.8127983
     }
-  },
-  "queue": [],
+  ],
   "published": [
     {
       "id": "db1ea2c097",
@@ -287,6 +251,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-seeking-damages-in-bizarre-case-of-belgian-municipal-employee-who-illegally-accessed-personal-information-of-30-pro-cyclists/",
       "at": 1795012757.0360246,
       "media_id": "18003295437010154"
+    },
+    {
+      "id": "2373f409b2",
+      "headline": "TotalEnergies to end Netcompany Ineos sponsorship after 2026",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/netcompany-ineos-lose-significant-sponsor-as-totalenergies-confirm-they-will-not-continue-in-2027/",
+      "at": 1795024266.9369352,
+      "media_id": "18115463876162467"
     }
   ],
   "drafts_sent": [
