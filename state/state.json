@@ -2,7 +2,7 @@
   "telegram_offset": 989436758,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795088355.2105584,
+  "last_scout": 1795091928.28772,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -236,7 +236,14 @@
     "bb5cf7df26023cc7": 1795088364.5850863,
     "83cb2bc58ef4c508": 1795088364.5850863,
     "0e4f0ddb0249fbc3": 1795088364.5850863,
-    "a6118c8b8906bf32": 1795088364.5850863
+    "a6118c8b8906bf32": 1795088364.5850863,
+    "18953b6e66add524": 1795091940.302571,
+    "1d2eae0be5f674cf": 1795091940.302571,
+    "4d8c8863b10feec2": 1795091940.302571,
+    "b163a3b70b3b03d6": 1795091940.302571,
+    "1114fcd93e7742f3": 1795091940.302571,
+    "f49b0c06392d6e11": 1795091940.302571,
+    "7d893430f496c3a6": 1795091940.302571
   },
   "drafts": {
     "a7f9a81749": {
@@ -354,53 +361,89 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 128
-    }
-  },
-  "queue": [
-    {
-      "id": "53638bfc6e",
-      "created": 1795079779.45599,
-      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
-      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+    },
+    "a111dc6b95": {
+      "id": "a111dc6b95",
+      "created": 1795091948.9830556,
+      "headline": "Tour Colombia returns in 2027 after two years away",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-colombia-returns-for-2027-after-two-year-break-with-multiple-worldtour-teams-expected-to-race/",
       "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091946/cycling-bot/a111dc6b95-0.jpg",
       "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079755/cycling-bot/53638bfc6e-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079756/cycling-bot/53638bfc6e-4.jpg"
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091946/cycling-bot/a111dc6b95-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091947/cycling-bot/a111dc6b95-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091947/cycling-bot/a111dc6b95-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091948/cycling-bot/a111dc6b95-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091948/cycling-bot/a111dc6b95-4.jpg"
       ],
-      "full_caption": "The maglia rosa is getting a new maker. 🩷\n\nAustralian brand MAAP has agreed a multi-year partnership with RCS to supply apparel across its races, including the men's and women's Giro d'Italia. Cyclingnews understands the new pink jersey will differ significantly from the Castelli-made version, with the design due to be shown in the New Year.\n\nWill a bolder maglia rosa suit the Giro?\n\nSource: Cyclingnews\n\n#Giro #GirodItalia #MagliaRosa #MAAP #RCS #Cycling #RoadCycling #ProCycling #CyclingNews #CyclingKit",
-      "alt_text": "Graphic announcing that MAAP will produce the Giro d'Italia leaders' jerseys under a multi-year deal with RCS.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795079778/cycling-bot/53638bfc6e-reel.mp4",
-      "category": "GEAR & TECH",
+      "full_caption": "Tour Colombia is back on the calendar for 2027 🇨🇴\n\nThe six-day 2.1-ranked race runs January 26-31 in Antioquia, after cancellations in 2025 and 2026 due to financial difficulties. Netcompany Ineos and EF Education-EasyPost are reported to be starting, according to Colombian outlet Revista Mundo Ciclistico.\n\nWhich Colombian star are you most looking forward to seeing in January?\n\nSource: Cyclingnews\n\n#TourColombia #Cycling #ProCycling #RoadCycling #WorldTour #EganBernal #Colombia #Antioquia #CyclingNews #UCI",
+      "alt_text": "Graphic announcing the return of Tour Colombia in January 2027 after a two-year break.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RACE NEWS",
       "slides": [
         {
-          "title": "New maker for the maglia rosa",
-          "text": "MAAP has signed a multi-year partnership with RCS to provide apparel across its races, including the men's and women's Giro d'Italia leaders' jerseys."
+          "title": "Tour Colombia is back",
+          "text": "The race returns for its fifth edition from January 26-31, 2027. It was cancelled in 2025 and 2026 because of financial difficulties, and its return was announced in September."
         },
         {
-          "title": "Which races are covered",
-          "text": "The deal also covers Tirreno-Adriatico and the Giro Next Gen. Jerseys will also be made for one-day races like Milan-San Remo, Strade Bianche and Il Lombardia, but not worn in the race or awarded to winners."
+          "title": "Route: six days in Antioquia",
+          "text": "The 2.1-ranked race covers 904.2km, starting in Medellín and ending with a summit finish on the Alto de Palmas. The toughest stages come in the last two days, including a finish atop Alto la Unión on stage 5."
         },
         {
-          "title": "A different look is expected",
-          "text": "Cyclingnews understands the new pink jersey will be a significant departure from the Castelli design. It is not due to be revealed until sometime in the New Year."
+          "title": "Teams confirmed and reported",
+          "text": "Netcompany Ineos and EF Education-EasyPost are reported to be racing, along with Modern Adventure Pro Cycling and Colombian squads NU Colombia, Medellín-EPM, GW Sportfitness, Sistecrédito and Orgullo Paisa."
         },
         {
-          "title": "MAAP's rapid rise",
-          "text": "Founded in Melbourne in 2014, MAAP entered the European pro peloton in 2024 with Lifeplus-Wahoo and now makes the Jayco-AlUla and Liv-AlUla Jayco kits."
+          "title": "Last edition in 2024",
+          "text": "Rodrigo Contreras won overall by six seconds from Richard Carapaz. The race was founded in 2018 as the Colombia Oro y Paz and has also been held in 2019 and 2020."
         }
       ],
       "background_url": null,
-      "text_message_id": 123,
-      "kind": "carousel",
-      "post_now": false,
-      "approved_at": 1795079957.0926082,
-      "attempts": 1
+      "text_message_id": 135
     },
+    "1047b1ff6b": {
+      "id": "1047b1ff6b",
+      "created": 1795091965.5893812,
+      "headline": "Primeo Energie saves Tour de Romandie, women's race returns in 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-de-romandie-saved-as-primeo-energie-steps-in-as-sponsor-for-both-womens-and-mens-races/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091962/cycling-bot/1047b1ff6b-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091962/cycling-bot/1047b1ff6b-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091963/cycling-bot/1047b1ff6b-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091964/cycling-bot/1047b1ff6b-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091964/cycling-bot/1047b1ff6b-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091965/cycling-bot/1047b1ff6b-4.jpg"
+      ],
+      "full_caption": "Tour de Romandie has a new main sponsor, and the women's race is coming back.\n\nPrimeo Energie will back both the women's and men's events for the next two editions. The women's race, postponed for 2026, returns in 2027, and organisers have also revealed the route for the men's 80th edition.\n\nSwipe for the details. Is a loop-style Romandie the right call?\n\nSource: Cyclingnews\n\n#TourDeRomandie #Cycling #WorldTour #ProCycling #WomensCycling #RoadCycling #UCIWorldTour #CyclingNews #PrimeoEnergie #Switzerland",
+      "alt_text": "Graphic announcing that Primeo Energie will sponsor both the women's and men's Tour de Romandie, with the women's race returning in 2027.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "Primeo Energie steps in",
+          "text": "The Swiss electricity company becomes main sponsor of both the women's and men's Tour de Romandie for the next two editions. It has sponsored the mountains classification jerseys since 2022."
+        },
+        {
+          "title": "Women's race returns in 2027",
+          "text": "Organisers postponed the 2026 women's race, with a lack of funds cited as a major factor. The three-day race is now due to start on September 10th. Route details have not yet been released."
+        },
+        {
+          "title": "Men's 80th edition",
+          "text": "It opens with the traditional prologue on Tuesday, April 27. Organisers chose loop-style stages, each almost entirely within a single canton, which they say helps with safety requirements and costs."
+        },
+        {
+          "title": "Men's route at a glance",
+          "text": "Prologue: Yverdon-les-Bains, 4.7km. Stages: Romont 170.1km, La Chaux-de-Fonds 176.2km, Vully-les-Lacs ITT 14.6km, Sierre 141.7km, then Moutier to Canton du Jura (distance TBC)."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 141
+    }
+  },
+  "queue": [
     {
       "id": "53638bfc6e",
       "created": 1795079779.45599,
@@ -501,6 +544,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/primoz-roglic-will-continue-racing-into-2027-as-new-team-for-final-chapter-is-finally-revealed/",
       "at": 1795082959.3583803,
       "media_id": "18135327061770320"
+    },
+    {
+      "id": "53638bfc6e",
+      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+      "at": 1795091927.0070574,
+      "media_id": "found-on-instagram"
     }
   ],
   "drafts_sent": [
@@ -516,10 +567,10 @@
     1795068577.1222677,
     1795074284.444972,
     1795079783.8835065,
-    1795088373.9523702
+    1795088373.9523702,
+    1795091950.611707,
+    1795091967.172652
   ],
-  "feed_errors": {
-    "Google News: cycling transfer team signs": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=cycling+transfer+team+signs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
