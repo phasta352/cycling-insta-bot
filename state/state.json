@@ -2,7 +2,7 @@
   "telegram_offset": 989436758,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795083698.9205055,
+  "last_scout": 1795088355.2105584,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -224,7 +224,19 @@
     "ebc361a2449d83cf": 1795083707.5384748,
     "ed626fe9e7d4e1e5": 1795083707.5384748,
     "201b24094baef36e": 1795083707.5384748,
-    "3a8ad34db17ae2ac": 1795083707.5384748
+    "3a8ad34db17ae2ac": 1795083707.5384748,
+    "d11514a3bd4f4e78": 1795088364.5850863,
+    "aef0e2eac85d87ef": 1795088364.5850863,
+    "0776d9b9af041822": 1795088364.5850863,
+    "e7f6f574f3964759": 1795088364.5850863,
+    "410bcfd45b2dd23f": 1795088364.5850863,
+    "978ab667ba1ea155": 1795088364.5850863,
+    "932658b4c4d2d9b5": 1795088364.5850863,
+    "d12003731ae209cf": 1795088364.5850863,
+    "bb5cf7df26023cc7": 1795088364.5850863,
+    "83cb2bc58ef4c508": 1795088364.5850863,
+    "0e4f0ddb0249fbc3": 1795088364.5850863,
+    "a6118c8b8906bf32": 1795088364.5850863
   },
   "drafts": {
     "a7f9a81749": {
@@ -323,6 +335,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 113
+    },
+    "08fc39a6f6": {
+      "id": "08fc39a6f6",
+      "created": 1795088372.5842829,
+      "headline": "Van Rysel unveils RCR-R PRO and RCR-R road bikes",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOWxYZHJoaUM2LXdod0tPZ1NHcTduanJST25RQk90VjJNU3Q2aUs5U1NmUkJGdmZhNTV2RndlMG5QbFZiRTBNRGFuWXhQX01pbDh3RENDUDFZSVFPSld3ZEJaaV9iUFJzem83cmROb09KVXhpN3QwblpzYU5kUWtHQk4yRUZXemFWNTVRTTlfQkZXTFVMTDVvWjV6dm1UQUJCTEw3U2xuSjA1V2phcGg5cXF5b2dfTWlocEJmSk5YNTZUUEpPZjY3Wjdn?oc=5",
+      "source": "endurance.biz",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795088372/cycling-bot/08fc39a6f6-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795088372/cycling-bot/08fc39a6f6-0.jpg"
+      ],
+      "full_caption": "Van Rysel has unveiled two new road bikes, the RCR-R PRO and the RCR-R.\n\nBoth models have been shown ahead of a commercial launch set for January 2027. That gives buyers a long lead time before the bikes reach the market. Full details on specs and pricing have not been confirmed in the information available so far.\n\nWhich of the two would you want to ride, the PRO or the standard RCR-R?\n\nSource: endurance.biz\n\n#VanRysel #RCRR #RoadBike #RoadCycling #CyclingNews #BikeTech #NewBike #Cycling #ProCycling #CyclingGear",
+      "alt_text": "Graphic announcing that Van Rysel has unveiled the RCR-R PRO and RCR-R road bikes ahead of a January 2027 commercial launch.",
+      "score": 8,
+      "reel_url": null,
+      "category": "GEAR & TECH",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 128
     }
   },
   "queue": [
@@ -483,8 +514,11 @@
     1795068566.6601844,
     1795068577.1222677,
     1795074284.444972,
-    1795079783.8835065
+    1795079783.8835065,
+    1795088373.9523702
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "Google News: cycling transfer team signs": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=cycling+transfer+team+signs+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
