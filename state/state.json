@@ -2,7 +2,7 @@
   "telegram_offset": 989436753,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795068515.9137936,
+  "last_scout": 1795074265.2736144,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -192,7 +192,16 @@
     "6e659affaba92a40": 1795068524.1162364,
     "49f41f668261ae78": 1795068524.1162364,
     "e7f8eb6dca99a33e": 1795068524.1162364,
-    "816eb33422d75bc9": 1795068524.1162364
+    "816eb33422d75bc9": 1795068524.1162364,
+    "4c09a9fe016e7697": 1795074271.4888418,
+    "7a5f333db7342f59": 1795074271.4888418,
+    "0c89ec93640bebb6": 1795074271.4888418,
+    "bcf796e10b986fdb": 1795074271.4888418,
+    "4dd665a2b2f013a0": 1795074271.4888418,
+    "0bfa9aad077ef6d0": 1795074271.4888418,
+    "4b194b8ee5b6a868": 1795074271.4888418,
+    "4a48a474cc5b8630": 1795074271.4888418,
+    "917cc1a217b62806": 1795074271.4888418
   },
   "drafts": {
     "959aa59949": {
@@ -288,52 +297,28 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 110
+    },
+    "53f930e9b2": {
+      "id": "53f930e9b2",
+      "created": 1795074282.791988,
+      "headline": "Seixas: Not ready to win the Tour on this year's form",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEhYMEgzVktzREo3TGVqTEwzVnhxR2thMFBEeGc2NnE3bjQwSzZzQm92VVQ0OWtOOWcxRTR6eDFtVmptSWtDUFNRa2Rxc0FSdXVySzV2MjNIT0tQdUgtOWxvbHJZNmpmemR1eHVwLVJmTkdnY1lFUmJJN2hIYy1jOGp0UUtpSlhORGxrVEdPTlpFYW5lQ1gzNXYwSVhpNWhueC1qYmFnRUZyZFVRcUZvYTF0VGpTdjhLTzBzcXZLQ2J5XzNRd2NDU0JkTQ?oc=5",
+      "source": "Brujulabike.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795074282/cycling-bot/53f930e9b2-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795074282/cycling-bot/53f930e9b2-0.jpg"
+      ],
+      "full_caption": "Paul Seixas is realistic about his Tour ambitions.\n\nAccording to Brujulabike, the young Frenchman says that based on what he has shown this year, he does not see himself as capable of winning the Tour. The report says he has also outlined his plans for 2027.\n\nIt is a measured assessment from one of the sport's most talked-about young talents, and it hints at how he may approach his next step up.\n\nIs Seixas right to be cautious, or will he be a Tour contender sooner than he thinks?\n\nSource: Brujulabike.com\n\n#PaulSeixas #Seixas #TourdeFrance #Cycling #ProCycling #WorldTour #RoadCycling #CyclingNews #GeneralClassification #2027Season",
+      "alt_text": "News graphic with the text 'Seixas: Not ready to win the Tour on this year's form' under a Rider News label.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 113
     }
   },
   "queue": [
-    {
-      "id": "a0bbb4c987",
-      "created": 1795027160.1426105,
-      "headline": "Roglič signs with NSN Cycling for 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/primoz-roglic-will-continue-racing-into-2027-as-new-team-for-final-chapter-is-finally-revealed/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027131/cycling-bot/a0bbb4c987-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027131/cycling-bot/a0bbb4c987-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027131/cycling-bot/a0bbb4c987-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027132/cycling-bot/a0bbb4c987-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027133/cycling-bot/a0bbb4c987-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795027133/cycling-bot/a0bbb4c987-4.jpg"
-      ],
-      "full_caption": "Primož Roglič will race on in 2027 after signing a one-year deal with NSN Cycling Team.\n\nThe 37-year-old five-time Grand Tour winner leaves Red Bull-Bora-Hansgrohe and joins the Swiss WorldTour squad, where he will be part of the GC line-up alongside Richard Carapaz and Lennert Van Eetvelt.\n\nWhat can NSN expect from Roglič in his final chapter? 🚴\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PrimozRoglic #Roglic #NSNCycling #cyclingtransfers #GrandTour #cyclingnews",
-      "alt_text": "Graphic announcing that Primož Roglič has signed a one-year contract with NSN Cycling Team for the 2027 season.",
-      "score": 10,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795027159/cycling-bot/a0bbb4c987-reel.mp4",
-      "category": "TRANSFER",
-      "slides": [
-        {
-          "title": "Roglič signs with NSN",
-          "text": "Primož Roglič has signed a one-year contract with NSN Cycling Team and will continue racing into 2027. NSN revealed the news with a social media post showing Roglič following the team on Instagram."
-        },
-        {
-          "title": "A GC line-up takes shape",
-          "text": "The Swiss WorldTour team will build its general classification ambitions around Roglič, alongside fellow 2027 signings Richard Carapaz and Lennert Van Eetvelt."
-        },
-        {
-          "title": "Still a Grand Tour contender",
-          "text": "Roglič finished second at the most recent Vuelta a España and eighth at last year's Tour de France. He won his fourth Vuelta title in 2024 and is the reigning European time trial champion."
-        },
-        {
-          "title": "93 wins and a 'final chapter'",
-          "text": "Ten years after his first WorldTour season, Roglič arrives with 93 wins, the most among active men's pros except Tadej Pogačar. He said the team's 'Never Say Never' name felt like a perfect fit."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 100,
-      "kind": "carousel",
-      "post_now": false,
-      "approved_at": 1795028503.475987
-    },
     {
       "id": "a0bbb4c987",
       "created": 1795027160.1426105,
@@ -418,6 +403,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/netcompany-ineos-lose-significant-sponsor-as-totalenergies-confirm-they-will-not-continue-in-2027/",
       "at": 1795032559.9807117,
       "media_id": "18136017550739538"
+    },
+    {
+      "id": "a0bbb4c987",
+      "headline": "Roglič signs with NSN Cycling for 2027",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/primoz-roglic-will-continue-racing-into-2027-as-new-team-for-final-chapter-is-finally-revealed/",
+      "at": 1795074263.5559552,
+      "media_id": "17955767835300460"
     }
   ],
   "drafts_sent": [
@@ -430,7 +423,8 @@
     1795023589.6780245,
     1795027163.766963,
     1795068566.6601844,
-    1795068577.1222677
+    1795068577.1222677,
+    1795074284.444972
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
