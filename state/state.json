@@ -477,7 +477,8 @@
       "text_message_id": 147,
       "kind": "carousel",
       "post_now": false,
-      "approved_at": 1795100923.2382636
+      "approved_at": 1795100923.2382636,
+      "attempts": 1
     }
   ],
   "published": [
