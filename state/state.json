@@ -435,52 +435,7 @@
       "text_message_id": 141
     }
   },
-  "queue": [
-    {
-      "id": "8ab0aafefd",
-      "created": 1795099126.5279267,
-      "headline": "Pozzovivo to race on in 2027 at age 44 with Solution Tech-Nippo-Rali",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/passion-has-no-age-class-is-timeless-solution-tech-nippo-rali-confirm-domenico-pozzovivo-will-continue-racing-at-the-age-of-44/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099122/cycling-bot/8ab0aafefd-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099122/cycling-bot/8ab0aafefd-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099124/cycling-bot/8ab0aafefd-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099124/cycling-bot/8ab0aafefd-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099125/cycling-bot/8ab0aafefd-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099125/cycling-bot/8ab0aafefd-4.jpg"
-      ],
-      "full_caption": "Domenico Pozzovivo is not done yet. 🇮🇹\n\nSolution Tech-Nippo-Rali have confirmed the Italian climber will stay in their colours for 2027, his 22nd season as a pro. He turns 44 on November 30 and is aiming for a record 19th Giro d'Italia start, which depends on the team getting a wildcard.\n\nWould you like to see Pozzovivo back at the Giro?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #Pozzovivo #DomenicoPozzovivo #GirodItalia #SolutionTechNippoRali #ProTeam #cyclingnews #Giro",
-      "alt_text": "Graphic announcing that Domenico Pozzovivo will keep racing with Solution Tech-Nippo-Rali in 2027 at the age of 44.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "Contract confirmed for 2027",
-          "text": "Solution Tech-Nippo-Rali announced on Wednesday that Domenico Pozzovivo will continue racing with the team next year. He turns 44 on November 30 and will be in his 22nd season as a pro."
-        },
-        {
-          "title": "Back after retiring",
-          "text": "Pozzovivo retired at the end of 2024 as he and his wife welcomed their first child. He returned in April on a one-year deal, saying he found that family life and racing could be balanced."
-        },
-        {
-          "title": "A strong 2026 season",
-          "text": "He took third at the Giro dell'Appennino, GP Beiras a Serra da Estrela and the Czech Tour, and fourth at the Mercan'Tour Classic Alpes-Maritimes. He had the second-most UCI points on the team, behind Dušan Rajović."
-        },
-        {
-          "title": "Eyeing a Giro record",
-          "text": "Pozzovivo has ridden 18 Giri, level with Wladimiro Panizza, and wants a 19th next May. The team look good for a wildcard, but no invitation has been confirmed. Whether 2027 is his last season is open: \"We'll see.\""
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 147,
-      "kind": "carousel",
-      "post_now": false,
-      "approved_at": 1795100923.2382636,
-      "attempts": 1
-    }
-  ],
+  "queue": [],
   "published": [
     {
       "id": "db1ea2c097",
@@ -554,6 +509,14 @@
       "at": 1795099217.2676086,
       "media_id": "18104374655410118",
       "story_id": "18123164020983631"
+    },
+    {
+      "id": "8ab0aafefd",
+      "headline": "Pozzovivo to race on in 2027 at age 44 with Solution Tech-Nippo-Rali",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/passion-has-no-age-class-is-timeless-solution-tech-nippo-rali-confirm-domenico-pozzovivo-will-continue-racing-at-the-age-of-44/",
+      "at": 1795109918.0723748,
+      "media_id": "found-on-instagram"
     }
   ],
   "drafts_sent": [
