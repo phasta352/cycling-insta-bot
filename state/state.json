@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436755,
+  "telegram_offset": 989436757,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795079735.593163,
@@ -331,46 +331,6 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 113
-    },
-    "53638bfc6e": {
-      "id": "53638bfc6e",
-      "created": 1795079779.45599,
-      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
-      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079755/cycling-bot/53638bfc6e-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079756/cycling-bot/53638bfc6e-4.jpg"
-      ],
-      "full_caption": "The maglia rosa is getting a new maker. 🩷\n\nAustralian brand MAAP has agreed a multi-year partnership with RCS to supply apparel across its races, including the men's and women's Giro d'Italia. Cyclingnews understands the new pink jersey will differ significantly from the Castelli-made version, with the design due to be shown in the New Year.\n\nWill a bolder maglia rosa suit the Giro?\n\nSource: Cyclingnews\n\n#Giro #GirodItalia #MagliaRosa #MAAP #RCS #Cycling #RoadCycling #ProCycling #CyclingNews #CyclingKit",
-      "alt_text": "Graphic announcing that MAAP will produce the Giro d'Italia leaders' jerseys under a multi-year deal with RCS.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795079778/cycling-bot/53638bfc6e-reel.mp4",
-      "category": "GEAR & TECH",
-      "slides": [
-        {
-          "title": "New maker for the maglia rosa",
-          "text": "MAAP has signed a multi-year partnership with RCS to provide apparel across its races, including the men's and women's Giro d'Italia leaders' jerseys."
-        },
-        {
-          "title": "Which races are covered",
-          "text": "The deal also covers Tirreno-Adriatico and the Giro Next Gen. Jerseys will also be made for one-day races like Milan-San Remo, Strade Bianche and Il Lombardia, but not worn in the race or awarded to winners."
-        },
-        {
-          "title": "A different look is expected",
-          "text": "Cyclingnews understands the new pink jersey will be a significant departure from the Castelli design. It is not due to be revealed until sometime in the New Year."
-        },
-        {
-          "title": "MAAP's rapid rise",
-          "text": "Founded in Melbourne in 2014, MAAP entered the European pro peloton in 2024 with Lifeplus-Wahoo and now makes the Jayco-AlUla and Liv-AlUla Jayco kits."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 123
     }
   },
   "queue": [
@@ -416,6 +376,92 @@
       "kind": "reel",
       "post_now": false,
       "approved_at": 1795028503.4759896
+    },
+    {
+      "id": "53638bfc6e",
+      "created": 1795079779.45599,
+      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
+      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079755/cycling-bot/53638bfc6e-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079756/cycling-bot/53638bfc6e-4.jpg"
+      ],
+      "full_caption": "The maglia rosa is getting a new maker. 🩷\n\nAustralian brand MAAP has agreed a multi-year partnership with RCS to supply apparel across its races, including the men's and women's Giro d'Italia. Cyclingnews understands the new pink jersey will differ significantly from the Castelli-made version, with the design due to be shown in the New Year.\n\nWill a bolder maglia rosa suit the Giro?\n\nSource: Cyclingnews\n\n#Giro #GirodItalia #MagliaRosa #MAAP #RCS #Cycling #RoadCycling #ProCycling #CyclingNews #CyclingKit",
+      "alt_text": "Graphic announcing that MAAP will produce the Giro d'Italia leaders' jerseys under a multi-year deal with RCS.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795079778/cycling-bot/53638bfc6e-reel.mp4",
+      "category": "GEAR & TECH",
+      "slides": [
+        {
+          "title": "New maker for the maglia rosa",
+          "text": "MAAP has signed a multi-year partnership with RCS to provide apparel across its races, including the men's and women's Giro d'Italia leaders' jerseys."
+        },
+        {
+          "title": "Which races are covered",
+          "text": "The deal also covers Tirreno-Adriatico and the Giro Next Gen. Jerseys will also be made for one-day races like Milan-San Remo, Strade Bianche and Il Lombardia, but not worn in the race or awarded to winners."
+        },
+        {
+          "title": "A different look is expected",
+          "text": "Cyclingnews understands the new pink jersey will be a significant departure from the Castelli design. It is not due to be revealed until sometime in the New Year."
+        },
+        {
+          "title": "MAAP's rapid rise",
+          "text": "Founded in Melbourne in 2014, MAAP entered the European pro peloton in 2024 with Lifeplus-Wahoo and now makes the Jayco-AlUla and Liv-AlUla Jayco kits."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 123,
+      "kind": "carousel",
+      "post_now": false,
+      "approved_at": 1795079957.0926082
+    },
+    {
+      "id": "53638bfc6e",
+      "created": 1795079779.45599,
+      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
+      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079755/cycling-bot/53638bfc6e-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079756/cycling-bot/53638bfc6e-4.jpg"
+      ],
+      "full_caption": "The maglia rosa is getting a new maker. 🩷\n\nAustralian brand MAAP has agreed a multi-year partnership with RCS to supply apparel across its races, including the men's and women's Giro d'Italia. Cyclingnews understands the new pink jersey will differ significantly from the Castelli-made version, with the design due to be shown in the New Year.\n\nWill a bolder maglia rosa suit the Giro?\n\nSource: Cyclingnews\n\n#Giro #GirodItalia #MagliaRosa #MAAP #RCS #Cycling #RoadCycling #ProCycling #CyclingNews #CyclingKit",
+      "alt_text": "Graphic announcing that MAAP will produce the Giro d'Italia leaders' jerseys under a multi-year deal with RCS.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795079778/cycling-bot/53638bfc6e-reel.mp4",
+      "category": "GEAR & TECH",
+      "slides": [
+        {
+          "title": "New maker for the maglia rosa",
+          "text": "MAAP has signed a multi-year partnership with RCS to provide apparel across its races, including the men's and women's Giro d'Italia leaders' jerseys."
+        },
+        {
+          "title": "Which races are covered",
+          "text": "The deal also covers Tirreno-Adriatico and the Giro Next Gen. Jerseys will also be made for one-day races like Milan-San Remo, Strade Bianche and Il Lombardia, but not worn in the race or awarded to winners."
+        },
+        {
+          "title": "A different look is expected",
+          "text": "Cyclingnews understands the new pink jersey will be a significant departure from the Castelli design. It is not due to be revealed until sometime in the New Year."
+        },
+        {
+          "title": "MAAP's rapid rise",
+          "text": "Founded in Melbourne in 2014, MAAP entered the European pro peloton in 2024 with Lifeplus-Wahoo and now makes the Jayco-AlUla and Liv-AlUla Jayco kits."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 123,
+      "kind": "reel",
+      "post_now": false,
+      "approved_at": 1795079957.0926101
     }
   ],
   "published": [
