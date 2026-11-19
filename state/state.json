@@ -2,7 +2,7 @@
   "telegram_offset": 989436758,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795095530.3891594,
+  "last_scout": 1795099110.474577,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -250,7 +250,11 @@
     "5f65d6d9bf1a7e1c": 1795095537.0047946,
     "e643d97182f63041": 1795095537.0047946,
     "3a065616f37172a0": 1795095537.0047946,
-    "26135f18da6b092d": 1795095537.0047946
+    "26135f18da6b092d": 1795095537.0047946,
+    "98b31b7753d95fd0": 1795099115.9665737,
+    "2e1b5ffcba7af7c5": 1795099115.9665737,
+    "bdba18cff95be70f": 1795099115.9665737,
+    "d411db5920881f27": 1795099115.9665737
   },
   "drafts": {
     "a7f9a81749": {
@@ -448,53 +452,49 @@
       ],
       "background_url": null,
       "text_message_id": 141
-    }
-  },
-  "queue": [
-    {
-      "id": "53638bfc6e",
-      "created": 1795079779.45599,
-      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
-      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+    },
+    "8ab0aafefd": {
+      "id": "8ab0aafefd",
+      "created": 1795099126.5279267,
+      "headline": "Pozzovivo to race on in 2027 at age 44 with Solution Tech-Nippo-Rali",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/passion-has-no-age-class-is-timeless-solution-tech-nippo-rali-confirm-domenico-pozzovivo-will-continue-racing-at-the-age-of-44/",
       "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099122/cycling-bot/8ab0aafefd-0.jpg",
       "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079752/cycling-bot/53638bfc6e-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079754/cycling-bot/53638bfc6e-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079755/cycling-bot/53638bfc6e-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795079756/cycling-bot/53638bfc6e-4.jpg"
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099122/cycling-bot/8ab0aafefd-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099124/cycling-bot/8ab0aafefd-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099124/cycling-bot/8ab0aafefd-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099125/cycling-bot/8ab0aafefd-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795099125/cycling-bot/8ab0aafefd-4.jpg"
       ],
-      "full_caption": "The maglia rosa is getting a new maker. 🩷\n\nAustralian brand MAAP has agreed a multi-year partnership with RCS to supply apparel across its races, including the men's and women's Giro d'Italia. Cyclingnews understands the new pink jersey will differ significantly from the Castelli-made version, with the design due to be shown in the New Year.\n\nWill a bolder maglia rosa suit the Giro?\n\nSource: Cyclingnews\n\n#Giro #GirodItalia #MagliaRosa #MAAP #RCS #Cycling #RoadCycling #ProCycling #CyclingNews #CyclingKit",
-      "alt_text": "Graphic announcing that MAAP will produce the Giro d'Italia leaders' jerseys under a multi-year deal with RCS.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795079778/cycling-bot/53638bfc6e-reel.mp4",
-      "category": "GEAR & TECH",
+      "full_caption": "Domenico Pozzovivo is not done yet. 🇮🇹\n\nSolution Tech-Nippo-Rali have confirmed the Italian climber will stay in their colours for 2027, his 22nd season as a pro. He turns 44 on November 30 and is aiming for a record 19th Giro d'Italia start, which depends on the team getting a wildcard.\n\nWould you like to see Pozzovivo back at the Giro?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #Pozzovivo #DomenicoPozzovivo #GirodItalia #SolutionTechNippoRali #ProTeam #cyclingnews #Giro",
+      "alt_text": "Graphic announcing that Domenico Pozzovivo will keep racing with Solution Tech-Nippo-Rali in 2027 at the age of 44.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
       "slides": [
         {
-          "title": "New maker for the maglia rosa",
-          "text": "MAAP has signed a multi-year partnership with RCS to provide apparel across its races, including the men's and women's Giro d'Italia leaders' jerseys."
+          "title": "Contract confirmed for 2027",
+          "text": "Solution Tech-Nippo-Rali announced on Wednesday that Domenico Pozzovivo will continue racing with the team next year. He turns 44 on November 30 and will be in his 22nd season as a pro."
         },
         {
-          "title": "Which races are covered",
-          "text": "The deal also covers Tirreno-Adriatico and the Giro Next Gen. Jerseys will also be made for one-day races like Milan-San Remo, Strade Bianche and Il Lombardia, but not worn in the race or awarded to winners."
+          "title": "Back after retiring",
+          "text": "Pozzovivo retired at the end of 2024 as he and his wife welcomed their first child. He returned in April on a one-year deal, saying he found that family life and racing could be balanced."
         },
         {
-          "title": "A different look is expected",
-          "text": "Cyclingnews understands the new pink jersey will be a significant departure from the Castelli design. It is not due to be revealed until sometime in the New Year."
+          "title": "A strong 2026 season",
+          "text": "He took third at the Giro dell'Appennino, GP Beiras a Serra da Estrela and the Czech Tour, and fourth at the Mercan'Tour Classic Alpes-Maritimes. He had the second-most UCI points on the team, behind Dušan Rajović."
         },
         {
-          "title": "MAAP's rapid rise",
-          "text": "Founded in Melbourne in 2014, MAAP entered the European pro peloton in 2024 with Lifeplus-Wahoo and now makes the Jayco-AlUla and Liv-AlUla Jayco kits."
+          "title": "Eyeing a Giro record",
+          "text": "Pozzovivo has ridden 18 Giri, level with Wladimiro Panizza, and wants a 19th next May. The team look good for a wildcard, but no invitation has been confirmed. Whether 2027 is his last season is open: \"We'll see.\""
         }
       ],
       "background_url": null,
-      "text_message_id": 123,
-      "kind": "reel",
-      "post_now": false,
-      "approved_at": 1795079957.0926101
+      "text_message_id": 147
     }
-  ],
+  },
+  "queue": [],
   "published": [
     {
       "id": "db1ea2c097",
@@ -559,6 +559,15 @@
       "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
       "at": 1795091927.0070574,
       "media_id": "found-on-instagram"
+    },
+    {
+      "id": "53638bfc6e",
+      "headline": "MAAP to make Giro d'Italia leaders' jerseys in multi-year RCS deal",
+      "kind": "reel",
+      "url": "https://www.cyclingnews.com/pro-cycling/a-bold-new-visual-era-for-the-maglia-rosa-as-maap-strikes-deal-to-produce-giro-d-italia-leaders-jerseys/",
+      "at": 1795099217.2676086,
+      "media_id": "18104374655410118",
+      "story_id": "18123164020983631"
     }
   ],
   "drafts_sent": [
@@ -576,7 +585,8 @@
     1795079783.8835065,
     1795088373.9523702,
     1795091950.611707,
-    1795091967.172652
+    1795091967.172652,
+    1795099128.3129582
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
