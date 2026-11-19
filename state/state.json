@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436758,
+  "telegram_offset": 989436759,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795099110.474577,
@@ -452,8 +452,10 @@
       ],
       "background_url": null,
       "text_message_id": 141
-    },
-    "8ab0aafefd": {
+    }
+  },
+  "queue": [
+    {
       "id": "8ab0aafefd",
       "created": 1795099126.5279267,
       "headline": "Pozzovivo to race on in 2027 at age 44 with Solution Tech-Nippo-Rali",
@@ -491,10 +493,12 @@
         }
       ],
       "background_url": null,
-      "text_message_id": 147
+      "text_message_id": 147,
+      "kind": "carousel",
+      "post_now": false,
+      "approved_at": 1795100923.2382636
     }
-  },
-  "queue": [],
+  ],
   "published": [
     {
       "id": "db1ea2c097",
