@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795165714.3452072,
+  "last_scout": 1795169319.387887,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -331,7 +331,16 @@
     "ea1557c297a6f427": 1795165721.93824,
     "8f9ad5d4b6fc0036": 1795165721.93824,
     "e118efe95af3de5e": 1795165721.93824,
-    "95fc776bc3d95151": 1795165721.93824
+    "95fc776bc3d95151": 1795165721.93824,
+    "f73481798bcc83f2": 1795169327.5321047,
+    "e4cb9c7d7e501683": 1795169327.5321047,
+    "93e6df0780a7c8ce": 1795169327.5321047,
+    "f3203b7c47ab763c": 1795169327.5321047,
+    "8499068ed572296f": 1795169327.5321047,
+    "b8900d027f7684cb": 1795169327.5321047,
+    "66922881532daa83": 1795169327.5321047,
+    "e755da27614c9dc5": 1795169327.5321047,
+    "80b134b365af5747": 1795169327.5321047
   },
   "drafts": {
     "08fc39a6f6": {
@@ -432,6 +441,25 @@
       ],
       "background_url": null,
       "text_message_id": 141
+    },
+    "f4c6ecf9f7": {
+      "id": "f4c6ecf9f7",
+      "created": 1795169337.4089863,
+      "headline": "Cancellara: Tudor will shield De Lie from pressure",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdEtGa1l3ejRFRjZuZGFEeEI3NF9KVmpXREh4anBBMXBzc1dyZWhSQV9OSzdIVG9sLW11QndwRTV6ajFQSjR4TDlGYmhHYmROZDZGdjV6RFN0ZWVzY2p1dXJjNWI4LUN1d3hDcTFSY3ctZ3FhaHJIRmhaN1MteHltdm95V0dTYWJ5ek1vRjZBdmlCcldzb2kzMkNPM3ZfVWtLMktrZU1pTFhyblYzX1g1UHB3dlZQTml1TGFzaHVBUXNUUURXVkxSUEdFYTJoaE8wNUxkbXY5azE?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795169337/cycling-bot/f4c6ecf9f7-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795169337/cycling-bot/f4c6ecf9f7-0.jpg"
+      ],
+      "full_caption": "Fabian Cancellara has outlined how Tudor plan to take the pressure off Arnaud De Lie.\n\nAccording to CyclingUpToDate, Cancellara said he would be among the first to protect the rider. The headline is all the detail available so far on how the team will do it.\n\nDe Lie is a rider who attracts big expectations, so how his team manages them will be worth watching.\n\nHow should Tudor handle De Lie's expectations?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #ProCyclingNews #ArnaudDeLie #FabianCancellara #TudorProCycling #cyclingnews #roadracing",
+      "alt_text": "News graphic with the headline 'Cancellara: Tudor will shield De Lie from pressure' on a Cycling News Today template.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 166
     }
   },
   "queue": [
@@ -579,8 +607,6 @@
     }
   ],
   "drafts_sent": [
-    1794994792.9928002,
-    1794994838.599219,
     1794998353.735689,
     1794998370.181038,
     1795016341.8358703,
@@ -596,7 +622,8 @@
     1795091967.172652,
     1795099128.3129582,
     1795154975.88346,
-    1795154996.8401802
+    1795154996.8401802,
+    1795169338.5817275
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
