@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795172946.9950562,
+  "last_scout": 1795176611.0114703,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -349,28 +349,14 @@
     "dc5714da6f7b5525": 1795172954.6981165,
     "e3b985f037089fce": 1795172954.6981165,
     "dbece17574464cd7": 1795172954.6981165,
-    "ffb3d7be00e87aec": 1795172954.6981165
+    "ffb3d7be00e87aec": 1795172954.6981165,
+    "2a37e0d916f0f1c8": 1795176618.265456,
+    "b8a8901017bdcfed": 1795176618.265456,
+    "e138fa65613c0444": 1795176618.265456,
+    "b99d32e57c563846": 1795176618.265456,
+    "d9ad55b49b222f15": 1795176618.265456
   },
   "drafts": {
-    "08fc39a6f6": {
-      "id": "08fc39a6f6",
-      "created": 1795088372.5842829,
-      "headline": "Van Rysel unveils RCR-R PRO and RCR-R road bikes",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOWxYZHJoaUM2LXdod0tPZ1NHcTduanJST25RQk90VjJNU3Q2aUs5U1NmUkJGdmZhNTV2RndlMG5QbFZiRTBNRGFuWXhQX01pbDh3RENDUDFZSVFPSld3ZEJaaV9iUFJzem83cmROb09KVXhpN3QwblpzYU5kUWtHQk4yRUZXemFWNTVRTTlfQkZXTFVMTDVvWjV6dm1UQUJCTEw3U2xuSjA1V2phcGg5cXF5b2dfTWlocEJmSk5YNTZUUEpPZjY3Wjdn?oc=5",
-      "source": "endurance.biz",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795088372/cycling-bot/08fc39a6f6-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795088372/cycling-bot/08fc39a6f6-0.jpg"
-      ],
-      "full_caption": "Van Rysel has unveiled two new road bikes, the RCR-R PRO and the RCR-R.\n\nBoth models have been shown ahead of a commercial launch set for January 2027. That gives buyers a long lead time before the bikes reach the market. Full details on specs and pricing have not been confirmed in the information available so far.\n\nWhich of the two would you want to ride, the PRO or the standard RCR-R?\n\nSource: endurance.biz\n\n#VanRysel #RCRR #RoadBike #RoadCycling #CyclingNews #BikeTech #NewBike #Cycling #ProCycling #CyclingGear",
-      "alt_text": "Graphic announcing that Van Rysel has unveiled the RCR-R PRO and RCR-R road bikes ahead of a January 2027 commercial launch.",
-      "score": 8,
-      "reel_url": null,
-      "category": "GEAR & TECH",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 128
-    },
     "a111dc6b95": {
       "id": "a111dc6b95",
       "created": 1795091948.9830556,
@@ -488,53 +474,28 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 168
-    }
-  },
-  "queue": [
-    {
-      "id": "a98f857901",
-      "created": 1795154995.4839132,
-      "headline": "NSN to ride Cube bikes in 2027, ending Scott deal after one year",
-      "url": "https://escapecollective.com/nsn-switches-bike-sponsors-to-cube/",
-      "source": "Escape Collective",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-0.jpg",
+    },
+    "101097727e": {
+      "id": "101097727e",
+      "created": 1795176632.775199,
+      "headline": "Stoll G32 Superfast: 32-inch wheel gravel race bike at 7.4 kg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeHpRMEc3NVMyN25UVWFrd3V4R1I0cm1HRlJ4N1NoRXJuNlI1RWN1SW9iTmNSNllTRW1VVTlVeXFYd0N2TXFmU0hxVjRqS1FLLVZraHhsOHlOVnA3c3NibTN5aUVieWQ3cGFZbEJVdGtjRHZvRVJsOTNxOVFTU25kdF9lYmF6anJsOHlUc041TEY5S3JvQ0pya19KYW0zTEJKM19GYmVRMTdjMG1QUkJVckRTcDBCT0RQLVFFdFV1cw?oc=5",
+      "source": "Brujulabike.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795176632/cycling-bot/101097727e-0.jpg",
       "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154994/cycling-bot/a98f857901-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154994/cycling-bot/a98f857901-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154995/cycling-bot/a98f857901-4.jpg"
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795176632/cycling-bot/101097727e-0.jpg"
       ],
-      "full_caption": "NSN is swapping Scott for Cube from 2027.\n\nThe WorldTeam announced the new bike partnership on Thursday, just after signing Primož Roglič on a one-year deal. It reunites Biniam Girmay with the brand he rode at Intermarché-Wanty. Scott will have no WorldTour or ProTour team. NSN gave no reason for ending the deal early and didn't say how long the Cube deal runs.\n\nWill Cube bikes suit NSN's new-look roster?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #NSN #Cube #Scott #BiniamGirmay #PrimozRoglic #cyclingnews",
-      "alt_text": "News graphic announcing that the NSN cycling team will switch from Scott to Cube bikes for the 2027 season.",
-      "score": 7,
+      "full_caption": "Stoll has unveiled the G32 Superfast, a gravel race bike built around 32-inch wheels.\n\nThe reported weight is 7.4 kg, a low figure for a bike aimed at fast gravel racing. The wheel size is the headline here, since it is well outside the usual gravel standard. No further specs, pricing or availability were included in the information we have, so we will wait for more detail.\n\nWould you try a 32-inch wheel gravel bike?\n\nSource: Brujulabike.com\n\n#gravel #gravelbike #cyclingnews #bikenews #cyclingtech #Stoll #G32Superfast #gravelracing #bikelaunch #roadcycling",
+      "alt_text": "Graphic announcing the Stoll G32 Superfast, a new gravel race bike with 32-inch wheels and a weight of 7.4 kg.",
+      "score": 5,
       "reel_url": null,
       "category": "GEAR & TECH",
-      "slides": [
-        {
-          "title": "NSN moves from Scott to Cube",
-          "text": "NSN will ride bikes from German brand Cube in 2027 after one season on Scott. The team announced the partnership on Thursday, soon after confirming the signing of Primož Roglič for one year."
-        },
-        {
-          "title": "A reunion for Girmay",
-          "text": "The deal brings Biniam Girmay back to Cube, which he rode for five years at Intermarché-Wanty. His biggest successes there include the green jersey at the 2024 Tour de France."
-        },
-        {
-          "title": "Scott loses its top-level team",
-          "text": "Scott has now left the top tier of road racing. It previously backed Picnic-PostNL through 2024 and Q36.5, which moved to Pinarello for 2026. It has no WorldTour or ProTour team."
-        },
-        {
-          "title": "Questions left unanswered",
-          "text": "Scott's NSN deal was announced about a year ago as a multi-year partnership. NSN gave no reason for ending it early and did not state the length of the Cube agreement."
-        }
-      ],
+      "slides": [],
       "background_url": null,
-      "text_message_id": 162,
-      "kind": "carousel",
-      "post_now": false,
-      "approved_at": 1795157800.4647708
+      "text_message_id": 171
     }
-  ],
+  },
+  "queue": [],
   "published": [
     {
       "id": "db1ea2c097",
@@ -632,6 +593,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/demi-vollering-eddy-merckx-and-paul-seixas-among-cycling-stars-set-for-audience-with-pope-leo-xiv/",
       "at": 1795167554.119418,
       "media_id": "17981567427141057"
+    },
+    {
+      "id": "a98f857901",
+      "headline": "NSN to ride Cube bikes in 2027, ending Scott deal after one year",
+      "kind": "carousel",
+      "url": "https://escapecollective.com/nsn-switches-bike-sponsors-to-cube/",
+      "at": 1795176608.7973013,
+      "media_id": "18119041628113465"
     }
   ],
   "drafts_sent": [
@@ -650,8 +619,11 @@
     1795154975.88346,
     1795154996.8401802,
     1795169338.5817275,
-    1795172976.0329978
+    1795172976.0329978,
+    1795176634.4454
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "Google News: new road bike launch": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=new+road+bike+launch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
