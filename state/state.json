@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795176611.0114703,
+  "last_scout": 1795180120.2987087,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -354,89 +354,20 @@
     "b8a8901017bdcfed": 1795176618.265456,
     "e138fa65613c0444": 1795176618.265456,
     "b99d32e57c563846": 1795176618.265456,
-    "d9ad55b49b222f15": 1795176618.265456
+    "d9ad55b49b222f15": 1795176618.265456,
+    "fe49a1a4b7b27964": 1795180128.6833966,
+    "ccc175211cbd37b3": 1795180128.6833966,
+    "4d8c903048007089": 1795180128.6833966,
+    "3d8e374397d928d4": 1795180128.6833966,
+    "33b028b67123e817": 1795180128.6833966,
+    "abb7596f9fb07c38": 1795180128.6833966,
+    "90cdf16c952476ec": 1795180128.6833966,
+    "edc8d1397f5dea76": 1795180128.6833966,
+    "3873c68956ff7766": 1795180128.6833966,
+    "06b7f71bff0c7ef0": 1795180128.6833966,
+    "7e88fddbffb0d571": 1795180128.6833966
   },
   "drafts": {
-    "a111dc6b95": {
-      "id": "a111dc6b95",
-      "created": 1795091948.9830556,
-      "headline": "Tour Colombia returns in 2027 after two years away",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-colombia-returns-for-2027-after-two-year-break-with-multiple-worldtour-teams-expected-to-race/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091946/cycling-bot/a111dc6b95-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091946/cycling-bot/a111dc6b95-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091947/cycling-bot/a111dc6b95-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091947/cycling-bot/a111dc6b95-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091948/cycling-bot/a111dc6b95-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091948/cycling-bot/a111dc6b95-4.jpg"
-      ],
-      "full_caption": "Tour Colombia is back on the calendar for 2027 🇨🇴\n\nThe six-day 2.1-ranked race runs January 26-31 in Antioquia, after cancellations in 2025 and 2026 due to financial difficulties. Netcompany Ineos and EF Education-EasyPost are reported to be starting, according to Colombian outlet Revista Mundo Ciclistico.\n\nWhich Colombian star are you most looking forward to seeing in January?\n\nSource: Cyclingnews\n\n#TourColombia #Cycling #ProCycling #RoadCycling #WorldTour #EganBernal #Colombia #Antioquia #CyclingNews #UCI",
-      "alt_text": "Graphic announcing the return of Tour Colombia in January 2027 after a two-year break.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [
-        {
-          "title": "Tour Colombia is back",
-          "text": "The race returns for its fifth edition from January 26-31, 2027. It was cancelled in 2025 and 2026 because of financial difficulties, and its return was announced in September."
-        },
-        {
-          "title": "Route: six days in Antioquia",
-          "text": "The 2.1-ranked race covers 904.2km, starting in Medellín and ending with a summit finish on the Alto de Palmas. The toughest stages come in the last two days, including a finish atop Alto la Unión on stage 5."
-        },
-        {
-          "title": "Teams confirmed and reported",
-          "text": "Netcompany Ineos and EF Education-EasyPost are reported to be racing, along with Modern Adventure Pro Cycling and Colombian squads NU Colombia, Medellín-EPM, GW Sportfitness, Sistecrédito and Orgullo Paisa."
-        },
-        {
-          "title": "Last edition in 2024",
-          "text": "Rodrigo Contreras won overall by six seconds from Richard Carapaz. The race was founded in 2018 as the Colombia Oro y Paz and has also been held in 2019 and 2020."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 135
-    },
-    "1047b1ff6b": {
-      "id": "1047b1ff6b",
-      "created": 1795091965.5893812,
-      "headline": "Primeo Energie saves Tour de Romandie, women's race returns in 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-de-romandie-saved-as-primeo-energie-steps-in-as-sponsor-for-both-womens-and-mens-races/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091962/cycling-bot/1047b1ff6b-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091962/cycling-bot/1047b1ff6b-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091963/cycling-bot/1047b1ff6b-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091964/cycling-bot/1047b1ff6b-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091964/cycling-bot/1047b1ff6b-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795091965/cycling-bot/1047b1ff6b-4.jpg"
-      ],
-      "full_caption": "Tour de Romandie has a new main sponsor, and the women's race is coming back.\n\nPrimeo Energie will back both the women's and men's events for the next two editions. The women's race, postponed for 2026, returns in 2027, and organisers have also revealed the route for the men's 80th edition.\n\nSwipe for the details. Is a loop-style Romandie the right call?\n\nSource: Cyclingnews\n\n#TourDeRomandie #Cycling #WorldTour #ProCycling #WomensCycling #RoadCycling #UCIWorldTour #CyclingNews #PrimeoEnergie #Switzerland",
-      "alt_text": "Graphic announcing that Primeo Energie will sponsor both the women's and men's Tour de Romandie, with the women's race returning in 2027.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [
-        {
-          "title": "Primeo Energie steps in",
-          "text": "The Swiss electricity company becomes main sponsor of both the women's and men's Tour de Romandie for the next two editions. It has sponsored the mountains classification jerseys since 2022."
-        },
-        {
-          "title": "Women's race returns in 2027",
-          "text": "Organisers postponed the 2026 women's race, with a lack of funds cited as a major factor. The three-day race is now due to start on September 10th. Route details have not yet been released."
-        },
-        {
-          "title": "Men's 80th edition",
-          "text": "It opens with the traditional prologue on Tuesday, April 27. Organisers chose loop-style stages, each almost entirely within a single canton, which they say helps with safety requirements and costs."
-        },
-        {
-          "title": "Men's route at a glance",
-          "text": "Prologue: Yverdon-les-Bains, 4.7km. Stages: Romont 170.1km, La Chaux-de-Fonds 176.2km, Vully-les-Lacs ITT 14.6km, Sierre 141.7km, then Moutier to Canton du Jura (distance TBC)."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 141
-    },
     "f4c6ecf9f7": {
       "id": "f4c6ecf9f7",
       "created": 1795169337.4089863,
@@ -493,6 +424,46 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 171
+    },
+    "57550d0e75": {
+      "id": "57550d0e75",
+      "created": 1795180141.1636322,
+      "headline": "Rebellin case ends: truck driver unfit for appeal trial",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/there-is-certainly-no-bitterness-case-against-truck-driver-who-struck-and-killed-davide-rebellin-wont-continue-due-to-his-ill-health/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180138/cycling-bot/57550d0e75-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180138/cycling-bot/57550d0e75-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180139/cycling-bot/57550d0e75-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180139/cycling-bot/57550d0e75-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180140/cycling-bot/57550d0e75-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795180140/cycling-bot/57550d0e75-4.jpg"
+      ],
+      "full_caption": "The legal case over the death of Davide Rebellin has ended without an appeal trial.\n\nThe Venice Court of Appeals ruled that truck driver Wolfgang Rieke, 66, is unfit to take part in proceedings after a stroke in 2024. Rieke had been given a four-year sentence at first instance. The Rebellin family's lawyer said the family respects the decision and feels no bitterness.\n\nHow should the sport keep pushing for rider safety on the road?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #DavideRebellin #Rebellin #cyclingnews #WorldTour #cyclingcommunity #roadsafety #Italy",
+      "alt_text": "News graphic with the headline that the case over Davide Rebellin's death has ended because the truck driver is unfit for an appeal trial.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Appeal case dropped",
+          "text": "The Venice Court of Appeals found Wolfgang Rieke unfit to take part in an appeal trial, according to Ansa. The case over Davide Rebellin's death will not continue."
+        },
+        {
+          "title": "Why the trial can't go on",
+          "text": "Rieke, 66, lives in a nursing home after a stroke in 2024. A doctor's report obtained by his lawyers concluded he is mentally unable to stand trial."
+        },
+        {
+          "title": "What happened in 2022",
+          "text": "Rebellin was killed on a training ride on November 30, 2022, shortly after retiring from racing. The driver fled the scene and turned himself in to German police in June 2023."
+        },
+        {
+          "title": "The family's response",
+          "text": "The family's lawyer, Davide Picco, said they respect the decision and feel no bitterness. Rieke's lawyer said the judges recognised his client's health condition."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 177
     }
   },
   "queue": [],
@@ -620,10 +591,9 @@
     1795154996.8401802,
     1795169338.5817275,
     1795172976.0329978,
-    1795176634.4454
+    1795176634.4454,
+    1795180142.8241537
   ],
-  "feed_errors": {
-    "Google News: new road bike launch": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=new+road+bike+launch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
