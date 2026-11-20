@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795180120.2987087,
+  "last_scout": 1795183715.665499,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -365,7 +365,16 @@
     "edc8d1397f5dea76": 1795180128.6833966,
     "3873c68956ff7766": 1795180128.6833966,
     "06b7f71bff0c7ef0": 1795180128.6833966,
-    "7e88fddbffb0d571": 1795180128.6833966
+    "7e88fddbffb0d571": 1795180128.6833966,
+    "ad204e9f9e2be5e6": 1795183722.7526362,
+    "47902a31da22897b": 1795183722.7526362,
+    "cf667e537fad507d": 1795183722.7526362,
+    "c7b1d7c7e98a52a1": 1795183722.7526362,
+    "5baf47c5bc638086": 1795183722.7526362,
+    "4ba34d313013503b": 1795183722.7526362,
+    "13bfe61f4b6799c3": 1795183722.7526362,
+    "189a380b8f555422": 1795183722.7526362,
+    "290e2b9925241653": 1795183722.7526362
   },
   "drafts": {
     "f4c6ecf9f7": {
@@ -464,6 +473,86 @@
       ],
       "background_url": null,
       "text_message_id": 177
+    },
+    "4fa5d4f1b5": {
+      "id": "4fa5d4f1b5",
+      "created": 1795183734.324005,
+      "headline": "Human Powered Health say CCG never approached them",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/worldtour-team-ignored-by-new-collective-cycling-group-reform-project/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183731/cycling-bot/4fa5d4f1b5-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183731/cycling-bot/4fa5d4f1b5-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183732/cycling-bot/4fa5d4f1b5-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183732/cycling-bot/4fa5d4f1b5-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183733/cycling-bot/4fa5d4f1b5-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183733/cycling-bot/4fa5d4f1b5-4.jpg"
+      ],
+      "full_caption": "A WorldTour team says it was left out of cycling's new reform project.\n\nHuman Powered Health told Cyclingnews that senior management were not made aware of the Collective Cycling Group or any chance to take part. The CCG launched this week with 24 teams and wants to overhaul the sport's economic model. Its CEO called it broad and inclusive, and the group says it is open to growing.\n\nShould a project like this have approached every WorldTour team from the start?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #WomensWorldTour #CollectiveCyclingGroup #OneCycling #HumanPoweredHealth #UAETeamEmirates #cyclingnews",
+      "alt_text": "News graphic with the headline that Human Powered Health say they were not approached to join the Collective Cycling Group.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [
+        {
+          "title": "Left out of the CCG",
+          "text": "Human Powered Health told Cyclingnews that senior management were not made aware of the Collective Cycling Group, or of any opportunity to take part in the project."
+        },
+        {
+          "title": "What the CCG is",
+          "text": "The CCG is the new version of the failed One Cycling movement. It launched publicly with 24 teams and aims to unlock the value potential of professional cycling."
+        },
+        {
+          "title": "Who is in and who is out",
+          "text": "Not all 32 men's and women's WorldTour teams signed up. UAE Team Emirates is the most notable decliner. Pinarello-Q36.5 and Tudor Pro Cycling are also shareholders."
+        },
+        {
+          "title": "The CCG's response",
+          "text": "The announcement said talks with other teams are ongoing. A CCG spokesperson said the group is open to growing over time. Its CEO, Oliver Ciesla, called it broad and inclusive."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 183
+    },
+    "2fb4e21432": {
+      "id": "2fb4e21432",
+      "created": 1795183749.5008926,
+      "headline": "Picnic PostNL sign ex-plumber Daan Depuydt for 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/from-plumbing-to-picnic-postnl-the-dutch-teams-newest-recruit-with-dreams-of-amstel-gold-race-and-riding-with-wout-van-aert/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183748/cycling-bot/2fb4e21432-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183748/cycling-bot/2fb4e21432-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183749/cycling-bot/2fb4e21432-4.jpg"
+      ],
+      "full_caption": "Picnic PostNL have added Belgian puncheur Daan Depuydt to their 2027 roster.\n\nThe 23-year-old moves up from Continental team Baloise Verzekeringen-Het Poetsbureau Lions. He is the Dutch squad's ninth new signing for next season, and his route to the WorldTour has been quick: he was still working as a plumber a few years ago.\n\nHe hopes to ride Amstel Gold Race in 2027. Which of Picnic PostNL's new signings are you most interested to watch?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PicnicPostNL #cyclingtransfers #DaanDepuydt #AmstelGoldRace #WoutvanAert #cyclingnews",
+      "alt_text": "Graphic announcing that Belgian rider Daan Depuydt has signed with Picnic PostNL for the 2027 season.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TRANSFER",
+      "slides": [
+        {
+          "title": "Ninth new face for 2027",
+          "text": "Picnic PostNL have signed Belgian Daan Depuydt, 23, from Continental team Baloise Verzekeringen-Het Poetsbureau Lions. He is the team's ninth signing for the 2027 season."
+        },
+        {
+          "title": "A rapid rise",
+          "text": "Depuydt raced at amateur level and worked as a plumber only a few years ago. A stage win at the 2025 Triptyque Ardennais brought him to Sven Nys' Baloise team."
+        },
+        {
+          "title": "The results that got him noticed",
+          "text": "He won stage 3 of the Tour de Limousin in August after finishing second on the opening day. He also took three top-10 finishes at the Tour de Wallonie."
+        },
+        {
+          "title": "What he brings and what he wants",
+          "text": "Depuydt calls himself a puncheur who goes well on short climbs and can sprint from a reduced group. He hopes to ride Amstel Gold Race in 2027 and line up alongside Wout van Aert."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 189
     }
   },
   "queue": [],
@@ -592,7 +681,9 @@
     1795169338.5817275,
     1795172976.0329978,
     1795176634.4454,
-    1795180142.8241537
+    1795180142.8241537,
+    1795183736.303016,
+    1795183751.4308605
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
