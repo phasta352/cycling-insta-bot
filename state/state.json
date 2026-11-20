@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436761,
+  "telegram_offset": 989436762,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795183715.665499,
@@ -513,46 +513,6 @@
       ],
       "background_url": null,
       "text_message_id": 183
-    },
-    "2fb4e21432": {
-      "id": "2fb4e21432",
-      "created": 1795183749.5008926,
-      "headline": "Picnic PostNL sign ex-plumber Daan Depuydt for 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/from-plumbing-to-picnic-postnl-the-dutch-teams-newest-recruit-with-dreams-of-amstel-gold-race-and-riding-with-wout-van-aert/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183747/cycling-bot/2fb4e21432-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183748/cycling-bot/2fb4e21432-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183748/cycling-bot/2fb4e21432-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795183749/cycling-bot/2fb4e21432-4.jpg"
-      ],
-      "full_caption": "Picnic PostNL have added Belgian puncheur Daan Depuydt to their 2027 roster.\n\nThe 23-year-old moves up from Continental team Baloise Verzekeringen-Het Poetsbureau Lions. He is the Dutch squad's ninth new signing for next season, and his route to the WorldTour has been quick: he was still working as a plumber a few years ago.\n\nHe hopes to ride Amstel Gold Race in 2027. Which of Picnic PostNL's new signings are you most interested to watch?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PicnicPostNL #cyclingtransfers #DaanDepuydt #AmstelGoldRace #WoutvanAert #cyclingnews",
-      "alt_text": "Graphic announcing that Belgian rider Daan Depuydt has signed with Picnic PostNL for the 2027 season.",
-      "score": 6,
-      "reel_url": null,
-      "category": "TRANSFER",
-      "slides": [
-        {
-          "title": "Ninth new face for 2027",
-          "text": "Picnic PostNL have signed Belgian Daan Depuydt, 23, from Continental team Baloise Verzekeringen-Het Poetsbureau Lions. He is the team's ninth signing for the 2027 season."
-        },
-        {
-          "title": "A rapid rise",
-          "text": "Depuydt raced at amateur level and worked as a plumber only a few years ago. A stage win at the 2025 Triptyque Ardennais brought him to Sven Nys' Baloise team."
-        },
-        {
-          "title": "The results that got him noticed",
-          "text": "He won stage 3 of the Tour de Limousin in August after finishing second on the opening day. He also took three top-10 finishes at the Tour de Wallonie."
-        },
-        {
-          "title": "What he brings and what he wants",
-          "text": "Depuydt calls himself a puncheur who goes well on short climbs and can sprint from a reduced group. He hopes to ride Amstel Gold Race in 2027 and line up alongside Wout van Aert."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 189
     }
   },
   "queue": [],
@@ -661,6 +621,14 @@
       "url": "https://escapecollective.com/nsn-switches-bike-sponsors-to-cube/",
       "at": 1795176608.7973013,
       "media_id": "18119041628113465"
+    },
+    {
+      "id": "2fb4e21432",
+      "headline": "Picnic PostNL sign ex-plumber Daan Depuydt for 2027",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/from-plumbing-to-picnic-postnl-the-dutch-teams-newest-recruit-with-dreams-of-amstel-gold-race-and-riding-with-wout-van-aert/",
+      "at": 1795187010.413375,
+      "media_id": "18112999498898366"
     }
   ],
   "drafts_sent": [
