@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795169319.387887,
+  "last_scout": 1795172946.9950562,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -340,7 +340,16 @@
     "b8900d027f7684cb": 1795169327.5321047,
     "66922881532daa83": 1795169327.5321047,
     "e755da27614c9dc5": 1795169327.5321047,
-    "80b134b365af5747": 1795169327.5321047
+    "80b134b365af5747": 1795169327.5321047,
+    "065028f05c56353e": 1795172954.6981165,
+    "6ddcbf80f89ed01a": 1795172954.6981165,
+    "0006be3ccc9691c8": 1795172954.6981165,
+    "b9c62533a43fd0f3": 1795172954.6981165,
+    "dfcbe23f3edbd7dc": 1795172954.6981165,
+    "dc5714da6f7b5525": 1795172954.6981165,
+    "e3b985f037089fce": 1795172954.6981165,
+    "dbece17574464cd7": 1795172954.6981165,
+    "ffb3d7be00e87aec": 1795172954.6981165
   },
   "drafts": {
     "08fc39a6f6": {
@@ -460,6 +469,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 166
+    },
+    "a453448bd0": {
+      "id": "a453448bd0",
+      "created": 1795172975.0603635,
+      "headline": "Benidorm to host first-ever UCI Cycling Gala on 9 December",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSUV4RFJXM3dRUmZlN3JMUWl0alU1Uk5CWEN0ZW5tZkF1dm1PcWxqQ0tSZXBMcUM0V0JTN3VuNk81eDFIUHlhOGlVcW53cGxrQlkyUGdoRFMzUW5CdHRtTHhoZ00tNThkTVhCU2NzYWVReG9NeWF6UzVITWF5TG1oOU1FWWZTM3JSWTJpWldn?oc=5",
+      "source": "Ciudadano | Benidorm",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795172974/cycling-bot/a453448bd0-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795172974/cycling-bot/a453448bd0-0.jpg"
+      ],
+      "full_caption": "Benidorm has been named as the host of the first UCI Cycling Gala. 🎉\n\nThe inaugural edition is scheduled for 9 December in the Spanish city. Details on the programme, format and guests have not yet been made available in the report we have seen.\n\nA first edition of a UCI-branded event in Benidorm is worth watching, and we'll share more once the full details are out.\n\nWhat would you most like to see from a UCI gala?\n\nSource: Ciudadano | Benidorm\n\n#cycling #procycling #roadcycling #UCI #UCICyclingGala #Benidorm #WorldTour #cyclingnews #cyclingcommunity #Spain",
+      "alt_text": "News graphic announcing that Benidorm will host the inaugural UCI Cycling Gala on 9 December.",
+      "score": 6,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 168
     }
   },
   "queue": [
@@ -607,8 +635,6 @@
     }
   ],
   "drafts_sent": [
-    1794998353.735689,
-    1794998370.181038,
     1795016341.8358703,
     1795023573.5983138,
     1795023589.6780245,
@@ -623,7 +649,8 @@
     1795099128.3129582,
     1795154975.88346,
     1795154996.8401802,
-    1795169338.5817275
+    1795169338.5817275,
+    1795172976.0329978
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
