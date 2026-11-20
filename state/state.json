@@ -436,49 +436,6 @@
   },
   "queue": [
     {
-      "id": "4419f7340d",
-      "created": 1795154972.2198024,
-      "headline": "Cycling stars set for Vatican audience with Pope Leo XIV",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/demi-vollering-eddy-merckx-and-paul-seixas-among-cycling-stars-set-for-audience-with-pope-leo-xiv/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154939/cycling-bot/4419f7340d-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154939/cycling-bot/4419f7340d-4.jpg"
-      ],
-      "full_caption": "Cycling goes to the Vatican on November 23.\n\nDemi Vollering, Eddy Merckx and Paul Seixas will join Mark Cavendish, Annemiek van Vleuten, Greg LeMond and Elisa Longo Borghini at an audience with Pope Leo XIV. The UCI is organising it with Vatican bodies, and president David Lappartient says it is meant to promote peace and dialogue between peoples.\n\nWhich name on the guest list stands out most for you?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #UCI #WorldTour #DemiVollering #EddyMerckx #PaulSeixas #PopeLeoXIV #Vatican",
-      "alt_text": "News graphic announcing that cycling stars including Demi Vollering, Eddy Merckx and Paul Seixas will attend an audience with Pope Leo XIV at the Vatican.",
-      "score": 9,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795154971/cycling-bot/4419f7340d-reel.mp4",
-      "category": "UCI",
-      "slides": [
-        {
-          "title": "Audience at the Vatican",
-          "text": "Pope Leo XIV will receive a cycling delegation on November 23. The Dicastery for Culture and Education and the Vatican's multi-sport association are organising it with the UCI."
-        },
-        {
-          "title": "Who is attending",
-          "text": "More than 100 guests are expected, including past and present Grand Tour champions, organisers of the men's and women's Grand Tours and other races, and federation representatives. Hinault, Indurain, Nibali and Froome are among the names."
-        },
-        {
-          "title": "Bikes for Caritas Rome",
-          "text": "After the audience, the UCI will symbolically donate several bicycles to Caritas Rome. Lappartient says the event strengthens cycling's commitment to peace and intercultural dialogue."
-        },
-        {
-          "title": "Popes and cycling",
-          "text": "In 2025 the Pope blessed the peloton before the final Giro d'Italia stage, which started in the Vatican. Paul VI in 1964 and John Paul II in 2000 also addressed the Giro."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 156,
-      "kind": "reel",
-      "post_now": false,
-      "approved_at": 1795157799.6255453
-    },
-    {
       "id": "a98f857901",
       "created": 1795154995.4839132,
       "headline": "NSN to ride Cube bikes in 2027, ending Scott deal after one year",
@@ -611,6 +568,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/demi-vollering-eddy-merckx-and-paul-seixas-among-cycling-stars-set-for-audience-with-pope-leo-xiv/",
       "at": 1795158558.740121,
       "media_id": "17958541683083347"
+    },
+    {
+      "id": "4419f7340d",
+      "headline": "Cycling stars set for Vatican audience with Pope Leo XIV",
+      "kind": "reel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/demi-vollering-eddy-merckx-and-paul-seixas-among-cycling-stars-set-for-audience-with-pope-leo-xiv/",
+      "at": 1795167554.119418,
+      "media_id": "17981567427141057"
     }
   ],
   "drafts_sent": [
