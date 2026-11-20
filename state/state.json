@@ -2,7 +2,7 @@
   "telegram_offset": 989436759,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795099110.474577,
+  "last_scout": 1795154915.8719783,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -254,7 +254,64 @@
     "98b31b7753d95fd0": 1795099115.9665737,
     "2e1b5ffcba7af7c5": 1795099115.9665737,
     "bdba18cff95be70f": 1795099115.9665737,
-    "d411db5920881f27": 1795099115.9665737
+    "d411db5920881f27": 1795099115.9665737,
+    "335be00b5c3720fb": 1795154925.8853498,
+    "fecc8bcb1b4aaf87": 1795154925.8853498,
+    "ee60f1971b9ebf77": 1795154925.8853498,
+    "4d219410d79dfd7f": 1795154925.8853498,
+    "afbc470dc14477b4": 1795154925.8853498,
+    "329cbaa7306f1219": 1795154925.8853498,
+    "f0420dd9275112ce": 1795154925.8853498,
+    "43a6db0e67b2a846": 1795154925.8853498,
+    "9d94da38d67b0633": 1795154925.8853498,
+    "76bfb9ff4ac37ba6": 1795154925.8853498,
+    "d84177607117f600": 1795154925.8853498,
+    "4f3c3c18c1263325": 1795154925.8853498,
+    "bfe17b1d390e00ed": 1795154925.8853498,
+    "ef20f16c7aa28666": 1795154925.8853498,
+    "5e08df813b95628a": 1795154925.8853498,
+    "079bf6e9af468bb3": 1795154925.8853498,
+    "3cfc77b6f95d5cb8": 1795154925.8853498,
+    "13db3024d427c2a2": 1795154925.8853498,
+    "47ef1934c8d2b527": 1795154925.8853498,
+    "0fee507073c8561b": 1795154925.8853498,
+    "7a094bd862a0f0e4": 1795154925.8853498,
+    "570837c3efcb182b": 1795154925.8853498,
+    "5f520b14c40f1829": 1795154925.8853498,
+    "eefb120c323cac9e": 1795154925.8853498,
+    "82357cfe35223439": 1795154925.8853498,
+    "fda4b7b7cf6f4022": 1795154925.8853498,
+    "e51e689e11a7231a": 1795154925.8853498,
+    "0f574faaf523c0cc": 1795154925.8853498,
+    "f91c5bea421bb7b3": 1795154925.8853498,
+    "b820c8a9dfd50856": 1795154925.8853498,
+    "0d3ff9c32ffb4181": 1795154925.8853498,
+    "69233be1cc3bf056": 1795154925.8853498,
+    "a06e768a75f08da3": 1795154925.8853498,
+    "2a190f42db4b53aa": 1795154925.8853498,
+    "a744b7c600ed1d0f": 1795154925.8853498,
+    "ab8b55f2322943ba": 1795154925.8853498,
+    "3ff7b7ded6787f37": 1795154925.8853498,
+    "fe2ad7fc9bcc29ce": 1795154925.8853498,
+    "0fa81af83238c699": 1795154925.8853498,
+    "f0b5c5af8212c994": 1795154925.8853498,
+    "f9b3996d4c95badb": 1795154925.8853498,
+    "0f00cd16942c23a5": 1795154925.8853498,
+    "89b92e6bc0955d00": 1795154925.8853498,
+    "a596778d6e0466cc": 1795154925.8853498,
+    "e124a305feb6a8ae": 1795154925.8853498,
+    "6538d58c5371936c": 1795154925.8853498,
+    "13c71af9dcff97bf": 1795154925.8853498,
+    "3ca205f4fe15bd38": 1795154925.8853498,
+    "83bdae7e4c5a0295": 1795154925.8853498,
+    "ac0e45a38e7928ea": 1795154925.8853498,
+    "8ef6678cbbad8840": 1795154925.8853498,
+    "0832a1c0cbf772b1": 1795154925.8853498,
+    "c6fe4b218408aa61": 1795154925.8853498,
+    "f91e2479c7586acb": 1795154925.8853498,
+    "d889408cd137c32d": 1795154925.8853498,
+    "3ccd7db948e0104c": 1795154925.8853498,
+    "5cc6d5811cae8b75": 1795154925.8853498
   },
   "drafts": {
     "b42ab645dd": {
@@ -433,6 +490,86 @@
       ],
       "background_url": null,
       "text_message_id": 141
+    },
+    "4419f7340d": {
+      "id": "4419f7340d",
+      "created": 1795154972.2198024,
+      "headline": "Cycling stars set for Vatican audience with Pope Leo XIV",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/demi-vollering-eddy-merckx-and-paul-seixas-among-cycling-stars-set-for-audience-with-pope-leo-xiv/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154938/cycling-bot/4419f7340d-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154939/cycling-bot/4419f7340d-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154939/cycling-bot/4419f7340d-4.jpg"
+      ],
+      "full_caption": "Cycling goes to the Vatican on November 23.\n\nDemi Vollering, Eddy Merckx and Paul Seixas will join Mark Cavendish, Annemiek van Vleuten, Greg LeMond and Elisa Longo Borghini at an audience with Pope Leo XIV. The UCI is organising it with Vatican bodies, and president David Lappartient says it is meant to promote peace and dialogue between peoples.\n\nWhich name on the guest list stands out most for you?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #UCI #WorldTour #DemiVollering #EddyMerckx #PaulSeixas #PopeLeoXIV #Vatican",
+      "alt_text": "News graphic announcing that cycling stars including Demi Vollering, Eddy Merckx and Paul Seixas will attend an audience with Pope Leo XIV at the Vatican.",
+      "score": 9,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795154971/cycling-bot/4419f7340d-reel.mp4",
+      "category": "UCI",
+      "slides": [
+        {
+          "title": "Audience at the Vatican",
+          "text": "Pope Leo XIV will receive a cycling delegation on November 23. The Dicastery for Culture and Education and the Vatican's multi-sport association are organising it with the UCI."
+        },
+        {
+          "title": "Who is attending",
+          "text": "More than 100 guests are expected, including past and present Grand Tour champions, organisers of the men's and women's Grand Tours and other races, and federation representatives. Hinault, Indurain, Nibali and Froome are among the names."
+        },
+        {
+          "title": "Bikes for Caritas Rome",
+          "text": "After the audience, the UCI will symbolically donate several bicycles to Caritas Rome. Lappartient says the event strengthens cycling's commitment to peace and intercultural dialogue."
+        },
+        {
+          "title": "Popes and cycling",
+          "text": "In 2025 the Pope blessed the peloton before the final Giro d'Italia stage, which started in the Vatican. Paul VI in 1964 and John Paul II in 2000 also addressed the Giro."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 156
+    },
+    "a98f857901": {
+      "id": "a98f857901",
+      "created": 1795154995.4839132,
+      "headline": "NSN to ride Cube bikes in 2027, ending Scott deal after one year",
+      "url": "https://escapecollective.com/nsn-switches-bike-sponsors-to-cube/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154993/cycling-bot/a98f857901-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154994/cycling-bot/a98f857901-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154994/cycling-bot/a98f857901-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795154995/cycling-bot/a98f857901-4.jpg"
+      ],
+      "full_caption": "NSN is swapping Scott for Cube from 2027.\n\nThe WorldTeam announced the new bike partnership on Thursday, just after signing Primož Roglič on a one-year deal. It reunites Biniam Girmay with the brand he rode at Intermarché-Wanty. Scott will have no WorldTour or ProTour team. NSN gave no reason for ending the deal early and didn't say how long the Cube deal runs.\n\nWill Cube bikes suit NSN's new-look roster?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #NSN #Cube #Scott #BiniamGirmay #PrimozRoglic #cyclingnews",
+      "alt_text": "News graphic announcing that the NSN cycling team will switch from Scott to Cube bikes for the 2027 season.",
+      "score": 7,
+      "reel_url": null,
+      "category": "GEAR & TECH",
+      "slides": [
+        {
+          "title": "NSN moves from Scott to Cube",
+          "text": "NSN will ride bikes from German brand Cube in 2027 after one season on Scott. The team announced the partnership on Thursday, soon after confirming the signing of Primož Roglič for one year."
+        },
+        {
+          "title": "A reunion for Girmay",
+          "text": "The deal brings Biniam Girmay back to Cube, which he rode for five years at Intermarché-Wanty. His biggest successes there include the green jersey at the 2024 Tour de France."
+        },
+        {
+          "title": "Scott loses its top-level team",
+          "text": "Scott has now left the top tier of road racing. It previously backed Picnic-PostNL through 2024 and Q36.5, which moved to Pinarello for 2026. It has no WorldTour or ProTour team."
+        },
+        {
+          "title": "Questions left unanswered",
+          "text": "Scott's NSN deal was announced about a year ago as a multi-year partnership. NSN gave no reason for ending it early and did not state the length of the Cube agreement."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 162
     }
   },
   "queue": [],
@@ -535,7 +672,9 @@
     1795088373.9523702,
     1795091950.611707,
     1795091967.172652,
-    1795099128.3129582
+    1795099128.3129582,
+    1795154975.88346,
+    1795154996.8401802
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
