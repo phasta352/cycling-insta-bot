@@ -2,7 +2,7 @@
   "telegram_offset": 989436761,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795158560.1154668,
+  "last_scout": 1795162111.2961192,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -318,28 +318,16 @@
     "25f822b328b630b2": 1795158564.5277145,
     "9d0404a0653dd25b": 1795158564.5277145,
     "60815137df491fa1": 1795158564.5277145,
-    "74e09189081ed954": 1795158564.5277145
+    "74e09189081ed954": 1795158564.5277145,
+    "71f577138c12ce77": 1795162117.3289497,
+    "b427781bf39d68e8": 1795162117.3289497,
+    "e64e09d1087eb686": 1795162117.3289497,
+    "10aff2cfbb16ba2b": 1795162117.3289497,
+    "5b666c49efee60c0": 1795162117.3289497,
+    "ebdfe07e6b2e56c6": 1795162117.3289497,
+    "558e990ce74c5759": 1795162117.3289497
   },
   "drafts": {
-    "53f930e9b2": {
-      "id": "53f930e9b2",
-      "created": 1795074282.791988,
-      "headline": "Seixas: Not ready to win the Tour on this year's form",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEhYMEgzVktzREo3TGVqTEwzVnhxR2thMFBEeGc2NnE3bjQwSzZzQm92VVQ0OWtOOWcxRTR6eDFtVmptSWtDUFNRa2Rxc0FSdXVySzV2MjNIT0tQdUgtOWxvbHJZNmpmemR1eHVwLVJmTkdnY1lFUmJJN2hIYy1jOGp0UUtpSlhORGxrVEdPTlpFYW5lQ1gzNXYwSVhpNWhueC1qYmFnRUZyZFVRcUZvYTF0VGpTdjhLTzBzcXZLQ2J5XzNRd2NDU0JkTQ?oc=5",
-      "source": "Brujulabike.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795074282/cycling-bot/53f930e9b2-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795074282/cycling-bot/53f930e9b2-0.jpg"
-      ],
-      "full_caption": "Paul Seixas is realistic about his Tour ambitions.\n\nAccording to Brujulabike, the young Frenchman says that based on what he has shown this year, he does not see himself as capable of winning the Tour. The report says he has also outlined his plans for 2027.\n\nIt is a measured assessment from one of the sport's most talked-about young talents, and it hints at how he may approach his next step up.\n\nIs Seixas right to be cautious, or will he be a Tour contender sooner than he thinks?\n\nSource: Brujulabike.com\n\n#PaulSeixas #Seixas #TourdeFrance #Cycling #ProCycling #WorldTour #RoadCycling #CyclingNews #GeneralClassification #2027Season",
-      "alt_text": "News graphic with the text 'Seixas: Not ready to win the Tour on this year's form' under a Rider News label.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 113
-    },
     "08fc39a6f6": {
       "id": "08fc39a6f6",
       "created": 1795088372.5842829,
