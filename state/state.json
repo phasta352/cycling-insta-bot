@@ -621,51 +621,7 @@
       "text_message_id": 223
     }
   },
-  "queue": [
-    {
-      "id": "5e598676ed",
-      "created": 1795266573.5937622,
-      "headline": "UCI backs Schreiber relegation; Luxembourg weighs next step",
-      "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
-      "source": "Escape Collective",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266572/cycling-bot/5e598676ed-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266572/cycling-bot/5e598676ed-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266573/cycling-bot/5e598676ed-4.jpg"
-      ],
-      "full_caption": "The UCI sees no major error in Marie Schreiber's relegation at the European Championships, and Luxembourg is not letting it go.\n\nSchreiber lost the title to Lucinda Brand in Zeddam after a jury ruling on her line in the final two-rider sprint. The Luxembourg federation (FSCL) says the UCI's reply was general and offered no further explanation. Its board will now decide how to proceed, and a CAS appeal remains possible.\n\nShould the UCI publish a detailed explanation of the rule?\n\nSource: Escape Collective\n\n#cycling #procycling #UCI #MarieSchreiber #LucindaBrand #EuropeanChampionships #womenscycling #CAS #cyclingnews #Luxembourg",
-      "alt_text": "News graphic with the headline that the UCI sees no wrongdoing in Marie Schreiber's relegation while the Luxembourg federation considers further action.",
-      "score": 7,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795281723/cycling-bot/5e598676ed-reel.mp4",
-      "category": "UCI",
-      "slides": [
-        {
-          "title": "What happened",
-          "text": "Marie Schreiber was relegated after a deviation in the final two-rider sprint of the elite women's European Championship race in Zeddam. Lucinda Brand took the title. The jury took a long time to issue the result."
-        },
-        {
-          "title": "The UCI's response",
-          "text": "The Luxembourg federation (FSCL) told RTL the UCI does not see a bigger mistake. It said the answer was fairly general and came with no further explanation."
-        },
-        {
-          "title": "Wider reaction",
-          "text": "Schreiber, her coach Sanne Cant and several other big names questioned the relegation. Brand's own coach, Sven Nys, expressed sympathy for the Luxembourg camp."
-        },
-        {
-          "title": "What comes next",
-          "text": "The FSCL board will decide how to proceed. Taking the case to CAS is still possible. The federation also appears to want a fuller explanation of a rule open to varied interpretation."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 229,
-      "kind": "reel",
-      "post_now": false,
-      "approved_at": 1795282894.8092904
-    }
-  ],
+  "queue": [],
   "published": [
     {
       "id": "db1ea2c097",
@@ -811,6 +767,14 @@
       "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
       "at": 1795282950.5223873,
       "media_id": "18131352340872568"
+    },
+    {
+      "id": "5e598676ed",
+      "headline": "UCI backs Schreiber relegation; Luxembourg weighs next step",
+      "kind": "reel",
+      "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
+      "at": 1795291760.249959,
+      "media_id": "18061670852563671"
     }
   ],
   "drafts_sent": [
