@@ -2,7 +2,7 @@
   "telegram_offset": 989436764,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795259320.4128728,
+  "last_scout": 1795262917.8331628,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -450,7 +450,15 @@
     "c77194b5c2514ad3": 1795259329.4422665,
     "0cdbdea1500cc593": 1795259329.4422665,
     "04ede3b8af0e1616": 1795259329.4422665,
-    "753f33b96bf3f221": 1795259329.4422665
+    "753f33b96bf3f221": 1795259329.4422665,
+    "d4eecfef7961bfd0": 1795262924.133249,
+    "dc4c2db0046560df": 1795262924.133249,
+    "77af3426b5179a45": 1795262924.133249,
+    "fa3cb89c0e123e4a": 1795262924.133249,
+    "0d474ccad21f91e3": 1795262924.133249,
+    "5cd4d9190eaf8f7c": 1795262924.133249,
+    "24077daa9a6a9e9f": 1795262924.133249,
+    "fc3df5a032385857": 1795262924.133249
   },
   "drafts": {
     "101097727e": {
@@ -645,6 +653,25 @@
       ],
       "background_url": null,
       "text_message_id": 213
+    },
+    "9760f965bd": {
+      "id": "9760f965bd",
+      "created": 1795262939.7114208,
+      "headline": "Tour du Rwanda unveils new format with two classic races",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWNSbmVmYU92WllJUld6d2Frc1FxQXI0OC1QNEJ1dV9PTmx5dnVsRFJRSUdMZW5uUURDVFdWeEFFRmdQeU1HMXFhVWNkOVR4aENrdXo3Q2sxNk1FNzZnS2tXNEtwd252dXlUMWxJUFRMdjdtMmNKQmdIRkVsOFE3ZnBFamtZLXV4TVNzVlVKYnExVTI4NjBEdzYxcVZFcEJueDY3dFNLb21SYm00d2tIRkdtdTltbnPSAbcBQVVfeXFMTWFjUm5lZmFPdlpZSVJXendha3NRcUFyNDgtUDRCdXVfT05seXZ1bERSUUlHTGVublFEQ1RXVnhBRUZnUHlNRzFxYVVjZDlUeGhDa3V6N0NrMTZNRTc2Z0trVzRLcHdudnV5VDFsSVBUTHY3bTJjSkJnSEZFbDhRN2ZwRWprWS11eE1Tc1ZVSmJxMVUyODYwRHc2MXFWRXBCbng2N3RTS29tUmJtNHdrSEZHbXU5bW5z?oc=5",
+      "source": "The New Times",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795262939/cycling-bot/9760f965bd-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795262939/cycling-bot/9760f965bd-0.jpg"
+      ],
+      "full_caption": "Tour du Rwanda is changing its format.\n\nOrganisers have announced a new-look event that brings two classic races into the programme, according to The New Times. The report's headline is all we have so far, so details on the races, dates and how the new structure will work are still to come.\n\nWe'll update when the full programme is published.\n\nWhat would you like to see from a reworked Tour du Rwanda?\n\nSource: The New Times\n\n#TourduRwanda #Cycling #ProCycling #RoadCycling #CyclingNews #UCIAfricaTour #AfricanCycling #Rwanda #RaceAnnouncement #RoadRacing",
+      "alt_text": "Graphic with the text 'Tour du Rwanda unveils new format with two classic races' under a Race News label.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 216
     }
   },
   "queue": [
@@ -824,7 +851,6 @@
     }
   ],
   "drafts_sent": [
-    1795088373.9523702,
     1795091950.611707,
     1795091967.172652,
     1795099128.3129582,
@@ -840,7 +866,8 @@
     1795241375.0679102,
     1795255802.8872721,
     1795259381.3171787,
-    1795259395.6636436
+    1795259395.6636436,
+    1795262941.11659
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
