@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436762,
+  "telegram_offset": 989436763,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795244920.9080098,
@@ -567,25 +567,6 @@
       "background_url": null,
       "text_message_id": 183
     },
-    "ed00ab8158": {
-      "id": "ed00ab8158",
-      "created": 1795241339.0954669,
-      "headline": "AlUla ends Jayco sponsorship and cancels AlUla Tour",
-      "url": "https://escapecollective.com/alula-cancels-alula-tour-pulls-out-of-jayco-team-sponsorship/",
-      "source": "Escape Collective",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241338/cycling-bot/ed00ab8158-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241338/cycling-bot/ed00ab8158-0.jpg"
-      ],
-      "full_caption": "AlUla has pulled its backing from the Jayco-AlUla WorldTour team. 🚴\n\nThe Saudi Arabian region has also cancelled the AlUla Tour, according to Escape Collective, which says it has confirmed both moves. The race was on the UCI's initial 2027 calendar and was expected in late January, but it will not go ahead.\n\nThe team carries the AlUla name, so the exit raises questions about its future branding and partners. No further details were given in the report.\n\nWhat should the team do next?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #UCI #JaycoAlUla #AlUlaTour #cyclingnews #teamnews #cyclingsponsorship",
-      "alt_text": "News graphic with the headline that AlUla is ending its Jayco-AlUla team sponsorship and cancelling the AlUla Tour.",
-      "score": 8,
-      "reel_url": null,
-      "category": "TEAM NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 192
-    },
     "c67e27094e": {
       "id": "c67e27094e",
       "created": 1795241373.6912258,
@@ -741,6 +722,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/from-plumbing-to-picnic-postnl-the-dutch-teams-newest-recruit-with-dreams-of-amstel-gold-race-and-riding-with-wout-van-aert/",
       "at": 1795187010.413375,
       "media_id": "18112999498898366"
+    },
+    {
+      "id": "ed00ab8158",
+      "headline": "AlUla ends Jayco sponsorship and cancels AlUla Tour",
+      "kind": "carousel",
+      "url": "https://escapecollective.com/alula-cancels-alula-tour-pulls-out-of-jayco-team-sponsorship/",
+      "at": 1795245800.810475,
+      "media_id": "18066309047555977"
     }
   ],
   "drafts_sent": [
