@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436763,
+  "telegram_offset": 989436764,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795259320.4128728,
@@ -453,25 +453,6 @@
     "753f33b96bf3f221": 1795259329.4422665
   },
   "drafts": {
-    "a453448bd0": {
-      "id": "a453448bd0",
-      "created": 1795172975.0603635,
-      "headline": "Benidorm to host first-ever UCI Cycling Gala on 9 December",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSUV4RFJXM3dRUmZlN3JMUWl0alU1Uk5CWEN0ZW5tZkF1dm1PcWxqQ0tSZXBMcUM0V0JTN3VuNk81eDFIUHlhOGlVcW53cGxrQlkyUGdoRFMzUW5CdHRtTHhoZ00tNThkTVhCU2NzYWVReG9NeWF6UzVITWF5TG1oOU1FWWZTM3JSWTJpWldn?oc=5",
-      "source": "Ciudadano | Benidorm",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795172974/cycling-bot/a453448bd0-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795172974/cycling-bot/a453448bd0-0.jpg"
-      ],
-      "full_caption": "Benidorm has been named as the host of the first UCI Cycling Gala. 🎉\n\nThe inaugural edition is scheduled for 9 December in the Spanish city. Details on the programme, format and guests have not yet been made available in the report we have seen.\n\nA first edition of a UCI-branded event in Benidorm is worth watching, and we'll share more once the full details are out.\n\nWhat would you most like to see from a UCI gala?\n\nSource: Ciudadano | Benidorm\n\n#cycling #procycling #roadcycling #UCI #UCICyclingGala #Benidorm #WorldTour #cyclingnews #cyclingcommunity #Spain",
-      "alt_text": "News graphic announcing that Benidorm will host the inaugural UCI Cycling Gala on 9 December.",
-      "score": 6,
-      "reel_url": null,
-      "category": "UCI",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 168
-    },
     "101097727e": {
       "id": "101097727e",
       "created": 1795176632.775199,
@@ -630,7 +611,44 @@
       "background_url": null,
       "text_message_id": 201
     },
-    "3c81c087b4": {
+    "83691951b0": {
+      "id": "83691951b0",
+      "created": 1795259393.700483,
+      "headline": "Roglič to get a new coach for the first time as a pro",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/maybe-this-will-add-something-more-primoz-roglic-will-change-coach-for-the-first-time-in-his-career-following-move-to-nsn/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259393/cycling-bot/83691951b0-3.jpg"
+      ],
+      "full_caption": "Primož Roglič is set to work with a new coach for the first time in his career.\n\nCyclingnews understands that long-time coach Marc Lamberts will not follow him to NSN Cycling. Slovenia's national coach Uroš Murn points to Tadej Pogačar's coaching switch as a sign that a change can help. NSN has not yet said who will coach Roglič in 2027.\n\nCan a new coach bring something extra from Roglič at 37?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PrimozRoglic #Roglic #NSNCycling #RedBullBora #cyclingnews #cyclingtransfers",
+      "alt_text": "News graphic with the headline that Primož Roglič will have a new coach for the first time in his professional career after joining NSN Cycling.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Lamberts stays at Red Bull",
+          "text": "Cyclingnews understands Marc Lamberts will not follow Primož Roglič to NSN Cycling. He is set to remain on the coaching staff at Red Bull-Bora-Hansgrohe in 2027."
+        },
+        {
+          "title": "A partnership since 2016",
+          "text": "Lamberts has coached Roglič since he turned pro with LottoNL-Jumbo in 2016, and moved with him to Red Bull in 2024. Roglič, 37, joins NSN on a one-year contract."
+        },
+        {
+          "title": "The Pogačar example",
+          "text": "Slovenia coach Uroš Murn cited Pogačar's 2024 switch from Iñigo San Millán to Javier Sola, saying Roglič has nothing to lose. NSN has not confirmed who will coach him in 2027."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 213
+    }
+  },
+  "queue": [
+    {
       "id": "3c81c087b4",
       "created": 1795259376.866085,
       "headline": "Pogačar: Three Grand Tours in a year will come, but not in 2027",
@@ -668,45 +686,12 @@
         }
       ],
       "background_url": null,
-      "text_message_id": 208
-    },
-    "83691951b0": {
-      "id": "83691951b0",
-      "created": 1795259393.700483,
-      "headline": "Roglič to get a new coach for the first time as a pro",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/maybe-this-will-add-something-more-primoz-roglic-will-change-coach-for-the-first-time-in-his-career-following-move-to-nsn/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259393/cycling-bot/83691951b0-3.jpg"
-      ],
-      "full_caption": "Primož Roglič is set to work with a new coach for the first time in his career.\n\nCyclingnews understands that long-time coach Marc Lamberts will not follow him to NSN Cycling. Slovenia's national coach Uroš Murn points to Tadej Pogačar's coaching switch as a sign that a change can help. NSN has not yet said who will coach Roglič in 2027.\n\nCan a new coach bring something extra from Roglič at 37?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PrimozRoglic #Roglic #NSNCycling #RedBullBora #cyclingnews #cyclingtransfers",
-      "alt_text": "News graphic with the headline that Primož Roglič will have a new coach for the first time in his professional career after joining NSN Cycling.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "Lamberts stays at Red Bull",
-          "text": "Cyclingnews understands Marc Lamberts will not follow Primož Roglič to NSN Cycling. He is set to remain on the coaching staff at Red Bull-Bora-Hansgrohe in 2027."
-        },
-        {
-          "title": "A partnership since 2016",
-          "text": "Lamberts has coached Roglič since he turned pro with LottoNL-Jumbo in 2016, and moved with him to Red Bull in 2024. Roglič, 37, joins NSN on a one-year contract."
-        },
-        {
-          "title": "The Pogačar example",
-          "text": "Slovenia coach Uroš Murn cited Pogačar's 2024 switch from Iñigo San Millán to Javier Sola, saying Roglič has nothing to lose. NSN has not confirmed who will coach him in 2027."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 213
+      "text_message_id": 208,
+      "kind": "reel",
+      "post_now": false,
+      "approved_at": 1795261020.2385845
     }
-  },
-  "queue": [],
+  ],
   "published": [
     {
       "id": "db1ea2c097",
@@ -828,6 +813,14 @@
       "url": "https://escapecollective.com/alula-cancels-alula-tour-pulls-out-of-jayco-team-sponsorship/",
       "at": 1795245800.810475,
       "media_id": "18066309047555977"
+    },
+    {
+      "id": "3c81c087b4",
+      "headline": "Pogačar: Three Grand Tours in a year will come, but not in 2027",
+      "kind": "carousel",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/ill-try-sooner-or-later-tadej-pogacar-says-he-will-attempt-three-grand-tours-in-a-single-season-but-not-in-2027/",
+      "at": 1795261080.9667835,
+      "media_id": "18101051609404237"
     }
   ],
   "drafts_sent": [
