@@ -2,7 +2,7 @@
   "telegram_offset": 989436763,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795252140.6829057,
+  "last_scout": 1795255784.3062994,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -434,28 +434,16 @@
     "1b584b2008370415": 1795248535.0131574,
     "2ff71ae4f714294d": 1795252146.8340824,
     "bca2b7e18fcbc538": 1795252146.8340824,
-    "9f12fda687776ea3": 1795252146.8340824
+    "9f12fda687776ea3": 1795252146.8340824,
+    "cb495a6fdedd8177": 1795255792.346193,
+    "04ee434c0bd6d842": 1795255792.346193,
+    "1da1c9a4b17863b3": 1795255792.346193,
+    "e7c0d1c3cb58aa29": 1795255792.346193,
+    "504e629e357ef9eb": 1795255792.346193,
+    "6a863537d044bdd2": 1795255792.346193,
+    "a72c57fb1045523b": 1795255792.346193
   },
   "drafts": {
-    "f4c6ecf9f7": {
-      "id": "f4c6ecf9f7",
-      "created": 1795169337.4089863,
-      "headline": "Cancellara: Tudor will shield De Lie from pressure",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdEtGa1l3ejRFRjZuZGFEeEI3NF9KVmpXREh4anBBMXBzc1dyZWhSQV9OSzdIVG9sLW11QndwRTV6ajFQSjR4TDlGYmhHYmROZDZGdjV6RFN0ZWVzY2p1dXJjNWI4LUN1d3hDcTFSY3ctZ3FhaHJIRmhaN1MteHltdm95V0dTYWJ5ek1vRjZBdmlCcldzb2kzMkNPM3ZfVWtLMktrZU1pTFhyblYzX1g1UHB3dlZQTml1TGFzaHVBUXNUUURXVkxSUEdFYTJoaE8wNUxkbXY5azE?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795169337/cycling-bot/f4c6ecf9f7-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795169337/cycling-bot/f4c6ecf9f7-0.jpg"
-      ],
-      "full_caption": "Fabian Cancellara has outlined how Tudor plan to take the pressure off Arnaud De Lie.\n\nAccording to CyclingUpToDate, Cancellara said he would be among the first to protect the rider. The headline is all the detail available so far on how the team will do it.\n\nDe Lie is a rider who attracts big expectations, so how his team manages them will be worth watching.\n\nHow should Tudor handle De Lie's expectations?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #ProCyclingNews #ArnaudDeLie #FabianCancellara #TudorProCycling #cyclingnews #roadracing",
-      "alt_text": "News graphic with the headline 'Cancellara: Tudor will shield De Lie from pressure' on a Cycling News Today template.",
-      "score": 6,
-      "reel_url": null,
-      "category": "TEAM NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 166
-    },
     "a453448bd0": {
       "id": "a453448bd0",
       "created": 1795172975.0603635,
@@ -613,6 +601,25 @@
       ],
       "background_url": null,
       "text_message_id": 198
+    },
+    "d5ba7ceea8": {
+      "id": "d5ba7ceea8",
+      "created": 1795255801.2887325,
+      "headline": "Carapaz leaning towards a Giro d'Italia return",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQUhZX09uc0prTktCQnIyRDgwVGlOR1NlNWI2UVltRmYxZmNvVTIyMURid2txU1ZuQzdTVmM0cmVEQkpYd2tqdTFoZXpVRS1GTlU0SGZwRG5XZmFYblFvTl9SeHBHV3g3M3JRaW1ORjktQVRseklrelFKMDlLVVFjc1pZbTBObUpXTmducFRCS1ZBSGM1X3FDTVJrRW5Da1dPNXlLbE1OMlY0V0ZOUTRPc2tjaUtjaWs4cndsWkxqWFR2WFd2cVYtYWpoVTF4SEFCa0U4NzVneEtmLWlOWlg3dA?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795255800/cycling-bot/d5ba7ceea8-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795255800/cycling-bot/d5ba7ceea8-0.jpg"
+      ],
+      "full_caption": "Richard Carapaz is leaning towards a return to the Giro d'Italia. 🇪🇨\n\nAccording to CyclingUpToDate, the Ecuadorian wants to target big wins in his upcoming programme. He also acknowledges that Tadej Pogacar is clearly a level above the rest of the peloton.\n\nNothing is final yet, as the report only says he is leaning towards the Giro. An official confirmation of his race schedule is still to come.\n\nCan Carapaz take a big win at the Giro, or is Pogacar too strong for everyone?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #RichardCarapaz #GirodItalia #Giro #TadejPogacar #cyclingnews #peloton",
+      "alt_text": "News graphic with the text 'Carapaz leaning towards a Giro d'Italia return' in the Cycling News Today style.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 201
     }
   },
   "queue": [],
@@ -753,7 +760,8 @@
     1795183736.303016,
     1795183751.4308605,
     1795241340.118708,
-    1795241375.0679102
+    1795241375.0679102,
+    1795255802.8872721
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
