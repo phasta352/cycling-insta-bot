@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436765,
+  "telegram_offset": 989436766,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795266510.910651,
@@ -619,8 +619,10 @@
       ],
       "background_url": null,
       "text_message_id": 223
-    },
-    "5e598676ed": {
+    }
+  },
+  "queue": [
+    {
       "id": "5e598676ed",
       "created": 1795266573.5937622,
       "headline": "UCI backs Schreiber relegation; Luxembourg weighs next step",
@@ -658,10 +660,12 @@
         }
       ],
       "background_url": null,
-      "text_message_id": 229
+      "text_message_id": 229,
+      "kind": "reel",
+      "post_now": false,
+      "approved_at": 1795282894.8092904
     }
-  },
-  "queue": [],
+  ],
   "published": [
     {
       "id": "db1ea2c097",
@@ -799,6 +803,14 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/ill-try-sooner-or-later-tadej-pogacar-says-he-will-attempt-three-grand-tours-in-a-single-season-but-not-in-2027/",
       "at": 1795268357.7760608,
       "media_id": "18033839105883139"
+    },
+    {
+      "id": "5e598676ed",
+      "headline": "UCI backs Schreiber relegation; Luxembourg weighs next step",
+      "kind": "carousel",
+      "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
+      "at": 1795282950.5223873,
+      "media_id": "18131352340872568"
     }
   ],
   "drafts_sent": [
