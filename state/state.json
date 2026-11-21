@@ -2,7 +2,7 @@
   "telegram_offset": 989436764,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795262917.8331628,
+  "last_scout": 1795266510.910651,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -458,7 +458,13 @@
     "0d474ccad21f91e3": 1795262924.133249,
     "5cd4d9190eaf8f7c": 1795262924.133249,
     "24077daa9a6a9e9f": 1795262924.133249,
-    "fc3df5a032385857": 1795262924.133249
+    "fc3df5a032385857": 1795262924.133249,
+    "2203fd952dfb2b68": 1795266519.543804,
+    "6c8786d00168a954": 1795266519.543804,
+    "71ef4df76e3bdcb0": 1795266519.543804,
+    "54b25c20cafe3702": 1795266519.543804,
+    "a3337f20bcea63fd": 1795266519.543804,
+    "0dd531832bb5f98c": 1795266519.543804
   },
   "drafts": {
     "57550d0e75": {
@@ -653,6 +659,86 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 216
+    },
+    "d77264a216": {
+      "id": "d77264a216",
+      "created": 1795266553.0175931,
+      "headline": "Pogačar wants Paris-Roubaix back on his 2027 calendar",
+      "url": "https://escapecollective.com/no-big-secret-pogacar-also-targets-paris-roubaix-in-busy-2027/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266531/cycling-bot/d77264a216-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266531/cycling-bot/d77264a216-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266532/cycling-bot/d77264a216-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266532/cycling-bot/d77264a216-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266533/cycling-bot/d77264a216-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266534/cycling-bot/d77264a216-4.jpg"
+      ],
+      "full_caption": "Tadej Pogačar has said he wants to ride Paris-Roubaix again in 2027.\n\nSpeaking to Sporza, the Slovenian called his interest \"no big secret\" and said he wants another near-perfect season first. He has finished second in both of his Roubaix starts so far. A win would give him all five Monuments, following his Milan-San Remo victory earlier in 2026.\n\nCan he finally beat the cobbles in 2027? 🚴\n\nSource: Escape Collective\n\n#Pogacar #TadejPogacar #ParisRoubaix #UAETeamEmirates #Cycling #ProCycling #RoadCycling #CobbledClassics #Monuments #WorldTour",
+      "alt_text": "News graphic with the headline that Tadej Pogačar wants to return to Paris-Roubaix in 2027.",
+      "score": 9,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795266552/cycling-bot/d77264a216-reel.mp4",
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Pogačar eyes Roubaix in 2027",
+          "text": "Tadej Pogačar told Sporza he would like to compete at Paris-Roubaix again in 2027. He said it is \"no big secret\" and that he wants the whole season to be perfect first."
+        },
+        {
+          "title": "Two starts, two second places",
+          "text": "Roubaix has so far gone to others. Pogačar was second behind Mathieu van der Poel, despite a late crash, and then second behind Wout van Aert after a two-up sprint in the velodrome."
+        },
+        {
+          "title": "The rest of his 2027 plans",
+          "text": "He has said he will again build his season around the Tour de France. The Haute-Savoie world title and a return to the Vuelta are also priorities, and the UAE Tour has been suggested as his opener."
+        },
+        {
+          "title": "Why it matters",
+          "text": "Victory at Roubaix would complete his set of Monuments, following his Milan-San Remo win earlier in 2026."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 223
+    },
+    "5e598676ed": {
+      "id": "5e598676ed",
+      "created": 1795266573.5937622,
+      "headline": "UCI backs Schreiber relegation; Luxembourg weighs next step",
+      "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266571/cycling-bot/5e598676ed-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266572/cycling-bot/5e598676ed-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266572/cycling-bot/5e598676ed-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795266573/cycling-bot/5e598676ed-4.jpg"
+      ],
+      "full_caption": "The UCI sees no major error in Marie Schreiber's relegation at the European Championships, and Luxembourg is not letting it go.\n\nSchreiber lost the title to Lucinda Brand in Zeddam after a jury ruling on her line in the final two-rider sprint. The Luxembourg federation (FSCL) says the UCI's reply was general and offered no further explanation. Its board will now decide how to proceed, and a CAS appeal remains possible.\n\nShould the UCI publish a detailed explanation of the rule?\n\nSource: Escape Collective\n\n#cycling #procycling #UCI #MarieSchreiber #LucindaBrand #EuropeanChampionships #womenscycling #CAS #cyclingnews #Luxembourg",
+      "alt_text": "News graphic with the headline that the UCI sees no wrongdoing in Marie Schreiber's relegation while the Luxembourg federation considers further action.",
+      "score": 7,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [
+        {
+          "title": "What happened",
+          "text": "Marie Schreiber was relegated after a deviation in the final two-rider sprint of the elite women's European Championship race in Zeddam. Lucinda Brand took the title. The jury took a long time to issue the result."
+        },
+        {
+          "title": "The UCI's response",
+          "text": "The Luxembourg federation (FSCL) told RTL the UCI does not see a bigger mistake. It said the answer was fairly general and came with no further explanation."
+        },
+        {
+          "title": "Wider reaction",
+          "text": "Schreiber, her coach Sanne Cant and several other big names questioned the relegation. Brand's own coach, Sven Nys, expressed sympathy for the Luxembourg camp."
+        },
+        {
+          "title": "What comes next",
+          "text": "The FSCL board will decide how to proceed. Taking the case to CAS is still possible. The federation also appears to want a fuller explanation of a rule open to varied interpretation."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 229
     }
   },
   "queue": [
@@ -832,8 +918,6 @@
     }
   ],
   "drafts_sent": [
-    1795091950.611707,
-    1795091967.172652,
     1795099128.3129582,
     1795154975.88346,
     1795154996.8401802,
@@ -848,7 +932,9 @@
     1795255802.8872721,
     1795259381.3171787,
     1795259395.6636436,
-    1795262941.11659
+    1795262941.11659,
+    1795266556.8098974,
+    1795266575.157954
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
