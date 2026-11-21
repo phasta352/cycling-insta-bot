@@ -2,7 +2,7 @@
   "telegram_offset": 989436763,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795255784.3062994,
+  "last_scout": 1795259320.4128728,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -441,7 +441,16 @@
     "e7c0d1c3cb58aa29": 1795255792.346193,
     "504e629e357ef9eb": 1795255792.346193,
     "6a863537d044bdd2": 1795255792.346193,
-    "a72c57fb1045523b": 1795255792.346193
+    "a72c57fb1045523b": 1795255792.346193,
+    "83efe62ee6c56479": 1795259329.4422665,
+    "ae722ab30f4dfc14": 1795259329.4422665,
+    "e4229dce4467822f": 1795259329.4422665,
+    "b658abc2367664ef": 1795259329.4422665,
+    "9fe15a9f1719424a": 1795259329.4422665,
+    "c77194b5c2514ad3": 1795259329.4422665,
+    "0cdbdea1500cc593": 1795259329.4422665,
+    "04ede3b8af0e1616": 1795259329.4422665,
+    "753f33b96bf3f221": 1795259329.4422665
   },
   "drafts": {
     "a453448bd0": {
@@ -620,6 +629,81 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 201
+    },
+    "3c81c087b4": {
+      "id": "3c81c087b4",
+      "created": 1795259376.866085,
+      "headline": "Pogačar: Three Grand Tours in a year will come, but not in 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/ill-try-sooner-or-later-tadej-pogacar-says-he-will-attempt-three-grand-tours-in-a-single-season-but-not-in-2027/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259341/cycling-bot/3c81c087b4-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259341/cycling-bot/3c81c087b4-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259342/cycling-bot/3c81c087b4-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259342/cycling-bot/3c81c087b4-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259343/cycling-bot/3c81c087b4-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259344/cycling-bot/3c81c087b4-4.jpg"
+      ],
+      "full_caption": "Tadej Pogačar says he will try to win the Giro, Tour and Vuelta in a single season, but not in 2027.\n\nSpeaking at a padel event, the UAE Team Emirates-XRG rider said he would attempt it \"sooner or later\". Next year he is focused on a sixth Tour de France, Paris-Roubaix and a third world title.\n\nWould you back him to pull off all three Grand Tours in one year?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #TadejPogacar #Pogacar #UAETeamEmirates #TourdeFrance #ParisRoubaix #Vuelta #Giro #WorldTour #cyclingnews",
+      "alt_text": "Graphic with the headline about Tadej Pogačar saying he will attempt three Grand Tours in one season, but not in 2027.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795259375/cycling-bot/3c81c087b4-reel.mp4",
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "The three-Grand-Tour idea",
+          "text": "Eddy Merckx predicted Pogačar could win the Giro, Tour and Vuelta in one season. Pogačar says he doesn't rule it out and will try \"sooner or later\", but not in 2027."
+        },
+        {
+          "title": "2027 priorities",
+          "text": "His main goals are a record-breaking sixth Tour de France, Paris-Roubaix and a third road world title. Roubaix would complete all five Monuments, joining Merckx, De Vlaeminck and Van Looy."
+        },
+        {
+          "title": "Calendar still open",
+          "text": "His early-season programme isn't confirmed. He expects Flanders and Roubaix to be on it, and has suggested a UAE Tour return. Strade Bianche and another Vuelta are also possible."
+        },
+        {
+          "title": "Back after the Vuelta crash",
+          "text": "He has been back on the bike for several weeks after his Vuelta crash and says he feels great. The 2027 plan will be set with UAE Team Emirates-XRG at the winter training camps."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 208
+    },
+    "83691951b0": {
+      "id": "83691951b0",
+      "created": 1795259393.700483,
+      "headline": "Roglič to get a new coach for the first time as a pro",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/maybe-this-will-add-something-more-primoz-roglic-will-change-coach-for-the-first-time-in-his-career-following-move-to-nsn/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259393/cycling-bot/83691951b0-3.jpg"
+      ],
+      "full_caption": "Primož Roglič is set to work with a new coach for the first time in his career.\n\nCyclingnews understands that long-time coach Marc Lamberts will not follow him to NSN Cycling. Slovenia's national coach Uroš Murn points to Tadej Pogačar's coaching switch as a sign that a change can help. NSN has not yet said who will coach Roglič in 2027.\n\nCan a new coach bring something extra from Roglič at 37?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PrimozRoglic #Roglic #NSNCycling #RedBullBora #cyclingnews #cyclingtransfers",
+      "alt_text": "News graphic with the headline that Primož Roglič will have a new coach for the first time in his professional career after joining NSN Cycling.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Lamberts stays at Red Bull",
+          "text": "Cyclingnews understands Marc Lamberts will not follow Primož Roglič to NSN Cycling. He is set to remain on the coaching staff at Red Bull-Bora-Hansgrohe in 2027."
+        },
+        {
+          "title": "A partnership since 2016",
+          "text": "Lamberts has coached Roglič since he turned pro with LottoNL-Jumbo in 2016, and moved with him to Red Bull in 2024. Roglič, 37, joins NSN on a one-year contract."
+        },
+        {
+          "title": "The Pogačar example",
+          "text": "Slovenia coach Uroš Murn cited Pogačar's 2024 switch from Iñigo San Millán to Javier Sola, saying Roglič has nothing to lose. NSN has not confirmed who will coach him in 2027."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 213
     }
   },
   "queue": [],
@@ -761,7 +845,9 @@
     1795183751.4308605,
     1795241340.118708,
     1795241375.0679102,
-    1795255802.8872721
+    1795255802.8872721,
+    1795259381.3171787,
+    1795259395.6636436
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
