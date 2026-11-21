@@ -2,7 +2,7 @@
   "telegram_offset": 989436762,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795183715.665499,
+  "last_scout": 1795241321.469959,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -374,7 +374,54 @@
     "4ba34d313013503b": 1795183722.7526362,
     "13bfe61f4b6799c3": 1795183722.7526362,
     "189a380b8f555422": 1795183722.7526362,
-    "290e2b9925241653": 1795183722.7526362
+    "290e2b9925241653": 1795183722.7526362,
+    "f499aaee1999370a": 1795241331.008735,
+    "980e66f443d2ed7c": 1795241331.008735,
+    "7adec0d465ab2b34": 1795241331.008735,
+    "5258c3b6d7680471": 1795241331.008735,
+    "173d38cb34d4b15d": 1795241331.008735,
+    "c69dec2b0fbace0a": 1795241331.008735,
+    "539042783d737bab": 1795241331.008735,
+    "ea22eedc7617e1c2": 1795241331.008735,
+    "e9a5adbedd68965a": 1795241331.008735,
+    "ec138f9cbcd43303": 1795241331.008735,
+    "0c9ccfb81afb7c8c": 1795241331.008735,
+    "3f2898ed170eecd5": 1795241331.008735,
+    "34156f1772bd9930": 1795241331.008735,
+    "bdf19de802c5a2b9": 1795241331.008735,
+    "b87ba3ae3a5292bc": 1795241331.008735,
+    "0472c612d32839f9": 1795241331.008735,
+    "3cb2cbdcc10939cd": 1795241331.008735,
+    "39ec5a54386fc576": 1795241331.008735,
+    "b5859257987d4eb0": 1795241331.008735,
+    "3b2391288c50c816": 1795241331.008735,
+    "ecf215d655815bdc": 1795241331.008735,
+    "9b56ced77b179884": 1795241331.008735,
+    "3e68b20a14c37051": 1795241331.008735,
+    "9a0cabbeabc49e33": 1795241331.008735,
+    "855799374a240703": 1795241331.008735,
+    "690591dfeff44604": 1795241331.008735,
+    "802c105767d16e2d": 1795241331.008735,
+    "3861160e33003ebf": 1795241331.008735,
+    "afb011b837ec520c": 1795241331.008735,
+    "107c8892750475fd": 1795241331.008735,
+    "94da7734c85cd6dc": 1795241331.008735,
+    "3c6b065db521b6a2": 1795241331.008735,
+    "fc47a57b0fa0bd9a": 1795241331.008735,
+    "7531f7ed38c6a991": 1795241331.008735,
+    "c75d0f1355904b27": 1795241331.008735,
+    "4bcc86db8a913f61": 1795241331.008735,
+    "37f30627e38d37d8": 1795241331.008735,
+    "d09821d0e3b65603": 1795241331.008735,
+    "629235156e4ae232": 1795241331.008735,
+    "31b2562d6c66f1dd": 1795241331.008735,
+    "9b7d7445277155a8": 1795241331.008735,
+    "248cfd30a98de7ee": 1795241331.008735,
+    "d03182109e021742": 1795241331.008735,
+    "ed4d76214c79e6da": 1795241331.008735,
+    "60d6cb31afe2cd38": 1795241331.008735,
+    "3eb3cf014c7f7568": 1795241331.008735,
+    "88250a7160663662": 1795241331.008735
   },
   "drafts": {
     "f4c6ecf9f7": {
@@ -513,6 +560,65 @@
       ],
       "background_url": null,
       "text_message_id": 183
+    },
+    "ed00ab8158": {
+      "id": "ed00ab8158",
+      "created": 1795241339.0954669,
+      "headline": "AlUla ends Jayco sponsorship and cancels AlUla Tour",
+      "url": "https://escapecollective.com/alula-cancels-alula-tour-pulls-out-of-jayco-team-sponsorship/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241338/cycling-bot/ed00ab8158-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241338/cycling-bot/ed00ab8158-0.jpg"
+      ],
+      "full_caption": "AlUla has pulled its backing from the Jayco-AlUla WorldTour team. 🚴\n\nThe Saudi Arabian region has also cancelled the AlUla Tour, according to Escape Collective, which says it has confirmed both moves. The race was on the UCI's initial 2027 calendar and was expected in late January, but it will not go ahead.\n\nThe team carries the AlUla name, so the exit raises questions about its future branding and partners. No further details were given in the report.\n\nWhat should the team do next?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #UCI #JaycoAlUla #AlUlaTour #cyclingnews #teamnews #cyclingsponsorship",
+      "alt_text": "News graphic with the headline that AlUla is ending its Jayco-AlUla team sponsorship and cancelling the AlUla Tour.",
+      "score": 8,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 192
+    },
+    "c67e27094e": {
+      "id": "c67e27094e",
+      "created": 1795241373.6912258,
+      "headline": "Healy: Lombardia delay shows the power riders have on safety",
+      "url": "https://www.cyclingnews.com/pro-cycling/safety/i-just-have-to-reiterate-the-power-that-we-have-as-riders-lombardia-protest-ringleader-ben-healy-emboldened-as-he-calls-for-change-on-rider-safety/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241369/cycling-bot/c67e27094e-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241369/cycling-bot/c67e27094e-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241370/cycling-bot/c67e27094e-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241371/cycling-bot/c67e27094e-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241372/cycling-bot/c67e27094e-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241373/cycling-bot/c67e27094e-4.jpg"
+      ],
+      "full_caption": "Ben Healy says the five-minute delay at Il Lombardia was a clear message from the peloton on safety.\n\nThe EF Education-EasyPost rider was the driving force behind the 'stand' before the season's final Monument. It followed a series of near-misses at the Italian autumn Classics. Healy wants the UCI to listen and work with riders on change, rather than assign blame.\n\nShould riders delay races again if safety doesn't improve?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #IlLombardia #BenHealy #EFEducationEasyPost #RiderSafety #UCI #cyclingnews",
+      "alt_text": "News graphic with the headline about Ben Healy saying the Il Lombardia start delay showed the power riders have on safety.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "A five-minute stand at Lombardia",
+          "text": "The peloton delayed the start of Il Lombardia, the season's last Monument, by five minutes. Ben Healy (EF Education-EasyPost) drove the action and calls it a 'stand' rather than a protest."
+        },
+        {
+          "title": "Why riders acted",
+          "text": "Safety has been a major topic since Finlay Tarling's death at the Volta a Portugal. Further near-misses followed at the Italian autumn Classics, including a police motorbike riding head-on toward the peloton at Tre Valli Varesine."
+        },
+        {
+          "title": "Healy's message to the UCI",
+          "text": "Healy says riders wanted to show what they can do if the problems continue. He hopes the UCI will listen and work with them, and says the aim is to be productive rather than point blame."
+        },
+        {
+          "title": "What the UCI has done so far",
+          "text": "After Tarling's death, the UCI's Professional Cycling Council discussed some safety issues. Healy says the cars on course in Italy showed that nothing had really changed."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 198
     }
   },
   "queue": [],
@@ -632,7 +738,6 @@
     }
   ],
   "drafts_sent": [
-    1795068566.6601844,
     1795068577.1222677,
     1795074284.444972,
     1795079783.8835065,
@@ -647,7 +752,9 @@
     1795176634.4454,
     1795180142.8241537,
     1795183736.303016,
-    1795183751.4308605
+    1795183751.4308605,
+    1795241340.118708,
+    1795241375.0679102
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
