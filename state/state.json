@@ -2,7 +2,7 @@
   "telegram_offset": 989436768,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795342114.890052,
+  "last_scout": 1795345720.8981316,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -520,7 +520,10 @@
     "0591f9114825a9c4": 1795342122.6581793,
     "f1462f0a9b4c3667": 1795342122.6581793,
     "4f33a646f3634105": 1795342122.6581793,
-    "a2109d4351a64acd": 1795342122.6581793
+    "a2109d4351a64acd": 1795342122.6581793,
+    "7d1bf61b254f7045": 1795345727.2850997,
+    "1c40f02e6d516aa2": 1795345727.2850997,
+    "a7fa2ab1a868e0e1": 1795345727.2850997
   },
   "drafts": {
     "83691951b0": {
@@ -694,6 +697,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 245
+    },
+    "f854e9d6dc": {
+      "id": "f854e9d6dc",
+      "created": 1795345736.0437257,
+      "headline": "Vollering eyes Giro, Tour and Vuelta treble in 2027",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFg1QXFvZnZEd0MyMVJNYXBQZTM5cnVIRXRxd2JZTHlLM2RVbGp6R0hsZTZ3QTBRNHk5Unc2RXpjUVJuX2tmVFBtbjQ1amhBNkJ6MkpicWQ4OFB3bnRzWEtUQ1kyOU9EUnlEVEN4enFveXd0TDBIeHl5OXBqWUM0bzN6QmpkWjl5VGp1SFNvWVBwVl80UDRVYkhWOGtvbXpjdDltOTZMV21JdFAzQUg4bXI3WHdmWDhtSFRzUVpfeHJsQmpHYlFYUDdtcVhpNWplNXN4NWtn?oc=5",
+      "source": "Brujulabike.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795345735/cycling-bot/f854e9d6dc-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795345735/cycling-bot/f854e9d6dc-0.jpg"
+      ],
+      "full_caption": "Demi Vollering is reportedly aiming to win the Giro, the Tour and the Vuelta in the same season, 2027.\n\nAccording to Brujulabike, the plan is already something she has talked through with her team. The report gives no further detail, and the goal has not been confirmed in an official statement.\n\nWinning all three Grand Tours in one year would be a rare achievement, so it will be worth watching how her 2027 programme takes shape.\n\nIs a Grand Tour treble realistic for Vollering?\n\nSource: Brujulabike.com\n\n#DemiVollering #WomensCycling #WomensWorldTour #GiroDItalia #TourDeFrance #LaVuelta #GrandTour #ProCycling #RoadCycling #CyclingNews",
+      "alt_text": "News graphic with the headline 'Vollering eyes Giro, Tour and Vuelta treble in 2027' under a Rider News label.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 250
     }
   },
   "queue": [],
@@ -877,7 +899,8 @@
     1795327743.2016053,
     1795327753.769447,
     1795334943.4099858,
-    1795334955.7621636
+    1795334955.7621636,
+    1795345737.3613286
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
