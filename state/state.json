@@ -2,7 +2,7 @@
   "telegram_offset": 989436768,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795363724.0411801,
+  "last_scout": 1795367325.4981318,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -557,7 +557,12 @@
     "cca47d0b95898ff5": 1795363731.7771335,
     "b16fc1a7f45b47a6": 1795363731.7771335,
     "8d855d89468a2995": 1795363731.7771335,
-    "3bf85ac9a9567ae7": 1795363731.7771335
+    "3bf85ac9a9567ae7": 1795363731.7771335,
+    "90cc1b0fd0be23ed": 1795367333.8612514,
+    "d4a87f2bd228d43b": 1795367333.8612514,
+    "0b11f3f85b40d680": 1795367333.8612514,
+    "f45e3d5ba8516a1e": 1795367333.8612514,
+    "7baa5f6a5e6a7801": 1795367333.8612514
   },
   "drafts": {
     "0116f42edb": {
@@ -731,6 +736,46 @@
       ],
       "background_url": null,
       "text_message_id": 261
+    },
+    "f28bbe308b": {
+      "id": "f28bbe308b",
+      "created": 1795367351.3433874,
+      "headline": "Simmons keeps coach de Jongh for 2027 after Lidl-Trek exit",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/im-quite-close-to-winning-a-big-race-quinn-simmons-confirms-he-can-keep-departed-lidl-trek-director-stephen-de-jongh-as-his-coach-for-2027/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367348/cycling-bot/f28bbe308b-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367348/cycling-bot/f28bbe308b-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367348/cycling-bot/f28bbe308b-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367349/cycling-bot/f28bbe308b-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367350/cycling-bot/f28bbe308b-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795367350/cycling-bot/f28bbe308b-4.jpg"
+      ],
+      "full_caption": "Quinn Simmons will keep Stephen de Jongh as his coach in 2027, even though de Jongh has left Lidl-Trek.\n\nSimmons says he worked out the arrangement and plans to refine his current programme rather than change it. He is coming off a season with a third US road title, a second Best Teammate award at the Tour de France and fourth place at the Worlds. He says he is \"quite close\" to a big win.\n\nCan Simmons land that Tour stage in 2027? 🇺🇸\n\nSource: Cyclingnews\n\n#QuinnSimmons #LidlTrek #WorldTour #ProCycling #RoadCycling #TourdeFrance #USProChampion #CyclingNews #Cycling #StephenDeJongh",
+      "alt_text": "Graphic with the headline that Quinn Simmons will keep Stephen de Jongh as his coach for 2027 despite de Jongh leaving Lidl-Trek.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Coach stays on board",
+          "text": "Simmons says he has arranged to keep Stephen de Jongh as his coach for 2027. De Jongh announced in October that he was leaving Lidl-Trek after 10 years with the programme."
+        },
+        {
+          "title": "\"Nothing really changes\"",
+          "text": "Simmons plans to fine-tune what already works and stay on his current programme for at least another year. He says he doesn't want to try anything too radical yet."
+        },
+        {
+          "title": "A strong 2026 season",
+          "text": "He won the USPro road race for a third time, was named the Tour's Best Teammate again, helped Mads Pedersen take the green jersey and finished fourth at the Worlds in Montreal."
+        },
+        {
+          "title": "Goals for 2027",
+          "text": "Simmons wants a Tour de France stage win and expects to chase a fourth US elite road title in West Virginia in June. That would tie Freddy Rodriguez's record."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 267
     }
   },
   "queue": [],
@@ -912,8 +957,11 @@
     1795334955.7621636,
     1795345737.3613286,
     1795352955.534034,
-    1795363748.779597
+    1795363748.779597,
+    1795367353.5990129
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "Google News: pro cycling team news": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=pro+cycling+team+news+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
