@@ -2,7 +2,7 @@
   "telegram_offset": 989436766,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795331346.4921613,
+  "last_scout": 1795334923.9163225,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -507,7 +507,14 @@
     "0f97398c96b7f7d0": 1795327726.9370513,
     "30b74fe782834ff2": 1795327726.9370513,
     "58daca8466ef83e9": 1795331351.5718186,
-    "91219591a7f10d4b": 1795331351.5718186
+    "91219591a7f10d4b": 1795331351.5718186,
+    "b2a141ee798de493": 1795334932.0339057,
+    "4c754d49ccda40ec": 1795334932.0339057,
+    "d1a5211849450929": 1795334932.0339057,
+    "d7c3b429ed325cbb": 1795334932.0339057,
+    "a204f955a6b5cb0c": 1795334932.0339057,
+    "3ac16df6268d0d0c": 1795334932.0339057,
+    "a6b41ab6fb068372": 1795334932.0339057
   },
   "drafts": {
     "d5ba7ceea8": {
@@ -681,6 +688,44 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 241
+    },
+    "c3a7718060": {
+      "id": "c3a7718060",
+      "created": 1795334941.6342933,
+      "headline": "NSN promise Roglic a place at the 2027 Tour de France",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHNfcXNKVlRHU2ZqZEE1X2Z4OExOMWRjV3lRMU5UbWZ0ZlB6NU1OMTZiMmpNbmY3b3Jzb21BdDRzUkJpc0FzeENQcUYtOVVLY1pZc2NKaVk2Y0ZTb09BS3hEc0h1ZnlVbDdoS2YwSzJHaFZoTFF0Tko0eEpuLU00cm53YkNVNUkzeHJQVnJZWTAyUHZIeDBhM3VrTTUyaktNQ1I4b0lMQUxhVlotUWRpOVhKSlE4NUJ4akxQT3B3Sl8?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334941/cycling-bot/c3a7718060-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334941/cycling-bot/c3a7718060-0.jpg"
+      ],
+      "full_caption": "NSN have reportedly promised Roglic a spot at the 2027 Tour de France.\n\nThe report comes from IDLprocycling. So far only the headline is available, with no details on the terms or on Roglic's role in the team. We will update when there is official confirmation.\n\nA Tour place guaranteed more than a year out is a strong signal about how NSN see Roglic's future. Would you back him as a Tour leader in 2027?\n\nSource: IDLprocycling.com\n\n#cycling #procycling #roadcycling #WorldTour #TourdeFrance #Tour2027 #Roglic #PrimozRoglic #NSN #cyclingnews",
+      "alt_text": "News graphic with the headline that NSN have promised Primoz Roglic a place at the 2027 Tour de France.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 243
+    },
+    "c180b73a55": {
+      "id": "c180b73a55",
+      "created": 1795334954.0703275,
+      "headline": "Delio Fernández Cruz banned four years in passport case",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pbWZhdU40U3NpbzRoc0xDZ1hPYThfMmpCcURsajRxdkhabjkzb3pwMF9BMGI3Qk8xLTJRckd0U0pxMTM2ZVhkS1RSeWZwMTdwWXNRLWs3blp3RmZOTzNaeElBbWxYU1NxcmQ4MTVJTQ?oc=5",
+      "source": "Velora Cycling",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334953/cycling-bot/c180b73a55-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334953/cycling-bot/c180b73a55-0.jpg"
+      ],
+      "full_caption": "Four-year ban for Spanish rider Delio Fernández Cruz.\n\nA UCI tribunal has reportedly suspended him for four years in a case tied to the biological passport, according to Velora Cycling. Details such as his team, the start date of the ban and any right of appeal were not available in the report we have seen.\n\nWe'll update as soon as more information is confirmed.\n\nShould biological passport cases be resolved faster?\n\nSource: Velora Cycling\n\n#cycling #procycling #roadcycling #UCI #WorldTour #cyclingnews #antidoping #biologicalpassport #cyclingnewstoday #peloton",
+      "alt_text": "News graphic with the headline that Spanish rider Delio Fernández Cruz has been banned for four years by a UCI tribunal in a biological passport case.",
+      "score": 5,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 245
     }
   },
   "queue": [],
@@ -855,7 +900,9 @@
     1795266556.8098974,
     1795266575.157954,
     1795327743.2016053,
-    1795327753.769447
+    1795327753.769447,
+    1795334943.4099858,
+    1795334955.7621636
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
