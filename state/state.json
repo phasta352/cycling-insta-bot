@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436766,
+  "telegram_offset": 989436767,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795334923.9163225,
@@ -689,25 +689,6 @@
       "background_url": null,
       "text_message_id": 241
     },
-    "c3a7718060": {
-      "id": "c3a7718060",
-      "created": 1795334941.6342933,
-      "headline": "NSN promise Roglic a place at the 2027 Tour de France",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHNfcXNKVlRHU2ZqZEE1X2Z4OExOMWRjV3lRMU5UbWZ0ZlB6NU1OMTZiMmpNbmY3b3Jzb21BdDRzUkJpc0FzeENQcUYtOVVLY1pZc2NKaVk2Y0ZTb09BS3hEc0h1ZnlVbDdoS2YwSzJHaFZoTFF0Tko0eEpuLU00cm53YkNVNUkzeHJQVnJZWTAyUHZIeDBhM3VrTTUyaktNQ1I4b0lMQUxhVlotUWRpOVhKSlE4NUJ4akxQT3B3Sl8?oc=5",
-      "source": "IDLprocycling.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334941/cycling-bot/c3a7718060-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334941/cycling-bot/c3a7718060-0.jpg"
-      ],
-      "full_caption": "NSN have reportedly promised Roglic a spot at the 2027 Tour de France.\n\nThe report comes from IDLprocycling. So far only the headline is available, with no details on the terms or on Roglic's role in the team. We will update when there is official confirmation.\n\nA Tour place guaranteed more than a year out is a strong signal about how NSN see Roglic's future. Would you back him as a Tour leader in 2027?\n\nSource: IDLprocycling.com\n\n#cycling #procycling #roadcycling #WorldTour #TourdeFrance #Tour2027 #Roglic #PrimozRoglic #NSN #cyclingnews",
-      "alt_text": "News graphic with the headline that NSN have promised Primoz Roglic a place at the 2027 Tour de France.",
-      "score": 6,
-      "reel_url": null,
-      "category": "TEAM NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 243
-    },
     "c180b73a55": {
       "id": "c180b73a55",
       "created": 1795334954.0703275,
@@ -882,6 +863,14 @@
       "url": "https://escapecollective.com/uci-sees-no-wrongdoing-in-schreiber-relegation-but-luxembourg-federation-considering-further-action/",
       "at": 1795291760.249959,
       "media_id": "18061670852563671"
+    },
+    {
+      "id": "c3a7718060",
+      "headline": "NSN promise Roglic a place at the 2027 Tour de France",
+      "kind": "carousel",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHNfcXNKVlRHU2ZqZEE1X2Z4OExOMWRjV3lRMU5UbWZ0ZlB6NU1OMTZiMmpNbmY3b3Jzb21BdDRzUkJpc0FzeENQcUYtOVVLY1pZc2NKaVk2Y0ZTb09BS3hEc0h1ZnlVbDdoS2YwSzJHaFZoTFF0Tko0eEpuLU00cm53YkNVNUkzeHJQVnJZWTAyUHZIeDBhM3VrTTUyaktNQ1I4b0lMQUxhVlotUWRpOVhKSlE4NUJ4akxQT3B3Sl8?oc=5",
+      "at": 1795336126.8758788,
+      "media_id": "17897609988615947"
     }
   ],
   "drafts_sent": [
