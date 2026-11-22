@@ -526,41 +526,6 @@
     "a7fa2ab1a868e0e1": 1795345727.2850997
   },
   "drafts": {
-    "83691951b0": {
-      "id": "83691951b0",
-      "created": 1795259393.700483,
-      "headline": "Roglič to get a new coach for the first time as a pro",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/maybe-this-will-add-something-more-primoz-roglic-will-change-coach-for-the-first-time-in-his-career-following-move-to-nsn/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259391/cycling-bot/83691951b0-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259392/cycling-bot/83691951b0-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795259393/cycling-bot/83691951b0-3.jpg"
-      ],
-      "full_caption": "Primož Roglič is set to work with a new coach for the first time in his career.\n\nCyclingnews understands that long-time coach Marc Lamberts will not follow him to NSN Cycling. Slovenia's national coach Uroš Murn points to Tadej Pogačar's coaching switch as a sign that a change can help. NSN has not yet said who will coach Roglič in 2027.\n\nCan a new coach bring something extra from Roglič at 37?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #PrimozRoglic #Roglic #NSNCycling #RedBullBora #cyclingnews #cyclingtransfers",
-      "alt_text": "News graphic with the headline that Primož Roglič will have a new coach for the first time in his professional career after joining NSN Cycling.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "Lamberts stays at Red Bull",
-          "text": "Cyclingnews understands Marc Lamberts will not follow Primož Roglič to NSN Cycling. He is set to remain on the coaching staff at Red Bull-Bora-Hansgrohe in 2027."
-        },
-        {
-          "title": "A partnership since 2016",
-          "text": "Lamberts has coached Roglič since he turned pro with LottoNL-Jumbo in 2016, and moved with him to Red Bull in 2024. Roglič, 37, joins NSN on a one-year contract."
-        },
-        {
-          "title": "The Pogačar example",
-          "text": "Slovenia coach Uroš Murn cited Pogačar's 2024 switch from Iñigo San Millán to Javier Sola, saying Roglič has nothing to lose. NSN has not confirmed who will coach him in 2027."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 213
-    },
     "9760f965bd": {
       "id": "9760f965bd",
       "created": 1795262939.7114208,
@@ -883,7 +848,6 @@
     }
   ],
   "drafts_sent": [
-    1795172976.0329978,
     1795176634.4454,
     1795180142.8241537,
     1795183736.303016,
