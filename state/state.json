@@ -508,46 +508,6 @@
     "30b74fe782834ff2": 1795327726.9370513
   },
   "drafts": {
-    "c67e27094e": {
-      "id": "c67e27094e",
-      "created": 1795241373.6912258,
-      "headline": "Healy: Lombardia delay shows the power riders have on safety",
-      "url": "https://www.cyclingnews.com/pro-cycling/safety/i-just-have-to-reiterate-the-power-that-we-have-as-riders-lombardia-protest-ringleader-ben-healy-emboldened-as-he-calls-for-change-on-rider-safety/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241369/cycling-bot/c67e27094e-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241369/cycling-bot/c67e27094e-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241370/cycling-bot/c67e27094e-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241371/cycling-bot/c67e27094e-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241372/cycling-bot/c67e27094e-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795241373/cycling-bot/c67e27094e-4.jpg"
-      ],
-      "full_caption": "Ben Healy says the five-minute delay at Il Lombardia was a clear message from the peloton on safety.\n\nThe EF Education-EasyPost rider was the driving force behind the 'stand' before the season's final Monument. It followed a series of near-misses at the Italian autumn Classics. Healy wants the UCI to listen and work with riders on change, rather than assign blame.\n\nShould riders delay races again if safety doesn't improve?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #IlLombardia #BenHealy #EFEducationEasyPost #RiderSafety #UCI #cyclingnews",
-      "alt_text": "News graphic with the headline about Ben Healy saying the Il Lombardia start delay showed the power riders have on safety.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "A five-minute stand at Lombardia",
-          "text": "The peloton delayed the start of Il Lombardia, the season's last Monument, by five minutes. Ben Healy (EF Education-EasyPost) drove the action and calls it a 'stand' rather than a protest."
-        },
-        {
-          "title": "Why riders acted",
-          "text": "Safety has been a major topic since Finlay Tarling's death at the Volta a Portugal. Further near-misses followed at the Italian autumn Classics, including a police motorbike riding head-on toward the peloton at Tre Valli Varesine."
-        },
-        {
-          "title": "Healy's message to the UCI",
-          "text": "Healy says riders wanted to show what they can do if the problems continue. He hopes the UCI will listen and work with them, and says the aim is to be productive rather than point blame."
-        },
-        {
-          "title": "What the UCI has done so far",
-          "text": "After Tarling's death, the UCI's Professional Cycling Council discussed some safety issues. Healy says the cars on course in Italy showed that nothing had really changed."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 198
-    },
     "d5ba7ceea8": {
       "id": "d5ba7ceea8",
       "created": 1795255801.2887325,
@@ -878,8 +838,6 @@
     }
   ],
   "drafts_sent": [
-    1795154975.88346,
-    1795154996.8401802,
     1795169338.5817275,
     1795172976.0329978,
     1795176634.4454,
