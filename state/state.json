@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 989436768,
+  "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
   "last_scout": 1795367325.4981318,
@@ -624,25 +624,6 @@
       "background_url": null,
       "text_message_id": 241
     },
-    "c180b73a55": {
-      "id": "c180b73a55",
-      "created": 1795334954.0703275,
-      "headline": "Delio Fernández Cruz banned four years in passport case",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pbWZhdU40U3NpbzRoc0xDZ1hPYThfMmpCcURsajRxdkhabjkzb3pwMF9BMGI3Qk8xLTJRckd0U0pxMTM2ZVhkS1RSeWZwMTdwWXNRLWs3blp3RmZOTzNaeElBbWxYU1NxcmQ4MTVJTQ?oc=5",
-      "source": "Velora Cycling",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334953/cycling-bot/c180b73a55-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795334953/cycling-bot/c180b73a55-0.jpg"
-      ],
-      "full_caption": "Four-year ban for Spanish rider Delio Fernández Cruz.\n\nA UCI tribunal has reportedly suspended him for four years in a case tied to the biological passport, according to Velora Cycling. Details such as his team, the start date of the ban and any right of appeal were not available in the report we have seen.\n\nWe'll update as soon as more information is confirmed.\n\nShould biological passport cases be resolved faster?\n\nSource: Velora Cycling\n\n#cycling #procycling #roadcycling #UCI #WorldTour #cyclingnews #antidoping #biologicalpassport #cyclingnewstoday #peloton",
-      "alt_text": "News graphic with the headline that Spanish rider Delio Fernández Cruz has been banned for four years by a UCI tribunal in a biological passport case.",
-      "score": 5,
-      "reel_url": null,
-      "category": "UCI",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 245
-    },
     "f854e9d6dc": {
       "id": "f854e9d6dc",
       "created": 1795345736.0437257,
@@ -661,46 +642,6 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 250
-    },
-    "a35cb84517": {
-      "id": "a35cb84517",
-      "created": 1795352953.4903214,
-      "headline": "Malezsewski wins Gravel of Marathon on a broken frame",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/i-looked-at-my-frame-i-saw-a-crack-it-was-still-80k-to-the-finish-how-lukas-malezsewki-came-back-from-car-collision-to-win-uci-gravel-race-on-a-broken-bike/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352950/cycling-bot/a35cb84517-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352950/cycling-bot/a35cb84517-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352951/cycling-bot/a35cb84517-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352952/cycling-bot/a35cb84517-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352952/cycling-bot/a35cb84517-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352953/cycling-bot/a35cb84517-4.jpg"
-      ],
-      "full_caption": "Lukas Malezsewski won the elite race at The Gravel of Marathon in Greece despite a broken chainstay.\n\nThe GVA Gold rider hit a car on a blind gravel bend 17km into the 95km race, then rode the remaining 80km. He attacked with 24km to go and won by 3:25 over Kasper Enstad. He already leads the UCI Gravel World Series Elite standings.\n\nWould you have kept racing on a cracked frame? 🚴\n\nSource: Cyclingnews\n\n#gravel #gravelcycling #UCIGravel #UCIGravelWorldSeries #GravelOfMarathon #LukasMalezsewski #GVAGold #Basso #cycling #cyclingnews",
-      "alt_text": "Graphic with the headline that Lukas Malezsewski won The Gravel of Marathon in Greece on a bike with a broken chainstay.",
-      "score": 5,
-      "reel_url": null,
-      "category": "RESULT",
-      "slides": [
-        {
-          "title": "Collision 17km into the race",
-          "text": "On a blind gravel bend, Malezsewski met a car on a road open to the public. He went over his bars, got back on and rode off. The crash left him with bruises and a broken chainstay on his Basso Palta 3."
-        },
-        {
-          "title": "80km to go on a cracked frame",
-          "text": "He was stopped for about 20 seconds and rejoined local rider Konstantinos Berdempes. He then noticed the crack and stayed with him instead of going full gas, to protect the bike."
-        },
-        {
-          "title": "Winning move with 24km left",
-          "text": "He attacked once the rough downhills were behind him. He won by 3:25 over Kasper Enstad (IF Frøy), and Berdempes was third, more than five minutes down."
-        },
-        {
-          "title": "Season already a success",
-          "text": "The 25-year-old tops the UCI Gravel World Series Elite standings ahead of Petr Vakoč. The race was the first UCI gravel event in Greece. He now needs a new frame before defending his title in 2027."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 256
     },
     "0331720501": {
       "id": "0331720501",
