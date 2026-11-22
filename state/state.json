@@ -523,25 +523,6 @@
     "a2109d4351a64acd": 1795342122.6581793
   },
   "drafts": {
-    "d5ba7ceea8": {
-      "id": "d5ba7ceea8",
-      "created": 1795255801.2887325,
-      "headline": "Carapaz leaning towards a Giro d'Italia return",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQUhZX09uc0prTktCQnIyRDgwVGlOR1NlNWI2UVltRmYxZmNvVTIyMURid2txU1ZuQzdTVmM0cmVEQkpYd2tqdTFoZXpVRS1GTlU0SGZwRG5XZmFYblFvTl9SeHBHV3g3M3JRaW1ORjktQVRseklrelFKMDlLVVFjc1pZbTBObUpXTmducFRCS1ZBSGM1X3FDTVJrRW5Da1dPNXlLbE1OMlY0V0ZOUTRPc2tjaUtjaWs4cndsWkxqWFR2WFd2cVYtYWpoVTF4SEFCa0U4NzVneEtmLWlOWlg3dA?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795255800/cycling-bot/d5ba7ceea8-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795255800/cycling-bot/d5ba7ceea8-0.jpg"
-      ],
-      "full_caption": "Richard Carapaz is leaning towards a return to the Giro d'Italia. 🇪🇨\n\nAccording to CyclingUpToDate, the Ecuadorian wants to target big wins in his upcoming programme. He also acknowledges that Tadej Pogacar is clearly a level above the rest of the peloton.\n\nNothing is final yet, as the report only says he is leaning towards the Giro. An official confirmation of his race schedule is still to come.\n\nCan Carapaz take a big win at the Giro, or is Pogacar too strong for everyone?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #RichardCarapaz #GirodItalia #Giro #TadejPogacar #cyclingnews #peloton",
-      "alt_text": "News graphic with the text 'Carapaz leaning towards a Giro d'Italia return' in the Cycling News Today style.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 201
-    },
     "83691951b0": {
       "id": "83691951b0",
       "created": 1795259393.700483,
@@ -880,7 +861,6 @@
     }
   ],
   "drafts_sent": [
-    1795169338.5817275,
     1795172976.0329978,
     1795176634.4454,
     1795180142.8241537,
