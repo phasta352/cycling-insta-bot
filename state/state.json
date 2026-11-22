@@ -2,7 +2,7 @@
   "telegram_offset": 989436768,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795345720.8981316,
+  "last_scout": 1795349348.141544,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -523,28 +523,16 @@
     "a2109d4351a64acd": 1795342122.6581793,
     "7d1bf61b254f7045": 1795345727.2850997,
     "1c40f02e6d516aa2": 1795345727.2850997,
-    "a7fa2ab1a868e0e1": 1795345727.2850997
+    "a7fa2ab1a868e0e1": 1795345727.2850997,
+    "50c08e2669e0444c": 1795349354.9777114,
+    "091a5f3c1a36c474": 1795349354.9777114,
+    "4b16a061c36f8b9b": 1795349354.9777114,
+    "a91fd5dc0192253e": 1795349354.9777114,
+    "f6a93400d4fd0bd8": 1795349354.9777114,
+    "a8c5d12b4eba9e50": 1795349354.9777114,
+    "bf70290dffe8c3de": 1795349354.9777114
   },
   "drafts": {
-    "9760f965bd": {
-      "id": "9760f965bd",
-      "created": 1795262939.7114208,
-      "headline": "Tour du Rwanda unveils new format with two classic races",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWNSbmVmYU92WllJUld6d2Frc1FxQXI0OC1QNEJ1dV9PTmx5dnVsRFJRSUdMZW5uUURDVFdWeEFFRmdQeU1HMXFhVWNkOVR4aENrdXo3Q2sxNk1FNzZnS2tXNEtwd252dXlUMWxJUFRMdjdtMmNKQmdIRkVsOFE3ZnBFamtZLXV4TVNzVlVKYnExVTI4NjBEdzYxcVZFcEJueDY3dFNLb21SYm00d2tIRkdtdTltbnPSAbcBQVVfeXFMTWFjUm5lZmFPdlpZSVJXendha3NRcUFyNDgtUDRCdXVfT05seXZ1bERSUUlHTGVublFEQ1RXVnhBRUZnUHlNRzFxYVVjZDlUeGhDa3V6N0NrMTZNRTc2Z0trVzRLcHdudnV5VDFsSVBUTHY3bTJjSkJnSEZFbDhRN2ZwRWprWS11eE1Tc1ZVSmJxMVUyODYwRHc2MXFWRXBCbng2N3RTS29tUmJtNHdrSEZHbXU5bW5z?oc=5",
-      "source": "The New Times",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795262939/cycling-bot/9760f965bd-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795262939/cycling-bot/9760f965bd-0.jpg"
-      ],
-      "full_caption": "Tour du Rwanda is changing its format.\n\nOrganisers have announced a new-look event that brings two classic races into the programme, according to The New Times. The report's headline is all we have so far, so details on the races, dates and how the new structure will work are still to come.\n\nWe'll update when the full programme is published.\n\nWhat would you like to see from a reworked Tour du Rwanda?\n\nSource: The New Times\n\n#TourduRwanda #Cycling #ProCycling #RoadCycling #CyclingNews #UCIAfricaTour #AfricanCycling #Rwanda #RaceAnnouncement #RoadRacing",
-      "alt_text": "Graphic with the text 'Tour du Rwanda unveils new format with two classic races' under a Race News label.",
-      "score": 5,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 216
-    },
     "d77264a216": {
       "id": "d77264a216",
       "created": 1795266553.0175931,
@@ -866,6 +854,8 @@
     1795334955.7621636,
     1795345737.3613286
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "Google News: UCI WorldTour": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=UCI+WorldTour+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
