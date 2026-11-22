@@ -2,7 +2,7 @@
   "telegram_offset": 989436768,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795349348.141544,
+  "last_scout": 1795352930.8391745,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -530,7 +530,15 @@
     "a91fd5dc0192253e": 1795349354.9777114,
     "f6a93400d4fd0bd8": 1795349354.9777114,
     "a8c5d12b4eba9e50": 1795349354.9777114,
-    "bf70290dffe8c3de": 1795349354.9777114
+    "bf70290dffe8c3de": 1795349354.9777114,
+    "d8d22853b3b69b9a": 1795352939.4424214,
+    "4212018ba739e097": 1795352939.4424214,
+    "b53af55ef23a28e3": 1795352939.4424214,
+    "3fc412f1b72d3e7c": 1795352939.4424214,
+    "93f40d586913f0c9": 1795352939.4424214,
+    "a3bf5f535b77a3c6": 1795352939.4424214,
+    "5cd85882fe5a6ff8": 1795352939.4424214,
+    "76d8534f1c8887e3": 1795352939.4424214
   },
   "drafts": {
     "d77264a216": {
@@ -669,6 +677,46 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 250
+    },
+    "a35cb84517": {
+      "id": "a35cb84517",
+      "created": 1795352953.4903214,
+      "headline": "Malezsewski wins Gravel of Marathon on a broken frame",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/i-looked-at-my-frame-i-saw-a-crack-it-was-still-80k-to-the-finish-how-lukas-malezsewki-came-back-from-car-collision-to-win-uci-gravel-race-on-a-broken-bike/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352950/cycling-bot/a35cb84517-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352950/cycling-bot/a35cb84517-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352951/cycling-bot/a35cb84517-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352952/cycling-bot/a35cb84517-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352952/cycling-bot/a35cb84517-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795352953/cycling-bot/a35cb84517-4.jpg"
+      ],
+      "full_caption": "Lukas Malezsewski won the elite race at The Gravel of Marathon in Greece despite a broken chainstay.\n\nThe GVA Gold rider hit a car on a blind gravel bend 17km into the 95km race, then rode the remaining 80km. He attacked with 24km to go and won by 3:25 over Kasper Enstad. He already leads the UCI Gravel World Series Elite standings.\n\nWould you have kept racing on a cracked frame? 🚴\n\nSource: Cyclingnews\n\n#gravel #gravelcycling #UCIGravel #UCIGravelWorldSeries #GravelOfMarathon #LukasMalezsewski #GVAGold #Basso #cycling #cyclingnews",
+      "alt_text": "Graphic with the headline that Lukas Malezsewski won The Gravel of Marathon in Greece on a bike with a broken chainstay.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RESULT",
+      "slides": [
+        {
+          "title": "Collision 17km into the race",
+          "text": "On a blind gravel bend, Malezsewski met a car on a road open to the public. He went over his bars, got back on and rode off. The crash left him with bruises and a broken chainstay on his Basso Palta 3."
+        },
+        {
+          "title": "80km to go on a cracked frame",
+          "text": "He was stopped for about 20 seconds and rejoined local rider Konstantinos Berdempes. He then noticed the crack and stayed with him instead of going full gas, to protect the bike."
+        },
+        {
+          "title": "Winning move with 24km left",
+          "text": "He attacked once the rough downhills were behind him. He won by 3:25 over Kasper Enstad (IF Frøy), and Berdempes was third, more than five minutes down."
+        },
+        {
+          "title": "Season already a success",
+          "text": "The 25-year-old tops the UCI Gravel World Series Elite standings ahead of Petr Vakoč. The race was the first UCI gravel event in Greece. He now needs a new frame before defending his title in 2027."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 256
     }
   },
   "queue": [],
@@ -836,7 +884,6 @@
     }
   ],
   "drafts_sent": [
-    1795180142.8241537,
     1795183736.303016,
     1795183751.4308605,
     1795241340.118708,
@@ -851,10 +898,9 @@
     1795327753.769447,
     1795334943.4099858,
     1795334955.7621636,
-    1795345737.3613286
+    1795345737.3613286,
+    1795352955.534034
   ],
-  "feed_errors": {
-    "Google News: UCI WorldTour": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=UCI+WorldTour+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
