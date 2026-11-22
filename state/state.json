@@ -2,7 +2,7 @@
   "telegram_offset": 989436766,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795266510.910651,
+  "last_scout": 1795327717.9418342,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -464,7 +464,48 @@
     "71ef4df76e3bdcb0": 1795266519.543804,
     "54b25c20cafe3702": 1795266519.543804,
     "a3337f20bcea63fd": 1795266519.543804,
-    "0dd531832bb5f98c": 1795266519.543804
+    "0dd531832bb5f98c": 1795266519.543804,
+    "bba84ef45526d09a": 1795327726.9370513,
+    "fda102f26d4f3d4d": 1795327726.9370513,
+    "aa9cd3676307a820": 1795327726.9370513,
+    "5c97b7e5d7e36990": 1795327726.9370513,
+    "1133eead5f44a784": 1795327726.9370513,
+    "c69c0a4dd7bcaf98": 1795327726.9370513,
+    "b212ba8828a4a01a": 1795327726.9370513,
+    "67fa4c843ccc1c1e": 1795327726.9370513,
+    "1a046a260c10fb11": 1795327726.9370513,
+    "f3105f383a9d0ffa": 1795327726.9370513,
+    "5d9ee54e61f25d5b": 1795327726.9370513,
+    "426109d12c854023": 1795327726.9370513,
+    "16d1c33ec6e4a893": 1795327726.9370513,
+    "3fcec39dc70220de": 1795327726.9370513,
+    "78587b8c6008b4e6": 1795327726.9370513,
+    "143dcacab8ce989a": 1795327726.9370513,
+    "d2645506facf3695": 1795327726.9370513,
+    "28d0d9258bded619": 1795327726.9370513,
+    "d944cfde79d8816b": 1795327726.9370513,
+    "b4eaeb6612c25578": 1795327726.9370513,
+    "68506a9c3fe2bac9": 1795327726.9370513,
+    "67c629a0e8806248": 1795327726.9370513,
+    "2b598eb434894678": 1795327726.9370513,
+    "14a31a3b5310e2b7": 1795327726.9370513,
+    "847f1c126c285f77": 1795327726.9370513,
+    "6543a73c8210e833": 1795327726.9370513,
+    "8d8e1736d2aa366e": 1795327726.9370513,
+    "ed2c55da67a54671": 1795327726.9370513,
+    "7c157dc1dbadb9f8": 1795327726.9370513,
+    "c9eb3e8574c17085": 1795327726.9370513,
+    "e040dcbe7d330b48": 1795327726.9370513,
+    "5478a8776a4d1b39": 1795327726.9370513,
+    "d6e0e84c52b58a59": 1795327726.9370513,
+    "1d894e7db4c82729": 1795327726.9370513,
+    "a4408a97121e15ec": 1795327726.9370513,
+    "61a5ef328bfbbe7f": 1795327726.9370513,
+    "0cfea66139bc8a1f": 1795327726.9370513,
+    "3bf193c0b0316c2e": 1795327726.9370513,
+    "c60b23780502f310": 1795327726.9370513,
+    "0f97398c96b7f7d0": 1795327726.9370513,
+    "30b74fe782834ff2": 1795327726.9370513
   },
   "drafts": {
     "c67e27094e": {
@@ -619,6 +660,65 @@
       ],
       "background_url": null,
       "text_message_id": 223
+    },
+    "0116f42edb": {
+      "id": "0116f42edb",
+      "created": 1795327741.1338015,
+      "headline": "Harper and Storer confirmed for 2027 Tour Down Under",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/tour-down-under-adds-australian-chris-harper-and-michael-storer-to-2027-lineup/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327738/cycling-bot/0116f42edb-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327738/cycling-bot/0116f42edb-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327739/cycling-bot/0116f42edb-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327739/cycling-bot/0116f42edb-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327740/cycling-bot/0116f42edb-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327740/cycling-bot/0116f42edb-4.jpg"
+      ],
+      "full_caption": "Two Australian riders and their teams are confirmed for the 2027 Tour Down Under.\n\nChris Harper will lead Pinarello Q36.5 on its race debut, while Michael Storer returns with Tudor. The WorldTour opener starts on January 19 and covers 874km over six days.\n\nWhich Australian are you backing to shine on home roads?\n\nSource: Cyclingnews\n\n#TourDownUnder #TDU2027 #WorldTour #ProCycling #RoadCycling #ChrisHarper #MichaelStorer #PinarelloQ365 #TudorProCycling #Cycling",
+      "alt_text": "News graphic announcing that Chris Harper and Michael Storer will ride the 2027 Tour Down Under with Pinarello Q36.5 and Tudor.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "Two more Australians confirmed",
+          "text": "The 2027 Tour Down Under has added Chris Harper and Michael Storer to its lineup, along with their ProTeams, Pinarello Q36.5 and Tudor."
+        },
+        {
+          "title": "Harper and Pinarello Q36.5 debut",
+          "text": "Pinarello Q36.5 makes its first appearance at the race. Harper has ridden every edition since 2017, with 14th overall in 2025 his best. The final stage passes through Aldgate, where he grew up."
+        },
+        {
+          "title": "Storer leads Tudor",
+          "text": "Tudor returns for a second year with Storer, who last rode in 2024 and finished 20th with the Australian national team. Tudor's Marco Brenner was fourth in January, two seconds off the podium."
+        },
+        {
+          "title": "Race details",
+          "text": "Racing starts on January 19 and covers 874km over six days. Jai Hindley has also been announced and will make his first start at the race since 2023."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 239
+    },
+    "efcb56eb6d": {
+      "id": "efcb56eb6d",
+      "created": 1795327752.2782423,
+      "headline": "Maryland Cycling Classic cancelled after five years",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVkZJMVlfTVdkUzZGTXBtUjAzQ0UxNE93VEdzRjdMVTFOcXRpVm1CSDhqNnBKaVd0aWpYclVDbWtSbXlfTXphVmVUeGloanVSbllfNWYxMXAzMHViUjV4SUdEUW1UVEk0c2Z2UndSQWlCdzViZ2gwRXpFcHlaQllDdl9wckpBaU55UXYybmpmR09fcjNvNE1EOEpTMHEwTlhweHV5UWp6VEptOVA0UVR0MG1sVHN2VGlCam5V?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327751/cycling-bot/efcb56eb6d-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327751/cycling-bot/efcb56eb6d-0.jpg"
+      ],
+      "full_caption": "The Maryland Cycling Classic has been cancelled after five years on the calendar.\n\nCyclingUpToDate describes the news as a big hit for cycling in the USA. The report we have so far gives no further detail, so reasons and any future plans for the event are not yet clear.\n\nWhat would it take for more major road races to thrive in the US?\n\nSource: CyclingUpToDate.com\n\n#MarylandCyclingClassic #CyclingNews #ProCycling #RoadCycling #USCycling #WorldTour #CyclingCalendar #RaceNews",
+      "alt_text": "News graphic with the headline 'Maryland Cycling Classic cancelled after five years' in the Cycling News Today style.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 241
     }
   },
   "queue": [],
@@ -793,7 +893,9 @@
     1795259395.6636436,
     1795262941.11659,
     1795266556.8098974,
-    1795266575.157954
+    1795266575.157954,
+    1795327743.2016053,
+    1795327753.769447
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
