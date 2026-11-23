@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795367325.4981318,
+  "last_scout": 1795414113.110619,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -562,7 +562,30 @@
     "d4a87f2bd228d43b": 1795367333.8612514,
     "0b11f3f85b40d680": 1795367333.8612514,
     "f45e3d5ba8516a1e": 1795367333.8612514,
-    "7baa5f6a5e6a7801": 1795367333.8612514
+    "7baa5f6a5e6a7801": 1795367333.8612514,
+    "80cd58366fb96dea": 1795414123.0584192,
+    "f9150583a95e847d": 1795414123.0584192,
+    "03f85a32611e28f2": 1795414123.0584192,
+    "764348c358d97276": 1795414123.0584192,
+    "d4d3580baeb07aff": 1795414123.0584192,
+    "81c10e0c5a9adbdf": 1795414123.0584192,
+    "a2c5626b71347016": 1795414123.0584192,
+    "60cdbb7a7469da5f": 1795414123.0584192,
+    "4456610b69082228": 1795414123.0584192,
+    "8385759a28c2dd62": 1795414123.0584192,
+    "dae3fb3d624aa136": 1795414123.0584192,
+    "fa30a44787183f29": 1795414123.0584192,
+    "ac36e60ab833c22d": 1795414123.0584192,
+    "d498b7b4990ed2db": 1795414123.0584192,
+    "95c3dacb2e18d609": 1795414123.0584192,
+    "db1b236cd01c91dc": 1795414123.0584192,
+    "a0033934149831d8": 1795414123.0584192,
+    "d0a5268691ceb042": 1795414123.0584192,
+    "27dbc70b6590bdac": 1795414123.0584192,
+    "8adda53277099a78": 1795414123.0584192,
+    "1f27a84ff48c398f": 1795414123.0584192,
+    "ee35179ebe2e3d0f": 1795414123.0584192,
+    "93957d3e14946f00": 1795414123.0584192
   },
   "drafts": {
     "0116f42edb": {
@@ -717,6 +740,65 @@
       ],
       "background_url": null,
       "text_message_id": 267
+    },
+    "d58cedc0c7": {
+      "id": "d58cedc0c7",
+      "created": 1795414132.984972,
+      "headline": "NSN Cycling tease new kit with George Bennett video",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLUtqQS01M29ZWjJrZWJETlNzUno4RkRvbUxYeVJJRXJZMTNObldHLS1CZ0V6cTA0LTNrckQwWmJuWGVUVEhOUTl2WjVoNURhYVZBb0xBTk9fdXdmUjFTZERvREFWSWNZUDF6TEFKd2tSTEYzS1luS1ZLdV82NWp5MHVTU2ZOVXlXT2ZTaEZhYjVKM0sweVlJSHQtekgwVi1zS3JsTUFXUHVqT0VaQnBsbHdFM1paS3c?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414132/cycling-bot/d58cedc0c7-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414132/cycling-bot/d58cedc0c7-0.jpg"
+      ],
+      "full_caption": "NSN Cycling have teased their new kit in a video featuring George Bennett. 🎬\n\nAccording to IDLpro Cycling, the teaser also has Leonardo DiCaprio \"starring\" alongside Bennett. The quote marks suggest a tongue-in-cheek appearance, but the headline gives no detail on how he features. No launch date or design details have been given in the material available.\n\nWhat do you want to see in the full NSN Cycling kit?\n\nSource: IDLprocycling.com\n\n#NSNCycling #GeorgeBennett #CyclingNews #ProCycling #RoadCycling #WorldTour #CyclingKit #Peloton #KitReveal #LeonardoDiCaprio",
+      "alt_text": "News graphic with the headline about NSN Cycling teasing their new kit in a video featuring George Bennett.",
+      "score": 8,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 269
+    },
+    "94fce1a1c8": {
+      "id": "94fce1a1c8",
+      "created": 1795414148.0584867,
+      "headline": "Tour of Qatar revival delayed: no race in 2027",
+      "url": "https://escapecollective.com/tour-of-qatar-will-not-return-in-2027-after-all/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414144/cycling-bot/94fce1a1c8-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414144/cycling-bot/94fce1a1c8-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414145/cycling-bot/94fce1a1c8-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414146/cycling-bot/94fce1a1c8-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414147/cycling-bot/94fce1a1c8-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795414147/cycling-bot/94fce1a1c8-4.jpg"
+      ],
+      "full_caption": "The Tour of Qatar comeback has been pushed back.\n\nQatar national coach Rik Verbrugghe says neither the men's nor the women's race will go ahead as intended in 2027. He described it as a postponement, with a return now planned for 2028.\n\nThe news follows AlUla's exit as title sponsor of Jayco AlUla and Liv AlUla Jayco and the cancellation of the AlUla Tour.\n\nWould you like to see racing return to the Gulf region?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #TourOfQatar #WorldTour #cyclingnews #womenscycling #AlUla #AsianGames #cyclingcalendar",
+      "alt_text": "News graphic with the headline that the Tour of Qatar will not return in 2027, with a planned comeback in 2028.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "No Tour of Qatar in 2027",
+          "text": "Qatar national coach Rik Verbrugghe told Cyclingnews that neither the men's nor the women's Tour of Qatar will go ahead as intended in 2027."
+        },
+        {
+          "title": "New target: 2028",
+          "text": "Verbrugghe, a former rider and sports director, called it a postponement. The plan is to bring the Tour of Qatar back in 2028 instead."
+        },
+        {
+          "title": "Background",
+          "text": "The race was last held in 2016, when a shortage of funds ended it. The local federation had hoped to revive it next year, ahead of the 2030 Asian Games in Qatar."
+        },
+        {
+          "title": "Coming days after AlUla news",
+          "text": "The update follows AlUla's withdrawal as title sponsor of Jayco AlUla and Liv AlUla Jayco, and the cancellation of the AlUla Tour."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 275
     }
   },
   "queue": [],
@@ -884,7 +966,6 @@
     }
   ],
   "drafts_sent": [
-    1795241340.118708,
     1795241375.0679102,
     1795255802.8872721,
     1795259381.3171787,
@@ -899,10 +980,10 @@
     1795345737.3613286,
     1795352955.534034,
     1795363748.779597,
-    1795367353.5990129
+    1795367353.5990129,
+    1795414134.1696253,
+    1795414149.5530424
   ],
-  "feed_errors": {
-    "Google News: pro cycling team news": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=pro+cycling+team+news+when%3A1d&hl=en-US&gl=US&ceid=US:en"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
