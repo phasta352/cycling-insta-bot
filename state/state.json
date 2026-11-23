@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795428838.992102,
+  "last_scout": 1795433932.2637897,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -609,28 +609,24 @@
     "0c1a3b8785769d12": 1795428847.3087292,
     "3c199d12b556ba29": 1795428847.3087292,
     "5699eed1ca8cbca5": 1795428847.3087292,
-    "5a7d36b255f7650e": 1795428847.3087292
+    "5a7d36b255f7650e": 1795428847.3087292,
+    "19d32e3d3e9248fc": 1795433941.297544,
+    "6e8a71dd47769ee7": 1795433941.297544,
+    "af1efe61d9183255": 1795433941.297544,
+    "a8f18c8d71ea84ba": 1795433941.297544,
+    "8db6a2feea69d428": 1795433941.297544,
+    "e5ffe8c298f5cd6f": 1795433941.297544,
+    "1abffc1051f8d109": 1795433941.297544,
+    "a58a03cf30520765": 1795433941.297544,
+    "7532f1c9d7f1c091": 1795433941.297544,
+    "49da61e30c705561": 1795433941.297544,
+    "509fabd007980fb8": 1795433941.297544,
+    "bae9e33318a0a005": 1795433941.297544,
+    "c2fc77bb87ffdce0": 1795433941.297544,
+    "552196b965eb9902": 1795433941.297544,
+    "f69b34e52bbce6ab": 1795433941.297544
   },
   "drafts": {
-    "f854e9d6dc": {
-      "id": "f854e9d6dc",
-      "created": 1795345736.0437257,
-      "headline": "Vollering eyes Giro, Tour and Vuelta treble in 2027",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFg1QXFvZnZEd0MyMVJNYXBQZTM5cnVIRXRxd2JZTHlLM2RVbGp6R0hsZTZ3QTBRNHk5Unc2RXpjUVJuX2tmVFBtbjQ1amhBNkJ6MkpicWQ4OFB3bnRzWEtUQ1kyOU9EUnlEVEN4enFveXd0TDBIeHl5OXBqWUM0bzN6QmpkWjl5VGp1SFNvWVBwVl80UDRVYkhWOGtvbXpjdDltOTZMV21JdFAzQUg4bXI3WHdmWDhtSFRzUVpfeHJsQmpHYlFYUDdtcVhpNWplNXN4NWtn?oc=5",
-      "source": "Brujulabike.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795345735/cycling-bot/f854e9d6dc-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795345735/cycling-bot/f854e9d6dc-0.jpg"
-      ],
-      "full_caption": "Demi Vollering is reportedly aiming to win the Giro, the Tour and the Vuelta in the same season, 2027.\n\nAccording to Brujulabike, the plan is already something she has talked through with her team. The report gives no further detail, and the goal has not been confirmed in an official statement.\n\nWinning all three Grand Tours in one year would be a rare achievement, so it will be worth watching how her 2027 programme takes shape.\n\nIs a Grand Tour treble realistic for Vollering?\n\nSource: Brujulabike.com\n\n#DemiVollering #WomensCycling #WomensWorldTour #GiroDItalia #TourDeFrance #LaVuelta #GrandTour #ProCycling #RoadCycling #CyclingNews",
-      "alt_text": "News graphic with the headline 'Vollering eyes Giro, Tour and Vuelta treble in 2027' under a Rider News label.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 250
-    },
     "0331720501": {
       "id": "0331720501",
       "created": 1795363746.700624,
@@ -823,6 +819,65 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 283
+    },
+    "c122170228": {
+      "id": "c122170228",
+      "created": 1795433958.0288067,
+      "headline": "Delio Fernández banned four years, loses 2017 Tour of Austria title",
+      "url": "https://www.cyclingnews.com/pro-cycling/doping/delio-fernandez-handed-four-year-ban-loses-tour-of-austria-title-over-biological-passport-violations/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433952/cycling-bot/c122170228-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433952/cycling-bot/c122170228-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433955/cycling-bot/c122170228-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433955/cycling-bot/c122170228-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433956/cycling-bot/c122170228-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433957/cycling-bot/c122170228-4.jpg"
+      ],
+      "full_caption": "Delio Fernández has been given a four-year ban over biological passport violations.\n\nThe International Testing Agency ruled against the retired Spaniard, and his results are wiped across two periods of his career. That costs him the 2017 Tour of Austria title, which is set to pass to Miguel Angel López, who is currently suspended himself. The ruling can still be appealed to CAS.\n\nShould riders' old results be reviewed this far back?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #cyclingnews #antidoping #UCI #ITA #TourOfAustria #VoltaAPortugal #biologicalpassport",
+      "alt_text": "News graphic reading that Delio Fernández has received a four-year ban and loses his 2017 Tour of Austria title.",
+      "score": 7,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [
+        {
+          "title": "Four-year ban handed down",
+          "text": "The ITA has banned Spanish ex-racer Delio Fernández for a biological passport anti-doping violation. The 40-year-old retired at the end of 2025 and cannot compete until 11 November 2030."
+        },
+        {
+          "title": "What the experts found",
+          "text": "Independent experts unanimously concluded his passport changes were highly likely caused by a prohibited substance or method. The samples came from the Vuelta a Portugal in 2015 and from August 2023."
+        },
+        {
+          "title": "Results wiped, title lost",
+          "text": "His results from 20 July 2015 to 9 August 2023 are erased. That includes the 2017 Tour of Austria, which he won after Stefan Denifl was stripped of the title over Operation Aderlass."
+        },
+        {
+          "title": "Who gets the title now",
+          "text": "Miguel Angel López, originally third, is set to be named champion, though he is currently suspended. Fernández also faces a fine, and the decision can be appealed to CAS."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 289
+    },
+    "2abc763bfc": {
+      "id": "2abc763bfc",
+      "created": 1795433975.0872564,
+      "headline": "Pellizzari to lead Red Bull-BORA at Giro, not Evenepoel: agent",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMmppd19Kb2dfWnpwNWliRUs3S2wzSFhBVloyQk0tM3h5cFlKbjVCaVl3dkxkSWk2Nk9nTUQ5ano4aXUyeW9ZcDNIZWJoX3luUHFGWm9tV3Q1dnVyNWRaUGR5Y2tZbERsR0g0bkZPU1laQWluNEl6bkxnTE1NS213S21HZmtwcm9wMTRRSlJZbDRWQUNkRDJFeG8tTmtBa3ZSaTlpTHltRnl0QklSbTgxcndpR0tmSlYxTm9xWTU5Zi1Mb2ZJbHVvWGMwNGZSclFVcC1USA?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433974/cycling-bot/2abc763bfc-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433974/cycling-bot/2abc763bfc-0.jpg"
+      ],
+      "full_caption": "Pellizzari reportedly set to lead Red Bull-BORA-hansgrohe at the Giro d'Italia.\n\nAccording to his agent, Pellizzari will take the team leadership role at the Italian Grand Tour, rather than Remco Evenepoel. The claim comes from the agent and no official team statement is included in the source, so treat it as a report for now.\n\nIf it is confirmed, it would shape how Red Bull-BORA-hansgrohe approaches the Giro.\n\nIs Pellizzari ready to lead a team in a Grand Tour?\n\nSource: IDLProCycling.com\n\n#cycling #procycling #roadcycling #WorldTour #GirodItalia #Giro #Pellizzari #Evenepoel #RedBullBORAhansgrohe #cyclingnews",
+      "alt_text": "News graphic with the headline saying Pellizzari will lead Red Bull-BORA-hansgrohe at the Giro d'Italia instead of Evenepoel, according to his agent.",
+      "score": 5,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 291
     }
   },
   "queue": [],
@@ -990,8 +1045,6 @@
     }
   ],
   "drafts_sent": [
-    1795259381.3171787,
-    1795259395.6636436,
     1795262941.11659,
     1795266556.8098974,
     1795266575.157954,
@@ -1006,7 +1059,9 @@
     1795414134.1696253,
     1795414149.5530424,
     1795428864.7053404,
-    1795428877.048976
+    1795428877.048976,
+    1795433960.262666,
+    1795433976.6983995
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
