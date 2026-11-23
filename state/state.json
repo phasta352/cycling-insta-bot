@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795424914.8010614,
+  "last_scout": 1795428838.992102,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -601,7 +601,15 @@
     "52884d6f54a0be17": 1795424922.045207,
     "5f0b1efdd250df1e": 1795424922.045207,
     "36efd84fae1909ff": 1795424922.045207,
-    "2a7ba04ffc86a7c8": 1795424922.045207
+    "2a7ba04ffc86a7c8": 1795424922.045207,
+    "a8046ae85a8e31c0": 1795428847.3087292,
+    "0642e9ecb1fb6fb6": 1795428847.3087292,
+    "48a2fc4fad84650e": 1795428847.3087292,
+    "b3696390e814876f": 1795428847.3087292,
+    "0c1a3b8785769d12": 1795428847.3087292,
+    "3c199d12b556ba29": 1795428847.3087292,
+    "5699eed1ca8cbca5": 1795428847.3087292,
+    "5a7d36b255f7650e": 1795428847.3087292
   },
   "drafts": {
     "f854e9d6dc": {
@@ -756,6 +764,65 @@
       ],
       "background_url": null,
       "text_message_id": 275
+    },
+    "30e1224360": {
+      "id": "30e1224360",
+      "created": 1795428862.282958,
+      "headline": "Seixas, 20, becomes youngest-ever Lombardia winner",
+      "url": "https://www.cyclingweekly.com/racing/i-hope-its-only-the-beginning-paul-seixas-on-his-breakout-year-dealing-with-pressure-and-an-eye-opening-debut-tour-de-france",
+      "source": "Cycling Weekly",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428859/cycling-bot/30e1224360-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428859/cycling-bot/30e1224360-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428859/cycling-bot/30e1224360-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428860/cycling-bot/30e1224360-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428861/cycling-bot/30e1224360-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428861/cycling-bot/30e1224360-4.jpg"
+      ],
+      "full_caption": "Paul Seixas has his first Monument. 🏆\n\nThe 20-year-old Decathlon CMA CGM rider won Il Lombardia solo, attacking 18.2km from the finish, and is the youngest winner in the race's history. He says the pressure he puts on himself is \"good pressure\", and that winning under it feels better than a surprise result. Pogačar missed the race while recovering from his Vuelta crash.\n\nWhen do you expect the next Seixas vs Pogačar showdown?\n\nSource: Cycling Weekly\n\n#cycling #procycling #roadcycling #WorldTour #PaulSeixas #Lombardia #IlLombardia #DecathlonCMACGM #Monument #TadejPogacar",
+      "alt_text": "Graphic with the headline that Paul Seixas, aged 20, became the youngest-ever winner of Il Lombardia.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "A solo win at Lombardia",
+          "text": "Seixas attacked 18.2km from the finish and rode away alone. It was a calm move rather than a ferocious one, and it made him the youngest-ever winner of Il Lombardia at 20."
+        },
+        {
+          "title": "The Civiglio climb",
+          "text": "Estimates based on Velon data put him at 7.1W/kg up the 4km, 10% Civiglio, in a record 11:54. He then stretched his lead over Enric Mas to 48 seconds on the final climb."
+        },
+        {
+          "title": "Handling the pressure",
+          "text": "After 15th in the Worlds road race in Montréal, he was hugely disappointed. Two weeks later he called the pressure he puts on himself \"good pressure\" and said it was part of what drives him."
+        },
+        {
+          "title": "The Pogačar factor",
+          "text": "Pogačar missed Lombardia while recovering from his Vuelta crash. Seixas was second to him at both Strade Bianche and Liège-Bastogne-Liège this spring, and calls him his role model."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 281
+    },
+    "93da802cbf": {
+      "id": "93da802cbf",
+      "created": 1795428875.4078784,
+      "headline": "America's top one-day race dropped from UCI calendar",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSDNNQ1NPUmJHZUtZNUZXV2NfVnIzZ0FZcUZyVlltQ0IxdFFyMm9UMGVENU1JQmJqejBfMFcwM3FTNzhRR1Y1eEllTmJRSWcxeXBELUJWYWpENlI0dE1INjRueUY1eURMb1ZsOXVqXzd3bUc5NVBMODNsYXJGSWRjOGRxR0lxZm1HSGhsX1NRdm9ncS1XdTZrd1lhVDBwNFJtY2puWmVIM3RiazhNS0NIaklCZ3l5Yk1zYmhZMFpqRWZVcEdqcjlHbE9GZw?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428874/cycling-bot/93da802cbf-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795428874/cycling-bot/93da802cbf-0.jpg"
+      ],
+      "full_caption": "America's main one-day race has been removed from the UCI calendar.\n\nAccording to CyclingUpToDate, the removal comes even though the sport's world champion is linked to the event. The report we have gives no further detail, so the reasons and what it means for the race's future are not yet clear.\n\nLosing a place on the international calendar can affect a race's profile and the teams and riders it attracts.\n\nWhat would it take for the US to keep a top-level one-day race on the calendar?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #UCI #WorldTour #cyclingnews #UCIcalendar #roadracing #worldchampion #USAcycling",
+      "alt_text": "News graphic with the headline that America's main one-day race has been removed from the UCI calendar.",
+      "score": 7,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 283
     }
   },
   "queue": [],
@@ -923,7 +990,6 @@
     }
   ],
   "drafts_sent": [
-    1795255802.8872721,
     1795259381.3171787,
     1795259395.6636436,
     1795262941.11659,
@@ -938,7 +1004,9 @@
     1795363748.779597,
     1795367353.5990129,
     1795414134.1696253,
-    1795414149.5530424
+    1795414149.5530424,
+    1795428864.7053404,
+    1795428877.048976
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
