@@ -588,65 +588,6 @@
     "93957d3e14946f00": 1795414123.0584192
   },
   "drafts": {
-    "0116f42edb": {
-      "id": "0116f42edb",
-      "created": 1795327741.1338015,
-      "headline": "Harper and Storer confirmed for 2027 Tour Down Under",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/tour-down-under-adds-australian-chris-harper-and-michael-storer-to-2027-lineup/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327738/cycling-bot/0116f42edb-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327738/cycling-bot/0116f42edb-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327739/cycling-bot/0116f42edb-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327739/cycling-bot/0116f42edb-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327740/cycling-bot/0116f42edb-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327740/cycling-bot/0116f42edb-4.jpg"
-      ],
-      "full_caption": "Two Australian riders and their teams are confirmed for the 2027 Tour Down Under.\n\nChris Harper will lead Pinarello Q36.5 on its race debut, while Michael Storer returns with Tudor. The WorldTour opener starts on January 19 and covers 874km over six days.\n\nWhich Australian are you backing to shine on home roads?\n\nSource: Cyclingnews\n\n#TourDownUnder #TDU2027 #WorldTour #ProCycling #RoadCycling #ChrisHarper #MichaelStorer #PinarelloQ365 #TudorProCycling #Cycling",
-      "alt_text": "News graphic announcing that Chris Harper and Michael Storer will ride the 2027 Tour Down Under with Pinarello Q36.5 and Tudor.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [
-        {
-          "title": "Two more Australians confirmed",
-          "text": "The 2027 Tour Down Under has added Chris Harper and Michael Storer to its lineup, along with their ProTeams, Pinarello Q36.5 and Tudor."
-        },
-        {
-          "title": "Harper and Pinarello Q36.5 debut",
-          "text": "Pinarello Q36.5 makes its first appearance at the race. Harper has ridden every edition since 2017, with 14th overall in 2025 his best. The final stage passes through Aldgate, where he grew up."
-        },
-        {
-          "title": "Storer leads Tudor",
-          "text": "Tudor returns for a second year with Storer, who last rode in 2024 and finished 20th with the Australian national team. Tudor's Marco Brenner was fourth in January, two seconds off the podium."
-        },
-        {
-          "title": "Race details",
-          "text": "Racing starts on January 19 and covers 874km over six days. Jai Hindley has also been announced and will make his first start at the race since 2023."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 239
-    },
-    "efcb56eb6d": {
-      "id": "efcb56eb6d",
-      "created": 1795327752.2782423,
-      "headline": "Maryland Cycling Classic cancelled after five years",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVkZJMVlfTVdkUzZGTXBtUjAzQ0UxNE93VEdzRjdMVTFOcXRpVm1CSDhqNnBKaVd0aWpYclVDbWtSbXlfTXphVmVUeGloanVSbllfNWYxMXAzMHViUjV4SUdEUW1UVEk0c2Z2UndSQWlCdzViZ2gwRXpFcHlaQllDdl9wckpBaU55UXYybmpmR09fcjNvNE1EOEpTMHEwTlhweHV5UWp6VEptOVA0UVR0MG1sVHN2VGlCam5V?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327751/cycling-bot/efcb56eb6d-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795327751/cycling-bot/efcb56eb6d-0.jpg"
-      ],
-      "full_caption": "The Maryland Cycling Classic has been cancelled after five years on the calendar.\n\nCyclingUpToDate describes the news as a big hit for cycling in the USA. The report we have so far gives no further detail, so reasons and any future plans for the event are not yet clear.\n\nWhat would it take for more major road races to thrive in the US?\n\nSource: CyclingUpToDate.com\n\n#MarylandCyclingClassic #CyclingNews #ProCycling #RoadCycling #USCycling #WorldTour #CyclingCalendar #RaceNews",
-      "alt_text": "News graphic with the headline 'Maryland Cycling Classic cancelled after five years' in the Cycling News Today style.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 241
-    },
     "f854e9d6dc": {
       "id": "f854e9d6dc",
       "created": 1795345736.0437257,
@@ -966,7 +907,6 @@
     }
   ],
   "drafts_sent": [
-    1795241375.0679102,
     1795255802.8872721,
     1795259381.3171787,
     1795259395.6636436,
