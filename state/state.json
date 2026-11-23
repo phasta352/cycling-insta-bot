@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795433932.2637897,
+  "last_scout": 1795437514.436563,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -624,7 +624,18 @@
     "bae9e33318a0a005": 1795433941.297544,
     "c2fc77bb87ffdce0": 1795433941.297544,
     "552196b965eb9902": 1795433941.297544,
-    "f69b34e52bbce6ab": 1795433941.297544
+    "f69b34e52bbce6ab": 1795433941.297544,
+    "bc4cdaee8480287f": 1795437524.6353207,
+    "b59c7adca7d93f86": 1795437524.6353207,
+    "ec8400d2e15c85b9": 1795437524.6353207,
+    "b2cca3d5ed6a8d5e": 1795437524.6353207,
+    "5f6adb5921354903": 1795437524.6353207,
+    "2f88d83fa7ae79dd": 1795437524.6353207,
+    "7a30ce10da72deea": 1795437524.6353207,
+    "05009f416b8fe215": 1795437524.6353207,
+    "edee794871025f23": 1795437524.6353207,
+    "0cafad110e544b3d": 1795437524.6353207,
+    "ed2b34475cc69021": 1795437524.6353207
   },
   "drafts": {
     "0331720501": {
@@ -878,6 +889,44 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 291
+    },
+    "678eecbc2f": {
+      "id": "678eecbc2f",
+      "created": 1795437540.8579826,
+      "headline": "Mel Sutcliffe strikes deal to save Raleigh and Lapierre",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTXJaZi1fa3AxckpRenBFNHAzVmtubkRtR2pPeHNxMEFudXpxa3c3MmVWTE1VQzFicG9uUk91U29waDhjSkFjQ0tfUWU0YlZnT0lpa0hLb1dpLUxnRUFfdDF6QnltVzlHUl92eHlxQk1CdEVjOHJFOFNRalhEa2ZhNWR4bmdiNm9STmxJZFljN2p1aVNzMzZtRUtlU0UwdnJicHBEblVUbUI?oc=5",
+      "source": "BikeRadar",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795437540/cycling-bot/678eecbc2f-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795437540/cycling-bot/678eecbc2f-0.jpg"
+      ],
+      "full_caption": "A rescue deal is reported for Raleigh and Lapierre.\n\nBikeRadar reports that former pro cyclist Mel Sutcliffe has struck a deal to save both bike brands. The headline points to a future for two well-known names in the bike industry. Details of the agreement have not yet been confirmed here, and we will update when more is known.\n\nWhat would you like to see from Raleigh and Lapierre under new leadership?\n\nSource: BikeRadar\n\n#cycling #roadcycling #cyclingnews #bikes #bikeindustry #Raleigh #Lapierre #roadbike #procycling #cyclingcommunity",
+      "alt_text": "News graphic with the text 'Mel Sutcliffe strikes deal to save Raleigh and Lapierre' under a Gear & Tech label.",
+      "score": 6,
+      "reel_url": null,
+      "category": "GEAR & TECH",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 293
+    },
+    "1cb1556b97": {
+      "id": "1cb1556b97",
+      "created": 1795437549.7899554,
+      "headline": "NSN unveils 2027 team kit, first in the WorldTour",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOWtsMWJWaWxObUxjYmduOFkzdjZtSllxbHNHWGhveFF4M1lxVmxGelZ6VFVNRk90bWxoQXhPNGh5RXBnM29neDJ1MnBkTDh0TzZZNlpxZTlVUHpMYnh2M2xnYXBSQTJ0OVZMVXJBdGwyMGtSMU9ZVEJYbjRsY2owME9VM0RsWGhWWVhFbkFIT1djUlFUemZnNHUtOW9UOEdaRnltN0RpY1hPa25Nd1IxUVhfQUF4SVBTSXdNYkhBRmM1YmFXTzlYeFNSV3plSWNhQkdTUWtKaw?oc=5",
+      "source": "Brujulabike.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795437549/cycling-bot/1cb1556b97-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795437549/cycling-bot/1cb1556b97-0.jpg"
+      ],
+      "full_caption": "NSN has revealed its 2027 kit before any other WorldTour team.\n\nAccording to Brujulabike, the new design is what Primož Roglič and Richard Carapaz will wear next season. Releasing it this early puts NSN ahead of its rivals in the annual kit-reveal cycle.\n\nWhat do you make of the new look, and will it stand out in the peloton?\n\nSource: Brujulabike.com\n\n#cycling #procycling #WorldTour #roadcycling #NSN #Roglic #Carapaz #cyclingkit #2027season #cyclingnews",
+      "alt_text": "Graphic announcing NSN's 2027 team kit, to be worn by Primož Roglič and Richard Carapaz.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 295
     }
   },
   "queue": [],
@@ -1045,7 +1094,6 @@
     }
   ],
   "drafts_sent": [
-    1795262941.11659,
     1795266556.8098974,
     1795266575.157954,
     1795327743.2016053,
@@ -1061,7 +1109,9 @@
     1795428864.7053404,
     1795428877.048976,
     1795433960.262666,
-    1795433976.6983995
+    1795433976.6983995,
+    1795437542.1552885,
+    1795437551.044242
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
