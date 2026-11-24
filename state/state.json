@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795507714.5143397,
+  "last_scout": 1795511343.2966757,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -695,7 +695,11 @@
     "5b61f9f42ecc62c7": 1795507719.4375095,
     "7a7b6264c233106b": 1795507719.4375095,
     "3e1601850a18da93": 1795507719.4375095,
-    "715b6e51ccc858e5": 1795507719.4375095
+    "715b6e51ccc858e5": 1795507719.4375095,
+    "b56ac7aa12ed10e6": 1795511350.3520632,
+    "ed0743d9dc53da4d": 1795511350.3520632,
+    "164b7738003c235e": 1795511350.3520632,
+    "ca979e6db9d5f868": 1795511350.3520632
   },
   "drafts": {
     "30e1224360": {
@@ -950,6 +954,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 309
+    },
+    "d9e11bcc62": {
+      "id": "d9e11bcc62",
+      "created": 1795511360.3834555,
+      "headline": "Campagnolo eyes OEM growth after EUR 24mln loss",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0ZwRFVXc2J5OERjZjN2dmg2OUFZek9jaFdzMmdSbXNUd0kwd3hXSkdMMTlXY25xbUxHUjBuYUlGSVZjV05POXFWVEF3a3JZcFhHclhVaHU3U0pjQlhDV1lobEJvNmVJYTBtaWx0OWtJUDY3bnhjV2ZjNjRZUTdLS09PbnVjaHdxdkdobFhJOWg1MUFoMVB0QWMxeWgtU014SUZIc1BCOA?oc=5",
+      "source": "Bike Europe",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795511359/cycling-bot/d9e11bcc62-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795511359/cycling-bot/d9e11bcc62-0.jpg"
+      ],
+      "full_caption": "Campagnolo is looking to OEM business to turn things around after a EUR 24mln loss.\n\nAccording to Bike Europe, the Italian component maker sees growth in the OEM market as its \"biggest opportunity\". OEM means supplying components to bike brands for complete bikes.\n\nThe report points to a shift in focus for one of the sport's best-known groupset names, though the headline alone leaves the details of the loss and the plan unclear.\n\nCan Campagnolo win back ground with bike brands?\n\nSource: Bike Europe\n\n#Campagnolo #Cycling #RoadCycling #CyclingNews #BikeIndustry #Groupset #CyclingTech #RoadBike #OEM",
+      "alt_text": "News graphic with the headline that Campagnolo is targeting OEM growth after a EUR 24 million loss.",
+      "score": 5,
+      "reel_url": null,
+      "category": "GEAR & TECH",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 311
     }
   },
   "queue": [],
@@ -1132,7 +1155,8 @@
     1795500542.231449,
     1795500585.4125278,
     1795504145.1921167,
-    1795507729.7323387
+    1795507729.7323387,
+    1795511362.0274553
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
