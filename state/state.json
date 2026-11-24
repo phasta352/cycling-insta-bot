@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795437514.436563,
+  "last_scout": 1795500522.583676,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -635,7 +635,56 @@
     "05009f416b8fe215": 1795437524.6353207,
     "edee794871025f23": 1795437524.6353207,
     "0cafad110e544b3d": 1795437524.6353207,
-    "ed2b34475cc69021": 1795437524.6353207
+    "ed2b34475cc69021": 1795437524.6353207,
+    "028b6a2b6bdde24a": 1795500531.8008235,
+    "d865751616c0b349": 1795500531.8008235,
+    "7dbe9eac17ce1b5a": 1795500531.8008235,
+    "e5914d7bbf2c82c1": 1795500531.8008235,
+    "03d06993a4fe1fe6": 1795500531.8008235,
+    "f6b5538f48202428": 1795500531.8008235,
+    "e324aed6c57ff93a": 1795500531.8008235,
+    "00537b619cdc2e03": 1795500531.8008235,
+    "8a1656e0e985a115": 1795500531.8008235,
+    "9cf1fca82f733645": 1795500531.8008235,
+    "cccd157f0b3c6d72": 1795500531.8008235,
+    "7abf5d5a2152019f": 1795500531.8008235,
+    "e837c55145281b42": 1795500531.8008235,
+    "f553e2aabaff86f2": 1795500531.8008235,
+    "28944402b524030b": 1795500531.8008235,
+    "3db3ad36f3d5e67a": 1795500531.8008235,
+    "ea96d355df3ccfb6": 1795500531.8008235,
+    "7f5dc75db27b9ae9": 1795500531.8008235,
+    "a2c6833d01ddde49": 1795500531.8008235,
+    "45b6ce0cb98c2457": 1795500531.8008235,
+    "d6288d131dc4c162": 1795500531.8008235,
+    "8e2affea58213254": 1795500531.8008235,
+    "cdbeec025541067f": 1795500531.8008235,
+    "3522fa86fe8c9d94": 1795500531.8008235,
+    "90286ad1ae85b039": 1795500531.8008235,
+    "ced93c5ab93194fc": 1795500531.8008235,
+    "1c114160890a77f2": 1795500531.8008235,
+    "87b57bd24546d3bb": 1795500531.8008235,
+    "4660f4941f63ba72": 1795500531.8008235,
+    "a16bcb684e503d2a": 1795500531.8008235,
+    "04bdd50ac6526cc5": 1795500531.8008235,
+    "203c2d1c05094171": 1795500531.8008235,
+    "cea2378397d904e6": 1795500531.8008235,
+    "51e6d4073012721d": 1795500531.8008235,
+    "7e285cd040d69637": 1795500531.8008235,
+    "8313042f5be309ed": 1795500531.8008235,
+    "f87f5d4096dcd5c6": 1795500531.8008235,
+    "21d1bc3a7d2dae97": 1795500531.8008235,
+    "b262f033b1d9e1b1": 1795500531.8008235,
+    "b6da6860d3819086": 1795500531.8008235,
+    "c5362d10d8afb67f": 1795500531.8008235,
+    "95cc0906e9e8e99d": 1795500531.8008235,
+    "2d2457351f4354c4": 1795500531.8008235,
+    "6a34990e632d32ad": 1795500531.8008235,
+    "dedd24f186eb6656": 1795500531.8008235,
+    "723c8abe96deb41d": 1795500531.8008235,
+    "a30aadfb4a78fd76": 1795500531.8008235,
+    "b0127de3b0bad609": 1795500531.8008235,
+    "2b406c5511e69ba2": 1795500531.8008235
   },
   "drafts": {
     "d58cedc0c7": {
@@ -852,6 +901,65 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 295
+    },
+    "f58f972fa3": {
+      "id": "f58f972fa3",
+      "created": 1795500540.8484752,
+      "headline": "XDS Astana's title sponsor commits to 2027 WorldTour season",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZldjN0xWMkRwSUx5VHhPUmNIbGxqX2Z6QjlSNndCWmNscGRjWF93ejhLRzBMS01YbThJOWN3UThvMVJzNmR2NlZSb2puM2FhcUVnMDlhQWY5dUtBcms0aHNxUmRSX2k4NlgzSXIzZzNycjlrRU5ZdGVHYjZldHJicGtrVThNY1dMM2daakVKb3ROQnZTQjNTcDFxN2N6dXpqWHcwTndhMTlyLU9GX3lfc25CTFZvbTVkLS1YVnppWDc0cnpWT0o2akY0OVVmNHNhelJIS0habHk?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500540/cycling-bot/f58f972fa3-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500540/cycling-bot/f58f972fa3-0.jpg"
+      ],
+      "full_caption": "XDS Astana's title sponsor is reported to have committed to the team's 2027 WorldTour campaign.\n\nThe reported commitment comes despite friction within the team's management, according to CyclingUpToDate. For a WorldTour squad, a secure title sponsor is central to planning rosters and budgets for the seasons ahead.\n\nFurther details have not yet been confirmed here.\n\nDoes a sponsor commitment like this give you confidence in the team's future?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #WorldTour #UCIWorldTour #XDSAstana #Astana #cyclingnews #teamnews #2027season",
+      "alt_text": "News graphic with the headline that XDS Astana's title sponsor has committed to the team's 2027 WorldTour campaign.",
+      "score": 8,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 298
+    },
+    "81e03c0542": {
+      "id": "81e03c0542",
+      "created": 1795500581.6748986,
+      "headline": "Pogačar reportedly won't ride 2027 Tour Down Under",
+      "url": "https://escapecollective.com/tadej-pogacar-wont-be-coming-to-the-2027-tour-down-under/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500552/cycling-bot/81e03c0542-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500552/cycling-bot/81e03c0542-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500552/cycling-bot/81e03c0542-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500553/cycling-bot/81e03c0542-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500554/cycling-bot/81e03c0542-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795500554/cycling-bot/81e03c0542-4.jpg"
+      ],
+      "full_caption": "Tadej Pogačar is reportedly not heading to the 2027 Tour Down Under.\n\nEscape Collective's Daniel Benson reports that talks with the organisers had progressed, but UAE Team Emirates-XRG apparently wants its star to stay in Europe as he returns from his Vuelta crash. Nothing has been officially announced.\n\nWould you have liked to see Pogačar open the season in Australia?\n\nSource: Escape Collective\n\n#TadejPogacar #TourDownUnder #UAETeamEmiratesXRG #WorldTour #ProCycling #RoadCycling #Cycling #CyclingNews #GreatOceanRoadRace #Pogacar",
+      "alt_text": "News graphic with the headline that Tadej Pogačar reportedly won't ride the 2027 Tour Down Under.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795500580/cycling-bot/81e03c0542-reel.mp4",
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "The report",
+          "text": "After months of speculation, Escape Collective reports that Tadej Pogačar will not start his 2027 season at the Tour Down Under. The news comes from Daniel Benson's sources, not an official announcement."
+        },
+        {
+          "title": "Talks had gone far",
+          "text": "Pogačar and his management were reportedly in talks with the organisers of the Tour Down Under and Cadel's Great Ocean Road Race. Appearance fees and rider demands had reportedly been agreed."
+        },
+        {
+          "title": "The sticking point",
+          "text": "Manager Alex Carera said in early November that \"there is a chance\", depending on talks at the team's early training camp. Sources say the team wanted Pogačar to stay in Europe."
+        },
+        {
+          "title": "Why the team is cautious",
+          "text": "The team reportedly wants to monitor his comeback after a season-ending crash at the Vuelta a España. Pogačar himself is said to have been willing to make the trip."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 305
     }
   },
   "queue": [],
@@ -1019,8 +1127,6 @@
     }
   ],
   "drafts_sent": [
-    1795327743.2016053,
-    1795327753.769447,
     1795334943.4099858,
     1795334955.7621636,
     1795345737.3613286,
@@ -1034,7 +1140,9 @@
     1795433960.262666,
     1795433976.6983995,
     1795437542.1552885,
-    1795437551.044242
+    1795437551.044242,
+    1795500542.231449,
+    1795500585.4125278
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
