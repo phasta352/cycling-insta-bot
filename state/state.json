@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795518513.1092668,
+  "last_scout": 1795522148.929543,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -714,68 +714,17 @@
     "d1d0e01c3fbf39b8": 1795518520.0808568,
     "6cd1b90754804d5c": 1795518520.0808568,
     "9133a06f12c050a4": 1795518520.0808568,
-    "445d7b5509b82a01": 1795518520.0808568
+    "445d7b5509b82a01": 1795518520.0808568,
+    "15e8458f07d970bd": 1795522155.9616632,
+    "c9e197c45f3490a8": 1795522155.9616632,
+    "d398d20e4b618f97": 1795522155.9616632,
+    "e988a5e9c1ce61de": 1795522155.9616632,
+    "afce95e15e7aade4": 1795522155.9616632,
+    "c4841a0b013923cf": 1795522155.9616632,
+    "732dffa05e2a6f40": 1795522155.9616632,
+    "2ea9d84bbac3b8d4": 1795522155.9616632
   },
   "drafts": {
-    "c122170228": {
-      "id": "c122170228",
-      "created": 1795433958.0288067,
-      "headline": "Delio Fernández banned four years, loses 2017 Tour of Austria title",
-      "url": "https://www.cyclingnews.com/pro-cycling/doping/delio-fernandez-handed-four-year-ban-loses-tour-of-austria-title-over-biological-passport-violations/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433952/cycling-bot/c122170228-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433952/cycling-bot/c122170228-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433955/cycling-bot/c122170228-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433955/cycling-bot/c122170228-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433956/cycling-bot/c122170228-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433957/cycling-bot/c122170228-4.jpg"
-      ],
-      "full_caption": "Delio Fernández has been given a four-year ban over biological passport violations.\n\nThe International Testing Agency ruled against the retired Spaniard, and his results are wiped across two periods of his career. That costs him the 2017 Tour of Austria title, which is set to pass to Miguel Angel López, who is currently suspended himself. The ruling can still be appealed to CAS.\n\nShould riders' old results be reviewed this far back?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #cyclingnews #antidoping #UCI #ITA #TourOfAustria #VoltaAPortugal #biologicalpassport",
-      "alt_text": "News graphic reading that Delio Fernández has received a four-year ban and loses his 2017 Tour of Austria title.",
-      "score": 7,
-      "reel_url": null,
-      "category": "UCI",
-      "slides": [
-        {
-          "title": "Four-year ban handed down",
-          "text": "The ITA has banned Spanish ex-racer Delio Fernández for a biological passport anti-doping violation. The 40-year-old retired at the end of 2025 and cannot compete until 11 November 2030."
-        },
-        {
-          "title": "What the experts found",
-          "text": "Independent experts unanimously concluded his passport changes were highly likely caused by a prohibited substance or method. The samples came from the Vuelta a Portugal in 2015 and from August 2023."
-        },
-        {
-          "title": "Results wiped, title lost",
-          "text": "His results from 20 July 2015 to 9 August 2023 are erased. That includes the 2017 Tour of Austria, which he won after Stefan Denifl was stripped of the title over Operation Aderlass."
-        },
-        {
-          "title": "Who gets the title now",
-          "text": "Miguel Angel López, originally third, is set to be named champion, though he is currently suspended. Fernández also faces a fine, and the decision can be appealed to CAS."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 289
-    },
-    "2abc763bfc": {
-      "id": "2abc763bfc",
-      "created": 1795433975.0872564,
-      "headline": "Pellizzari to lead Red Bull-BORA at Giro, not Evenepoel: agent",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMmppd19Kb2dfWnpwNWliRUs3S2wzSFhBVloyQk0tM3h5cFlKbjVCaVl3dkxkSWk2Nk9nTUQ5ano4aXUyeW9ZcDNIZWJoX3luUHFGWm9tV3Q1dnVyNWRaUGR5Y2tZbERsR0g0bkZPU1laQWluNEl6bkxnTE1NS213S21HZmtwcm9wMTRRSlJZbDRWQUNkRDJFeG8tTmtBa3ZSaTlpTHltRnl0QklSbTgxcndpR0tmSlYxTm9xWTU5Zi1Mb2ZJbHVvWGMwNGZSclFVcC1USA?oc=5",
-      "source": "IDLprocycling.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433974/cycling-bot/2abc763bfc-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795433974/cycling-bot/2abc763bfc-0.jpg"
-      ],
-      "full_caption": "Pellizzari reportedly set to lead Red Bull-BORA-hansgrohe at the Giro d'Italia.\n\nAccording to his agent, Pellizzari will take the team leadership role at the Italian Grand Tour, rather than Remco Evenepoel. The claim comes from the agent and no official team statement is included in the source, so treat it as a report for now.\n\nIf it is confirmed, it would shape how Red Bull-BORA-hansgrohe approaches the Giro.\n\nIs Pellizzari ready to lead a team in a Grand Tour?\n\nSource: IDLProCycling.com\n\n#cycling #procycling #roadcycling #WorldTour #GirodItalia #Giro #Pellizzari #Evenepoel #RedBullBORAhansgrohe #cyclingnews",
-      "alt_text": "News graphic with the headline saying Pellizzari will lead Red Bull-BORA-hansgrohe at the Giro d'Italia instead of Evenepoel, according to his agent.",
-      "score": 5,
-      "reel_url": null,
-      "category": "TEAM NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 291
-    },
     "678eecbc2f": {
       "id": "678eecbc2f",
       "created": 1795437540.8579826,
