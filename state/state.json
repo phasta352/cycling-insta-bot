@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795536517.3215523,
+  "last_scout": 1795540124.4798312,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -755,7 +755,15 @@
     "cad11124c146513a": 1795536525.2033896,
     "09a83da0768c36df": 1795536525.2033896,
     "8701806e21a82d1d": 1795536525.2033896,
-    "84d18edc89bdf7c1": 1795536525.2033896
+    "84d18edc89bdf7c1": 1795536525.2033896,
+    "d0f4c157dac6ed38": 1795540131.4957104,
+    "7a9f78206aa6fa60": 1795540131.4957104,
+    "5eaa4a707ad88e58": 1795540131.4957104,
+    "30075112e39ec8b0": 1795540131.4957104,
+    "94ba0c30e1020073": 1795540131.4957104,
+    "3e2284db7fb9edab": 1795540131.4957104,
+    "9719550c022243e0": 1795540131.4957104,
+    "159ac7d3012e6b81": 1795540131.4957104
   },
   "drafts": {
     "f58f972fa3": {
@@ -932,6 +940,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 319
+    },
+    "a926e92f54": {
+      "id": "a926e92f54",
+      "created": 1795540140.7994266,
+      "headline": "Onley's British sports director joins Seixas at Decathlon",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSGhVM3VVSkJTeTk4bmhJVUpHY0l4ODVoanVhMUh0YVJFNkJlbG1CY1JDdUl5MDRwRG9QUV8zUjFpU2xHbThINzh3Zkh5Sm1ndUpEcVljVVVTUlhRLUZRVnd6T2tELXR4cE5UalIzRW5wYmg0TmJLN2ViQTZneVpYak5aVkhKVkJZLUN4UnZWbl9JZ2p5OUM2NTJ5bGZXQUs0bVFHVll1eUFHNzZiOHVyMk10dTgweVJ4QUQ5MkRuYmc1UV9Ocno0NXIwX21fbkMyX1NGLURfdUYycnlVUzVxeUZfalRtSUJnbmc?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795540140/cycling-bot/a926e92f54-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795540140/cycling-bot/a926e92f54-0.jpg"
+      ],
+      "full_caption": "Decathlon adds a British sports director with Tour de France top-five experience for 2027.\n\nThe sports director helped Oscar Onley to fourth place at the Tour de France. He will now work alongside Paul Seixas at Decathlon from 2027. The move shows the team is investing in race-day leadership around its young star.\n\nCan the right sports director make the difference in a Grand Tour fight?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #TourDeFrance #WorldTour #PaulSeixas #OscarOnley #Decathlon #CyclingNews #TeamNews",
+      "alt_text": "News graphic with the headline that a British sports director who helped Oscar Onley to fourth at the Tour de France is joining Paul Seixas at Decathlon for 2027.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 321
     }
   },
   "queue": [],
@@ -1114,11 +1141,9 @@
     1795507729.7323387,
     1795511362.0274553,
     1795525738.075253,
-    1795529328.547113
+    1795529328.547113,
+    1795540142.575179
   ],
-  "feed_errors": {
-    "Cyclingnews": "404 Client Error: Not Found for url: https://www.cyclingnews.com/feeds.xml",
-    "Cycling Weekly": "404 Client Error: Not Found for url: https://www.cyclingweekly.com/feeds.xml"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
