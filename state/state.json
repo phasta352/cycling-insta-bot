@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795525715.9222243,
+  "last_scout": 1795529312.3065124,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -730,7 +730,16 @@
     "9b88bce58c637207": 1795525723.191588,
     "85d482b204b54456": 1795525723.191588,
     "08b3e8abb4136720": 1795525723.191588,
-    "8e51019812e754d2": 1795525723.191588
+    "8e51019812e754d2": 1795525723.191588,
+    "0dc49934ffed6469": 1795529320.163112,
+    "7cf287bd270fca1c": 1795529320.163112,
+    "0b830047d66dc150": 1795529320.163112,
+    "56ef4035b96b451d": 1795529320.163112,
+    "7e42d68b0081d770": 1795529320.163112,
+    "4f77f687fb1421d3": 1795529320.163112,
+    "1c8fb3121ae3b385": 1795529320.163112,
+    "34360c90c7478297": 1795529320.163112,
+    "bbe5fa8ce63e9481": 1795529320.163112
   },
   "drafts": {
     "f58f972fa3": {
@@ -888,6 +897,25 @@
       ],
       "background_url": null,
       "text_message_id": 317
+    },
+    "4b9b08234f": {
+      "id": "4b9b08234f",
+      "created": 1795529327.4932013,
+      "headline": "Egan Bernal signs new Netcompany INEOS contract",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdkJwRnRDVy02RVAtY2NkTWtTMFYxZGQ0ZFJ0TzlwYnVBQ3FrRG1ZX2ZoOWxJVEphbFdnTXdqbmtIRGRibnhiWkpKTmNsV3ZRNFVLVnJzRktTM3dvb3hCNVpYeWV2elFILURzV0hveXVjM1l0eDgzMGtpMmplN18yS2lIQVQ?oc=5",
+      "source": "ProCyclingUK",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795529327/cycling-bot/4b9b08234f-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795529327/cycling-bot/4b9b08234f-0.jpg"
+      ],
+      "full_caption": "Egan Bernal has signed a new contract with Netcompany INEOS.\n\nThe deal, as reported by ProCyclingUK, puts an end to the doubts over whether the Colombian would retire. He will stay with the British team.\n\nWith his future now settled, attention turns to how the team plans his racing programme.\n\nWhat do you want to see from Bernal with his future secured?\n\nSource: ProCyclingUK\n\n#EganBernal #NetcompanINEOS #INEOS #WorldTour #ProCycling #CyclingNews #RoadCycling #CyclingTransfers #Colombia #Cycling",
+      "alt_text": "News graphic with the headline that Egan Bernal has signed a new contract with Netcompany INEOS.",
+      "score": 8,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 319
     }
   },
   "queue": [],
@@ -1070,7 +1098,8 @@
     1795504145.1921167,
     1795507729.7323387,
     1795511362.0274553,
-    1795525738.075253
+    1795525738.075253,
+    1795529328.547113
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
