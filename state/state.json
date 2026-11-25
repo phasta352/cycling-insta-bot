@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795540124.4798312,
+  "last_scout": 1795586925.6835756,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -763,7 +763,42 @@
     "94ba0c30e1020073": 1795540131.4957104,
     "3e2284db7fb9edab": 1795540131.4957104,
     "9719550c022243e0": 1795540131.4957104,
-    "159ac7d3012e6b81": 1795540131.4957104
+    "159ac7d3012e6b81": 1795540131.4957104,
+    "4149a562c2f17dd1": 1795586936.0244765,
+    "7e06e8dddc56e66a": 1795586936.0244765,
+    "f8a0d8e2eff30960": 1795586936.0244765,
+    "c00eacdf4712fbfc": 1795586936.0244765,
+    "4b289e5136ea2923": 1795586936.0244765,
+    "9f160af103e1d187": 1795586936.0244765,
+    "603df8e1ab0b1eb2": 1795586936.0244765,
+    "028a4a980c9dd9cd": 1795586936.0244765,
+    "61b2f842f5ece766": 1795586936.0244765,
+    "c5fde9dbd238dbef": 1795586936.0244765,
+    "42a12253042aa2d5": 1795586936.0244765,
+    "58ba1b29208e3a4e": 1795586936.0244765,
+    "9520925c6578d6aa": 1795586936.0244765,
+    "294f9e0236dd8d01": 1795586936.0244765,
+    "c088082e85dc78ab": 1795586936.0244765,
+    "e126fb6686134082": 1795586936.0244765,
+    "b666e0db364a493b": 1795586936.0244765,
+    "7373210880781f2c": 1795586936.0244765,
+    "47dbd2a901311881": 1795586936.0244765,
+    "f60142570a38fbbe": 1795586936.0244765,
+    "8609efc686e5c1d6": 1795586936.0244765,
+    "d241d0c8503bebac": 1795586936.0244765,
+    "fb3868ee2d53a6d5": 1795586936.0244765,
+    "b9aa5305b5999121": 1795586936.0244765,
+    "396e5a9fa666f134": 1795586936.0244765,
+    "f55677c930b391f3": 1795586936.0244765,
+    "58200e9510552ad0": 1795586936.0244765,
+    "bee5596bed02963b": 1795586936.0244765,
+    "6a6bd50162232e97": 1795586936.0244765,
+    "bbae87a39243cb39": 1795586936.0244765,
+    "f9b0b00bf6247401": 1795586936.0244765,
+    "cc14684f30ad0481": 1795586936.0244765,
+    "c62f3b51f849dd2a": 1795586936.0244765,
+    "41efebb74f8d282f": 1795586936.0244765,
+    "946fa51486d128fc": 1795586936.0244765
   },
   "drafts": {
     "f58f972fa3": {
@@ -959,6 +994,65 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 321
+    },
+    "598bbced03": {
+      "id": "598bbced03",
+      "created": 1795586946.2871869,
+      "headline": "Charly Wegelius leaves EF for Tudor",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MjVhVUF3dW9lX2Qwd042OVJpX3hubDlnR0tWVG5IdmNpLVFDaE9jVjFwQmMtNVBBdVBYWm9mYVJWdjVZMUJvY29Sd3YtbUxaRXdOY2VadXVFVS13ZXFWQzdNRkhVWHhKMFdHbXQxSUE?oc=5",
+      "source": "Velora Cycling",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586945/cycling-bot/598bbced03-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586945/cycling-bot/598bbced03-0.jpg"
+      ],
+      "full_caption": "Charly Wegelius is leaving EF to join Tudor.\n\nAccording to Velora Cycling, Wegelius wants to turn Tudor into a destination for top riders. That points to a clear ambition for the team as he makes the switch.\n\nDetails of his exact role and start date were not available at the time of posting.\n\nCan Tudor become a first-choice team for the sport's best riders?\n\nSource: Velora Cycling\n\n#cycling #procycling #roadcycling #WorldTour #cyclingnews #transfer #CharlyWegelius #TudorProCycling #EFProCycling #cyclingtransfers",
+      "alt_text": "News graphic announcing that Charly Wegelius is leaving EF for Tudor, with the headline over a cycling-themed background.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TRANSFER",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 323
+    },
+    "d95d919139": {
+      "id": "d95d919139",
+      "created": 1795586958.7408686,
+      "headline": "Netcompany-Ineos extend seven riders, Swift signs to 2029",
+      "url": "https://www.cyclingnews.com/pro-cycling/transfers/connor-swift-leads-seven-contract-extensions-as-netcompany-ineos-boost-their-2027-roster/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586955/cycling-bot/d95d919139-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586955/cycling-bot/d95d919139-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586956/cycling-bot/d95d919139-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586957/cycling-bot/d95d919139-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586957/cycling-bot/d95d919139-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795586958/cycling-bot/d95d919139-4.jpg"
+      ],
+      "full_caption": "Netcompany-Ineos have locked in seven riders for 2027 and beyond, led by Connor Swift on a deal through 2029.\n\nThe extensions bring the team's 2027 roster to 28 riders, with room for one more signing. Director of Racing Geraint Thomas said strength and depth across the squad is a priority.\n\nWhich of the seven do you expect to take the biggest step next season?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #NetcompanyIneos #ConnorSwift #SamWatson #AxelLaurance #cyclingtransfers #cyclingnews",
+      "alt_text": "Graphic with the headline announcing seven contract extensions at Netcompany-Ineos, led by Connor Swift's deal through 2029.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [
+        {
+          "title": "Seven riders extend",
+          "text": "Netcompany-Ineos have announced seven riders staying into 2027 and beyond. Connor Swift gets the longest deal, three more years, which takes him to the end of 2029."
+        },
+        {
+          "title": "Who signed until when",
+          "text": "Kim Heiduk, Axel Laurance, Tobias Foss, Brandon Rivera and Sam Watson all extend to the end of 2028. Óscar Rodríguez adds one year, to the end of 2027."
+        },
+        {
+          "title": "Roster nearly full",
+          "text": "The 2027 roster now stands at 28 riders. The limit is 29 for a team with only one neo-pro, and that is Benjamin Noval, the double junior World Champion."
+        },
+        {
+          "title": "Backbone and winners",
+          "text": "The seven riders have 13 wins with the team between them. Watson has won six times since 2025, and Laurance won four times in 2026."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 329
     }
   },
   "queue": [],
@@ -1126,8 +1220,6 @@
     }
   ],
   "drafts_sent": [
-    1795414134.1696253,
-    1795414149.5530424,
     1795428864.7053404,
     1795428877.048976,
     1795433960.262666,
@@ -1141,7 +1233,9 @@
     1795511362.0274553,
     1795525738.075253,
     1795529328.547113,
-    1795540142.575179
+    1795540142.575179,
+    1795586947.7357576,
+    1795586960.6505275
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
