@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795601343.293424,
+  "last_scout": 1795604913.9896724,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -819,7 +819,14 @@
     "ead3e9c219ebe2f1": 1795601351.4737794,
     "ae64de874c36611b": 1795601351.4737794,
     "c887f8c584b4b29b": 1795601351.4737794,
-    "884c5b2331920cdb": 1795601351.4737794
+    "884c5b2331920cdb": 1795601351.4737794,
+    "e701e2f3b67624ad": 1795604921.8734586,
+    "8ae294b80ee1fa0b": 1795604921.8734586,
+    "62e1ea7877d6fdf0": 1795604921.8734586,
+    "d860855206f846fb": 1795604921.8734586,
+    "3fc0c8ec93fc19b0": 1795604921.8734586,
+    "646c7691bb8f2cc0": 1795604921.8734586,
+    "4952a4a15906cd38": 1795604921.8734586
   },
   "drafts": {
     "11c069983e": {
@@ -977,6 +984,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 331
+    },
+    "d711a163e7": {
+      "id": "d711a163e7",
+      "created": 1795604928.98626,
+      "headline": "Pogačar's Tour Down Under plan reportedly stopped by UAE doctors",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1pjRFNZck9NR0NMa0NXenU5czZRV0dITS10aDlCMXpYSXlyOGN0Z3JfdTRPcEZjNFJkZFBsbDNrQ1B1cTZaMTNSSDEtRGVCc0lXRjRKQWN4aFlEQUl0YlFrWGxKYkJ5UXdvRnBBSzlYb2xwczFRbFBuX3psTmE5TjZOaDY3dlhfS3NnX3VUbU1HdVpBOVIxdlgtU2JDSTR0U3p3Ui1SZWRSWFFZTy1qRkFfd0pqdG14MUc1ZnZmWUdRTEU?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795604928/cycling-bot/d711a163e7-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795604928/cycling-bot/d711a163e7-0.jpg"
+      ],
+      "full_caption": "Pogačar's trip to the Tour Down Under is reportedly off.\n\nAccording to IDLprocycling, a deal for the Slovenian to race in Australia had been agreed. The report says UAE's doctors then stopped the trip.\n\nThe headline gives no further details, and we have not seen an official statement from the rider, the team or the race organisers. Treat this as a report until confirmed.\n\nWould you have liked to see Pogačar start his season in Australia?\n\nSource: IDLprocycling\n\n#cycling #procycling #roadcycling #WorldTour #TadejPogacar #Pogacar #UAETeamEmirates #TourDownUnder #cyclingnews #bikeracing",
+      "alt_text": "News graphic with the headline that Tadej Pogačar's Tour Down Under plan was reportedly stopped by UAE team doctors.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 333
     }
   },
   "queue": [],
@@ -1158,7 +1184,8 @@
     1795540142.575179,
     1795586947.7357576,
     1795586960.6505275,
-    1795590529.3586104
+    1795590529.3586104,
+    1795604929.9668548
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
