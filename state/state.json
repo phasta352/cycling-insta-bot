@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795586925.6835756,
+  "last_scout": 1795590515.1896014,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -798,7 +798,11 @@
     "cc14684f30ad0481": 1795586936.0244765,
     "c62f3b51f849dd2a": 1795586936.0244765,
     "41efebb74f8d282f": 1795586936.0244765,
-    "946fa51486d128fc": 1795586936.0244765
+    "946fa51486d128fc": 1795586936.0244765,
+    "a9700c9c2cd6000f": 1795590520.6715941,
+    "5ed781be3d396e49": 1795590520.6715941,
+    "bda7e24171c6bc65": 1795590520.6715941,
+    "bf18778249606899": 1795590520.6715941
   },
   "drafts": {
     "458f988a4a": {
@@ -994,6 +998,25 @@
       ],
       "background_url": null,
       "text_message_id": 329
+    },
+    "19dad193cd": {
+      "id": "19dad193cd",
+      "created": 1795590528.0461314,
+      "headline": "Morgane Coston announces her retirement",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wZXVTWjRpZzU5cnNydlZqekx4bXZMVDlaX25FdklsR1FpTlFqTEpYcE9aSHk4cVF0RllUTkpRNm4zNVJ1VWUtbDRJaDhXYjhoWUFhN0dMdHh6ZzBadm5vbHZ3SW5jczg?oc=5",
+      "source": "ProCyclingUK",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795590527/cycling-bot/19dad193cd-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795590527/cycling-bot/19dad193cd-0.jpg"
+      ],
+      "full_caption": "Morgane Coston has announced her retirement.\n\nThe rider took part in the Tour de France Femmes four times, so she leaves with experience of the biggest stage in women's road racing.\n\nFurther details of her decision have not yet been confirmed here.\n\nWhat is your best memory of Coston's career?\n\nSource: ProCyclingUK\n\n#cycling #procycling #roadcycling #womenscycling #TourDeFranceFemmes #WomensWorldTour #MorganeCoston #cyclingnews #retirement #peloton",
+      "alt_text": "News graphic reading 'Morgane Coston announces her retirement' with the Cycling News Today branding.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 331
     }
   },
   "queue": [],
@@ -1176,7 +1199,8 @@
     1795529328.547113,
     1795540142.575179,
     1795586947.7357576,
-    1795586960.6505275
+    1795586960.6505275,
+    1795590529.3586104
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
