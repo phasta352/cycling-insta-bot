@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795619324.6203249,
+  "last_scout": 1795624751.7624183,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -865,7 +865,17 @@
     "49afa1f0e6c3a54b": 1795619331.1801853,
     "c837934308805391": 1795619331.1801853,
     "6d3c9f0ed02961ea": 1795619331.1801853,
-    "996276c6888a5011": 1795619331.1801853
+    "996276c6888a5011": 1795619331.1801853,
+    "e5dc12242640fb8e": 1795624760.662877,
+    "41dfc0b4efb8510b": 1795624760.662877,
+    "9816ae863e663a32": 1795624760.662877,
+    "64c64eb6bd85a8f9": 1795624760.662877,
+    "2997dd9e5b9cd14a": 1795624760.662877,
+    "24a0132530b2466b": 1795624760.662877,
+    "cd15200ce15e7605": 1795624760.662877,
+    "6cd1b22cc6e2bef5": 1795624760.662877,
+    "9fe07ad19becb6b7": 1795624760.662877,
+    "d9cb4f598d12338d": 1795624760.662877
   },
   "drafts": {
     "a926e92f54": {
@@ -1103,6 +1113,25 @@
       ],
       "background_url": null,
       "text_message_id": 352
+    },
+    "626bea12c7": {
+      "id": "626bea12c7",
+      "created": 1795624775.8102882,
+      "headline": "Carapaz confirms Giro d'Italia return",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOUJMQUc0cTFreWZ3a2YyZVVBOEVabzhheDA5QkUwclpsQUx6aFVQM0g5OXVJS1hIQ0ZWVVdoUE5aVG5QZEMzY0dfeXFwaThvWndseWdnQVVoUXRQVmVOcU1vSFZLSUVKTGVESEtmLWV0OWdaTW9SZmtPRmcxaEdWRVkzd3NvRHRRNzZmT3MtUURJS2hfdzdvTHFBQXBqd1o5RGhYQ1ZmVnJpSXU2UkQ5c21wcXNIdnJmMERBUWNfY1UxcVJRWnIyMV9zZmthbzY3VnZCbi1aNGI4VUI0bE0yZkVVWjFjQTVjUE5NdWNR?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795624775/cycling-bot/626bea12c7-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795624775/cycling-bot/626bea12c7-0.jpg"
+      ],
+      "full_caption": "Richard Carapaz has confirmed he will return to the Giro d'Italia.\n\nLooking back on La Vuelta, the Ecuadorian said he was limited there and would have liked a stronger team around him. His Giro plans come after that experience in Spain.\n\nCarapaz is a rider who has made his mark in Grand Tour racing, so his choice of races is worth following.\n\nHow do you rate his chances if he lines up in Italy?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #WorldTour #GiroditaliaCarapaz #RichardCarapaz #GirodItalia #LaVuelta #GrandTour #cyclingnews",
+      "alt_text": "News graphic with the text 'Carapaz confirms Giro d'Italia return' and the category label Rider News.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 354
     }
   },
   "queue": [],
@@ -1284,8 +1313,11 @@
     1795604929.9668548,
     1795612183.261526,
     1795615765.7537677,
-    1795615785.1549869
+    1795615785.1549869,
+    1795624777.4959958
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "Google News: new road bike launch": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=new+road+bike+launch+when%3A1d&hl=en-US&gl=US&ceid=US:en"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
