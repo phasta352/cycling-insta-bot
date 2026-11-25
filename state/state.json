@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795612153.97357,
+  "last_scout": 1795615718.7154827,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -843,7 +843,21 @@
     "a4e1a6b521faae9f": 1795612163.1527185,
     "1e163ad8951890b1": 1795612163.1527185,
     "124b1a664d80891e": 1795612163.1527185,
-    "1783538da0ed4d58": 1795612163.1527185
+    "1783538da0ed4d58": 1795612163.1527185,
+    "64c996170bf9566b": 1795615727.273924,
+    "a3fe7361fa1ef8b1": 1795615727.273924,
+    "be105400943d33b8": 1795615727.273924,
+    "62a6f5c3af044865": 1795615727.273924,
+    "04fc517eb81525c8": 1795615727.273924,
+    "1187ca0125cf43c4": 1795615727.273924,
+    "ed91aaff06803f9e": 1795615727.273924,
+    "51f66a1c9f8d4bad": 1795615727.273924,
+    "2527bef0e8de6ffb": 1795615727.273924,
+    "fa55e49735c9ff99": 1795615727.273924,
+    "72280b5007afbb2e": 1795615727.273924,
+    "df4721fb3c81cb59": 1795615727.273924,
+    "06811e70757e688f": 1795615727.273924,
+    "30bc203af3411063": 1795615727.273924
   },
   "drafts": {
     "4b9b08234f": {
@@ -1020,6 +1034,86 @@
       ],
       "background_url": null,
       "text_message_id": 339
+    },
+    "437e17ec1d": {
+      "id": "437e17ec1d",
+      "created": 1795615761.4449668,
+      "headline": "Nike logo to appear on Visma-Lease a Bike kit in 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/nike-logo-to-appear-on-visma-lease-a-bike-kit-but-the-sportswear-giant-wont-actually-be-making-it/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615733/cycling-bot/437e17ec1d-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615733/cycling-bot/437e17ec1d-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615734/cycling-bot/437e17ec1d-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615734/cycling-bot/437e17ec1d-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615735/cycling-bot/437e17ec1d-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615735/cycling-bot/437e17ec1d-4.jpg"
+      ],
+      "full_caption": "Nike's Swoosh is heading to the Visma-Lease a Bike race kit in 2027.\n\nThe logo will feature on the men's and women's WorldTour kits, high on the front of the jersey and on the bib shorts. Nimbl remains the kit and shoe supplier and keeps its logo on the jersey. Nike will bring design and innovation expertise to the partnership.\n\nWhat do you make of Nike's return to the peloton? 👀\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #VismaLeaseABike #Nike #Nimbl #Vingegaard #cyclingnews #cyclingkit",
+      "alt_text": "Graphic with the headline announcing that the Nike logo will appear on the 2027 Visma-Lease a Bike team kit.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795615760/cycling-bot/437e17ec1d-reel.mp4",
+      "category": "TEAM NEWS",
+      "slides": [
+        {
+          "title": "Nike logo joins the 2027 kit",
+          "text": "Visma-Lease a Bike will carry the Nike Swoosh on the standard 2027 kits of both its men's and women's WorldTour teams. The partnership is described as an important step forward."
+        },
+        {
+          "title": "Nimbl still makes the kit",
+          "text": "Nike is not manufacturing or supplying the kit or shoes. Italian brand Nimbl keeps that role and will also have its logo on the jersey."
+        },
+        {
+          "title": "Where the logo will go",
+          "text": "The team told Cyclingnews the logo will sit high on the front of the jersey and on the bib shorts. Shoes will not carry it as standard, but more special-edition Nike shoes are planned."
+        },
+        {
+          "title": "How the link built up",
+          "text": "Nike has supplied the team's off-bike apparel since the 2025 Tour de France. Its logo appeared on a special Giro finale kit and on shoes at the Tour Grand Départ in Barcelona."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 346
+    },
+    "1664da1e42": {
+      "id": "1664da1e42",
+      "created": 1795615783.723791,
+      "headline": "Giro d'Italia organiser asks UCI for a week-later calendar slot",
+      "url": "https://www.cyclingweekly.com/racing/giro-d-italia-seeks-calendar-shift-but-would-we-really-see-more-attempts-on-the-famous-giro-tour-double",
+      "source": "Cycling Weekly",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615782/cycling-bot/1664da1e42-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615782/cycling-bot/1664da1e42-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615783/cycling-bot/1664da1e42-4.jpg"
+      ],
+      "full_caption": "RCS wants the Giro d'Italia moved a week later on the calendar.\n\nRace boss Paolo Bellino says the organiser has asked the UCI for the change. He argues it would shorten the gap to the Tour de France from five weeks to four and encourage more Giro-Tour double attempts. Coach Andy Turner doubts it would help, and says it could even push riders to skip the Giro.\n\nFor now it is only a request. The 2027 Giro runs from 8 to 30 May.\n\nWould a later Giro lead to more Giro-Tour double attempts?\n\nSource: Cycling Weekly\n\n#GiroditAlia #Giro #TourdeFrance #ProCycling #WorldTour #RoadCycling #UCI #CyclingNews #GiroTourDouble #RCSSport",
+      "alt_text": "News graphic with the headline that the Giro d'Italia organiser has asked the UCI for a calendar slot one week later.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "What RCS has asked for",
+          "text": "Giro organiser RCS has asked the UCI for a calendar slot one week later. Boss Paolo Bellino told BiciSport the request has strong government backing."
+        },
+        {
+          "title": "Why RCS wants the move",
+          "text": "A later Giro would always include Italy's Republic Day on 2 June. Bellino also expects better weather, and says the gap to the Tour would shrink from five weeks to four, encouraging more double attempts."
+        },
+        {
+          "title": "A coach is not convinced",
+          "text": "Andy Turner of ATP Performance doesn't think a shorter gap makes the double easier. He says it might lead riders to skip the Giro, as holding form across 11 weeks is hard."
+        },
+        {
+          "title": "Where things stand",
+          "text": "Pogačar was the latest Giro-Tour winner in 2024, the first since Pantani in 1998. The shift is still only a wish, and the 2027 Giro runs from Trieste on 8 May to Rome on 30 May."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 352
     }
   },
   "queue": [],
@@ -1199,7 +1293,9 @@
     1795586960.6505275,
     1795590529.3586104,
     1795604929.9668548,
-    1795612183.261526
+    1795612183.261526,
+    1795615765.7537677,
+    1795615785.1549869
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
