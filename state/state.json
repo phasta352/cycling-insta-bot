@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795590515.1896014,
+  "last_scout": 1795594140.2519374,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -802,28 +802,13 @@
     "a9700c9c2cd6000f": 1795590520.6715941,
     "5ed781be3d396e49": 1795590520.6715941,
     "bda7e24171c6bc65": 1795590520.6715941,
-    "bf18778249606899": 1795590520.6715941
+    "bf18778249606899": 1795590520.6715941,
+    "51c73eb3ba1cf01f": 1795594146.762432,
+    "52ceb0e6f7e3b9ba": 1795594146.762432,
+    "cd272d5f5339a4f9": 1795594146.762432,
+    "d4ee70dbe7b1541a": 1795594146.762432
   },
   "drafts": {
-    "8d5a5cde07": {
-      "id": "8d5a5cde07",
-      "created": 1795507728.7425091,
-      "headline": "UCI and CPA preparing 2027 rules on GC neutralizations",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNFV0T2NhUDN1NU1Ubmd2WjFsVm0wUG1Hc0FiQzVuMzYyWVFCUUZ4S0FpZVF0WUpPeDNCZnY4bmN1NFJPWVRGVWtsMmdkMUl3U0llajdsMzV1RWpNTkhhdXdQbGhENmliRXBTbTdSZ1VYdkFja0NCR2lxZklDOEQ5RXBGTWF4NW1uOXBQckUtR3M5Sk5rd0VUYzk3eDFFY2FxN3g3ZE5LbnJBTDM3cElJSXpCZWpCMkRQZGRNZkNpRGFiSUVTdGVqaGh4cDhxc25sZ055Z1M4aVItQWlXLTJFLWVVVVdoRUNvczI4bWFnazhZaWgyZFFPbzlQRTJfbjd0dDZqTEFCSEU5bmZSOUE?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795507728/cycling-bot/8d5a5cde07-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795507728/cycling-bot/8d5a5cde07-0.jpg"
-      ],
-      "full_caption": "UCI and the riders' union CPA are working on a rule overhaul for 2027 aimed at ending last-minute GC neutralizations.\n\nAccording to CyclingUpToDate, the aim is to settle the question in advance, so it no longer comes up as a late debate each season. Neutralizing a stage for the general classification is often decided close to the start, which can leave riders and teams uncertain about how the day will count.\n\nThe details of the new rules have not been spelled out in the material available, so the exact wording and scope remain to be seen.\n\nShould GC neutralization rules be fixed before a race starts, or kept flexible for race organisers and officials?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #WorldTour #UCI #CPA #cyclingnews #GC #cyclingrules #2027",
-      "alt_text": "News graphic with the headline that UCI and CPA are preparing 2027 rules on GC neutralizations, under a UCI category label.",
-      "score": 7,
-      "reel_url": null,
-      "category": "UCI",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 309
-    },
     "d9e11bcc62": {
       "id": "d9e11bcc62",
       "created": 1795511360.3834555,
