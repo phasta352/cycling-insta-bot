@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795608512.7266548,
+  "last_scout": 1795612153.97357,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -837,49 +837,15 @@
     "55aae10c352c9af5": 1795608520.111569,
     "03046a458692ccc2": 1795608520.111569,
     "859ace02f1bae7b2": 1795608520.111569,
-    "a58f6aea97ac0b21": 1795608520.111569
+    "a58f6aea97ac0b21": 1795608520.111569,
+    "2b6b7f79d3d7f244": 1795612163.1527185,
+    "885baa36cefff985": 1795612163.1527185,
+    "a4e1a6b521faae9f": 1795612163.1527185,
+    "1e163ad8951890b1": 1795612163.1527185,
+    "124b1a664d80891e": 1795612163.1527185,
+    "1783538da0ed4d58": 1795612163.1527185
   },
   "drafts": {
-    "11c069983e": {
-      "id": "11c069983e",
-      "created": 1795525736.6325247,
-      "headline": "Pogačar: Doping is not an issue for most of the peloton",
-      "url": "https://www.cyclingnews.com/pro-cycling/doping/for-the-vast-majority-of-the-peloton-doping-simply-doesnt-exist-doping-almost-eradicated-from-pro-peloton-says-tadej-pogacar/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525734/cycling-bot/11c069983e-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525734/cycling-bot/11c069983e-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525734/cycling-bot/11c069983e-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525735/cycling-bot/11c069983e-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525735/cycling-bot/11c069983e-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795525736/cycling-bot/11c069983e-4.jpg"
-      ],
-      "full_caption": "Tadej Pogačar says doping is essentially a thing of the past for the vast majority of the peloton.\n\nThe UAE Team Emirates rider told La Gazzetta dello Sport he believes riders are too invested in their careers and health to take the risk, while accepting someone will always look for a shortcut. He was asked about overnight anti-doping tests, which caused debate at this year's Tour de France.\n\nDo you agree with his view?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #TadejPogacar #Pogacar #UAETeamEmirates #TourdeFrance #UCI #antidoping #WorldTour",
-      "alt_text": "News graphic with the headline 'Pogačar: Doping is not an issue for most of the peloton' in the Rider News category.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "What Pogačar said",
-          "text": "Speaking to La Gazzetta dello Sport at an event run by his agent, A&J All Sports, Pogačar was asked about overnight doping tests. He said doping doesn't exist for the vast majority of the peloton."
-        },
-        {
-          "title": "His reasoning",
-          "text": "He said riders put their lives into nutrition, preparation and recovery, and won't risk their health or careers. He accepted that someone will always try a shortcut, but called that a small minority."
-        },
-        {
-          "title": "The Tour de France background",
-          "text": "Before stage 15 to Plateau de Solaison, Pogačar was woken at 5 a.m. for a test and Jonas Vingegaard at 2 a.m. Vingegaard later crashed, broke his collarbone and left the race."
-        },
-        {
-          "title": "A divided reaction",
-          "text": "Some blamed the night test for Vingegaard's crash. Others defended the practice, including UCI President David Lappartient, who described overnight testing as a tool in the fight against doping."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 317
-    },
     "4b9b08234f": {
       "id": "4b9b08234f",
       "created": 1795529327.4932013,
@@ -1014,6 +980,46 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 333
+    },
+    "751fdbf824": {
+      "id": "751fdbf824",
+      "created": 1795612181.222572,
+      "headline": "Pogačar tells Gazzetta doping is largely gone from the peloton",
+      "url": "https://www.cyclingweekly.com/racing/i-would-put-my-hand-in-the-fire-for-myself-and-the-vast-majority-of-the-peloton-tadej-pogacar-claims-cyclings-doping-days-are-over",
+      "source": "Cycling Weekly",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612177/cycling-bot/751fdbf824-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612177/cycling-bot/751fdbf824-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612178/cycling-bot/751fdbf824-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612179/cycling-bot/751fdbf824-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612179/cycling-bot/751fdbf824-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612180/cycling-bot/751fdbf824-4.jpg"
+      ],
+      "full_caption": "Tadej Pogačar says doping is essentially a thing of the past in the WorldTour.\n\nSpeaking to La Gazzetta dello Sport, the five-time Tour de France winner said he would vouch for himself and the vast majority of the peloton. He added that riders put in too much work to risk their health. His comments followed questions about the overnight ITA tests at the Tour before stage 15, which turned up nothing negative.\n\nDo you agree with Pogačar's view of the modern peloton?\n\nSource: Cycling Weekly\n\n#TadejPogacar #UAETeamEmirates #TourDeFrance #WorldTour #ProCycling #RoadCycling #AntiDoping #Cycling #JonasVingegaard #CyclingNews",
+      "alt_text": "News graphic with the headline that Tadej Pogačar says doping is largely gone from the peloton, labelled Rider News.",
+      "score": 7,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Pogačar's message",
+          "text": "At an event run by his agency A&J All Sports, Pogačar told La Gazzetta dello Sport that doping barely exists for most of today's peloton. He said riders commit fully to nutrition, preparation and recovery."
+        },
+        {
+          "title": "The Tour night tests",
+          "text": "He was asked about overnight tests at the Tour. He and Jonas Vingegaard were woken before stage 15. Riders from several teams were tested, nothing seemingly came of it, and the ITA defended its actions."
+        },
+        {
+          "title": "What the rules say",
+          "text": "ITA agents may test riders during races between 11pm and 6am. It is very unusual, reserved for exceptional circumstances, and needs permission from WADA."
+        },
+        {
+          "title": "Riccò responds",
+          "text": "Pogačar said one mistake could leave you selling ice cream. Cycling Weekly reads this as a jab at Riccardo Riccò, banned for life in 2020. Riccò replied on Instagram that people should be sure before speaking."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 339
     }
   },
   "queue": [],
@@ -1181,8 +1187,6 @@
     }
   ],
   "drafts_sent": [
-    1795437542.1552885,
-    1795437551.044242,
     1795500542.231449,
     1795500585.4125278,
     1795504145.1921167,
@@ -1194,7 +1198,8 @@
     1795586947.7357576,
     1795586960.6505275,
     1795590529.3586104,
-    1795604929.9668548
+    1795604929.9668548,
+    1795612183.261526
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
