@@ -969,25 +969,6 @@
     "f73387693eb0b621": 1795703930.6604238
   },
   "drafts": {
-    "626bea12c7": {
-      "id": "626bea12c7",
-      "created": 1795624775.8102882,
-      "headline": "Carapaz confirms Giro d'Italia return",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOUJMQUc0cTFreWZ3a2YyZVVBOEVabzhheDA5QkUwclpsQUx6aFVQM0g5OXVJS1hIQ0ZWVVdoUE5aVG5QZEMzY0dfeXFwaThvWndseWdnQVVoUXRQVmVOcU1vSFZLSUVKTGVESEtmLWV0OWdaTW9SZmtPRmcxaEdWRVkzd3NvRHRRNzZmT3MtUURJS2hfdzdvTHFBQXBqd1o5RGhYQ1ZmVnJpSXU2UkQ5c21wcXNIdnJmMERBUWNfY1UxcVJRWnIyMV9zZmthbzY3VnZCbi1aNGI4VUI0bE0yZkVVWjFjQTVjUE5NdWNR?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795624775/cycling-bot/626bea12c7-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795624775/cycling-bot/626bea12c7-0.jpg"
-      ],
-      "full_caption": "Richard Carapaz has confirmed he will return to the Giro d'Italia.\n\nLooking back on La Vuelta, the Ecuadorian said he was limited there and would have liked a stronger team around him. His Giro plans come after that experience in Spain.\n\nCarapaz is a rider who has made his mark in Grand Tour racing, so his choice of races is worth following.\n\nHow do you rate his chances if he lines up in Italy?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #WorldTour #GiroditaliaCarapaz #RichardCarapaz #GirodItalia #LaVuelta #GrandTour #cyclingnews",
-      "alt_text": "News graphic with the text 'Carapaz confirms Giro d'Italia return' and the category label Rider News.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 354
-    },
     "c8caae39f1": {
       "id": "c8caae39f1",
       "created": 1795673689.9045177,
@@ -1411,7 +1392,6 @@
     }
   ],
   "drafts_sent": [
-    1795540142.575179,
     1795586947.7357576,
     1795586960.6505275,
     1795590529.3586104,
