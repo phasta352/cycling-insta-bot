@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795685918.3833838,
+  "last_scout": 1795689517.9322295,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -914,7 +914,16 @@
     "7324b1ae5fbfe182": 1795682322.3093219,
     "198047ea97c792a6": 1795685924.7403429,
     "aeb46298a89d8ab0": 1795685924.7403429,
-    "b0ba3701cd8a72bb": 1795685924.7403429
+    "b0ba3701cd8a72bb": 1795685924.7403429,
+    "155486983f91554c": 1795689525.3360045,
+    "ead00adbc9048a15": 1795689525.3360045,
+    "19bbde759ac2c9f2": 1795689525.3360045,
+    "c612535c21998969": 1795689525.3360045,
+    "3d3a8159a99adc3d": 1795689525.3360045,
+    "cf6824a20d20f048": 1795689525.3360045,
+    "8c424646a27e6c01": 1795689525.3360045,
+    "27961b1ad4e2d1fc": 1795689525.3360045,
+    "51fdbb95c210e201": 1795689525.3360045
   },
   "drafts": {
     "d711a163e7": {
@@ -1173,6 +1182,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 368
+    },
+    "f22640e84c": {
+      "id": "f22640e84c",
+      "created": 1795689542.1513605,
+      "headline": "Eulálio sets sights on the Tour de France after Giro pink",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUGtwdThKR3VKM2VhTEtnQWk3S05DRnE3UnN5UnNpb1dhZFJlZGlRRk1PZHZMTHBqeUZkUlNrN1JsQUdTQnd0VktjVWZMejBxX1ByclV6R2h0ZlBqUFNNdFJMUjNoMFZyR0djV0h0RklZeVRYZDdIWDh3MVp6cVFfNkRVenZMcXZ6Tko0Y25LUWxvRkhMYVh6N0hhUlhWRE1FYzBIaXE0dUszUHlpb3pmN25NSC0yR3lyMnV3TGdyQThIZVdUV3hGOGhpaUpscTQ?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795689540/cycling-bot/f22640e84c-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795689540/cycling-bot/f22640e84c-0.jpg"
+      ],
+      "full_caption": "Afonso Eulálio is looking beyond the Giro d'Italia.\n\nThe rider who spent time in the pink jersey at the Giro now has the Tour de France in his sights, with CyclingUpToDate framing his ambitions as big ones for 2027.\n\nFor a rider whose name became known through a spell in the leader's jersey, the Tour would be the next step up in profile and pressure.\n\nCan Eulálio turn his Giro breakthrough into a Tour challenge?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #TourdeFrance #GirodItalia #AfonsoEulalio #cyclingnews #peloton #Portugal",
+      "alt_text": "News graphic with the headline 'Eulálio sets sights on the Tour de France after Giro pink' and the label Rider News.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 370
     }
   },
   "queue": [],
@@ -1353,7 +1381,8 @@
     1795624777.4959958,
     1795673691.5457382,
     1795673704.546415,
-    1795682332.161914
+    1795682332.161914,
+    1795689543.7826529
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
