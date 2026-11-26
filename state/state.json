@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795678718.2959146,
+  "last_scout": 1795682316.3548787,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -905,7 +905,13 @@
     "ba691d6ae7e6c602": 1795673678.2115703,
     "f578131d9e48113d": 1795678723.6927857,
     "62fb85356b8fd180": 1795678723.6927857,
-    "08e0a9a4f8581d73": 1795678723.6927857
+    "08e0a9a4f8581d73": 1795678723.6927857,
+    "ac3eef9bf176e3ed": 1795682322.3093219,
+    "69a256f71a6cf535": 1795682322.3093219,
+    "5d638e03e1dbe2d1": 1795682322.3093219,
+    "f34717c234ca0e3a": 1795682322.3093219,
+    "5ae4b6d224a50147": 1795682322.3093219,
+    "7324b1ae5fbfe182": 1795682322.3093219
   },
   "drafts": {
     "d711a163e7": {
@@ -1145,6 +1151,25 @@
       ],
       "background_url": null,
       "text_message_id": 366
+    },
+    "d6f8bb5d01": {
+      "id": "d6f8bb5d01",
+      "created": 1795682330.9414508,
+      "headline": "Movistar boss calls for budget caps in cycling",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMFRmSnlDZ1BsRWdjbWZGeC1CelhRdWE3NDlDaF9OV3l6VmZHN2IyUVdKcEpaR1NYWDhybnVKcHBvd3BZWEp5ZkRIaXlJb1VrX0w2aDFPSXlIU2NHaS1HSmlQNGJtYjVxMmhEWUZoZjhHbjdXQlNMYVNtdzdwYlRpcVd4ODNZYnh2NnQ2N3RGZC16WUdnVjFyOVpyakpmWlVxOEFobkhwek5ZcjV6UUpvNnIzdHlkM1BHMWl3aVJNcWNKNXBzVE9pcFk2aDE5ZFJzalEw?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795682330/cycling-bot/d6f8bb5d01-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795682330/cycling-bot/d6f8bb5d01-0.jpg"
+      ],
+      "full_caption": "Movistar's boss wants budget caps introduced in pro cycling.\n\nAccording to CyclingUpToDate, the call could hit the sport's richest teams hardest if it ever became policy. For now it is a proposal from one team boss, not a rule or a UCI decision.\n\nCaps would be a major change for a sport where team budgets vary widely. Details of how a cap might work have not been confirmed.\n\nShould pro cycling cap team budgets? 💬\n\nSource: CyclingUpToDate\n\n#cycling #procycling #WorldTour #roadcycling #cyclingnews #Movistar #MovistarTeam #UCI #budgetcap #teamnews",
+      "alt_text": "News graphic with the headline 'Movistar boss calls for budget caps in cycling' under a team news label.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 368
     }
   },
   "queue": [],
@@ -1312,7 +1337,6 @@
     }
   ],
   "drafts_sent": [
-    1795507729.7323387,
     1795511362.0274553,
     1795525738.075253,
     1795529328.547113,
@@ -1326,7 +1350,8 @@
     1795615785.1549869,
     1795624777.4959958,
     1795673691.5457382,
-    1795673704.546415
+    1795673704.546415,
+    1795682332.161914
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
