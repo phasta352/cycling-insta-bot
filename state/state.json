@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795696715.336329,
+  "last_scout": 1795700319.248809,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -944,49 +944,24 @@
     "445d204da133e420": 1795696723.7427185,
     "c553163594370e4d": 1795696723.7427185,
     "84f7d127e9dea8e9": 1795696723.7427185,
-    "a3f895b62e3d4424": 1795696723.7427185
+    "a3f895b62e3d4424": 1795696723.7427185,
+    "91a80e4fc78468a2": 1795700328.7239742,
+    "779c1a477e191c8e": 1795700328.7239742,
+    "4d07cf4fb212451a": 1795700328.7239742,
+    "a0e07737d25400a9": 1795700328.7239742,
+    "e310c135fe046152": 1795700328.7239742,
+    "a5cbc49e145cf19f": 1795700328.7239742,
+    "26d670fc3f2dd3b3": 1795700328.7239742,
+    "6b53fa4da5e5f0c5": 1795700328.7239742,
+    "8ce0831421bc488a": 1795700328.7239742,
+    "38cb85dc93c56d88": 1795700328.7239742,
+    "9c421fc691d6980a": 1795700328.7239742,
+    "85b0f8e0271b5bdf": 1795700328.7239742,
+    "d2178acff2374fbe": 1795700328.7239742,
+    "ed058eb101518143": 1795700328.7239742,
+    "13a2b491db3b7599": 1795700328.7239742
   },
   "drafts": {
-    "751fdbf824": {
-      "id": "751fdbf824",
-      "created": 1795612181.222572,
-      "headline": "Pogačar tells Gazzetta doping is largely gone from the peloton",
-      "url": "https://www.cyclingweekly.com/racing/i-would-put-my-hand-in-the-fire-for-myself-and-the-vast-majority-of-the-peloton-tadej-pogacar-claims-cyclings-doping-days-are-over",
-      "source": "Cycling Weekly",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612177/cycling-bot/751fdbf824-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612177/cycling-bot/751fdbf824-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612178/cycling-bot/751fdbf824-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612179/cycling-bot/751fdbf824-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612179/cycling-bot/751fdbf824-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795612180/cycling-bot/751fdbf824-4.jpg"
-      ],
-      "full_caption": "Tadej Pogačar says doping is essentially a thing of the past in the WorldTour.\n\nSpeaking to La Gazzetta dello Sport, the five-time Tour de France winner said he would vouch for himself and the vast majority of the peloton. He added that riders put in too much work to risk their health. His comments followed questions about the overnight ITA tests at the Tour before stage 15, which turned up nothing negative.\n\nDo you agree with Pogačar's view of the modern peloton?\n\nSource: Cycling Weekly\n\n#TadejPogacar #UAETeamEmirates #TourDeFrance #WorldTour #ProCycling #RoadCycling #AntiDoping #Cycling #JonasVingegaard #CyclingNews",
-      "alt_text": "News graphic with the headline that Tadej Pogačar says doping is largely gone from the peloton, labelled Rider News.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "Pogačar's message",
-          "text": "At an event run by his agency A&J All Sports, Pogačar told La Gazzetta dello Sport that doping barely exists for most of today's peloton. He said riders commit fully to nutrition, preparation and recovery."
-        },
-        {
-          "title": "The Tour night tests",
-          "text": "He was asked about overnight tests at the Tour. He and Jonas Vingegaard were woken before stage 15. Riders from several teams were tested, nothing seemingly came of it, and the ITA defended its actions."
-        },
-        {
-          "title": "What the rules say",
-          "text": "ITA agents may test riders during races between 11pm and 6am. It is very unusual, reserved for exceptional circumstances, and needs permission from WADA."
-        },
-        {
-          "title": "Riccò responds",
-          "text": "Pogačar said one mistake could leave you selling ice cream. Cycling Weekly reads this as a jab at Riccardo Riccò, banned for life in 2020. Riccò replied on Instagram that people should be sure before speaking."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 339
-    },
     "437e17ec1d": {
       "id": "437e17ec1d",
       "created": 1795615761.4449668,
@@ -1243,6 +1218,65 @@
       ],
       "background_url": null,
       "text_message_id": 376
+    },
+    "b10978d3ea": {
+      "id": "b10978d3ea",
+      "created": 1795700372.9625776,
+      "headline": "Visma steps down as title sponsor of Visma-Lease a Bike",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/visma-steps-down-as-title-sponsor-of-visma-lease-a-bike-team/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700338/cycling-bot/b10978d3ea-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700338/cycling-bot/b10978d3ea-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700338/cycling-bot/b10978d3ea-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700339/cycling-bot/b10978d3ea-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700339/cycling-bot/b10978d3ea-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700340/cycling-bot/b10978d3ea-4.jpg"
+      ],
+      "full_caption": "Visma is stepping back as title sponsor of Visma-Lease a Bike.\n\nThe team has confirmed the software company will no longer be part of its name in 2027. Visma stays on as a 'Founding Partner', and several of its national brands will appear on the jersey. No new title sponsor has been named yet.\n\nWhat should the team's next chapter look like? 🚴\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #VismaLeaseABike #Visma #cyclingnews #UCIWorldTour #cyclingteam #sponsorship",
+      "alt_text": "News graphic announcing that Visma is stepping down as title sponsor of the Visma-Lease a Bike cycling team.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795700371/cycling-bot/b10978d3ea-reel.mp4",
+      "category": "TEAM NEWS",
+      "slides": [
+        {
+          "title": "What the team confirmed",
+          "text": "Visma will no longer be the team's name partner from 2027. The Norwegian software company steps down as title sponsor but does not leave the team entirely."
+        },
+        {
+          "title": "A new Founding Partner role",
+          "text": "Visma becomes a 'Founding Partner', similar to the arrangement with former title sponsor Jumbo. Several Visma national brands will have logos on the 2027 jersey, with details to follow later."
+        },
+        {
+          "title": "Who comes next?",
+          "text": "It is not yet clear who will become co-title sponsor in 2027. For the initial 2027 UCI WorldTour licence application, the team is registered under its holding company name, Yellow B."
+        },
+        {
+          "title": "Background: since 2019",
+          "text": "Visma began its sponsorship in 2019. In that period the team won 10 Grand Tours, including all three in the same season in 2023. A reduction in Visma's investment was first reported in February."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 383
+    },
+    "2bc243cab4": {
+      "id": "2bc243cab4",
+      "created": 1795700384.7346914,
+      "headline": "Egan Bernal signs new contract with Netcompany INEOS",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdXRsZ0lFcVUxT2NCMms4dXlWc1RoUlIwY1c1NElGN3hkallBZlVDbmhZS3RpWlpkWGZKUWtrVmFsVVVUSEp2bVB4S3NzSE9VSDUwZWdNRkZvVENxb3MtUjBya2ZfYkpJNmhGZXJzbTdLM0ZZa3RoT3VIMGMxREljcEhtM0ZkbmI2ZU42dk9BMHNQUTV5S1lhdE5pT2tUSTBISjllc1pFZlJkTy02Y0ZQQUxnQmpEMW54aGZYc0hFLUQ2UVE2eXZPYWswWTBQLVhndnZteTQtSUg1Zw?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700384/cycling-bot/2bc243cab4-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795700384/cycling-bot/2bc243cab4-0.jpg"
+      ],
+      "full_caption": "Egan Bernal will stay in the peloton: he has signed a new contract with Netcompany INEOS.\n\nAccording to CyclingUpToDate, the deal means the Colombian is putting aside any thought of retirement for now. The report also describes the agreement as a step in securing the team's future.\n\nContract length and terms have not been included in the information available to us.\n\nWhat do you expect from Bernal in the seasons ahead?\n\nSource: CyclingUpToDate\n\n#EganBernal #NetcompanINEOS #INEOS #WorldTour #ProCycling #CyclingNews #RoadCycling #CyclingTransfers #Cycling #TeamNews",
+      "alt_text": "News graphic announcing that Egan Bernal has signed a new contract with Netcompany INEOS.",
+      "score": 8,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 385
     }
   },
   "queue": [],
@@ -1410,7 +1444,6 @@
     }
   ],
   "drafts_sent": [
-    1795525738.075253,
     1795529328.547113,
     1795540142.575179,
     1795586947.7357576,
@@ -1425,7 +1458,9 @@
     1795673704.546415,
     1795682332.161914,
     1795689543.7826529,
-    1795693150.838154
+    1795693150.838154,
+    1795700376.4828112,
+    1795700385.916784
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
