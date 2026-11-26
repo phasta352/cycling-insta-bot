@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795700319.248809,
+  "last_scout": 1795703921.570393,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -959,89 +959,16 @@
     "85b0f8e0271b5bdf": 1795700328.7239742,
     "d2178acff2374fbe": 1795700328.7239742,
     "ed058eb101518143": 1795700328.7239742,
-    "13a2b491db3b7599": 1795700328.7239742
+    "13a2b491db3b7599": 1795700328.7239742,
+    "b157ff04b23b4d62": 1795703930.6604238,
+    "85f34fb7dca3ee17": 1795703930.6604238,
+    "5aaea64ebab2d70c": 1795703930.6604238,
+    "c9e090fa8fd15005": 1795703930.6604238,
+    "a4b8eee843642236": 1795703930.6604238,
+    "6a8e25c0ab9bfcd5": 1795703930.6604238,
+    "f73387693eb0b621": 1795703930.6604238
   },
   "drafts": {
-    "437e17ec1d": {
-      "id": "437e17ec1d",
-      "created": 1795615761.4449668,
-      "headline": "Nike logo to appear on Visma-Lease a Bike kit in 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/nike-logo-to-appear-on-visma-lease-a-bike-kit-but-the-sportswear-giant-wont-actually-be-making-it/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615733/cycling-bot/437e17ec1d-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615733/cycling-bot/437e17ec1d-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615734/cycling-bot/437e17ec1d-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615734/cycling-bot/437e17ec1d-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615735/cycling-bot/437e17ec1d-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615735/cycling-bot/437e17ec1d-4.jpg"
-      ],
-      "full_caption": "Nike's Swoosh is heading to the Visma-Lease a Bike race kit in 2027.\n\nThe logo will feature on the men's and women's WorldTour kits, high on the front of the jersey and on the bib shorts. Nimbl remains the kit and shoe supplier and keeps its logo on the jersey. Nike will bring design and innovation expertise to the partnership.\n\nWhat do you make of Nike's return to the peloton? 👀\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #VismaLeaseABike #Nike #Nimbl #Vingegaard #cyclingnews #cyclingkit",
-      "alt_text": "Graphic with the headline announcing that the Nike logo will appear on the 2027 Visma-Lease a Bike team kit.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795615760/cycling-bot/437e17ec1d-reel.mp4",
-      "category": "TEAM NEWS",
-      "slides": [
-        {
-          "title": "Nike logo joins the 2027 kit",
-          "text": "Visma-Lease a Bike will carry the Nike Swoosh on the standard 2027 kits of both its men's and women's WorldTour teams. The partnership is described as an important step forward."
-        },
-        {
-          "title": "Nimbl still makes the kit",
-          "text": "Nike is not manufacturing or supplying the kit or shoes. Italian brand Nimbl keeps that role and will also have its logo on the jersey."
-        },
-        {
-          "title": "Where the logo will go",
-          "text": "The team told Cyclingnews the logo will sit high on the front of the jersey and on the bib shorts. Shoes will not carry it as standard, but more special-edition Nike shoes are planned."
-        },
-        {
-          "title": "How the link built up",
-          "text": "Nike has supplied the team's off-bike apparel since the 2025 Tour de France. Its logo appeared on a special Giro finale kit and on shoes at the Tour Grand Départ in Barcelona."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 346
-    },
-    "1664da1e42": {
-      "id": "1664da1e42",
-      "created": 1795615783.723791,
-      "headline": "Giro d'Italia organiser asks UCI for a week-later calendar slot",
-      "url": "https://www.cyclingweekly.com/racing/giro-d-italia-seeks-calendar-shift-but-would-we-really-see-more-attempts-on-the-famous-giro-tour-double",
-      "source": "Cycling Weekly",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615781/cycling-bot/1664da1e42-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615782/cycling-bot/1664da1e42-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615782/cycling-bot/1664da1e42-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795615783/cycling-bot/1664da1e42-4.jpg"
-      ],
-      "full_caption": "RCS wants the Giro d'Italia moved a week later on the calendar.\n\nRace boss Paolo Bellino says the organiser has asked the UCI for the change. He argues it would shorten the gap to the Tour de France from five weeks to four and encourage more Giro-Tour double attempts. Coach Andy Turner doubts it would help, and says it could even push riders to skip the Giro.\n\nFor now it is only a request. The 2027 Giro runs from 8 to 30 May.\n\nWould a later Giro lead to more Giro-Tour double attempts?\n\nSource: Cycling Weekly\n\n#GiroditAlia #Giro #TourdeFrance #ProCycling #WorldTour #RoadCycling #UCI #CyclingNews #GiroTourDouble #RCSSport",
-      "alt_text": "News graphic with the headline that the Giro d'Italia organiser has asked the UCI for a calendar slot one week later.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [
-        {
-          "title": "What RCS has asked for",
-          "text": "Giro organiser RCS has asked the UCI for a calendar slot one week later. Boss Paolo Bellino told BiciSport the request has strong government backing."
-        },
-        {
-          "title": "Why RCS wants the move",
-          "text": "A later Giro would always include Italy's Republic Day on 2 June. Bellino also expects better weather, and says the gap to the Tour would shrink from five weeks to four, encouraging more double attempts."
-        },
-        {
-          "title": "A coach is not convinced",
-          "text": "Andy Turner of ATP Performance doesn't think a shorter gap makes the double easier. He says it might lead riders to skip the Giro, as holding form across 11 weeks is hard."
-        },
-        {
-          "title": "Where things stand",
-          "text": "Pogačar was the latest Giro-Tour winner in 2024, the first since Pantani in 1998. The shift is still only a wish, and the 2027 Giro runs from Trieste on 8 May to Rome on 30 May."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 352
-    },
     "626bea12c7": {
       "id": "626bea12c7",
       "created": 1795624775.8102882,
@@ -1277,6 +1204,46 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 385
+    },
+    "59e95267ef": {
+      "id": "59e95267ef",
+      "created": 1795703940.434386,
+      "headline": "Festival Elsy Jacobs joins the men's Tour de Luxembourg in 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/the-only-way-for-the-race-to-grow-womens-festival-elsy-jacobs-race-becomes-part-of-the-mens-tour-of-luxembourg-organisation/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703937/cycling-bot/59e95267ef-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703937/cycling-bot/59e95267ef-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703938/cycling-bot/59e95267ef-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703938/cycling-bot/59e95267ef-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703939/cycling-bot/59e95267ef-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703940/cycling-bot/59e95267ef-4.jpg"
+      ],
+      "full_caption": "The Tour de Luxembourg organisers are taking over the women's Festival Elsy Jacobs from 2027.\n\nThe race moves from spring to September 18-19, 2027, and will run on the mornings of the men's weekend stages as a two-stage event. It keeps its name and stays a 2.1 race for now, with the new organisers aiming for Women's ProTour status in 2029 at the earliest.\n\nWould a shared weekend with the men's race help women's events grow?\n\nSource: Cyclingnews\n\n#womenscycling #womensprocycling #FestivalElsyJacobs #TourdeLuxembourg #Luxembourg #roadcycling #procycling #cyclingnews #WomensProTour #cyclingcommunity",
+      "alt_text": "News graphic announcing that the women's Festival Elsy Jacobs race will be organised by the Tour de Luxembourg team from 2027.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "New organisers from 2027",
+          "text": "The organisers of the men's Tour de Luxembourg will take over the women's Festival Elsy Jacobs from 2027. The original organiser, Michel Zangerlé, says his side stays in a supporting role."
+        },
+        {
+          "title": "New date and format",
+          "text": "The race leaves its spring slot for September 18-19, 2027. It returns as a two-stage race held on the mornings of the men's Tour de Luxembourg weekend stages."
+        },
+        {
+          "title": "Level and ambitions",
+          "text": "It stays a 2.1 race for now. The new organisers hope to move it up to Women's ProTour level at the earliest in 2029, alongside the men's second-division event."
+        },
+        {
+          "title": "Why the change",
+          "text": "Since 2023 the April date clashed with the Vuelta España Femenina, making it harder to attract top teams and sponsors. The race keeps the Elsy Jacobs name and heritage."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 391
     }
   },
   "queue": [],
@@ -1444,7 +1411,6 @@
     }
   ],
   "drafts_sent": [
-    1795529328.547113,
     1795540142.575179,
     1795586947.7357576,
     1795586960.6505275,
@@ -1460,7 +1426,8 @@
     1795689543.7826529,
     1795693150.838154,
     1795700376.4828112,
-    1795700385.916784
+    1795700385.916784,
+    1795703942.2659106
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
