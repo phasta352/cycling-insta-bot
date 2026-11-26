@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795689517.9322295,
+  "last_scout": 1795693129.8881257,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -923,28 +923,19 @@
     "cf6824a20d20f048": 1795689525.3360045,
     "8c424646a27e6c01": 1795689525.3360045,
     "27961b1ad4e2d1fc": 1795689525.3360045,
-    "51fdbb95c210e201": 1795689525.3360045
+    "51fdbb95c210e201": 1795689525.3360045,
+    "58866a389b039fb7": 1795693137.8337102,
+    "3957c29e2916ed73": 1795693137.8337102,
+    "a8597c5dd3d9308e": 1795693137.8337102,
+    "2b5d3e8005c4d8e6": 1795693137.8337102,
+    "1ecda73fbf5004d4": 1795693137.8337102,
+    "b6a8a6a0bd340834": 1795693137.8337102,
+    "060f30f6776cfa16": 1795693137.8337102,
+    "a62c8337a64ec844": 1795693137.8337102,
+    "9314e337ebf5187f": 1795693137.8337102,
+    "a6940a8e145a95ed": 1795693137.8337102
   },
   "drafts": {
-    "d711a163e7": {
-      "id": "d711a163e7",
-      "created": 1795604928.98626,
-      "headline": "Pogačar's Tour Down Under plan reportedly stopped by UAE doctors",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1pjRFNZck9NR0NMa0NXenU5czZRV0dITS10aDlCMXpYSXlyOGN0Z3JfdTRPcEZjNFJkZFBsbDNrQ1B1cTZaMTNSSDEtRGVCc0lXRjRKQWN4aFlEQUl0YlFrWGxKYkJ5UXdvRnBBSzlYb2xwczFRbFBuX3psTmE5TjZOaDY3dlhfS3NnX3VUbU1HdVpBOVIxdlgtU2JDSTR0U3p3Ui1SZWRSWFFZTy1qRkFfd0pqdG14MUc1ZnZmWUdRTEU?oc=5",
-      "source": "IDLprocycling.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795604928/cycling-bot/d711a163e7-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795604928/cycling-bot/d711a163e7-0.jpg"
-      ],
-      "full_caption": "Pogačar's trip to the Tour Down Under is reportedly off.\n\nAccording to IDLprocycling, a deal for the Slovenian to race in Australia had been agreed. The report says UAE's doctors then stopped the trip.\n\nThe headline gives no further details, and we have not seen an official statement from the rider, the team or the race organisers. Treat this as a report until confirmed.\n\nWould you have liked to see Pogačar start his season in Australia?\n\nSource: IDLprocycling\n\n#cycling #procycling #roadcycling #WorldTour #TadejPogacar #Pogacar #UAETeamEmirates #TourDownUnder #cyclingnews #bikeracing",
-      "alt_text": "News graphic with the headline that Tadej Pogačar's Tour Down Under plan was reportedly stopped by UAE team doctors.",
-      "score": 7,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 333
-    },
     "751fdbf824": {
       "id": "751fdbf824",
       "created": 1795612181.222572,
@@ -1201,6 +1192,46 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 370
+    },
+    "1bfb7f086c": {
+      "id": "1bfb7f086c",
+      "created": 1795693149.369955,
+      "headline": "Pedersen slams UCI kit rule as riders wear old jerseys at new camps",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/ridiculous-and-stupid-mads-pedersen-hits-out-at-uci-contract-rules-which-sees-riders-wearing-old-teams-kit-to-new-team-training-camps/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693146/cycling-bot/1bfb7f086c-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693146/cycling-bot/1bfb7f086c-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693147/cycling-bot/1bfb7f086c-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693148/cycling-bot/1bfb7f086c-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693148/cycling-bot/1bfb7f086c-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795693148/cycling-bot/1bfb7f086c-4.jpg"
+      ],
+      "full_caption": "Mads Pedersen has called the UCI's contract rule on team kit \"ridiculous and stupid\" 🚴\n\nContracts run until December 31, so riders must wear their old team's kit at new team camps. Primož Roglič has been seen in Red Bull kit at NSN, and Richard Carapaz in EF Education-EasyPost kit. The UCI said last December it would change the rule, but nothing has changed yet.\n\nShould riders be able to switch kit from December 1?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #UCI #MadsPedersen #PrimozRoglic #LidlTrek #NSN #cyclingnews",
+      "alt_text": "News graphic with the headline about Mads Pedersen criticising the UCI rule that makes riders wear their old team's kit at new team training camps.",
+      "score": 7,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [
+        {
+          "title": "Old kit, new camps",
+          "text": "Primož Roglič and Richard Carapaz have been seen at NSN's first camp in Red Bull-Bora-Hansgrohe and EF Education-EasyPost kit. More riders will be in out-of-place kit at December camps."
+        },
+        {
+          "title": "Why it happens",
+          "text": "UCI rules keep contracts running until December 31. Riders stay tied to their old teams until the new year and may not work for or advertise other sponsors during that time."
+        },
+        {
+          "title": "Pedersen's response",
+          "text": "On his podcast, Pedersen called the rule \"ridiculous and stupid\". He suggested a clause allowing new team kit from December 1, or from the first camp, so riders don't lose December pay."
+        },
+        {
+          "title": "Rule change still pending",
+          "text": "UCI sport director Peter Van Den Abeele said last December that a change would \"definitely happen\", with contracts starting November 1. The rule is still in place, and Lidl-Trek's new signings face the same issue."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 376
     }
   },
   "queue": [],
@@ -1382,7 +1413,8 @@
     1795673691.5457382,
     1795673704.546415,
     1795682332.161914,
-    1795689543.7826529
+    1795689543.7826529,
+    1795693150.838154
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
