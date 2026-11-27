@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795774112.346664,
+  "last_scout": 1795777710.9845943,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1035,28 +1035,16 @@
     "e948c39829c0f8bd": 1795774117.5458364,
     "9d73489109bee304": 1795774117.5458364,
     "ea28c7c32eb42554": 1795774117.5458364,
-    "9264934a47a87366": 1795774117.5458364
+    "9264934a47a87366": 1795774117.5458364,
+    "d2c4fbab3be27cf9": 1795777718.9566007,
+    "654495ae71009185": 1795777718.9566007,
+    "90bad3b61120f3e9": 1795777718.9566007,
+    "7bd77256b9fad62d": 1795777718.9566007,
+    "b65704574734ab92": 1795777718.9566007,
+    "07bde95cb474b38a": 1795777718.9566007,
+    "8eba029152158f91": 1795777718.9566007
   },
   "drafts": {
-    "f22640e84c": {
-      "id": "f22640e84c",
-      "created": 1795689542.1513605,
-      "headline": "Eulálio sets sights on the Tour de France after Giro pink",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUGtwdThKR3VKM2VhTEtnQWk3S05DRnE3UnN5UnNpb1dhZFJlZGlRRk1PZHZMTHBqeUZkUlNrN1JsQUdTQnd0VktjVWZMejBxX1ByclV6R2h0ZlBqUFNNdFJMUjNoMFZyR0djV0h0RklZeVRYZDdIWDh3MVp6cVFfNkRVenZMcXZ6Tko0Y25LUWxvRkhMYVh6N0hhUlhWRE1FYzBIaXE0dUszUHlpb3pmN25NSC0yR3lyMnV3TGdyQThIZVdUV3hGOGhpaUpscTQ?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795689540/cycling-bot/f22640e84c-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795689540/cycling-bot/f22640e84c-0.jpg"
-      ],
-      "full_caption": "Afonso Eulálio is looking beyond the Giro d'Italia.\n\nThe rider who spent time in the pink jersey at the Giro now has the Tour de France in his sights, with CyclingUpToDate framing his ambitions as big ones for 2027.\n\nFor a rider whose name became known through a spell in the leader's jersey, the Tour would be the next step up in profile and pressure.\n\nCan Eulálio turn his Giro breakthrough into a Tour challenge?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #WorldTour #TourdeFrance #GirodItalia #AfonsoEulalio #cyclingnews #peloton #Portugal",
-      "alt_text": "News graphic with the headline 'Eulálio sets sights on the Tour de France after Giro pink' and the label Rider News.",
-      "score": 6,
-      "reel_url": null,
-      "category": "RIDER NEWS",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 370
-    },
     "1bfb7f086c": {
       "id": "1bfb7f086c",
       "created": 1795693149.369955,
@@ -1254,6 +1242,44 @@
       ],
       "background_url": null,
       "text_message_id": 400
+    },
+    "621c9cfe30": {
+      "id": "621c9cfe30",
+      "created": 1795777730.3747067,
+      "headline": "MTB world silver medallist Aldridge heads to UAE's development team",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaDdlekdWc2dSS0RXS0VRSFlZdzhnZFM0ZVY3ejRPbkI1RTI2bkhyVy1FQTIwdnA0ZllKU1RfY0pmalNTb2lfNWxySzdLY2NCYm0waXZhU01WanVxZEZrcUZ2cGcwNXpCaGpULVFaTm05bU5QckRhajdSS3cyNXpidHFleXZxVUVWSFFXUlJBVW82Nm5rMlZ6aC1JUWdfTk9DQi1mQ2dRQjI1dktXNDhiNlhUamlzYXpmQ19xZUcwUF9naUZnc0dER21fQ3Z4SEx3RnY1WVFSNWZQTmc?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795777729/cycling-bot/621c9cfe30-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795777729/cycling-bot/621c9cfe30-0.jpg"
+      ],
+      "full_caption": "Charlie Aldridge is reportedly switching from mountain biking to the road.\n\nThe MTB world silver medallist is set to spend two years on the road with UAE's development team, according to IDLprocycling.com. The headline describes him as \"set for\" the move, so we're treating it as a report until the team makes an announcement.\n\nCrossovers from off-road disciplines to road racing are always worth following, and a development setup gives a rider time to learn the road game.\n\nCan a mountain biker make the jump to the pro road peloton?\n\nSource: IDLprocycling.com\n\n#cycling #procycling #roadcycling #cyclingnews #WorldTour #UAETeamEmirates #CharlieAldridge #MTB #mountainbike #cyclingtransfers",
+      "alt_text": "News graphic announcing that MTB world silver medallist Charlie Aldridge is set for a two-year road stint with UAE's development team.",
+      "score": 6,
+      "reel_url": null,
+      "category": "TRANSFER",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 402
+    },
+    "683891ccef": {
+      "id": "683891ccef",
+      "created": 1795777739.5704315,
+      "headline": "Noval reportedly set for new Netcompany Ineos deal",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zcUZlNXpZaVdtSERFRC15SlE4dlBhZDRNSnNfYkNFSDNYeDRPamFBaTR2ay1uc013bUhPOHE4NWYtSnFKUVFTclpySmFOMFVCUThzZ1ByVkhoVVdhdmQ4RHpad0Q3c3g4OUhYem9vRkl1UEk?oc=5",
+      "source": "Daniel Benson's Cycling Substack",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795777739/cycling-bot/683891ccef-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795777739/cycling-bot/683891ccef-0.jpg"
+      ],
+      "full_caption": "Benjamín Noval is reported to be close to a new contract with Netcompany Ineos.\n\nThe report comes from Daniel Benson's transfer column, which says the rider is set to sign. Contract length and terms have not been detailed, and the team has not announced anything officially.\n\nIf it goes through, it would mean Noval stays with the British WorldTour squad. We'll update when there is confirmation.\n\nHow do you rate Noval's progress with the team so far? 🚴\n\n#cycling #procycling #roadcycling #cyclingtransfers #WorldTour #BenjaminNoval #NetcompanyIneos #Ineos #cyclingnews #peloton",
+      "alt_text": "News graphic with the headline reporting that Benjamín Noval is set to sign a new contract with Netcompany Ineos.",
+      "score": 5,
+      "reel_url": null,
+      "category": "TRANSFER",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 404
     }
   },
   "queue": [],
@@ -1421,7 +1447,6 @@
     }
   ],
   "drafts_sent": [
-    1795604929.9668548,
     1795612183.261526,
     1795615765.7537677,
     1795615785.1549869,
@@ -1435,7 +1460,9 @@
     1795700385.916784,
     1795703942.2659106,
     1795759732.9544635,
-    1795759780.1171513
+    1795759780.1171513,
+    1795777731.6205158,
+    1795777740.8172338
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
