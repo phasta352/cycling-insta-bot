@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795792110.900126,
+  "last_scout": 1795795737.6364167,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1092,7 +1092,22 @@
     "f0437c39a51e3dc8": 1795792119.3734555,
     "d2a94f3ec74dad2f": 1795792119.3734555,
     "c11a1f667409b5bd": 1795792119.3734555,
-    "2e2356ab612b2781": 1795792119.3734555
+    "2e2356ab612b2781": 1795792119.3734555,
+    "844687f0c3212974": 1795795745.203522,
+    "9f606c5f1eef2496": 1795795745.203522,
+    "77979b66e6041f84": 1795795745.203522,
+    "0d2f4973d131e32d": 1795795745.203522,
+    "15b4e7fea14b1c38": 1795795745.203522,
+    "1f9a0a9149d044e3": 1795795745.203522,
+    "ab00fe720b6fe5e9": 1795795745.203522,
+    "ffb5e76e6aaf534a": 1795795745.203522,
+    "a79da1600517dbf8": 1795795745.203522,
+    "eecd22015ca01470": 1795795745.203522,
+    "396e4d096c38047b": 1795795745.203522,
+    "4d7e835453e3c0c2": 1795795745.203522,
+    "8598cfb983b88e48": 1795795745.203522,
+    "b832c99acd9998c3": 1795795745.203522,
+    "edea288b2b74d848": 1795795745.203522
   },
   "drafts": {
     "bf01cb3dd4": {
@@ -1271,6 +1286,25 @@
       ],
       "background_url": null,
       "text_message_id": 422
+    },
+    "13f319b430": {
+      "id": "13f319b430",
+      "created": 1795795760.6150277,
+      "headline": "Uno-X Mobility part ways with 10 riders and staff for 2027",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZXgxWlQyLW1rS0ZVMUlGMDFQRVVPd0I5U1dqb2E0OTdVaUMzc3pzN3UtSVZzWlhoR0VyMmpEN3ZmUjJMSmZiMTVudnB3WXk5NUd2SF9LM2JkcnN2OXpXY05oMWoxUGZKWndJS3gxd1Z3QkZnWGVGdlZCOVJvOFBGMll6ZFB4eW1SekxmeVJDejlWQTBCNEx1SzRwNnJFZGl6WFA4dVpIQTNUY0g0WGZyZmo2ekNyOHRueGV5OXNzTnA1TXlOVkR2SEhtTTBUd3EtWFp0NWJEUFZMSjMxZ2tZ?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795795760/cycling-bot/13f319b430-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795795760/cycling-bot/13f319b430-0.jpg"
+      ],
+      "full_caption": "Uno-X Mobility are saying goodbye to 10 riders and staff members ahead of 2027.\n\nThe departures come after the team took stage wins at all three Grand Tours, a milestone for the Norwegian-registered squad. The reshuffle sets up the roster and staff the team will carry into the next season.\n\nWhich departure will the team miss most, and what should Uno-X prioritise in the transfer market?\n\nSource: CyclingUpToDate.com\n\n#cycling #procycling #roadcycling #WorldTour #UnoXMobility #UnoX #cyclingnews #GrandTour #transfers #2027season",
+      "alt_text": "News graphic with the headline that Uno-X Mobility are parting with 10 riders and staff ahead of the 2027 season.",
+      "score": 5,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 424
     }
   },
   "queue": [],
@@ -1452,7 +1486,8 @@
     1795777731.6205158,
     1795777740.8172338,
     1795781344.669604,
-    1795792159.9465506
+    1795792159.9465506,
+    1795795761.6525347
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
