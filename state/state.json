@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795788546.9021184,
+  "last_scout": 1795792110.900126,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1078,49 +1078,23 @@
     "e99aa6b73598e7e2": 1795788554.5440974,
     "07529f7f7d30ba89": 1795788554.5440974,
     "f4181e5296707f0c": 1795788554.5440974,
-    "163696d5085cf19f": 1795788554.5440974
+    "163696d5085cf19f": 1795788554.5440974,
+    "77f7800a77da0308": 1795792119.3734555,
+    "6c59de691ede63f3": 1795792119.3734555,
+    "0495c4503d8d4924": 1795792119.3734555,
+    "6753722415c46d17": 1795792119.3734555,
+    "ca10b81361eed20e": 1795792119.3734555,
+    "cf336955ea810fa6": 1795792119.3734555,
+    "082e07d4b5087010": 1795792119.3734555,
+    "e7503a419ba4e69b": 1795792119.3734555,
+    "dad96a21ef91db04": 1795792119.3734555,
+    "376c04b8a0f6a4a5": 1795792119.3734555,
+    "f0437c39a51e3dc8": 1795792119.3734555,
+    "d2a94f3ec74dad2f": 1795792119.3734555,
+    "c11a1f667409b5bd": 1795792119.3734555,
+    "2e2356ab612b2781": 1795792119.3734555
   },
   "drafts": {
-    "59e95267ef": {
-      "id": "59e95267ef",
-      "created": 1795703940.434386,
-      "headline": "Festival Elsy Jacobs joins the men's Tour de Luxembourg in 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/the-only-way-for-the-race-to-grow-womens-festival-elsy-jacobs-race-becomes-part-of-the-mens-tour-of-luxembourg-organisation/",
-      "source": "Cyclingnews",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703937/cycling-bot/59e95267ef-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703937/cycling-bot/59e95267ef-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703938/cycling-bot/59e95267ef-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703938/cycling-bot/59e95267ef-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703939/cycling-bot/59e95267ef-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795703940/cycling-bot/59e95267ef-4.jpg"
-      ],
-      "full_caption": "The Tour de Luxembourg organisers are taking over the women's Festival Elsy Jacobs from 2027.\n\nThe race moves from spring to September 18-19, 2027, and will run on the mornings of the men's weekend stages as a two-stage event. It keeps its name and stays a 2.1 race for now, with the new organisers aiming for Women's ProTour status in 2029 at the earliest.\n\nWould a shared weekend with the men's race help women's events grow?\n\nSource: Cyclingnews\n\n#womenscycling #womensprocycling #FestivalElsyJacobs #TourdeLuxembourg #Luxembourg #roadcycling #procycling #cyclingnews #WomensProTour #cyclingcommunity",
-      "alt_text": "News graphic announcing that the women's Festival Elsy Jacobs race will be organised by the Tour de Luxembourg team from 2027.",
-      "score": 5,
-      "reel_url": null,
-      "category": "RACE NEWS",
-      "slides": [
-        {
-          "title": "New organisers from 2027",
-          "text": "The organisers of the men's Tour de Luxembourg will take over the women's Festival Elsy Jacobs from 2027. The original organiser, Michel Zangerlé, says his side stays in a supporting role."
-        },
-        {
-          "title": "New date and format",
-          "text": "The race leaves its spring slot for September 18-19, 2027. It returns as a two-stage race held on the mornings of the men's Tour de Luxembourg weekend stages."
-        },
-        {
-          "title": "Level and ambitions",
-          "text": "It stays a 2.1 race for now. The new organisers hope to move it up to Women's ProTour level at the earliest in 2029, alongside the men's second-division event."
-        },
-        {
-          "title": "Why the change",
-          "text": "Since 2023 the April date clashed with the Vuelta España Femenina, making it harder to attract top teams and sponsors. The race keeps the Elsy Jacobs name and heritage."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 391
-    },
     "bf01cb3dd4": {
       "id": "bf01cb3dd4",
       "created": 1795759731.2978482,
@@ -1257,6 +1231,46 @@
       ],
       "background_url": null,
       "text_message_id": 410
+    },
+    "d13729415c": {
+      "id": "d13729415c",
+      "created": 1795792155.8025658,
+      "headline": "E3 Saxo Classic gets easier, Dwars door Vlaanderen tougher for 2027",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/cobbled-classics-reveal-revamped-routes-as-e3-saxo-classic-and-dwars-door-vlaanderen-make-changes-for-2027/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792131/cycling-bot/d13729415c-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792131/cycling-bot/d13729415c-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792131/cycling-bot/d13729415c-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792132/cycling-bot/d13729415c-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792133/cycling-bot/d13729415c-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795792134/cycling-bot/d13729415c-4.jpg"
+      ],
+      "full_caption": "Two of the big cobbled Classics have new routes for 2027, and they move in opposite directions. 🚴\n\nThe E3 Saxo Classic drops from 16 climbs to 14 after a request from the peloton. Dwars door Vlaanderen goes the other way, rising from 12 climbs to 16 for the men. Both races fall in the week before the Tour of Flanders.\n\nWhich change will shape the racing more?\n\nSource: Cyclingnews\n\n#cycling #procycling #roadcycling #WorldTour #E3SaxoClassic #DwarsdoorVlaanderen #CobbledClassics #Classics #Flanders #WomensCycling",
+      "alt_text": "News graphic announcing the revised 2027 routes for the E3 Saxo Classic and Dwars door Vlaanderen cobbled Classics.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795792154/cycling-bot/d13729415c-reel.mp4",
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "E3 Saxo Classic: slightly shorter",
+          "text": "The 70th edition is on March 26, 2027. Distance falls from 208.8km to 207.8km and climbs from 16 to 14, after a request from the peloton to reduce the elevation gain."
+        },
+        {
+          "title": "What goes and what stays",
+          "text": "The Berg Ten Stene and Oude Kruisberg are cut. The Oude Kwaremont twice, Taaienberg, Eikenberg, Paterberg and Tiegemberg stay, along with nine cobbled sectors. Start and finish remain in Harelbeke."
+        },
+        {
+          "title": "Dwars door Vlaanderen: tougher",
+          "text": "The 81st men's race is on March 31, 2027, over 185km from Roeselare to Waregem. It has 16 climbs, up from 12. The Kluisberg replaces the Volkegemberg, and the Knokteberg-Trieu, Hotond and Berg Ten Houte are each climbed three times."
+        },
+        {
+          "title": "Women's race also gets harder",
+          "text": "The 15th women's edition covers 130km from and to Waregem, with 11 climbs (up from eight) and six cobbled sections. The final 72km match the men's race."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 422
     }
   },
   "queue": [],
@@ -1437,7 +1451,8 @@
     1795759780.1171513,
     1795777731.6205158,
     1795777740.8172338,
-    1795781344.669604
+    1795781344.669604,
+    1795792159.9465506
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
