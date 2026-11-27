@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795703921.570393,
+  "last_scout": 1795759713.0111566,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -966,7 +966,51 @@
     "c9e090fa8fd15005": 1795703930.6604238,
     "a4b8eee843642236": 1795703930.6604238,
     "6a8e25c0ab9bfcd5": 1795703930.6604238,
-    "f73387693eb0b621": 1795703930.6604238
+    "f73387693eb0b621": 1795703930.6604238,
+    "a572fb66df36d7dd": 1795759722.7211888,
+    "dd48d867e31475d9": 1795759722.7211888,
+    "254bf9248498714f": 1795759722.7211888,
+    "691834fc1ab463fa": 1795759722.7211888,
+    "dc913e5053fbe661": 1795759722.7211888,
+    "af5a7468ba23f5b9": 1795759722.7211888,
+    "79c966e16ebf9e6a": 1795759722.7211888,
+    "3495ec28e41ca629": 1795759722.7211888,
+    "b94d696bc43262f5": 1795759722.7211888,
+    "06113617089d8971": 1795759722.7211888,
+    "1477509f02bc72af": 1795759722.7211888,
+    "1a86b7cd5deb1ae4": 1795759722.7211888,
+    "f0fb4c8d50d2e4a7": 1795759722.7211888,
+    "d1fa1d4a7dabe095": 1795759722.7211888,
+    "a6a72805d400efc9": 1795759722.7211888,
+    "5602a78a37e0f7b4": 1795759722.7211888,
+    "f4c5f0f107283e42": 1795759722.7211888,
+    "53caa8acea3a31aa": 1795759722.7211888,
+    "6b50d0210a545e1c": 1795759722.7211888,
+    "b9cd388796932ef8": 1795759722.7211888,
+    "a3c212273e2ce116": 1795759722.7211888,
+    "98432f9bacb56936": 1795759722.7211888,
+    "793d139f61ed6768": 1795759722.7211888,
+    "5c463409ddd95b27": 1795759722.7211888,
+    "5715d0063e4f6fe6": 1795759722.7211888,
+    "0b2e33fea1435657": 1795759722.7211888,
+    "bfd6cf46178133bf": 1795759722.7211888,
+    "40d807ec8dc7126f": 1795759722.7211888,
+    "f033ac080d379c09": 1795759722.7211888,
+    "953bdd46e364e18d": 1795759722.7211888,
+    "04d71b8acad8dd69": 1795759722.7211888,
+    "4bc9081211c97602": 1795759722.7211888,
+    "968cad8da750bd8e": 1795759722.7211888,
+    "b1338cf857d89ebb": 1795759722.7211888,
+    "30d1c576df75e237": 1795759722.7211888,
+    "898c5a6eb50669f6": 1795759722.7211888,
+    "27620dfcfd2bba5d": 1795759722.7211888,
+    "ed24d09e0578235c": 1795759722.7211888,
+    "fd7bafa431afe96e": 1795759722.7211888,
+    "92f7d57ce764d68f": 1795759722.7211888,
+    "8c2040c8af19d440": 1795759722.7211888,
+    "f94f19f500e2e0c0": 1795759722.7211888,
+    "91ead6dccd00c9d8": 1795759722.7211888,
+    "65b4625c4b03dbe6": 1795759722.7211888
   },
   "drafts": {
     "c8caae39f1": {
@@ -1225,6 +1269,65 @@
       ],
       "background_url": null,
       "text_message_id": 391
+    },
+    "bf01cb3dd4": {
+      "id": "bf01cb3dd4",
+      "created": 1795759731.2978482,
+      "headline": "UCI sets out timeline for kit and equipment rules overhaul",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb2Y3UUlVLXJiRUMtT3hPX2gyYjVGUVdRMjNYbFRkeGVVQWdES2QweXIxTW9VRVV1b0NjWVpJYU9CcWpMQWdoOEtNTTBtZXkyOEwzMzNYaFRISnFUNDFrbm02SjVQc01xdG9FTGgtSmVqQWZMak1fZ2ZMTFBVcUFra1JpSThWaFE0S3JWdm05bTlJNi1BU2s1ZVFUcndxb21GWENtZDdWMllLMkE3ejVsaFFyN3N0UnI1SWZjQjV1ZFViQ2c5bXpKbFlzRENBU2F5UFdadVhRMGRJQQ?oc=5",
+      "source": "CyclingUpToDate.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759730/cycling-bot/bf01cb3dd4-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759730/cycling-bot/bf01cb3dd4-0.jpg"
+      ],
+      "full_caption": "The UCI has outlined a timeline to overhaul cycling's kit and equipment rules.\n\nAccording to CyclingUpToDate, the sport's much-criticised regulations, described as \"crazy\" in its headline, could finally be removed. Details of the changes and the exact dates are still to be confirmed, so treat this as a developing story.\n\nWhich equipment rule would you change first?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #UCI #WorldTour #cyclingnews #bikeracing #cyclingtech #equipmentrules #peloton",
+      "alt_text": "News graphic with the headline that the UCI has set out a timeline for overhauling cycling's kit and equipment rules.",
+      "score": 8,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 393
+    },
+    "a82869d940": {
+      "id": "a82869d940",
+      "created": 1795759775.7034965,
+      "headline": "Pogačar's first UAE contract paid €60,000 a year",
+      "url": "https://escapecollective.com/pogacar-first-signed-with-uae-for-eur60-000/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759745/cycling-bot/a82869d940-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759746/cycling-bot/a82869d940-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759746/cycling-bot/a82869d940-4.jpg"
+      ],
+      "full_caption": "Before the big money, Tadej Pogačar started on €60,000 a year.\n\nHis agent Alex Carera told Wielerflits that the deal with UAE Team Emirates was signed in mid-2018, before the Tour de l'Avenir. It also included a €20,000 bonus for winning that race. Carera says a Tour de l'Avenir winner would now sign for around €300,000.\n\nHow much has Pogačar's success changed the market for young riders?\n\nSource: Escape Collective\n\n#Pogacar #TadejPogacar #UAETeamEmirates #ProCycling #WorldTour #RoadCycling #Cycling #CyclingNews #TourdelAvenir #CyclingTransfers",
+      "alt_text": "Graphic with the headline that Tadej Pogačar's first UAE Team Emirates contract was worth €60,000 a year.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795759774/cycling-bot/a82869d940-reel.mp4",
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "The first contract",
+          "text": "Pogačar signed his first pro deal with UAE Team Emirates in mid-2018, before the Tour de l'Avenir. It paid €60,000 a year, plus a €20,000 bonus for winning that race."
+        },
+        {
+          "title": "What was normal then",
+          "text": "Agent Alex Carera told Wielerflits that young riders of that era signed first pro contracts worth roughly €70,000 to €90,000, and certainly not more."
+        },
+        {
+          "title": "The market today",
+          "text": "Carera says a Tour de l'Avenir winner would now sign for about €300,000. Pogačar's success and that of other young riders, plus rising salaries, have lifted what prospects earn."
+        },
+        {
+          "title": "Where he is now",
+          "text": "Pogačar's current salary is believed to be the highest in the sport, a long way from the modest deal he started on."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 400
     }
   },
   "queue": [],
@@ -1392,8 +1495,6 @@
     }
   ],
   "drafts_sent": [
-    1795586947.7357576,
-    1795586960.6505275,
     1795590529.3586104,
     1795604929.9668548,
     1795612183.261526,
@@ -1407,7 +1508,9 @@
     1795693150.838154,
     1795700376.4828112,
     1795700385.916784,
-    1795703942.2659106
+    1795703942.2659106,
+    1795759732.9544635,
+    1795759780.1171513
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
