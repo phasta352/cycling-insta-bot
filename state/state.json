@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795874912.1448674,
+  "last_scout": 1795878509.468333,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1202,7 +1202,19 @@
     "e77283e2e9ae2fa3": 1795874958.7316382,
     "9d272f63d31cec1d": 1795874958.7316382,
     "c09d2812a64382a9": 1795874958.7316382,
-    "26f7e3aaf22698f8": 1795874958.7316382
+    "26f7e3aaf22698f8": 1795874958.7316382,
+    "4fd5ad39fec006d9": 1795878517.820728,
+    "75cdf83be6acc9bd": 1795878517.820728,
+    "74515c9752604147": 1795878517.820728,
+    "9a40f38fa2c0f269": 1795878517.820728,
+    "e6d8c0947eb4d845": 1795878517.820728,
+    "e406d20d2a2c7720": 1795878517.820728,
+    "1befbd5a258632ba": 1795878517.820728,
+    "3c46d2cc70324030": 1795878517.820728,
+    "3fba62de570a42f1": 1795878517.820728,
+    "5086377c9c872d5f": 1795878517.820728,
+    "0942a79b701b6318": 1795878517.820728,
+    "4d6ec2873450e8a8": 1795878517.820728
   },
   "drafts": {
     "d13729415c": {
@@ -1440,6 +1452,65 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 450
+    },
+    "b86a9ebe81": {
+      "id": "b86a9ebe81",
+      "created": 1795878526.7938051,
+      "headline": "Visma-Lease a Bike men to start 2027 as 'Lease a Bike'",
+      "url": "https://escapecollective.com/visma-lease-a-bike-mens-team-to-begin-2027-as-lease-a-bike-co-title-sponsor-search-ongoing/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878526/cycling-bot/b86a9ebe81-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878526/cycling-bot/b86a9ebe81-0.jpg"
+      ],
+      "full_caption": "Visma-Lease a Bike's men's team will begin 2027 under the name 'Lease a Bike'.\n\nThe women's WorldTeam will continue with Rabobank as title sponsor. The men's squad has no equivalent partner yet, and team boss Richard Plugge says the search for an additional sponsor is still going. That means the team's name could change at some point during the season.\n\nPlugge made the comments to NOS at the event announcing Rabobank's increased backing of the women's team. He said the team is still looking at how to expand its sponsorship further.\n\nWould you like to see a new co-title sponsor join the men's team, or do you prefer the simpler name? 🚴\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #VismaLeaseABike #LeaseABike #Rabobank #RichardPlugge #cyclingnews #WomensCycling",
+      "alt_text": "News graphic announcing that the Visma-Lease a Bike men's team will start 2027 under the name Lease a Bike.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 452
+    },
+    "a5840a1067": {
+      "id": "a5840a1067",
+      "created": 1795878538.8513732,
+      "headline": "Mex Tour and Clásica de la República postponed",
+      "url": "https://escapecollective.com/early-season-calendar-for-2027-takes-another-hit-as-mex-tour-postponed/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878536/cycling-bot/a5840a1067-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878536/cycling-bot/a5840a1067-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878536/cycling-bot/a5840a1067-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878537/cycling-bot/a5840a1067-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878537/cycling-bot/a5840a1067-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795878538/cycling-bot/a5840a1067-4.jpg"
+      ],
+      "full_caption": "Two January races in Mexico have been postponed.\n\nMexico's cycling union has delayed the Clásica de la República and the 2.1-ranked Mex Tour after sponsors and host governments asked for more time to plan and budget. No new dates have been announced, though the federation hopes to hold both later in 2027.\n\nIt is another blow to the early-season calendar.\n\nWill the early-season calendar settle down, or are more races at risk?\n\nSource: Escape Collective\n\n#cycling #procycling #roadcycling #WorldTour #MexTour #TourColombia #cyclingnews #UCIProSeries #peloton #cyclingcalendar",
+      "alt_text": "News graphic announcing that the Mex Tour and Clásica de la República road races in Mexico have been postponed.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RACE NEWS",
+      "slides": [
+        {
+          "title": "Two Mexican races postponed",
+          "text": "Mexico's cycling union has postponed the Clásica de la República one-day race and the 2.1-ranked Mex Tour, both planned for January."
+        },
+        {
+          "title": "Why they were delayed",
+          "text": "The decision responds to requests from sponsors and host governments, who need more time for planning and budgeting."
+        },
+        {
+          "title": "The original dates",
+          "text": "The Clásica de la República was set for 17 January. The Mex Tour was due to run from 19 to 23 January."
+        },
+        {
+          "title": "What happens next",
+          "text": "The federation hopes both races can still go ahead later in 2027, but no new dates have been suggested. Tour Colombia (2.1) is still due 26-31 January, with seven WorldTeams expected."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 458
     }
   },
   "queue": [],
@@ -1607,7 +1678,6 @@
     }
   ],
   "drafts_sent": [
-    1795703942.2659106,
     1795759732.9544635,
     1795759780.1171513,
     1795777731.6205158,
@@ -1620,10 +1690,10 @@
     1795864158.5273416,
     1795864168.87526,
     1795871339.7349856,
-    1795874976.146695
+    1795874976.146695,
+    1795878528.0222588,
+    1795878540.7354283
   ],
-  "feed_errors": {
-    "The Inner Ring": "HTTPSConnectionPool(host='inrng.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='inrng.com', port=443): Failed to establish a new connection:"
-  },
+  "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
 }
