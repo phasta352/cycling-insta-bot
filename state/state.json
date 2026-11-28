@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795802910.8275044,
+  "last_scout": 1795846113.2714224,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1132,7 +1132,29 @@
     "cbcc4d089f64da0a": 1795802917.9030502,
     "57f19a75392d9e2b": 1795802917.9030502,
     "549159c6a1135623": 1795802917.9030502,
-    "bd2fe59ebc721f9b": 1795802917.9030502
+    "bd2fe59ebc721f9b": 1795802917.9030502,
+    "653481b32ce3c526": 1795846122.9650924,
+    "73586e8dc83c13fb": 1795846122.9650924,
+    "5c81257a21ba3c4b": 1795846122.9650924,
+    "0997c412155e0c6e": 1795846122.9650924,
+    "e9b492e89a9703f1": 1795846122.9650924,
+    "9fefc28294b84782": 1795846122.9650924,
+    "3eaab4fb78365920": 1795846122.9650924,
+    "74af8343e3abe62d": 1795846122.9650924,
+    "b530b5a30c2012f0": 1795846122.9650924,
+    "c69502fea2bc1c93": 1795846122.9650924,
+    "2f351d14978a1f62": 1795846122.9650924,
+    "a7557c575355349c": 1795846122.9650924,
+    "a4b374de7ec7b5c2": 1795846122.9650924,
+    "43d74daea3c6e5cf": 1795846122.9650924,
+    "94613fdd97b69153": 1795846122.9650924,
+    "3ad0faee2a00b2e3": 1795846122.9650924,
+    "4cb2a94733ad0891": 1795846122.9650924,
+    "068222e0a10eb19d": 1795846122.9650924,
+    "0afa79745b8df5cb": 1795846122.9650924,
+    "20f13d0760fdf7da": 1795846122.9650924,
+    "08b726156d830249": 1795846122.9650924,
+    "dcb8e411e358c927": 1795846122.9650924
   },
   "drafts": {
     "bf01cb3dd4": {
@@ -1370,6 +1392,46 @@
       ],
       "background_url": null,
       "text_message_id": 431
+    },
+    "860bbb76b2": {
+      "id": "860bbb76b2",
+      "created": 1795846147.3852737,
+      "headline": "Schreiber wins snowy World Cup opener in Ostrava",
+      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/world-cup-ostrava-marie-schreiber-cruises-to-first-round-elite-womens-victory-on-snow-packed-course-in-czech-republic/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846144/cycling-bot/860bbb76b2-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846144/cycling-bot/860bbb76b2-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846145/cycling-bot/860bbb76b2-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846145/cycling-bot/860bbb76b2-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846146/cycling-bot/860bbb76b2-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795846147/cycling-bot/860bbb76b2-4.jpg"
+      ],
+      "full_caption": "Marie Schreiber wins the first UCI Cyclo-cross World Cup round of the season in Ostrava. ❄️\n\nThe SD Worx-Protime rider took a solo victory on a snow-covered course and moves into the overall World Cup lead. Aniek van Alphen was second and Manon Bakker third. It is a strong response after Schreiber's relegation at the European Championships.\n\nWho impressed you most in the Ostrava snow?\n\nSource: Cyclingnews\n\n#cyclocross #UCICyclocross #CXWorldCup #Ostrava #MarieSchreiber #SDWorx #WomensCycling #cycling #cyclingnews #proCycling",
+      "alt_text": "Graphic announcing Marie Schreiber's win in the opening women's elite UCI Cyclo-cross World Cup round in snowy Ostrava, Czech Republic.",
+      "score": 6,
+      "reel_url": null,
+      "category": "RESULT",
+      "slides": [
+        {
+          "title": "Schreiber wins solo in Ostrava",
+          "text": "Marie Schreiber (SD Worx-Protime) won the opening UCI Cyclo-cross World Cup round in Ostrava. Aniek van Alphen (777 CX Team) took second and Manon Bakker third."
+        },
+        {
+          "title": "How the race unfolded",
+          "text": "Van Alphen led early and held an eight-second gap on lap four of seven. She was caught with under two laps left, and Bakker then joined her and Schreiber. Schreiber made her winning move on the last lap."
+        },
+        {
+          "title": "Bad luck for the favourites",
+          "text": "Ceylin del Carmen Alvarado crashed but finished fifth, behind fourth-placed Zoe Bäckstedt. World champion Lucinda Brand had pedal problems, needed a bike change and finished 15th, 2:25 down."
+        },
+        {
+          "title": "New World Cup leader",
+          "text": "Schreiber takes the series lead after the first round. She said clipping in was difficult for everyone early on, and that she improved after changing bikes."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 437
     }
   },
   "queue": [],
@@ -1552,7 +1614,8 @@
     1795781344.669604,
     1795792159.9465506,
     1795795761.6525347,
-    1795802956.3089185
+    1795802956.3089185,
+    1795846149.263141
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
