@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795882113.676072,
+  "last_scout": 1795885708.9912786,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1227,7 +1227,18 @@
     "869f5f6783f71337": 1795882121.0928764,
     "c7f28d119151d55b": 1795882121.0928764,
     "d0cfe27564b3a1a9": 1795882121.0928764,
-    "af80f7170d82581f": 1795882121.0928764
+    "af80f7170d82581f": 1795882121.0928764,
+    "52c2b24f4222d3c8": 1795885716.8894389,
+    "c9b7916ae0e91b63": 1795885716.8894389,
+    "878c2beffc43d43d": 1795885716.8894389,
+    "42addf1caa71d397": 1795885716.8894389,
+    "b2042b002c26bed7": 1795885716.8894389,
+    "3fb3dbf0d6c8e334": 1795885716.8894389,
+    "199599613d2afe04": 1795885716.8894389,
+    "d76bb54a4d038695": 1795885716.8894389,
+    "36ee399240c99d8a": 1795885716.8894389,
+    "772ea4341df155f5": 1795885716.8894389,
+    "17d9d60cee5000d5": 1795885716.8894389
   },
   "drafts": {
     "ceec131ace": {
@@ -1465,6 +1476,25 @@
       ],
       "background_url": null,
       "text_message_id": 458
+    },
+    "8b31debaca": {
+      "id": "8b31debaca",
+      "created": 1795885726.938136,
+      "headline": "Buitrago to share NSN leadership with Carapaz",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSno0REVhOHhiMmN1bkR4LUNfZ0ZkNHpsUDRJbHNFblZGOVpUd1F1a3BhU3ZsM3VjdVItR1d3Q09VUS1NcnkzSjl3ZVFzNEVobUxlNVRHem9qUXZmQTcxQnYyTUxrSWVFNFV2Mlc5VzFGNUNqdDhUU3c4c3I0UThsSG9Xd1A2ZkQxeEFrVWkzSkZkamgzQlQ1NFJwTzhxMkphUFF2aE9VNU1USXN1aEVDWGFBdjJjOHg3dE1vMFdFTG1TUzlYZWwyeEFlZTVKOThGRzllZ19aQ1kzdzhvWUxzYVltNVpjOGd4SGcyNTJYTzRROW1wanRVM0JTYw?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795885726/cycling-bot/8b31debaca-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795885726/cycling-bot/8b31debaca-0.jpg"
+      ],
+      "full_caption": "Santiago Buitrago is set to share leadership at NSN with Carapaz.\n\nThe report points to a two-leader approach for the team rather than a single designated captain. The headline doesn't say which race or races this applies to, so the details of the plan are still to come.\n\nTwo riders with leadership status gives a team more tactical options, but it also means the roles have to be managed carefully on the road.\n\nHow do you think NSN should split the responsibility between the two?\n\nSource: IDLprocycling.com\n\n#cycling #procycling #roadcycling #WorldTour #NSN #Carapaz #Buitrago #cyclingnews #teamnews #roadracing",
+      "alt_text": "News graphic with the headline that Santiago Buitrago will share NSN team leadership with Carapaz.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 460
     }
   },
   "queue": [],
@@ -1646,7 +1676,8 @@
     1795871339.7349856,
     1795874976.146695,
     1795878528.0222588,
-    1795878540.7354283
+    1795878540.7354283,
+    1795885728.3472753
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
