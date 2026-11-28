@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795867714.621731,
+  "last_scout": 1795871322.206559,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1186,7 +1186,13 @@
     "b2d01c635431d07d": 1795867722.4561877,
     "ea4da9541a997afd": 1795867722.4561877,
     "f6af226b8996e2c8": 1795867722.4561877,
-    "97ef9ede524d23f6": 1795867722.4561877
+    "97ef9ede524d23f6": 1795867722.4561877,
+    "e23e57e61258e775": 1795871330.5297422,
+    "d9301e0c442329ce": 1795871330.5297422,
+    "5e0970aae0d8667f": 1795871330.5297422,
+    "e50acacba4de6c01": 1795871330.5297422,
+    "30bffe5a3b7e998a": 1795871330.5297422,
+    "7244b60702513f83": 1795871330.5297422
   },
   "drafts": {
     "d13729415c": {
@@ -1386,6 +1392,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 446
+    },
+    "aee35c3cc5": {
+      "id": "aee35c3cc5",
+      "created": 1795871338.5635343,
+      "headline": "Rabobank to name Visma-Lease a Bike women's team in 2027",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTnpjUWVGX1RQWTlnVE9ldzhiU05UUkdlUU9XcWpDVWl2T3RDaEszWEVOVW9Pbl84RjZwMl90S1ZtSFBhYTl4OHlQNU5uakF2MWg1Z0xsZ2s5WDJxVE9sZ3Uwb0ZyYktaaE5oODBrLTlYTVRQS2JFNXE4UlppMjd3bVJpY0RoMGFyX3c?oc=5",
+      "source": "www.velodisco.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795871338/cycling-bot/aee35c3cc5-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795871338/cycling-bot/aee35c3cc5-0.jpg"
+      ],
+      "full_caption": "Rabobank is reported to be coming back to the front of a women's WorldTour-level jersey in 2027. 🚴‍♀️\n\nAccording to Velodisco, the bank will name the Visma-Lease a Bike women's team from the 2027 season. The report is based on a headline only, and no further details on the deal have been confirmed here.\n\nWe will update this post when the team or the sponsor publishes an official statement.\n\nWould you like to see Rabobank back in the women's peloton?\n\nSource: Velodisco\n\n#cycling #procycling #womenscycling #womenswt #roadcycling #VismaLeaseABike #Rabobank #cyclingnews #WorldTour #teamnews",
+      "alt_text": "News graphic with the text 'Rabobank to name Visma-Lease a Bike women's team in 2027'.",
+      "score": 7,
+      "reel_url": null,
+      "category": "TEAM NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 448
     }
   },
   "queue": [],
@@ -1566,7 +1591,8 @@
     1795802956.3089185,
     1795846149.263141,
     1795864158.5273416,
-    1795864168.87526
+    1795864168.87526,
+    1795871339.7349856
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
