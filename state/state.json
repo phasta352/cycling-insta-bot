@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795860520.1769426,
+  "last_scout": 1795864108.319068,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1172,7 +1172,14 @@
     "104393b36254eb82": 1795860526.892971,
     "c08d5cfd7ef7f7ca": 1795860526.892971,
     "e7bb2c2dbe2d0692": 1795860526.892971,
-    "1935ba149f777df3": 1795860526.892971
+    "1935ba149f777df3": 1795860526.892971,
+    "ddad0630b1210363": 1795864116.7007253,
+    "977c6a0caf5a9991": 1795864116.7007253,
+    "50be094c0405c404": 1795864116.7007253,
+    "837c79cf0676a422": 1795864116.7007253,
+    "7b14a5345f0ea193": 1795864116.7007253,
+    "f079dd9bc56560f7": 1795864116.7007253,
+    "f4490b5f4b48d1bb": 1795864116.7007253
   },
   "drafts": {
     "621c9cfe30": {
@@ -1391,6 +1398,65 @@
       ],
       "background_url": null,
       "text_message_id": 437
+    },
+    "1777c9bdf5": {
+      "id": "1777c9bdf5",
+      "created": 1795864154.573861,
+      "headline": "Van Aert reportedly set for cyclocross return on 19 December",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/wout-van-aert-to-make-cyclocross-return-in-antwerp-with-world-championships-tilt-on-the-cards/",
+      "source": "Cyclingnews",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864129/cycling-bot/1777c9bdf5-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864129/cycling-bot/1777c9bdf5-0.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864130/cycling-bot/1777c9bdf5-1.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864130/cycling-bot/1777c9bdf5-2.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864131/cycling-bot/1777c9bdf5-3.jpg",
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864133/cycling-bot/1777c9bdf5-4.jpg"
+      ],
+      "full_caption": "Wout van Aert is lining up a return to cyclocross, and a run at the world title looks increasingly likely.\n\nHet Laatste Nieuws reports the Visma-Lease a Bike rider will start his 2026-27 winter in Antwerp on 19 December. The Worlds in Ostend on 31 January 2027 now look like a probable target.\n\nWill Van Aert get back in the rainbow jersey? 🌈\n\nSource: Cyclingnews\n\n#cycling #cyclocross #WoutVanAert #VanAert #VismaLeaseABike #CXWorlds #Ostend #cyclingnews #veldrijden #MathieuVanDerPoel",
+      "alt_text": "News graphic with the headline that Wout van Aert is reportedly set to return to cyclocross on 19 December in Antwerp.",
+      "score": 8,
+      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795864153/cycling-bot/1777c9bdf5-reel.mp4",
+      "category": "RIDER NEWS",
+      "slides": [
+        {
+          "title": "Return date reported",
+          "text": "Het Laatste Nieuws says Van Aert will open his 2026-27 cyclocross season on 19 December in Antwerp. He started last winter there too and finished 7th."
+        },
+        {
+          "title": "A bigger winter programme",
+          "text": "He may race around 12 times, double last winter's six. An ankle fracture in Mol in early January ended his 2025-26 season early, and he went without a win for the first time since 2010."
+        },
+        {
+          "title": "Worlds in Ostend on the cards",
+          "text": "The Worlds in Ostend on 31 January 2027 now look increasingly likely to be on his schedule. His race programme is not yet finalised, and Belgian coach Angelo De Clercq had earlier suggested his participation was uncertain."
+        },
+        {
+          "title": "History with the rainbow jersey",
+          "text": "Van Aert won three straight world titles from 2016 to 2018. His last three attempts to add another all ended in second place behind Mathieu van der Poel, including Ostend in 2021."
+        }
+      ],
+      "background_url": null,
+      "text_message_id": 444
+    },
+    "fa877a50fd": {
+      "id": "fa877a50fd",
+      "created": 1795864167.6228905,
+      "headline": "Ferrand-Prévot to race as Pauline van Baarle from 2027",
+      "url": "https://escapecollective.com/pauline-ferrand-prevot-to-be-known-as-pauline-van-baarle-from-2027/",
+      "source": "Escape Collective",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864167/cycling-bot/fa877a50fd-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795864167/cycling-bot/fa877a50fd-0.jpg"
+      ],
+      "full_caption": "Pauline Ferrand-Prévot is changing her professional name.\n\nThe Visma-Lease a Bike rider says she wants to be known as Pauline van Baarle from 2027, taking the surname of her husband Dylan, whom she married in October. She told Dutch broadcaster NOS about the change at an event announcing her team's new sponsor structure. She acknowledged the name may not be easy for everyone to pronounce, but said it matters a great deal to both her and Dylan, and that she will be \"a little more Dutch\" next year.\n\nWill you be ready to say van Baarle on the start line next season? 🇳🇱\n\nSource: Escape Collective\n\n#PaulineFerrandPrevot #PaulineVanBaarle #VismaLeaseABike #WomensCycling #WomensWorldTour #ProCycling #RoadCycling #CyclingNews #Cycling #NOS",
+      "alt_text": "News graphic with the headline that Pauline Ferrand-Prévot will be known as Pauline van Baarle from 2027.",
+      "score": 5,
+      "reel_url": null,
+      "category": "RIDER NEWS",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 446
     }
   },
   "queue": [],
@@ -1558,7 +1624,6 @@
     }
   ],
   "drafts_sent": [
-    1795689543.7826529,
     1795693150.838154,
     1795700376.4828112,
     1795700385.916784,
@@ -1571,7 +1636,9 @@
     1795792159.9465506,
     1795795761.6525347,
     1795802956.3089185,
-    1795846149.263141
+    1795846149.263141,
+    1795864158.5273416,
+    1795864168.87526
   ],
   "feed_errors": {},
   "ig_handle": "@cyclingnewstoday"
