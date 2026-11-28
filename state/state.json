@@ -1157,65 +1157,6 @@
     "dcb8e411e358c927": 1795846122.9650924
   },
   "drafts": {
-    "bf01cb3dd4": {
-      "id": "bf01cb3dd4",
-      "created": 1795759731.2978482,
-      "headline": "UCI sets out timeline for kit and equipment rules overhaul",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb2Y3UUlVLXJiRUMtT3hPX2gyYjVGUVdRMjNYbFRkeGVVQWdES2QweXIxTW9VRVV1b0NjWVpJYU9CcWpMQWdoOEtNTTBtZXkyOEwzMzNYaFRISnFUNDFrbm02SjVQc01xdG9FTGgtSmVqQWZMak1fZ2ZMTFBVcUFra1JpSThWaFE0S3JWdm05bTlJNi1BU2s1ZVFUcndxb21GWENtZDdWMllLMkE3ejVsaFFyN3N0UnI1SWZjQjV1ZFViQ2c5bXpKbFlzRENBU2F5UFdadVhRMGRJQQ?oc=5",
-      "source": "CyclingUpToDate.com",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759730/cycling-bot/bf01cb3dd4-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759730/cycling-bot/bf01cb3dd4-0.jpg"
-      ],
-      "full_caption": "The UCI has outlined a timeline to overhaul cycling's kit and equipment rules.\n\nAccording to CyclingUpToDate, the sport's much-criticised regulations, described as \"crazy\" in its headline, could finally be removed. Details of the changes and the exact dates are still to be confirmed, so treat this as a developing story.\n\nWhich equipment rule would you change first?\n\nSource: CyclingUpToDate\n\n#cycling #procycling #roadcycling #UCI #WorldTour #cyclingnews #bikeracing #cyclingtech #equipmentrules #peloton",
-      "alt_text": "News graphic with the headline that the UCI has set out a timeline for overhauling cycling's kit and equipment rules.",
-      "score": 8,
-      "reel_url": null,
-      "category": "UCI",
-      "slides": [],
-      "background_url": null,
-      "text_message_id": 393
-    },
-    "a82869d940": {
-      "id": "a82869d940",
-      "created": 1795759775.7034965,
-      "headline": "Pogačar's first UAE contract paid €60,000 a year",
-      "url": "https://escapecollective.com/pogacar-first-signed-with-uae-for-eur60-000/",
-      "source": "Escape Collective",
-      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-0.jpg",
-      "image_urls": [
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-0.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759744/cycling-bot/a82869d940-1.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759745/cycling-bot/a82869d940-2.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759746/cycling-bot/a82869d940-3.jpg",
-        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795759746/cycling-bot/a82869d940-4.jpg"
-      ],
-      "full_caption": "Before the big money, Tadej Pogačar started on €60,000 a year.\n\nHis agent Alex Carera told Wielerflits that the deal with UAE Team Emirates was signed in mid-2018, before the Tour de l'Avenir. It also included a €20,000 bonus for winning that race. Carera says a Tour de l'Avenir winner would now sign for around €300,000.\n\nHow much has Pogačar's success changed the market for young riders?\n\nSource: Escape Collective\n\n#Pogacar #TadejPogacar #UAETeamEmirates #ProCycling #WorldTour #RoadCycling #Cycling #CyclingNews #TourdelAvenir #CyclingTransfers",
-      "alt_text": "Graphic with the headline that Tadej Pogačar's first UAE Team Emirates contract was worth €60,000 a year.",
-      "score": 8,
-      "reel_url": "https://res.cloudinary.com/nnmxf7gb/video/upload/v1795759774/cycling-bot/a82869d940-reel.mp4",
-      "category": "RIDER NEWS",
-      "slides": [
-        {
-          "title": "The first contract",
-          "text": "Pogačar signed his first pro deal with UAE Team Emirates in mid-2018, before the Tour de l'Avenir. It paid €60,000 a year, plus a €20,000 bonus for winning that race."
-        },
-        {
-          "title": "What was normal then",
-          "text": "Agent Alex Carera told Wielerflits that young riders of that era signed first pro contracts worth roughly €70,000 to €90,000, and certainly not more."
-        },
-        {
-          "title": "The market today",
-          "text": "Carera says a Tour de l'Avenir winner would now sign for about €300,000. Pogačar's success and that of other young riders, plus rising salaries, have lifted what prospects earn."
-        },
-        {
-          "title": "Where he is now",
-          "text": "Pogačar's current salary is believed to be the highest in the sport, a long way from the modest deal he started on."
-        }
-      ],
-      "background_url": null,
-      "text_message_id": 400
-    },
     "621c9cfe30": {
       "id": "621c9cfe30",
       "created": 1795777730.3747067,
@@ -1599,8 +1540,6 @@
     }
   ],
   "drafts_sent": [
-    1795673691.5457382,
-    1795673704.546415,
     1795682332.161914,
     1795689543.7826529,
     1795693150.838154,
