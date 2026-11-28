@@ -2,7 +2,7 @@
   "telegram_offset": 989436770,
   "paused": false,
   "force_scout": false,
-  "last_scout": 1795871322.206559,
+  "last_scout": 1795874912.1448674,
   "seen": {
     "39396fc21e5677c0": 1794994784.093468,
     "8ffaa08214e1cf63": 1794994784.093468,
@@ -1192,7 +1192,17 @@
     "5e0970aae0d8667f": 1795871330.5297422,
     "e50acacba4de6c01": 1795871330.5297422,
     "30bffe5a3b7e998a": 1795871330.5297422,
-    "7244b60702513f83": 1795871330.5297422
+    "7244b60702513f83": 1795871330.5297422,
+    "d09116ed0b7e044b": 1795874958.7316382,
+    "ac7d4d76b9b4772b": 1795874958.7316382,
+    "4a36931073758265": 1795874958.7316382,
+    "aa7e0d047d4c8d38": 1795874958.7316382,
+    "d13d2def2c47c962": 1795874958.7316382,
+    "23c2d22db46a87e0": 1795874958.7316382,
+    "e77283e2e9ae2fa3": 1795874958.7316382,
+    "9d272f63d31cec1d": 1795874958.7316382,
+    "c09d2812a64382a9": 1795874958.7316382,
+    "26f7e3aaf22698f8": 1795874958.7316382
   },
   "drafts": {
     "d13729415c": {
@@ -1411,6 +1421,25 @@
       "slides": [],
       "background_url": null,
       "text_message_id": 448
+    },
+    "2b315911b3": {
+      "id": "2b315911b3",
+      "created": 1795874975.1066291,
+      "headline": "UCI rules block Shirin van Anrooij from racing for new team",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR0hfLTQyc1JHNEU2dEp5Ulc2WkRHQUREZnFsbTdWb3NqeDJJMXd4enVONU9kR1M4Qm90LVBiUjVNaUp6ZXRLZDNFbVlyUFN0OFR4Y0dwQzJ6VmNseFFRcXRVa3pPUHZZZWU0VlZlNEw2LU90Xy1OUGU1Q1FGZ0lGN2RGVTFJOGhTVUVsWFZicUZJS3N6WkIxY05SOTg1TFd4bGktQUtNalMxWHRKRkxrakcxbGdJdmFCSkJubDZR?oc=5",
+      "source": "IDLprocycling.com",
+      "image_url": "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795874974/cycling-bot/2b315911b3-0.jpg",
+      "image_urls": [
+        "https://res.cloudinary.com/nnmxf7gb/image/upload/v1795874974/cycling-bot/2b315911b3-0.jpg"
+      ],
+      "full_caption": "Shirin van Anrooij's new team situation has hit a regulatory obstacle. 🚧\n\nAccording to IDLProCycling, UCI rules mean the rider is unable to race for her new team. The details of the rule involved are not yet clear from the report, so we will update when more is confirmed.\n\nShould the UCI make its transfer and eligibility rules more flexible?\n\nSource: IDLProCycling\n\n#ShirinvanAnrooij #UCI #WomensCycling #WomenWorldTour #ProCycling #CyclingNews #RoadCycling #CyclingTransfers #WorldTour",
+      "alt_text": "News graphic with the headline that UCI rules prevent Shirin van Anrooij from racing for her new team.",
+      "score": 6,
+      "reel_url": null,
+      "category": "UCI",
+      "slides": [],
+      "background_url": null,
+      "text_message_id": 450
     }
   },
   "queue": [],
@@ -1578,8 +1607,6 @@
     }
   ],
   "drafts_sent": [
-    1795700376.4828112,
-    1795700385.916784,
     1795703942.2659106,
     1795759732.9544635,
     1795759780.1171513,
@@ -1592,8 +1619,11 @@
     1795846149.263141,
     1795864158.5273416,
     1795864168.87526,
-    1795871339.7349856
+    1795871339.7349856,
+    1795874976.146695
   ],
-  "feed_errors": {},
+  "feed_errors": {
+    "The Inner Ring": "HTTPSConnectionPool(host='inrng.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='inrng.com', port=443): Failed to establish a new connection:"
+  },
   "ig_handle": "@cyclingnewstoday"
 }
